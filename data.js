@@ -1,531 +1,169 @@
 const servicesData = [
     {
         "meta": { "id": "131", "name": "Academia", "url": "https://www.academia.edu/", "category": "education", "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "22", "name": "Alight Motion", "url": "https://alightmotion.com/", "category": "design", "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Apple Music", "url": "https://music.apple.com/", "category": "music", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE" },
-        "accounts": [
-            { "id": "627", "name": "applemusic", "cookies": [] },
-            { "id": "628", "name": "applemusic2", "cookies": [] },
-            { "id": "629", "name": "applemusic3", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "name": "Apple TV+", "url": "https://tv.apple.com/", "category": "streaming", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4" },
-        "accounts": [
-            { "id": "459", "name": "appletv+ 1", "cookies": [] }, { "id": "472", "name": "appletv+ 2", "cookies": [] },
-            { "id": "473", "name": "appletv+ 3", "cookies": [] }, { "id": "474", "name": "appletv+ 4", "cookies": [] },
-            { "id": "475", "name": "appletv+ 5", "cookies": [] }, { "id": "555", "name": "appletv+ 6", "cookies": [] },
-            { "id": "556", "name": "appletv+ 7", "cookies": [] }, { "id": "557", "name": "appletv+ 8", "cookies": [] },
-            { "id": "558", "name": "appletv+ 9", "cookies": [] }, { "id": "559", "name": "appletv+ 10", "cookies": [] }
+        "cookies": [
+          { "domain": ".academia.edu", "expirationDate": 1788832828.640689, "hostOnly": false, "httpOnly": false, "name": "_ga_5VKX33P2DS", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "GS2.2.s1754272798$o1$g1$t1754272828$j30$l0$h0" },
+          { "domain": ".academia.edu", "expirationDate": 1785808812.395124, "hostOnly": false, "httpOnly": false, "name": "ab_tests", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "%7B%22mobile_view_tools_menu_fix_july_2023%22%3A%22control%22%7D" },
+          { "domain": ".academia.edu", "expirationDate": 1787049048.526276, "hostOnly": false, "httpOnly": false, "name": "admin_unrecorded_tests", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "%7B%22auth_system_version%22%3A%7B%22bucket%22%3A%22y_cookie%22%2C%22buckets%22%3A%5B%22y_cookie%22%2C%22login_token_only%22%5D%7D%7D" },
+          { "domain": ".www.academia.edu", "expirationDate": 1785808830, "hostOnly": false, "httpOnly": false, "name": "_dd_s", "path": "/", "sameSite": "strict", "secure": true, "session": false, "storeId": "0", "value": "aid=1e7d2949-0fb1-4e82-9b94-f3185be2cf76&rum=0&expire=1754273728784" },
+          { "domain": ".academia.edu", "expirationDate": 1785808795.85072, "hostOnly": false, "httpOnly": false, "name": "auvid", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "MTc1NDI3Mjc5MzM5NjowLjA0Mzk1MzAxMTMzMzE1MjE%3D" },
+          { "domain": ".academia.edu", "expirationDate": 1788832823.587029, "hostOnly": false, "httpOnly": false, "name": "_ga", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "GA1.2.879641420.1754272798" },
+          { "domain": ".academia.edu", "expirationDate": 1787049045.79554, "hostOnly": false, "httpOnly": true, "name": "cookie_test", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "350184792" },
+          { "domain": ".academia.edu", "expirationDate": 1785808809.457389, "hostOnly": false, "httpOnly": true, "name": "login_token", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "350184792%3B19e3a7a2eaacdf47b99790f6" },
+          { "domain": ".academia.edu", "expirationDate": 1787049048.526318, "hostOnly": false, "httpOnly": true, "name": "user_id", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "350184792" },
+          { "domain": ".academia.edu", "expirationDate": 1788832828.640689, "hostOnly": false, "httpOnly": false, "name": "sign", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961383671777142474b2f676b317348796e464d3974716a" },
+          { "domain": "www.academia.edu", "expirationDate": 1755513644.988914, "hostOnly": true, "httpOnly": false, "name": "request_id", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "S3rAbGE8U8C07Zt-mrTFkEnms9BM_Kt7aR-0DgIOkdKbq847b3eoIw%3D%3D" },
+          { "domain": ".academia.edu", "expirationDate": 1787049048.526146, "hostOnly": false, "httpOnly": false, "name": "overridden_user_tests", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "%7B%7D" },
+          { "domain": ".academia.edu", "expirationDate": 1787049048.526239, "hostOnly": false, "httpOnly": true, "name": "yauic", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWN6TlRBeE9EUTNPVEk3TVRsbE0yRTNZVEpsWVdGalpHWTBOMkk1T1RjNU1HWTJCam9HUlZRPSIsImV4cCI6IjIwMjYtMDgtMThUMTA6MzA6NDcuMDk0WiIsInB1ciI6ImNvb2tpZS55YXVpYyJ9fQ%3D%3D--1463fe0f0dd1c50875f78fc59a4348bc3fd577f6" },
+          { "domain": ".academia.edu", "hostOnly": false, "httpOnly": true, "name": "_cookie_session", "path": "/", "sameSite": "no_restriction", "secure": true, "session": true, "storeId": "0", "value": "8llaEVOxxmEDTSWnHNAhuI%2FzK8nnOyjXe8gfAotWZEYhZQnrN2I3imTWOBY%2FZ5gZYIOPszjfFHhh3Hr3PMJrOhtI02CZ%2BMc39JO2vHIJA96vVrpzP5uXg9LvMRSENPzsvW3mk%2BvQE9vKV8m84RqK%2FVK3%2BxY6poMCr%2BCJLjR56IIDMMKYx7zylPPUPKMfnQesuW%2F%2FZwk7J7ksf%2ByWzsxBsznfoT7BtSETv0IXxt1drmypMmW5mNK7bwCjCVobmQhqDBhezg3OnElBER8JNkf3dQAhONONor8A6fL51bisqDIlgzknehq5TrrUp%2F2tQnQsU0VNx5LS8usrizXn0O2MpYYstV5%2FVV%2ByfiAIw7jBulcTJdI%2Fgmiw1A70Ak%2F2b6RCoDtc%2FkkjYN0LtNKli2yhcOmwedeu1AwpHcfyZEGF5U1wWneJ47BVdFmrdaI6tiLEghEi5KK16NW3U%2Bthz%2BW3FJ0kBQ9ip815ochqYOPJh%2BlKx1Q3GLs8fsuOH%2FuBeMiM9brpV0MpjupZcopUFmMaw6T9QL8bBWOODfoOXtCMdxa%2FOTzKgU8O9IBKwuvqpCfy6qi9hw%2BKHcQ3pHH7TIy2eU%2B1SxOyu%2Bl7dpxL9VHwUgUbcCs6DhCoP5b5XIdPO5i%2FqdWgbk27ya%2F%2FpeFnR%2B4P%2Bval3QqViDq6HDK2%2BRn%2B%2FT%2F7Ak%2FVQUJ5%2Fln1fakDHbiL41JShm9ydIN1KfxUZUyVsbloKHjOWYtffo7yh24%2FN29zubt%2FvphtmyRa2lnIS2b2d1PdX2NLx1dqxSOPZl81JroZehh7rxHJKgPQ6%2FNziPjJK93sVXXWxbtgIxE2%2BHzKmC3Z09%2B%2B4tfIbD4AY7nFwfe6rOZJ8r9HQh4utxQp%2FG%2BM06k%2F2fAr6CY5DR3vUn8PFPDFL7NDtm6Ww6ctfyJ9W%2FukwQKt4suVgnLOhKR0x0%2F%2FQCAeUHc4scW6K4OfjKUGplpTsygZPJuPv9cNOq%2FTfoyyNA4Ue1DV28HoQpH6cfhYfTOkbmfmj%2B2W%2BMj0IufuVvSIcyYMQXb3v5phlGRaK3lS%2FO5mPTVZ1Ol2X0SJ6dQNqTZxBRj%2B50G1PR78JurBbgbT2oPDExZN8QW8bGSmPcTk5XdMpQi4S1rl3i43GtIpU8wLjfIO--CQR7TBw7zdg0dyfE--5YMLvDXdlsc019sJRsJjMg%3D%3D" },
+          { "domain": "www.academia.edu", "expirationDate": 1787049049, "hostOnly": true, "httpOnly": false, "name": "_dd_s", "path": "/", "sameSite": "strict", "secure": false, "session": false, "storeId": "0", "value": "aid=1e7d2949-0fb1-4e82-9b94-f3185be2cf76&rum=0&expire=1754273728784&lock=7a37f2b0-2ec2-4f73-966d-2ab9015288bf--1755513049607" }
         ]
     },
     {
         "meta": { "id": "45", "name": "AskYourPDF", "url": "https://askyourpdf.com/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Bein Sports", "url": "https://www.beinsports.com/", "category": "streaming", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw" },
-        "accounts": [
-            { "id": "226", "name": "beinsports 1", "cookies": [] }, { "id": "268", "name": "beinsports 2", "cookies": [] },
-            { "id": "309", "name": "beinsports 3", "cookies": [] }, { "id": "332", "name": "beinsports 4", "cookies": [] },
-            { "id": "409", "name": "beinsports 5", "cookies": [] }, { "id": "446", "name": "beinsports 6", "cookies": [] },
-            { "id": "447", "name": "beinsports 7", "cookies": [] }, { "id": "448", "name": "beinsports 8", "cookies": [] },
-            { "id": "449", "name": "beinsports 9", "cookies": [] }, { "id": "450", "name": "beinsports 10", "cookies": [] }
+        "cookies": [
+          { "domain": ".askyourpdf.com", "expirationDate": 1789208140, "hostOnly": false, "httpOnly": false, "name": "_tt_enable_cookie", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1778780040.077843, "hostOnly": false, "httpOnly": true, "name": "Authorization", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzcxODUzNzIyZmJmMzJjNmE1ODEzZjAiLCJhdWQiOlsiYXNrcGRmLXVzZXJzOmF1dGgiXSwidHlwZSI6ImFjY2VzcyIsInJvbGVzIjpbImJhc2ljIiwiYXBpX2ZyZWUiLCJwcm8iXSwiZXhwIjoxNzc4NzgwMDM4fQ.at9Qyh5lB1Z8L_yjDt139oZymcWd1mokCvm6isCo3qs" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1790073073.936802, "hostOnly": false, "httpOnly": false, "name": "_ga", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "GA1.1.668078070.1747244026" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1789208140, "hostOnly": false, "httpOnly": false, "name": "_ttp", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "01JV7XR2Z8D1QPP8HTY9KQXNSE_.tt.1" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1780940041, "hostOnly": false, "httpOnly": false, "name": "sign", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961393568476e355352336c6b7073576a696d352f736736" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1763288124, "hostOnly": false, "httpOnly": false, "name": "_gcl_au", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1.1.692964858.1755512124" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1763288132, "hostOnly": false, "httpOnly": false, "name": "_fbp", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "fb.1.1755512132390.912007599356946119" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1787048136, "hostOnly": false, "httpOnly": false, "name": "_clck", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "bnqqu9%7C2%7Cfyk%7C0%7C1960" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1789208140, "hostOnly": false, "httpOnly": false, "name": "ttcsid", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1755512140284::o0wNrhisvQoFY81eqxTb.2.1755512140284" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1755598540, "hostOnly": false, "httpOnly": false, "name": "_clsk", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "oq68aj%7C1755512140971%7C1%7C1%7Co.clarity.ms%2Fcollect" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1789208141, "hostOnly": false, "httpOnly": false, "name": "ttcsid_CLHR883C77UDPEGP78I0", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1755512140284::ORSKDGnQ8e8lVTaK4pyo.2.1755512141179" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1771280153, "hostOnly": false, "httpOnly": false, "name": "crisp-client%2Fsession%2F817071be-8f07-4ba9-bb7b-b1321f937b1b", "path": "/", "sameSite": "lax", "secure": false, "session": false, "storeId": "0", "value": "session_e18ef614-3e26-4fa5-8280-ddf8a33fd57f" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1790073073.953314, "hostOnly": false, "httpOnly": false, "name": "_ga_4061KC8JMW", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "GS2.1.s1755512123$o2$g1$t1755513073$j60$l0$h1580420434" },
+          { "domain": ".askyourpdf.com", "expirationDate": 1787049074, "hostOnly": false, "httpOnly": false, "name": "ph_phc_grRAFI4o8HBU1cFsxCAioFsLvowW0SpV4SFcnjO4DSx_posthog", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "%7B%22distinct_id%22%3A%226771853722fbf32c6a5813f0%22%2C%22%24sesid%22%3A%5B1755513074660%2C%220198bcad-2a64-78a9-82a0-e2dbb81edc8e%22%2C1755512121956%5D%2C%22%24epp%22%3Atrue%7D" }
         ]
-    },
-    {
-        "meta": { "name": "BLACKBOX.AI", "url": "https://www.blackbox.ai/", "category": "productivity", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP" },
-        "accounts": [
-            { "id": "1", "name": "blackbox.ai 1", "cookies": [] }, { "id": "432", "name": "blackbox.ai 2", "cookies": [] },
-            { "id": "456", "name": "blackbox.ai 3", "cookies": [] }, { "id": "563", "name": "blackbox.ai 4", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "107", "name": "Blush Design", "url": "https://blush.design/", "category": "design", "icon": "https://assets-global.website-files.com/5f610469be9ecb5b03a480e0/5f6bd3008ad4df07bab659fc_happy.svg" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "262", "name": "Brain.fm", "url": "https://www.brain.fm/", "category": "music", "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "160", "name": "Brilliant", "url": "https://brilliant.org/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Bstation", "url": "https://www.bilibili.tv/", "category": "streaming", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3" },
-        "accounts": [
-            { "id": "3", "name": "bstation", "cookies": [] }, { "id": "27", "name": "bstation2", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "97", "name": "Busuu", "url": "https://www.busuu.com/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "10", "name": "Bypass | HIX AI", "url": "https://hix.ai/hix-bypass", "category": "productivity", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "171", "name": "BypassGPT", "url": "https://bypassgpt.ai/", "category": "productivity", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "2", "name": "Canva", "url": "https://www.canva.com/", "category": "design", "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "CapCut", "url": "https://www.capcut.com/", "category": "design", "isGroup": true, "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source" },
-        "accounts": [
-            { "id": "157", "name": "capcut 1", "cookies": [] }, { "id": "282", "name": "capcut 2", "cookies": [] },
-            { "id": "394", "name": "capcut 3", "cookies": [] }, { "id": "600", "name": "capcut 4", "cookies": [] },
-            { "id": "601", "name": "capcut 5", "cookies": [] }, { "id": "602", "name": "capcut 6", "cookies": [] },
-            { "id": "603", "name": "capcut 7", "cookies": [] }, { "id": "604", "name": "capcut 8", "cookies": [] },
-            { "id": "605", "name": "capcut 9", "cookies": [] }, { "id": "606", "name": "capcut 10", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "594", "name": "Chat | HIX AI", "url": "https://hix.ai/chat", "category": "productivity", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s" },
-        "cookies": []
     },
     {
         "meta": { "name": "ChatGPT", "url": "https://chat.openai.com/", "category": "productivity", "isGroup": true, "icon": "https://groupy.id/assets/images/services/chatgptplus.png" },
         "accounts": [
-            { "id": "4", "name": "chatgpt 1", "cookies": [] }, { "id": "36", "name": "chatgpt 2", "cookies": [] },
-            { "id": "53", "name": "chatgpt 3", "cookies": [] }, { "id": "60", "name": "chatgpt 4", "cookies": [] },
-            { "id": "76", "name": "chatgpt 5", "cookies": [] }, { "id": "21", "name": "chatgpt 6", "cookies": [] },
-            { "id": "77", "name": "chatgpt 7", "cookies": [] }, { "id": "78", "name": "chatgpt 8", "cookies": [] },
-            { "id": "104", "name": "chatgpt 9", "cookies": [] }, { "id": "105", "name": "chatgpt 10", "cookies": [] },
-            { "id": "106", "name": "chatgpt 11", "cookies": [] }, { "id": "113", "name": "chatgpt 12", "cookies": [] },
-            { "id": "115", "name": "chatgpt 13", "cookies": [] }, { "id": "116", "name": "chatgpt 14", "cookies": [] },
-            { "id": "117", "name": "chatgpt 15", "cookies": [] }, { "id": "128", "name": "chatgpt 16", "cookies": [] },
-            { "id": "129", "name": "chatgpt 17", "cookies": [] }, { "id": "318", "name": "chatgpt 18", "cookies": [] },
-            { "id": "140", "name": "chatgpt 19", "cookies": [] }, { "id": "141", "name": "chatgpt 20", "cookies": [] },
-            { "id": "251", "name": "chatgpt 21", "cookies": [] }, { "id": "258", "name": "chatgpt 22", "cookies": [] },
-            { "id": "259", "name": "chatgpt 23", "cookies": [] }, { "id": "260", "name": "chatgpt 24", "cookies": [] },
-            { "id": "333", "name": "chatgpt 25", "cookies": [] }, { "id": "378", "name": "chatgpt 26", "cookies": [] },
-            { "id": "379", "name": "chatgpt 27", "cookies": [] }, { "id": "380", "name": "chatgpt 28", "cookies": [] },
-            { "id": "381", "name": "chatgpt 29", "cookies": [] }, { "id": "382", "name": "chatgpt 30", "cookies": [] },
-            { "id": "385", "name": "chatgpt 31", "cookies": [] }, { "id": "386", "name": "chatgpt 32", "cookies": [] },
-            { "id": "391", "name": "chatgpt 33", "cookies": [] }, { "id": "392", "name": "chatgpt 34", "cookies": [] },
-            { "id": "393", "name": "chatgpt 35", "cookies": [] }, { "id": "395", "name": "chatgpt 36", "cookies": [] },
-            { "id": "396", "name": "chatgpt 37", "cookies": [] }, { "id": "397", "name": "chatgpt 38", "cookies": [] },
-            { "id": "465", "name": "chatgpt 39", "cookies": [] }, { "id": "466", "name": "chatgpt 40", "cookies": [] },
-            { "id": "481", "name": "chatgpt 41", "cookies": [] }, { "id": "482", "name": "chatgpt 42", "cookies": [] },
-            { "id": "483", "name": "chatgpt 43", "cookies": [] }, { "id": "484", "name": "chatgpt 44", "cookies": [] },
-            { "id": "485", "name": "chatgpt 45", "cookies": [] }, { "id": "486", "name": "chatgpt 46", "cookies": [] },
-            { "id": "487", "name": "chatgpt 47", "cookies": [] }, { "id": "488", "name": "chatgpt 48", "cookies": [] },
-            { "id": "489", "name": "chatgpt 49", "cookies": [] }, { "id": "490", "name": "chatgpt 50", "cookies": [] }
+            { "id": "4", "name": "chatgpt 1", "cookies": [
+              { "domain": "chatgpt.com", "expirationDate": 1758043519.735251, "hostOnly": true, "httpOnly": true, "name": "__Host-next-auth.csrf-token", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "362edf795090b27c57d53c833372e6e4e7bceff1d3b9977fc46e1e61b08c83da%7Cb71f80fac0e470385219e595b1f1aba10e999269ebc06a2051799cacf460a79f" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735254, "hostOnly": false, "httpOnly": true, "name": "oai-did", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "d9be196a-743e-46bc-9476-3e1279348bdb" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735257, "hostOnly": false, "httpOnly": true, "name": "cf_clearance", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "wWqIfBrDF9dljUUeQVmiqCxZ5eqwUvjSk4MRnyoxtO0-1755451549-1.2.1.1-LlwEwfN_UwPCOE.YBanISyfemUou41RigA1._Ic78L6l810h0yVt9E0S60weVA1qrQH0VKbtlYaNit22vZelrZ8yy200X7feldjFToUz7EeKFPOndqZdFalIWCIatJ1eld0xyCDByDlty86gJ1G0NEiF3woZQ9cUKxS2Y7l7DNp9sYg_nmwuQi19JIz6ClpZAVQc81T1eBFlqvcL_atv9Jh4jVpsxs7gvQchvKaUp5Y" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735258, "hostOnly": false, "httpOnly": true, "name": "oai-cbs", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "%2F" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735258, "hostOnly": false, "httpOnly": true, "name": "__Secure-next-auth.callback-url", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "https%3A%2F%2Fchatgpt.com%2F" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.73526, "hostOnly": false, "httpOnly": true, "name": "oai-hlib", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "true" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735261, "hostOnly": false, "httpOnly": true, "name": "oai_consent_analytics", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "false" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735261, "hostOnly": false, "httpOnly": true, "name": "oai_consent_marketing", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "false" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735262, "hostOnly": false, "httpOnly": true, "name": "oai-allow-ne", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "false" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735262, "hostOnly": false, "httpOnly": true, "name": "oai-model-sticky-for-new-chats", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "false" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735262, "hostOnly": false, "httpOnly": true, "name": "oai-gn", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735266, "hostOnly": false, "httpOnly": true, "name": "oai-last-model", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "gpt-5-instant" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735267, "hostOnly": false, "httpOnly": true, "name": "_uasid", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "\"Z0FBQUFBQm9vaEVZWmsyb2oxVExfT3NLcmhKNXRqaHV5WkpUejkxY3hGcFlKUXQtTUZvcHM4c2RmNDcxX3R0TVFIa21CWkw2dlNOanNEVlZiQ0wzWnJYc0wzUzl1ak51cEx1S2FrRWllZl82OFNHMWw0MHBJVEdMM1ctWkRwYW5jeS00enZQMTVlY1hDajgxcXpKZFF5UkNWWlp5Z0VHZENmV2RHYlZ4T1dRQ0tNS1hfY2pSRmpiRlVObXlRSmlUQ1BfMG5QYjdrVDBReW92MGJ1S2hDbUd4bGpuZm12UWRidk80TWFFSnpnVFhaZks1U19ORFZZcW9vS1VTcm10T0hfVDFvR0x3R3puVmNSR0haREljb2E1NmpIRlQ4b21MeE5EamM4a2FVSEVqNk5qSEZZYWNSaUVvUldYa1hTWDNTbG02UXEwbHgzb1M2dE05SklaaXRyRXBSMG1EU0R5SUZRPT0=\"" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735267, "hostOnly": false, "httpOnly": true, "name": "_umsid", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "\"Z0FBQUFBQm9vaEVZN0NwZEtGNjhRaGY5RmdsUEZKMW9GV1BiSHMxamlMLTFqR2xCR1I4X0haVWg0Rmxtdk1fYWVwTjlBNDdoZjBkMFVMU0ZDUklWd2VrUjJ1aTFRSno4SEFVeE1JaGZWbUg5ZXBwN3pXa1JuM2lqUE1Ic3JnSk03c3FaTm1kODM2ZXJlU1dGYUQ4QXZYMzdKLXlEclB2anNydG1BVzYtN0VRQlN0SEFHdnkwaTRCanc1QUNFeGtJRUw4NUlxT2ZYWlNJeGFZcUlSbk5lMDdLOTIyZ2ZQd2hUUGdNS3dGZDBYeDQzbzNORVFnYWlYST0=\"" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735268, "hostOnly": false, "httpOnly": true, "name": "oai-hm", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "SHOULD_WE_BEGIN%20%7C%20SHOULD_WE_BEGIN" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735268, "hostOnly": false, "httpOnly": true, "name": "_dd_s", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "rum=0&expire=1755452412300&logs=1&id=ccaee7a2-c42c-4bd4-9f0f-7896dc02dad7&created=1755451383945" },
+              { "domain": ".chatgpt.com", "expirationDate": 1758043519.735251, "hostOnly": false, "httpOnly": false, "name": "sign", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b3958484d504973414e3248476b765378414456666b" },
+              { "domain": ".chatgpt.com", "hostOnly": false, "httpOnly": true, "name": "_cfuvid", "path": "/", "sameSite": "no_restriction", "secure": true, "session": true, "storeId": "0", "value": "sII2BI9KMmEexkDleHa_fsWKJNZdObHUAg1FK_bsySw-1755505763890-0.0.1.1-604800000" },
+              { "domain": ".chatgpt.com", "expirationDate": 1787041766.992829, "hostOnly": false, "httpOnly": false, "name": "oai-sc", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "0gAAAAABoouRlV6v52tXKBbuF7KVFZc4YGKa546DbaEc7XbN7iZnrlU0DxhLI6r_Ayfn0tzOn4hAE721xnS_6C1N6PtIJlYx3oBNBOg5f-w47GAUQ-QSTDir7vEfX_3DkqyC6kR40ir8XimIGqvjkGkJrX8WgEd3ESJbpxYt_I350P61U49c6mi_JTbTi-45AH2t-Li4YRgSUJmtiRbI88g6RKzDIZuZYwPs7XUsWNKJSIkztQgdiClQ" },
+              { "domain": "chatgpt.com", "expirationDate": 1755514378.765919, "hostOnly": true, "httpOnly": true, "name": "__cflb", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "04dTofELUVCxHqRn2XjG6Q4YTNEViAxQ34bwV46kAF" },
+              { "domain": ".chatgpt.com", "expirationDate": 1763289082.322967, "hostOnly": false, "httpOnly": true, "name": "__Secure-next-auth.session-token", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..RZ0etem1Ii49buVf.mIaVuM7cdE5Kmi24SaNsx2blCG0WqV8zeuokLfPNrI_Pj-aOeq2L4FS5kegiwOncOpTo6Ka1diOmANUH9Wk4DXrfymNojRr9tXOlN4zSoC1BXGlbHKhmcNX3q9c95bczaTQ3IGA-UK49Uwau8oX3p2a67IO3FzKHuvhf2-PYoXZ21Z3yaHeUT__aOHCwyalwHVftfI-bfghG5c8h9S8rpf755d2rIvip02smjB5c3ZPs8K2LAuSvdRloNs0j86SpoBDYjYkNyRfWJ88wi0kZodko1oLqlQ1LCgPJUfUnfMCwolv6fN7SlBAh-vttCP41rQdv6l4B1vj2w5Rj88tC2fPIPYLKeLhavXtKJG-MoZw7F4O-D0gFL0vx-gHBVsyrQAlTeE6A7OIzPThKwkZj3bzlgzlMhBTV9S1mMavoFbaqKU-IR6TzvbNDD-IycUfbabmiZ-ixXlYNsyoHI_MjfLChSwuJ64B9JeiuIpAVB4atpslQ4GQSa68LhaqJC2WWXdrTomrcHCjEBj4l_e0i9nKRYI3s7L4QHEZhqI2pck0kEBpdx49F-LesuNZV2-k6M0EIPCCNckKFZn0qsd8VT0pT7fS4-2tLDWLei1BV21mFsH8Sqh4rM3xaqUyFESe1Wtrm7IHf-JXz1kT3FgE1YQhc7WHko-i9HuFLuKp07dQJm3vLpvUK3HYMaWfq9xY59nr_XmgCUhcW4mgglGx-z8qxg4Pga-8mRHEEZ7c70ueGWQT8dFxSUuZVRA3Bdlw1EQK2qoGWFvYDM3b0MjWHA1EeouEp4ppp0DX8EisREM2QKFj-FhOre4klK2jFv_-6OFm88v0D_7I4BbdJeZtwpXUQdX9kQgNVHxUveJ22Rq9_5yyNEyZmKpNqgaQks8CkL9TpgITGfCQjF4pZ_mJTDze4pqCT1g56SYnfEuzr_afJdLEllFm73v9_-UEn7mLzXWEU3siSu1yQtaj3ifw8pkpVSKqQ52dXmHXfpyMGuzmDTWMxKicSna_km75thpIZrvbuQ_GugnAuY7TRxH_S5Kh1fC_7oqihtuySBlMNo-FzAvgIstmR6soXy__hzvzmIbXHRnttLjYpvQK-hoGqLTuzwVKuXtSEBPlAx0NtB9OEPZLG3aIUlfa3BpmcblHL6AlxZAkkzN4CIr580GqfenIZHjB7IxuIWCAoCkQa9vusbZcAzl9JUW_0ChSh7TJCJNoTCzl3S0k7cYObE_TPUA-K7I-jBB-wYo5zhwRx81G5xo5LQCZmfB1u7Rk1rE0bDZSCXPgLSPI1cxudHwL9HEytppFojr0QG3M4osXnrggW5NiALLeY_f0MvfasbQeZUPfbBYd0lojQBTEwdF6jVMB9te0_SLCdIpB8Bbz4Zyi7bnK28GmvD6k1_wK430nKRtKOFyKE1ZtZGgYl2kT_bImN7b1dtS8JfeDRK0VOT-hWDYMb3pmzWnx6Bon-NNu7Fb1gw3jVvD1Pc7BOEWxu0eplZBzJ3_Jh4Ylyrz9DvjoO7ENnmqfW9zbuC_m65oi5IfONKcpT9zX8pcN6GOjupZ84wBnTd1kDt6Ioe1j4liLtTC8dw8yTtlYlNwwikCDWgW2-xGgGYXmqMA9Wj6f8F-As5fHZZenbqCNlGT5JkamX01yJfU80CJdI4IBhMwCktVzrSkSFersdhOrMLHZM5kERmCBQ2sCJIebo3xjHsusIvZpsxvoDoDUnL5gY77GyMtfsdOPQxJ4pKOcTFpEY_TrJw3P8RN8JsWcNExuYJVJb3WRbAl_iHW7swB1ANe-mPertlNp7LZW56cLxxiYQ34wBc8UQ1Dsdh9ayO_PgjBcMRbQdAtTQO_gyE1Ik9UOL6pTaeaE6mkF6TjuBCYy0KRkiYDcPnwW6GaNGJqn51FdXErmDe0hqZpClIEwawzjMp3jupadi0GIo_b9TYdAe2GAvX3Qz0WJ47__HMjhlBo_Tb8WCae-s7gTj5gbxRim6Dx1J043KaMS-9vS4y9XcLc7y2tUdjySBlhF95F1NVR7onK98ahM-Xrgs9iH3hPaQIT3NvEkexv13eCVOnUaJM0bZJXEDIxWbyOYHqp7z4o-wjjpVRJXfGbKPufx2CutpTFW0FW6n0kHcXhI9wmJptBAF5NwnvyX2-U8XZ8ujhXGLELDYu3oVUjRH4qFZFyYauNT_7B47H7tQnYYiUS-WUhhJmv8v2iSScwFbl5aFA3iEAfEKASbJFRODIeeGdUCUEUt29niTNfypPSKJHrqbN1vnSyQsOSGHp5zWITh7DIr81DuqGzt4zr2aEMiMd6GKUg32oaJ16fupqY0UrpKVbetz6vojzYWXs0tHwzk7bOPWD4s0Q48VDl8YQSjOOQwmJ6Yv-hnVYS6bOvk_wbx7m5G0cNhCiDnbPrVf5gzsywQTNP6yACdODLkcWZmKXUWJrq5mzW2sIrtSpk-nTBBXstq-_41E5g8KFJkh_QVu9D6dX1FHfvtkOfEI0dFVrzKyBWRt98lB2Q08vsTWh_hDgcXjTczKTXcyqB5_m13d_ZsQ6fbGJC3KJlSwoABAMd6hAjLBoj2z4fw-qdQF8LG_lORbY34_zphkQTGZRJOnrRzCgl7AukvsmY0momGDdZLmcjyoOAaknILZPNeIbgueCNQQWtUrVtnuLqOuD5b1ncgZ5j3qkflKGSw0-VTf7ZuPs_u7gDsjE8K4lphUPEh7Ymh13guKGPo4edSVnwZH5xqEXIgbMVHkylcK5pZOQYfJNKiqnrP0TWorA4huudwx-UJmsd7gndI9RCZpuRnJ6roBgCehJjtIxL3CWDoLA-c-VJrgtxiKXqScdf_obDEmHO0pNBbEwLxr_9Z42_DdxBD3JScs10OC0Wu5KTaWX_SzhnAuGNGhrBndfHUmO1VmHMGgE1DWyAzEFjZI5NJhH4le1KnSdtD-fTocY1nb7sUcZKSXjRixqqPhzkEcvGlz_qwvAmRBrgSiE28.ekoaaCcOE7bekUTDorP5Vg" },
+              { "domain": ".chatgpt.com", "expirationDate": 1755514882.32309, "hostOnly": false, "httpOnly": true, "name": "__cf_bm", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "S5uZ3K_wCfdiyqcHd562oi8cmK.yFbu.zk6.dLIfmjo-1755513080-1.0.1.1-8qVz8qVqnH.Gb63nIS5eJuu.jDZbBrvgz9_UraNlSeuUC5AqJ2nod1wsL_r_alBOM6wItO8NOW8EGNBL1zkGZ4nKARsjA_e48WE_Ss1zEAo" },
+              { "domain": "chatgpt.com", "expirationDate": 1755513983, "hostOnly": true, "httpOnly": false, "name": "_dd_s", "path": "/", "sameSite": "strict", "secure": false, "session": false, "storeId": "0", "value": "rum=0&expire=1755513982707&logs=1&id=8bcabe83-a024-46ad-b393-516c6b5c1072&created=1755513082707" }
+            ]}
         ]
-    },
-    {
-        "meta": { "id": "179", "name": "Codecademy", "url": "https://www.codecademy.com/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "100", "name": "Consensus", "url": "https://consensus.app/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "254", "name": "Coohom", "url": "https://www.coohom.com/", "category": "design", "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "337", "name": "Course Hero", "url": "https://www.coursehero.com/", "category": "education", "icon": "https://play-lh.googleusercontent.com/FGtdclS6wXoOO9lA-9DkK9Skis0T-tY2SCFAl7wLX4ZDFSNO3RBADCEcnCMInsZCKlc" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "124", "name": "Coursera", "url": "https://www.coursera.org/", "category": "education", "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Crunchyroll", "url": "https://www.crunchyroll.com/", "category": "streaming", "isGroup": true, "icon": "https://groupy.id/assets/images/services/crunchyroll.png" },
-        "accounts": [
-            { "id": "6", "name": "crunchyroll 1", "cookies": [] }, { "id": "24", "name": "crunchyroll 2", "cookies": [] },
-            { "id": "192", "name": "crunchyroll 3", "cookies": [] }, { "id": "64", "name": "crunchyroll 4", "cookies": [] },
-            { "id": "451", "name": "crunchyroll 5", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "133", "name": "Curiosity Stream", "url": "https://curiositystream.com/", "category": "streaming", "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "383", "name": "Cursor", "url": "https://cursor.sh/", "category": "productivity", "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "225", "name": "DataCamp", "url": "https://www.datacamp.com/", "category": "education", "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "39", "name": "DeepL", "url": "https://www.deepl.com/", "category": "utilities", "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "430", "name": "DeepSeek", "url": "https://www.deepseek.com/", "category": "productivity", "icon": "https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "178", "name": "Duolingo", "url": "https://www.duolingo.com/", "category": "education", "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "630", "name": "Educative", "url": "https://www.educative.io/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "452", "name": "Elicit", "url": "https://elicit.com/", "category": "productivity", "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "7", "name": "Envato Elements", "url": "https://elements.envato.com/", "category": "design", "icon": "https://elements.envato.com/favicon.svg" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Epidemic Sound", "url": "https://www.epidemicsound.com/", "category": "music", "isGroup": true, "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg" },
-        "accounts": [
-            { "id": "8", "name": "epidemicsound 1", "cookies": [] },
-            { "id": "340", "name": "epidemicsound 2", "cookies": [] },
-            { "id": "534", "name": "epidemicsound 3", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "111", "name": "Everand", "url": "https://www.everand.com/", "category": "music", "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "291", "name": "Figma", "url": "https://www.figma.com/", "category": "design", "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Flaticon", "url": "https://www.flaticon.com/", "category": "design", "isGroup": true, "icon": "https://groupy.id/assets/images/services/flaticon.png" },
-        "accounts": [
-            { "id": "9", "name": "flaticon 1", "cookies": [] },
-            { "id": "62", "name": "flaticon 2", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "name": "Freepik", "url": "https://www.freepik.com/", "category": "design", "isGroup": true, "icon": "https://groupy.id/assets/images/services/freepik.png" },
-        "accounts": [
-            { "id": "11", "name": "freepik 1", "cookies": [] },
-            { "id": "361", "name": "freepik 2", "cookies": [] },
-            { "id": "362", "name": "freepik 3", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "95", "name": "Gamma", "url": "https://gamma.app/", "category": "productivity", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRM9dtIK5wd1yJAH0qg6ytSsgMzrNx-cvlK78QZqzzTejsr0qtC9Kgj_i1&s=10" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "12", "name": "Grammarly", "url": "https://www.grammarly.com/", "category": "productivity", "icon": "https://groupy.id/assets/images/services/grammarly.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "440", "name": "Ground News", "url": "https://ground.news/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "153", "name": "GuitarTricks", "url": "https://www.guitartricks.com/", "category": "productivity", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "HBO Max", "url": "https://www.hbo.com/", "category": "streaming", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI" },
-        "accounts": [
-            { "id": "170", "name": "hbomax 1", "cookies": [] },
-            { "id": "344", "name": "hbomax 2", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "161", "name": "Humata AI", "url": "https://www.humata.ai/", "category": "productivity", "icon": "https://www.humata.ai/favicon.ico" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "103", "name": "iflix", "url": "https://www.iflix.com/", "category": "streaming", "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "227", "name": "iLoveIMG", "url": "https://www.iloveimg.com/", "category": "utilities", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "199", "name": "iLovePDF", "url": "https://www.ilovepdf.com/", "category": "utilities", "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "37", "name": "InvestingPro", "url": "https://www.investing.com/pro", "category": "utilities", "icon": "https://pbs.twimg.com/profile_images/1108338370026053632/JrSrbA-c_400x400.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "14", "name": "iQIYI", "url": "https://www.iq.com/", "category": "streaming", "icon": "https://groupy.id/assets/images/services/iqiyi.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "283", "name": "Jenni AI", "url": "https://jenni.ai/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzHV0xQOmnu0xowDdW71mIklQHOJ7RjdzHg&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "535", "name": "Leonardo AI", "url": "https://leonardo.ai/", "category": "design", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJztEc1YalQNx74GGv9upR6MXHYGO4H0ejqg&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "142", "name": "LinkedIn Learning", "url": "https://www.linkedin.com/learning/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "LokLok", "url": "https://www.loklok.com/", "category": "streaming", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/SoElTraQPu-MmE_lTOiFC089smV9XzoiZNbiiuWMa4tu4edi4RMqLRe9TS5VenRJoU4M" },
-        "accounts": [
-            { "id": "415", "name": "loklok 1", "cookies": [] }, { "id": "416", "name": "loklok 2", "cookies": [] },
-            { "id": "417", "name": "loklok 3", "cookies": [] }, { "id": "418", "name": "loklok 4", "cookies": [] },
-            { "id": "571", "name": "loklok 5", "cookies": [] }, { "id": "572", "name": "loklok 6", "cookies": [] },
-            { "id": "573", "name": "loklok 7", "cookies": [] }, { "id": "574", "name": "loklok 8", "cookies": [] },
-            { "id": "575", "name": "loklok 9", "cookies": [] }, { "id": "576", "name": "loklok 10", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "313", "name": "Marvel Unlimited", "url": "https://www.marvel.com/unlimited", "category": "utilities", "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "159", "name": "MasterClass", "url": "https://www.masterclass.com/", "category": "education", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "110", "name": "Medium", "url": "https://medium.com/", "category": "education", "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Merlin AI", "url": "https://merlin.foyer.work/", "category": "productivity", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/8XoSS1Jn3qHfm8cB4gq6YMQAWv_PIRCUtH2r5RiDq0s05QM47JtwEjs6V_aFh_SmOZ0" },
-        "accounts": [
-            { "id": "207", "name": "merlinai 1", "cookies": [] },
-            { "id": "308", "name": "merlinai 2", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "49", "name": "Mimo", "url": "https://mimo.org/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q" },
-        "cookies": []
     },
     {
         "meta": { "id": "42", "name": "Motion Array", "url": "https://motionarray.com/", "category": "design", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "177", "name": "Musicbed", "url": "https://www.musicbed.com/", "category": "music", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Netflix", "url": "https://www.netflix.com/", "category": "streaming", "isGroup": true, "icon": "https://groupy.id/assets/images/services/netflix.png" },
-        "accounts": [
-            { "id": "85", "name": "netflix 1", "cookies": [] }, { "id": "56", "name": "netflix 2", "cookies": [] },
-            { "id": "55", "name": "netflix 3", "cookies": [] }
-            // ...dan seterusnya
+        "cookies": [
+          { "domain": ".motionarray.com", "expirationDate": 1780237667, "hostOnly": false, "httpOnly": false, "name": "_uetvid", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "e8a7dc3004b411f0b0bee7afd25da3bb" },
+          { "domain": ".motionarray.com", "expirationDate": 1781101668.800033, "hostOnly": false, "httpOnly": false, "name": "_ga", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "GA1.1.1613178662.1746541669" },
+          { "domain": ".motionarray.com", "expirationDate": 1780237691, "hostOnly": false, "httpOnly": false, "name": "ttcsid_C5EQ4UNGE0M3SF4IOBM0", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "1746541667540::wZAlwV9WfwIXFadQU-L_.1.1746541691005" },
+          { "domain": ".motionarray.com", "expirationDate": 1781101668.79971, "hostOnly": false, "httpOnly": false, "name": "_ga_QDDGKZ95EN", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "GS2.1.s1746541667$o1$g0$t1746541667$j60$l0$h0" },
+          { "domain": ".motionarray.com", "expirationDate": 1787048956, "hostOnly": false, "httpOnly": false, "name": "ajs_user_id", "path": "/", "sameSite": "lax", "secure": false, "session": false, "storeId": "0", "value": "12033176" },
+          { "domain": ".motionarray.com", "expirationDate": 1778077668, "hostOnly": false, "httpOnly": false, "name": "_clck", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "d9fz2v%7C2%7Cfvo%7C0%7C1952" },
+          { "domain": ".motionarray.com", "hostOnly": false, "httpOnly": false, "name": "_hjHasCachedUserAttributes", "path": "/", "sameSite": "no_restriction", "secure": true, "session": true, "storeId": "0", "value": "true" },
+          { "domain": ".motionarray.com", "expirationDate": 1780237667, "hostOnly": false, "httpOnly": false, "name": "_tt_enable_cookie", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "1" },
+          { "domain": ".motionarray.com", "expirationDate": 1780237667, "hostOnly": false, "httpOnly": false, "name": "_ttp", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "01JTJZXS6KZ7ZC6AHF0B64Z1JP_.tt.1" },
+          { "domain": ".motionarray.com", "expirationDate": 1787048956, "hostOnly": false, "httpOnly": false, "name": "ajs_anonymous_id", "path": "/", "sameSite": "lax", "secure": false, "session": false, "storeId": "0", "value": "3adf23c7-3460-48ae-8cac-f7ede37da585" },
+          { "domain": ".motionarray.com", "expirationDate": 1778077666.739274, "hostOnly": false, "httpOnly": false, "name": "anonymous_id", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "cc19d98e-490c-4e39-8e23-caa0ccc76789" },
+          { "domain": ".motionarray.com", "expirationDate": 1778077675, "hostOnly": false, "httpOnly": false, "name": "device", "path": "/", "sameSite": "strict", "secure": true, "session": false, "storeId": "0", "value": "1OiWtF7p7tjAwmpRIo7c1gsKtWoPL84jmehpz5GV8BCsfoSQMt" },
+          { "domain": ".motionarray.com", "expirationDate": 1781101692.392096, "hostOnly": false, "httpOnly": true, "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "12033176%7CPap35qAS0eEItnbi%7C%242y%2410%246faAFrjw3HrepbN4gzIEuuas9hqh.FMukVCeYZ2vah7fSb%2FWQB%2F2G" },
+          { "domain": ".motionarray.com", "expirationDate": 1780237691, "hostOnly": false, "httpOnly": false, "name": "ttcsid", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "1746541667540::6mxnghm4ExRJdiXVhzwF.1.1746541691005" },
+          { "domain": ".motionarray.com", "expirationDate": 1780237667, "hostOnly": false, "httpOnly": false, "name": "sign", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f6a315a7445466376362b4944377371423331727537" },
+          { "domain": "motionarray.com", "expirationDate": 1755514753, "hostOnly": true, "httpOnly": false, "name": "userSession", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "dc52242e-5990-48d5-affc-bf9048512e25" },
+          { "domain": "motionarray.com", "expirationDate": 1755570498.226918, "hostOnly": true, "httpOnly": false, "name": "XSRF-TOKEN", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "QHAlIytFCNEwl15rj6vWI7FYcQWn1PzUYZEb41OR" },
+          { "domain": ".motionarray.com", "expirationDate": 1790072908, "hostOnly": false, "httpOnly": false, "name": "ab.storage.deviceId.322b109c-179d-46e0-8fb8-a62b84bc8402", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "%7B%22g%22%3A%227b691ec2-36e6-3feb-a0d3-19da6305c3ea%22%2C%22c%22%3A1742383549178%2C%22l%22%3A1755512908031%7D" },
+          { "domain": ".motionarray.com", "expirationDate": 1790072908, "hostOnly": false, "httpOnly": false, "name": "ab.storage.userId.322b109c-179d-46e0-8fb8-a62b84bc8402", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "%7B%22g%22%3A%2212033176%22%2C%22c%22%3A1746541694072%2C%22l%22%3A1755512908031%7D" },
+          { "domain": ".motionarray.com", "expirationDate": 1787048957, "hostOnly": false, "httpOnly": false, "name": "_hjSessionUser_2086831", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "eyJpZCI6ImJjMDhiZTQ3LWYyYTktNTUyNi1iYTMxLWMzNjUzN2M2NzNhZiIsImNyZWF0ZWQiOjE3NDY1NDE2NjgwODEsImV4aXN0aW5nIjp0cnVlfQ==" },
+          { "domain": ".motionarray.com", "expirationDate": 1755514709, "hostOnly": false, "httpOnly": false, "name": "_hjSession_2086831", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "eyJpZCI6IjNmZDA0NjgwLTBhZjctNGJhOS04NTM5LWQ2YjI0YWViMWU3ZiIsImMiOjE3NTU1MTI5MDkzOTksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==" },
+          { "domain": ".motionarray.com", "expirationDate": 1790072956, "hostOnly": false, "httpOnly": false, "name": "ab.storage.sessionId.322b109c-179d-46e0-8fb8-a62b84bc8402", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "%7B%22g%22%3A%2260549f4b-9c3b-3af8-3578-c592adb82809%22%2C%22e%22%3A1755514756481%2C%22c%22%3A1755512908030%2C%22l%22%3A1755512956481%7D" },
+          { "domain": "motionarray.com", "expirationDate": 1756117754.731522, "hostOnly": true, "httpOnly": false, "name": "AWSALB", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "S1N7mE0GXwgpB+rKqBfFf5QKiob3Q1QwK59BGnq6BI37QcR1wK9vngiKqcvexqs2QaAMsPodoXW3hy1pfeZWIsoo3fbna0ZfiBnLDlW3/uKkTsXfqXPhEdCMbyvL" },
+          { "domain": "motionarray.com", "expirationDate": 1756117754.731745, "hostOnly": true, "httpOnly": false, "name": "AWSALBCORS", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "S1N7mE0GXwgpB+rKqBfFf5QKiob3Q1QwK59BGnq6BI37QcR1wK9vngiKqcvexqs2QaAMsPodoXW3hy1pfeZWIsoo3fbna0ZfiBnLDlW3/uKkTsXfqXPhEdCMbyvL" },
+          { "domain": "motionarray.com", "expirationDate": 1755570558.731862, "hostOnly": true, "httpOnly": true, "name": "laravel_session", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "eyJpdiI6Ikg0aDl2Q3JjUDh6bVdwdDBNT3B5bFE9PSIsInZhbHVlIjoiZ1NJa2grOEp2YWRXRW1XTzZWMXhXaE02WC9qdUc2REcva2VlVHcxWUpkcW5GcGlMUGlCMVIwK1hSZktxeEpCV0Z6U0RqWUVTQ21TYWk0ZTdmUG1EWmtMYzVzZ3ZSMGwvSWQ0eGpVT1QyMHNTMG5XNyt5M2Q3aCt4bmtUL1lhZ0QiLCJtYWMiOiJkNjZlOTc1NjllYWJiZmNiYzhlMTM1MzMxMTAwODY0MjQ3ZmJhYTlmMzk3YWRhMDBlN2NhMGE3Zjk3NjYyMWEwIiwidGFnIjoiIn0%3D" },
+          { "domain": ".motionarray.com", "expirationDate": 1755514758.731973, "hostOnly": false, "httpOnly": true, "name": "__cf_bm", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "JItPaWguAgg1gYQHTdddtw1ciwuGUxyrE0QLGovfg_A-1755512957-1.0.1.1-6etqpvyMoFPceB38KQsikWDtZJ.O4iq1RCqBW_fK2ESeivr4QCrQUyZkZuFyp7BeIPANg7zuVFlx9xcknRJ23XWACiVy_aXS9IlK151sVbo" }
         ]
-    },
-    {
-        "meta": { "id": "252", "name": "NoteGPT", "url": "https://notegpt.io/", "category": "productivity", "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg" },
-        "cookies": []
     },
     {
         "meta": { "id": "137", "name": "Notion", "url": "https://www.notion.so/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "255", "name": "Pacdora", "url": "https://www.pacdora.com/", "category": "design", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Perplexity", "url": "https://www.perplexity.ai/", "category": "productivity", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g" },
-        "accounts": [
-            { "id": "239", "name": "perplexity 1", "cookies": [] }, { "id": "272", "name": "perplexity 2", "cookies": [] },
-            { "id": "406", "name": "perplexity 3", "cookies": [] }, { "id": "441", "name": "perplexity 4", "cookies": [] }
+        "cookies": [
+          { "domain": ".www.notion.so", "expirationDate": 1787048908, "hostOnly": false, "httpOnly": false, "name": "notion_locale", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "en-US/autodetect" },
+          { "domain": ".www.notion.so", "expirationDate": 1787048907, "hostOnly": false, "httpOnly": false, "name": "notion_browser_id", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "ddf52ab4-6c59-4355-bc0a-3feaed3ca6df" },
+          { "domain": ".www.notion.so", "expirationDate": 1787048907, "hostOnly": false, "httpOnly": false, "name": "notion_user_id", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "250d872b-594c-81e6-964b-000240e7cc44" },
+          { "domain": ".www.notion.so", "expirationDate": 1787048907.879017, "hostOnly": false, "httpOnly": true, "name": "device_id", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "250d872b-594c-81c1-8783-003b0de606ff" },
+          { "domain": ".notion.so", "expirationDate": 1789789216.728623, "hostOnly": false, "httpOnly": false, "name": "_ga_9ZJ8CB186L", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "GS2.1.s1755229126$o1$g0$t1755229216$j42$l0$h0" },
+          { "domain": ".notion.so", "expirationDate": 1786765177, "hostOnly": false, "httpOnly": false, "name": "_cioid", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "250d872b594c81e6964b000240e7cc44" },
+          { "domain": ".notion.so", "expirationDate": 1763005180, "hostOnly": false, "httpOnly": false, "name": "_fbp", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "fb.1.1755229128427.723040547261934673" },
+          { "domain": ".notion.so", "expirationDate": 1789789126.522196, "hostOnly": false, "httpOnly": false, "name": "_ga", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "GA1.1.221344212.1755229127" },
+          { "domain": ".www.notion.so", "expirationDate": 1787048908, "hostOnly": false, "httpOnly": false, "name": "NEXT_LOCALE", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "en-US" },
+          { "domain": ".notion.so", "expirationDate": 1763005126, "hostOnly": false, "httpOnly": false, "name": "_gcl_au", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "1.1.1739667968.1755229126" },
+          { "domain": ".notion.so", "expirationDate": 1786765127, "hostOnly": false, "httpOnly": false, "name": "_hjSessionUser_3664679", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "eyJpZCI6IjY0MTk5MDFkLWU0MmEtNWE5Mi05OWY0LTZiZGQzNjQwZjA3MiIsImNyZWF0ZWQiOjE3NTUyMjkxMjcwMDQsImV4aXN0aW5nIjpmYWxzZX0=" },
+          { "domain": ".notion.so", "expirationDate": 1763005126, "hostOnly": false, "httpOnly": false, "name": "_rdt_uuid", "path": "/", "sameSite": "strict", "secure": true, "session": false, "storeId": "0", "value": "1755229126533.b812b803-33c2-416c-98e0-13682be4c2fd" },
+          { "domain": ".www.notion.so", "expirationDate": 1787048907, "hostOnly": false, "httpOnly": false, "name": "notion_personalization", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "{%22business%22:0%2C%22personal%22:0%2C%22education%22:0%2C%22ai%22:0}" },
+          { "domain": ".notion.so", "expirationDate": 1787048907.879093, "hostOnly": false, "httpOnly": true, "name": "p_sync_session", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "%7B%22tokenId%22%3A%22v02%3Async_session%3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU89LMtOMdow-P1cNDAlxOru9h-MytbYGKknbSPCj2F07ufgzySBKfsZRIvmiLYHciH9hhmiqyMbclJ422t0bQnjTjJrtgLAnawVt%22%2C%22userIds%22%3A%5B%22250d872b-594c-81e6-964b-000240e7cc44%22%5D%7D" },
+          { "domain": ".www.notion.so", "expirationDate": 1786765178, "hostOnly": false, "httpOnly": false, "name": "sign", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f4a6d6438536853786335726172734578426a306144" },
+          { "domain": ".notion.so", "hostOnly": false, "httpOnly": true, "name": "_cfuvid", "path": "/", "sameSite": "no_restriction", "secure": true, "session": true, "storeId": "0", "value": "RduZn_TraMISYpFe9QfPMjbd16h3XRx8PUwBIWmue8o-1755512888512-0.0.1.1-604800000" },
+          { "domain": ".www.notion.so", "expirationDate": 1763288895.795367, "hostOnly": false, "httpOnly": false, "name": "notion_cookie_sync_completed", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "%7B%22completed%22%3Atrue%2C%22version%22%3A4%2C%22attempts%22%3A1%7D" },
+          { "domain": ".www.notion.so", "expirationDate": 1755599295.795513, "hostOnly": false, "httpOnly": false, "name": "notion_check_cookie_consent", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "false" },
+          { "domain": ".www.notion.so", "expirationDate": 1787048907, "hostOnly": false, "httpOnly": false, "name": "notion_users", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "[%22250d872b-594c-81e6-964b-000240e7cc44%22]" },
+          { "domain": ".www.notion.so", "expirationDate": 1787048907.879134, "hostOnly": false, "httpOnly": true, "name": "token_v2", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "v03%3AeyJhbGciOiJkaXIiLCJraWQiOiJwcm9kdWN0aW9uOnRva2VuLXYzOjIwMjQtMTEtMDciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIn0..jYzRH1DUVTv0RF6lMfn_SQ.cwun1sTqayS-CzllXRaC-CIFT9725HNPHHIaMM_i7rN_W6qY8gqVEPk8ZRo7w_ENNRPLaOMX9baQo-R7jrXDr6pKZEuiBQVI6-d3CqnhHSIJEz4477GlBtf12srANSvP8BRdjrqyImlP5xRSIWnX7ZKq5lWleu6vJSCXkdWRxgPGuXqxLBEyPgeI0nzb2O01JcEsJKwiqTokoMSlegaJfLb_VaAIqfVTB2zuXKPD_tBLGuMami6tWmgWDehHPfEw6JlvRqN-jfFQadPIr20j1EOlOgwMPGf2u9vhWsYAWPl47hqICUrIxMu66tCi_Kb4NlMpVKPbiP_Dx9jrAAnGheQJMJj8akXv6I3hw_DjnGY.LKhf2ZloHvyAwmLAhWEiv7vlx6qSIwkIrbGbJ-gAkBw" },
+          { "domain": ".notion.so", "expirationDate": 1755514734.284174, "hostOnly": false, "httpOnly": true, "name": "__cf_bm", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": ".vcU7yJIl8K3a9a00r6GrJkCHPqJ9O6LqtMLK9suooc-1755512932-1.0.1.1-K78o3WOq8K15qHgBAjH3_.A11rwc0NayvJ0I_5baD.HeEtJtzuCETFwFDuQl3c1xPSSXH2TW7ncd15zUtBXs4NVHw9iouvIuZT5pQIx9OOPQn8wwTXebLhhLItUn1Qi1" }
         ]
-    },
-    {
-        "meta": { "name": "Picsart", "url": "https://picsart.com/", "category": "design", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw" },
-        "accounts": [
-            { "id": "284", "name": "picsart 1", "cookies": [] }, { "id": "412", "name": "picsart 2", "cookies": [] },
-            { "id": "413", "name": "picsart 3", "cookies": [] }, { "id": "414", "name": "picsart 4", "cookies": [] },
-            { "id": "513", "name": "picsart 5", "cookies": [] }, { "id": "514", "name": "picsart 6", "cookies": [] },
-            { "id": "515", "name": "picsart 7", "cookies": [] }, { "id": "516", "name": "picsart 8", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "125", "name": "Prezi AI", "url": "https://prezi.com/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Prime Video", "url": "https://www.primevideo.com/", "category": "streaming", "isGroup": true, "icon": "https://groupy.id/assets/images/services/primevideo.png" },
-        "accounts": [
-            { "id": "16", "name": "primevideo 1", "cookies": [] }, { "id": "35", "name": "primevideo 2", "cookies": [] },
-            { "id": "38", "name": "primevideo 3", "cookies": [] }
-            // ...dan seterusnya
-        ]
-    },
-    {
-        "meta": { "id": "233", "name": "ProductionCrate", "url": "https://www.productioncrate.com/", "category": "design", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "QuillBot", "url": "https://quillbot.com/", "category": "productivity", "isGroup": true, "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtqcA6rvxqQHSb14wu157jMKqBtXRNJ5-1lcBbxf4JzQt7vwDhlmbpnnH&s=10" },
-        "accounts": [
-            { "id": "109", "name": "quillbot 1", "cookies": [] },
-            { "id": "32", "name": "quillbot 2", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "138", "name": "Quizlet", "url": "https://quizlet.com/", "category": "education", "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw" },
-        "cookies": []
     },
     {
         "meta": { "id": "108", "name": "Rawpixel", "url": "https://www.rawpixel.com/", "category": "design", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "83", "name": "Relume", "url": "https://www.relume.io/", "category": "design", "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "215", "name": "Scholarcy", "url": "https://scholarcy.com/", "category": "education", "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "101", "name": "SciSpace", "url": "https://typeset.io/", "category": "education", "icon": "https://assets-global.website-files.com/648302318a1143aaf5e78dfa/662e79fc151538445a578869_d3JYR823QfSPL1DkKG6V_6b34N9K4AGMJ21jH.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Scite", "url": "https://scite.ai/", "category": "productivity", "isGroup": true, "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10" },
-        "accounts": [
-            { "id": "33", "name": "scite 1", "cookies": [] },
-            { "id": "288", "name": "scite 2", "cookies": [] },
-            { "id": "285", "name": "scite 3", "cookies": [] }
+        "cookies": [
+          { "domain": ".www.rawpixel.com", "expirationDate": 1778343072, "hostOnly": false, "httpOnly": false, "name": "rpaulid", "path": "/", "sameSite": "strict", "secure": true, "session": false, "storeId": "0", "value": "01JTTWZGRTN934XBN0W5XN45ZJ" },
+          { "domain": ".www.rawpixel.com", "expirationDate": 1781367072.052131, "hostOnly": false, "httpOnly": false, "name": "_ga", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "GA1.3.384360704.1746807020" },
+          { "domain": ".www.rawpixel.com", "expirationDate": 1781367079.561556, "hostOnly": false, "httpOnly": false, "name": "_ga_GTTSV95LFZ", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "GS2.3.s1746807020$o1$g1$t1746807079$j1$l0$h0" },
+          { "domain": ".rawpixel.com", "expirationDate": 1778343071.442668, "hostOnly": false, "httpOnly": true, "name": "SSESS77c75427c48781a7b11b0574ca50a4bd", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": "0", "value": "b2bfcac4b771b073d95d56f18adfa18b5c3fdb75c7267c3ae368721b9981aef11c4b3a8d949b92bd3782000252bd80d590cbe48b0f96bd09ddaf4df1514ea20d" },
+          { "domain": ".www.rawpixel.com", "expirationDate": 1778343072, "hostOnly": false, "httpOnly": false, "name": "sign", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f5a566231356f5975417654593952362f505055456b" },
+          { "domain": "www.rawpixel.com", "expirationDate": 1787048901, "hostOnly": true, "httpOnly": false, "name": "rpaulid", "path": "/", "sameSite": "strict", "secure": true, "session": false, "storeId": "0", "value": "01K13GYECFTY11Q2ZGHBCDY6N3" }
         ]
-    },
-    {
-        "meta": { "name": "Scribd", "url": "https://www.scribd.com/", "category": "utilities", "isGroup": true, "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10" },
-        "accounts": [
-            { "id": "26", "name": "scribd 1", "cookies": [] },
-            { "id": "269", "name": "scribd 2", "cookies": [] },
-            { "id": "270", "name": "scribd 3", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "name": "Semrush", "url": "https://www.semrush.com/", "category": "utilities", "isGroup": true, "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10" },
-        "accounts": [
-            { "id": "387", "name": "semrush 1", "cookies": [] },
-            { "id": "335", "name": "semrush 2", "cookies": [] },
-            { "id": "410", "name": "semrush 3", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "182", "name": "Sider AI", "url": "https://sider.ai/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "17", "name": "Skillshare", "url": "https://www.skillshare.com/", "category": "education", "icon": "https://groupy.id/assets/images/services/skillshare.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Slidesgo", "url": "https://slidesgo.com/", "category": "design", "isGroup": true, "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png" },
-        "accounts": [
-            { "id": "407", "name": "slidesgo 1", "cookies": [] }, { "id": "560", "name": "slidesgo 2", "cookies": [] },
-            { "id": "596", "name": "slidesgo 3", "cookies": [] }, { "id": "597", "name": "slidesgo 4", "cookies": [] },
-            { "id": "598", "name": "slidesgo 5", "cookies": [] }, { "id": "599", "name": "slidesgo 6", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "112", "name": "Slideshare", "url": "https://www.slideshare.net/", "category": "productivity", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "158", "name": "Sololearn", "url": "https://www.sololearn.com/", "category": "education", "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Sora", "url": "https://openai.com/sora", "category": "productivity", "isGroup": true, "icon": "https://groupy.id/assets/images/services/chatgptplus.png" },
-        "accounts": [
-            { "id": "488888", "name": "sora 1", "cookies": [] },
-            { "id": "3688888", "name": "sora 2", "cookies": [] }
-            // ...dan seterusnya
-        ]
-    },
-    {
-        "meta": { "id": "220", "name": "Speechify", "url": "https://speechify.com/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "123", "name": "Studocu", "url": "https://www.studocu.com/", "category": "education", "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "338", "name": "Symbolab", "url": "https://www.symbolab.com/", "category": "education", "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "453", "name": "The Wall Street Journal", "url": "https://www.wsj.com/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "19", "name": "TradingView", "url": "https://www.tradingview.com/", "category": "utilities", "icon": "https://groupy.id/assets/images/services/tradingview.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Turnitin", "url": "https://www.turnitin.com/", "category": "productivity", "isGroup": true, "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10" },
-        "accounts": [
-            { "id": "34", "name": "turnitin 1", "cookies": [] }, { "id": "84", "name": "turnitin 2", "cookies": [] },
-            { "id": "175", "name": "turnitin 3", "cookies": [] }, { "id": "209", "name": "turnitin 4", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "229", "name": "Udemy", "url": "https://www.udemy.com/", "category": "education", "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "82", "name": "Vectorizer AI", "url": "https://vectorizer.ai/", "category": "design", "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "612", "name": "Virtual Threads", "url": "https://www.virtual-threads.com/", "category": "productivity", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s" },
-        "cookies": []
-    },
-    {
-        "meta": { "name": "Viu", "url": "https://www.viu.com/", "category": "streaming", "isGroup": true, "icon": "https://groupy.id/assets/images/services/viu.png" },
-        "accounts": [
-            { "id": "18", "name": "viu 1", "cookies": [] }, { "id": "41", "name": "viu 2", "cookies": [] },
-            { "id": "46", "name": "viu 3", "cookies": [] }, { "id": "52", "name": "viu 4", "cookies": [] },
-            { "id": "435", "name": "viu 5", "cookies": [] }, { "id": "642", "name": "viu 6", "cookies": [] },
-            { "id": "643", "name": "viu 7", "cookies": [] }, { "id": "644", "name": "viu 8", "cookies": [] },
-            { "id": "645", "name": "viu 9", "cookies": [] }, { "id": "646", "name": "viu 10", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "name": "WeTV", "url": "https://wetv.vip/", "category": "streaming", "isGroup": true, "icon": "https://groupy.id/assets/images/services/wetv.png" },
-        "accounts": [
-            { "id": "13", "name": "wetv 1", "cookies": [] }, { "id": "102", "name": "wetv 2", "cookies": [] },
-            { "id": "286", "name": "wetv 3", "cookies": [] }, { "id": "287", "name": "wetv 4", "cookies": [] },
-            { "id": "458", "name": "wetv 5", "cookies": [] }, { "id": "586", "name": "wetv 6", "cookies": [] },
-            { "id": "587", "name": "wetv 7", "cookies": [] }, { "id": "588", "name": "wetv 8", "cookies": [] },
-            { "id": "589", "name": "wetv 9", "cookies": [] }, { "id": "590", "name": "wetv 10", "cookies": [] }
-        ]
-    },
-    {
-        "meta": { "id": "120", "name": "WolframAlpha", "url": "https://www.wolframalpha.com/", "category": "productivity", "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4" },
-        "cookies": []
     },
     {
         "meta": { "id": "181", "name": "WriteHuman", "url": "https://writehuman.ai/", "category": "utilities", "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png" },
-        "cookies": []
-    },
-    {
-        "meta": { "id": "211", "name": "YouTube NoAds", "url": "https://www.youtube.com/", "category": "streaming", "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" },
-        "cookies": []
+        "cookies": [
+          { "domain": ".writehuman.ai", "expirationDate": 1790072911.733673, "hostOnly": false, "httpOnly": false, "name": "_ga", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "GA1.1.606284648.1754190182" },
+          { "domain": ".writehuman.ai", "expirationDate": 1763288911, "hostOnly": false, "httpOnly": false, "name": "_fbp", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "fb.1.1754190180545.363187711832522621" },
+          { "domain": ".writehuman.ai", "expirationDate": 1761966182, "hostOnly": false, "httpOnly": false, "name": "_gcl_au", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1.1.776698344.1754190182" },
+          { "domain": ".writehuman.ai", "expirationDate": 1789208914, "hostOnly": false, "httpOnly": false, "name": "_tt_enable_cookie", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1" },
+          { "domain": ".writehuman.ai", "expirationDate": 1785726190.619043, "hostOnly": false, "httpOnly": true, "name": "rephrasegpt_live_u2main", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "bus|1747902615076x209865710078575460|1754190188390x521318033633938700" },
+          { "domain": ".writehuman.ai", "hostOnly": false, "httpOnly": false, "name": "rephrasegpt_u1main", "path": "/", "sameSite": "unspecified", "secure": true, "session": true, "storeId": "0", "value": "1747902615076x209865710078575460" },
+          { "domain": ".writehuman.ai", "expirationDate": 1789208914, "hostOnly": false, "httpOnly": false, "name": "_ttp", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "01K1PY3XVD4HMQMC6NTQZBPR08_.tt.1" },
+          { "domain": ".writehuman.ai", "expirationDate": 1788376879, "hostOnly": false, "httpOnly": false, "name": "_scid", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "OaHQZPOeEc6lqYdNXRr2Df02nOPddzO1GAIDQA" },
+          { "domain": ".writehuman.ai", "expirationDate": 1785726216, "hostOnly": false, "httpOnly": false, "name": "cookieyes-consent", "path": "/", "sameSite": "strict", "secure": true, "session": false, "storeId": "0", "value": "consentid:TWsyNmNPRlNrWVhtWDlWR3J4N0N4YmdsRDdsREJhekM,consent:yes,action:no,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes,other:yes" },
+          { "domain": ".writehuman.ai", "expirationDate": 1785726190.619173, "hostOnly": false, "httpOnly": true, "name": "rephrasegpt_live_u2main.sig", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "m7cPwp9bQuTIwod0xs_YfDcmSpI" },
+          { "domain": ".writehuman.ai", "expirationDate": 1788750214.050651, "hostOnly": false, "httpOnly": false, "name": "sign", "path": "/", "sameSite": "unspecified", "secure": true, "session": false, "storeId": "0", "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613870656c7078364838706c716e47734c6b7243776843" },
+          { "domain": ".writehuman.ai", "expirationDate": 1789699609, "hostOnly": false, "httpOnly": false, "name": "_scid_r", "path": "/", "sameSite": "lax", "secure": false, "session": false, "storeId": "0", "value": "P6HQZPOeEc6lqYdNXRr2Df02nOPddzO1GAIDRg" },
+          { "domain": ".writehuman.ai", "expirationDate": 1790072911.752649, "hostOnly": false, "httpOnly": false, "name": "_ga_ED3YRLQSNQ", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "GS2.1.s1755512911$o2$g0$t1755512911$j60$l0$h0" },
+          { "domain": ".writehuman.ai", "expirationDate": 1787048915, "hostOnly": false, "httpOnly": false, "name": "ph_phc_O57PP1LKNHTMzhyI2jSS29lJh8XdmX0NNPiWQfg6bQ3_posthog", "path": "/", "sameSite": "lax", "secure": true, "session": false, "storeId": "0", "value": "%7B%22distinct_id%22%3A%220197ddab-de3c-7295-a90a-fb2c2d4402b6%22%2C%22%24sesid%22%3A%5B1755512912264%2C%220198bcb9-3982-7c96-8ee5-74213aadf78a%22%2C1755512912258%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22u%22%3A%22https%3A%2F%2Fwritehuman.ai%2F%22%7D%7D" },
+          { "domain": ".writehuman.ai", "expirationDate": 1755599314, "hostOnly": false, "httpOnly": false, "name": "_uetsid", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1850eb507c1e11f0a784ff4c290874da" },
+          { "domain": ".writehuman.ai", "expirationDate": 1789208914, "hostOnly": false, "httpOnly": false, "name": "_uetvid", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1d51f2e05a1511f0a85dcb5e472e6e72" },
+          { "domain": ".writehuman.ai", "expirationDate": 1789208914, "hostOnly": false, "httpOnly": false, "name": "ttcsid", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1755512914765::bSOngZ2zgh1_qr0Mv0kx.2.1755512914765" },
+          { "domain": ".writehuman.ai", "expirationDate": 1756117714, "hostOnly": false, "httpOnly": false, "name": "_ScCbts", "path": "/", "sameSite": "lax", "secure": false, "session": false, "storeId": "0", "value": "%5B%5D" },
+          { "domain": ".writehuman.ai", "expirationDate": 1789208914, "hostOnly": false, "httpOnly": false, "name": "ttcsid_D0ME71BC77UCAFR1F0SG", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "1755512914764::4qFdV3ndCikllUOuCRk8.2.1755512914979" },
+          { "domain": "writehuman.ai", "expirationDate": 1787048917, "hostOnly": true, "httpOnly": false, "name": "cookieyes-consent", "path": "/", "sameSite": "strict", "secure": true, "session": false, "storeId": "0", "value": "consentid:TWsyNmNPRlNrWVhtWDlWR3J4N0N4YmdsRDdsREJhekM,consent:yes,action:no,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes,other:yes" },
+          { "domain": ".writehuman.ai", "expirationDate": 1789699617, "hostOnly": false, "httpOnly": false, "name": "_sctr", "path": "/", "sameSite": "lax", "secure": false, "session": false, "storeId": "0", "value": "1%7C1755450000000" },
+          { "domain": ".writehuman.ai", "expirationDate": 1787048919, "hostOnly": false, "httpOnly": false, "name": "_clck", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "244ja%7C2%7Cfyk%7C0%7C2041" },
+          { "domain": ".writehuman.ai", "expirationDate": 1755599323, "hostOnly": false, "httpOnly": false, "name": "_clsk", "path": "/", "sameSite": "unspecified", "secure": false, "session": false, "storeId": "0", "value": "5aefjq%7C1755512923359%7C1%7C1%7Co.clarity.ms%2Fcollect" }
+        ]
     }
 ];
 
-// Baris ini penting agar file bisa dibaca dengan benar
 export { servicesData };
