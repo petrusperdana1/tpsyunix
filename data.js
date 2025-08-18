@@ -65,8 +65,7 @@ const servicesData = [
     {
         "meta": { "name": "Bstation", "url": "https://www.bilibili.tv/", "category": "streaming", "isGroup": true, "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3" },
         "accounts": [
-            { "id": "3", "name": "bstation", "cookies": [] },
-            { "id": "27", "name": "bstation2", "cookies": [] }
+            { "id": "3", "name": "bstation", "cookies": [] }, { "id": "27", "name": "bstation2", "cookies": [] }
         ]
     },
     {
@@ -328,7 +327,7 @@ const servicesData = [
         "meta": { "name": "Netflix", "url": "https://www.netflix.com/", "category": "streaming", "isGroup": true, "icon": "https://groupy.id/assets/images/services/netflix.png" },
         "accounts": [
             { "id": "85", "name": "netflix 1", "cookies": [] }, { "id": "56", "name": "netflix 2", "cookies": [] },
-            { "id": "55", "name": "netflix 3", "cookies": [] }, { "id": "183", "name": "netflix 4", "cookies": [] }
+            { "id": "55", "name": "netflix 3", "cookies": [] }
             // ...dan seterusnya
         ]
     },
