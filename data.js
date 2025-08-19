@@ -4,7 +4,7 @@ const servicesData = [
             "name": "Academia",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-            "url": "https://academia.com/"
+            "url": "https://academia.edu/"
         },
         "cookies": [
             {
@@ -187,6 +187,645 @@ const servicesData = [
                 "session": false,
                 "storeId": null,
                 "value": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWN6TlRBeE9EUTNPVEk3TVRsbE0yRTNZVEpsWVdGalpHWTBOMkk1T1RjNU1HWTJCam9HUlZRPSIsImV4cCI6IjIwMjYtMDgtMTlUMTI6NTc6MjQuNDkzWiIsInB1ciI6ImNvb2tpZS55YXVpYyJ9fQ%3D%3D--f04be4a845af9f0df2efee3c9a152f5b5edc2550"
+            }
+        ]
+    },
+    {
+        "meta": {
+            "name": "Apple TV+",
+            "category": "streaming",
+            "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
+            "url": "https://tv.apple.com/",
+            "isGroup": true
+        },
+        "accounts": [
+            {
+                "name": "Apple TV+ 1",
+                "cookies": [
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768315860.981018,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pltvcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "8eb461038f9e47a1ac6fcfc413fcc24f072"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "myacinfo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d31616b70608815a84af5300843f6cad3c3c5f662b5cff864a6975d0dbada2ca2389bc40c5e1de939f8eea2a79414ccaf34df27d2ec7e6bade6b3e9f8c2708db21eb973185abdca3c813026e0c91b16f3b404dca3355782701f7eef2c5e7833d9e4cbc4a64204126783e2371f71fc613d3afa36ccaefdede701337fd5077e3e2bcecc440b3f5e8be488742fddc74b94820d6338182613ce472ca1bf2093461bc404a893f9d020ea7adbd0eb16deef4a21b827c4225a98f0e2219518af971c86148fb1cf5d5879c833b944efb78c3b8f01710b61356d5c76dc9dd3b0eb06390d4d7e98de2d0ac2208b845bbbf551ba2b46b5483806b9f67b4b32f27cf2928c124c8045482f8f38188af5ba9371fe2c877ef16818ac9a9f2f7bb60962366362040216c3e8e37824921f9539c9c24407e14d1a32a80d9e77e5def3c3d51ccdbedfb91b2a6528d344f4a9bc5af591e262ad4e8330e24d7309a00a31b5a5740e6e3ff2dd4567092282149bc54d8bc051b24116aa6b5629391599e1a1eb953ad719804c70131cc5a99933e365f00db34c04dbba3e7dbfc599bbdb5835112973ad3c6172305acaf20355b945f7192454ec4d73167267e0b661e1cdbe45f021bd1887d4c23ce0925d9eebf8cb3e2f4b8b6d490d63d48745d42d3fdf9b50197ed926e5961b8585a47V3"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1784083860.981,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itua",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CA"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768315860.981018,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4b44743436654c57486650647947536b7539753563"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1760323860.981048,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "mut-refresh",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "dslang",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "US-EN"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "geo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1790168096.73815,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "72"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768099860.980924,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "media-user-token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "AhgZkrJDDLUaG/w+n0gkS17KQ4m30IC4xdLNQYNE8NzJCmFoeKYSLYO+8JPjQmx5SjkLV3ALsPp6sA4uUvDMbyOHbPL7aEEatsXSovKBHj0KJyhs9KgrRXD3PaCpC83LhSdNIxY2Le+7x/ydUvcsjLMR7K3J/j0y9lll7sXjZ4ktXWOVrekg8jlx3cnj2uWBzz3abDXc2dmC8KEr9+Z0nZSxSEYC0TujGfCGuGxjA5xyA4hK6g=="
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768315860.981032,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pldfltcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "2850473642074404b26b81800c276e7f072"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "site",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "USA"
+                    }
+                ]
+            },
+            {
+                "name": "Apple TV+ 2",
+                "cookies": [
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768315903.364647,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pltvcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "c10f3f427bb84d59a45e2e2b615e05d3056"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "myacinfo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d3c214009832c199243902ef81cd2807e332a02b335e82499cdd95dc36f898f82ca1bc0ef084285aa78a7cdf38767fd09a56efb1450e58b755871760333bb0e0faf29f2d0864b93524b619e87a7a25df7c484d7c2762fe1d2b1dca6a5d9e6d95df5830e67942d9adac25c5f8532baeb0d4fe9e5e6ee45f789a86d655a28d566d8f041f282587874945f9333c7123de3864aa5354377292c4795a8b2237606f371eb30b9a3ec3a6ea1d670aec290f1857e98bd63e36b9e961e604c7acee76ae804571dbaf6d1a8bc314aa025bc633688de7bda7dcae50cdc4b6ee5cf54d4d7ebcea31353998ceb9e3a5468ba120c6362fada1d16ad06a4daf9cfb2270a3196e970c3c45d5395e132a9445d5a6487ce15d148de3dd64c541db6f8e4d075ac99701ee7f9b34d7897b7192a752899170c3246c677930447165d5be659e2dfd62fe7e3445d2b54f86ded7e05f70d1f5687e8932ae0b25e0fb198f86a4810ab5eb214c744b907bf87d25c371f230729ae9f1213ed961c149a5df46aff43213ad086e5af13ca6f2e7e3765d41b4cff98a24b69a655ce0d2a8b8e6f6e674c055512b6a91b5bd0aa22966940935542869d94667e136fd0260ef7973e107084bb1d43c526b8788c2c4040b14f088f54a64cf6aca01a6b567b47c8a6979b4457c30e482e74012585a47V3"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1784083903.364631,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itua",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CA"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768315903.364647,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4379347236564d34753775625a6a6f4d704e447564"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1760323903.364674,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "mut-refresh",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "dslang",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "US-EN"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "geo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1790168630.889189,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "56"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1771160630,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "56"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768099903.36457,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "media-user-token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "AnyN5z5lI3Gz+e0BNdKg2EP1WNYApCoB52py+NKwZzla3KqsphUJxCdc5vJB1qRRvEgCtwX13D2+7hevPWdgWy9zwCcSl0V0kDX5LM4WBzrAj04Fj/gesv9JcSKUXEiLY9xXRMb6qjPXK5UmZRcPdN2/NW5TEST9YNaTCmRu6jU2ihdBcLqAojiBxq6zj2PqTzEUnJWAM68qTswBhqyTPx8RbzJ7Svpe6O3i8lGTlmwkO+UXlQ=="
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768315903.364662,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pldfltcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1da27dcb00784fefb469fd589fd6cbc5056"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "site",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "USA"
+                    }
+                ]
+            },
+            {
+                "name": "Apple TV+ 3",
+                "cookies": [
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1769090820.457282,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pltvcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "0ab2394712324923ae382bcfc280bcad046"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "myacinfo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d30b1d5986c136a6a8e56d82e3639f7862ea311ea87fa1f5136405327b9495db1a088c54e77e3bced49ee4ffffa5f485e31b8fe338ac96d47ca6d805e09ebf9bfc1a7a68e648033616071eea4b348a143ee56f30dead5f321c5ad182ef2497c7630aaa5073a5e677f1164d1c12179b3f59347294254a62d0bd5f691a70b49e84f2864fc6a99beb57c7c2cefca659e1c494fdd616657775b0a2b197e4c6e1ced1c695ed769e85f24d5634a2540ef49ee010f100bc4448caf0ce0e0e223afbc33fed114745870d0eeec0fa28f37e23a3fc7dfaab727cc6dd29f4a34a7ea9b329063ae04b38369cd581522b575e79204c1ae81e106636f330617284679b61c529b83e6730614fb52d64dc519be1ba5120700599c4115e32ca826f113c5a334ef31f1bb450d1423fed954f1a154c74cf89be7b376a86486ced7b3d2ac02f37a4dfecc13eb4a84234e414b6914ea32a9b3dc431c9be5524392b806a3217d7c84eca0099bcd84cdbdf90aeaa44d54644c0f33bf55837843146942831172f1c0252262c4f011523bc6429d492cf78100f5873901edd9690e3dd4b4705fb8f83cb6644a3893c7623db6d995f01a65448f829d7e3ae7878d65ffadf5da7c669c1b87f0c5a7f8c40c57353780473d3cfd103b5cde4c602aa95aaa0b80ff7bcef20db9484ce03585a47V3"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1784858820.457253,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itua",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CA"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1769090820.457282,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613851327256655842656c344b45574e33762f2f694750"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1761098820.457333,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "mut-refresh",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "dslang",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "US-EN"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "geo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768874819,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "46"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1790169409.232077,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "46"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768874820.457157,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "media-user-token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "AoA3XwZb1kdeF7bYoIeToWw/BpFBFy3GrnLIu7whPokbuVDehtvhvnC07/464gq34f6MylBH52+VfEyHrSQeUiDDIHsgtmwquHclsvPXLIUw4JdMaqjdvGblg3ws1yATgH7RO8d/isH05KVGCXleD0TdWI9XJeOBUmD/Zkponho9Z3ojRzZ9obDNgIzXOPXnBYtDuiCqGEwBYZKVFbZkEiXfRtC0vwO9xW/isi6dKeOnvkdfng=="
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1769090820.457309,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pldfltcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "459baf44c63442a3bafb014d39ec1dc8046"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "site",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "USA"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1755915109.839298,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "vrep",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CJ332KtGEgQIBhAGEgQIBBAAEgQICBAAEgQIExAAEgQIDBAAEgQIDRAAEgQIARAAEgQIEhAAEgQIBxAAEgkICxCck8zRgzMSBAgKEAASBAgQEAASBAgOEAASBAgREAASBAgJEAASBAgDEAASBAgPEAASBAgCEAASBAgFEAA"
+                    }
+                ]
+            },
+            {
+                "name": "Apple TV+ 4",
+                "cookies": [
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "myacinfo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d30b1d5986c136a6a8e56d82e3639f7862ea311ea87fa1f5136405327b9495db1a088c54e77e3bced49ee4ffffa5f485e31b8fe338ac96d47ca6d805e09ebf9bfc1a7a68e648033616071eea4b348a143ee56f30dead5f321c5ad182ef2497c7630aaa5073a5e677f1164d1c12179b3f59347294254a62d0bd5f691a70b49e84f2864fc6a99beb57c7c2cefca659e1c494fdd616657775b0a2b197e4c6e1ced1c695ed769e85f24d5634a2540ef49ee010f100bc4448caf0ce0e0e223afbc33fed114745870d0eeec0fa28f37e23a3fc7dfaab727cc6dd29f4a34a7ea9b329063ae04b38369cd581522b575e79204c1ae81e106636f330617284679b61c529b83e6730614fb52d64dc519be1ba5120700599c4115e32ca826f113c5a334ef31f1bb450d1423fed954f1a154c74cf89be7b376a86486ced7b3d2ac02f37a4dfecc13eb4a84234e414b6914ea32a9b3dc431c9be5524392b806a3217d7c84eca0099bcd84cdbdf90aeaa44d54644c0f33bf55837843146942831172f1c0252262c4f011523bc6429d492cf78100f5873901edd9690e3dd4b4705fb8f83cb6644a3893c7623db6d995f01a65448f829d7e3ae7878d65ffadf5da7c669c1b87f0c5a7f8c40c57353780473d3cfd103b5cde4c602aa95aaa0b80ff7bcef20db9484ce03585a47V3"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1768144954,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pltvcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "f60c6264a5d14d5f837a5b74c1abc9da036"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1784128953.885779,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itua",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CA"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768360953.885801,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b555a4e53546247374f783670637165716f4e524670"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1760368953.88584,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "mut-refresh",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "dslang",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "US-EN"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "geo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768144953,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "36"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1790169667.048287,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "36"
+                    },
+                    {
+                        "domain": ".tv.apple.com",
+                        "expirationDate": 1768144953.885694,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "media-user-token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "Ah63H+g492HxHx44mwA253OesCY/hBKayh8CRb1rb5udmJXRWzWQcOVJ3/3eBI0fkdWh+MzrEUL6ApIxGxYtzHfYC5en0Wch8JjAXS3gJy3NARubCabGPKzcn3KGQtESwtid5J6u8sJpilr8vsdXGF6XxhzlJ+Z76rJSWVW/iTETR1856J0pen5EqWLiG1GifyjllD4E5mPAY3MKvbR39oMh7jaaeBxQhCeKkZeCuCuY9xPspA=="
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1768144954,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pldfltcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "c277155e822743f39f835cfdcbcc9411036"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "site",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "USA"
+                    }
+                ]
             }
         ]
     },
@@ -387,7 +1026,7 @@ const servicesData = [
             "name": "Blackbox.ai",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP",
-            "url": "https://blackbox.com/",
+            "url": "https://blackbox.ai/",
             "isGroup": true
         },
         "accounts": [
@@ -688,7 +1327,7 @@ const servicesData = [
             "name": "Brilliant",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
-            "url": "https://brilliant.com/"
+            "url": "https://brilliant.org/"
         },
         "cookies": [
             {
@@ -916,7 +1555,7 @@ const servicesData = [
             "name": "Bstation",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
-            "url": "https://bilibili.com/",
+            "url": "https://bilibili.tv/",
             "isGroup": true
         },
         "accounts": [
@@ -6513,7 +7152,7 @@ const servicesData = [
             "name": "Coursera",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
-            "url": "https://coursera.com/"
+            "url": "https://coursera.org/"
         },
         "cookies": [
             {
@@ -8843,7 +9482,7 @@ const servicesData = [
             "name": "Educative",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
-            "url": "https://educative.com/"
+            "url": "https://educative.io/"
         },
         "cookies": [
             {
@@ -12277,7 +12916,7 @@ const servicesData = [
             "name": "HIX AI",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
-            "url": "https://hix.com/",
+            "url": "https://hix.ai/",
             "isGroup": true
         },
         "accounts": [
@@ -13618,7 +14257,7 @@ const servicesData = [
             "name": "Perplexity",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
-            "url": "https://perplexity.com/",
+            "url": "https://perplexity.ai/",
             "isGroup": true
         },
         "accounts": [
@@ -17761,7 +18400,7 @@ const servicesData = [
             "name": "Slideshare",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
-            "url": "https://slideshare.com/"
+            "url": "https://slideshare.net/"
         },
         "cookies": [
             {
@@ -17962,7 +18601,7 @@ const servicesData = [
             "name": "Sora",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-            "url": "https://sora.com/",
+            "url": "https://sora.chatgpt.com/",
             "isGroup": true
         },
         "accounts": [
@@ -20384,7 +21023,7 @@ const servicesData = [
             "name": "Vectorizer.ai",
             "category": "design",
             "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
-            "url": "https://vectorizer.com/"
+            "url": "https://vectorizer.ai/"
         },
         "cookies": [
             {
@@ -20446,7 +21085,7 @@ const servicesData = [
             "name": "WeTV",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/wetv.png",
-            "url": "https://wetv.com/",
+            "url": "https://wetv.vip/",
             "isGroup": true
         },
         "accounts": [
@@ -21448,7 +22087,7 @@ const servicesData = [
             "name": "WriteHuman",
             "category": "utilities",
             "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
-            "url": "https://writehuman.com/"
+            "url": "https://writehuman.ai/"
         },
         "cookies": [
             {
