@@ -2,9 +2,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Academia",
+            "url": "https://www.academia.edu/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-            "url": "https://academia.edu/",
             "isGroup": true
         },
         "accounts": [
@@ -413,10 +413,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Apple TV+",
+            "url": "https://tv.apple.com/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
-            "url": "https://tv.apple.com/",
-            "id": "15"
+            "id": "44"
         },
         "cookies": [
             {
@@ -576,10 +576,10 @@ const servicesData = [
     {
         "meta": {
             "name": "AskYourPDF",
+            "url": "https://askyourpdf.com/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
-            "url": "https://askyourpdf.com/",
-            "id": "1"
+            "id": "3"
         },
         "cookies": [
             {
@@ -769,10 +769,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Blackbox.ai",
+            "url": "https://www.blackbox.ai/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP",
-            "url": "https://www.blackbox.ai/",
-            "id": "3"
+            "id": "5"
         },
         "cookies": [
             {
@@ -907,10 +907,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Brilliant",
+            "url": "https://brilliant.org/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
-            "url": "https://brilliant.org/",
-            "id": "4"
+            "id": "6"
         },
         "cookies": [
             {
@@ -1162,10 +1162,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Bstation",
+            "url": "https://www.bilibili.tv/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
-            "url": "https://bilibili.tv/",
-            "id": "2"
+            "id": "4"
         },
         "cookies": [
             {
@@ -1316,10 +1316,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Busuu",
+            "url": "https://www.busuu.com/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
-            "url": "https://busuu.com/",
-            "id": "5"
+            "id": "7"
         },
         "cookies": [
             {
@@ -1703,14 +1703,14 @@ const servicesData = [
     {
         "meta": {
             "name": "ChatGPT",
+            "url": "https://chatgpt.com/",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-            "url": "https://chatgpt.com/",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "3",
+                "id": "8",
                 "name": "ChatGPT 1",
                 "cookies": [
                     {
@@ -1999,7 +1999,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "4",
+                "id": "9",
                 "name": "ChatGPT 2",
                 "cookies": [
                     {
@@ -2288,7 +2288,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "5",
+                "id": "10",
                 "name": "ChatGPT 3",
                 "cookies": [
                     {
@@ -2560,7 +2560,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "6",
+                "id": "11",
                 "name": "ChatGPT 4",
                 "cookies": [
                     {
@@ -2849,7 +2849,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "7",
+                "id": "12",
                 "name": "ChatGPT 5",
                 "cookies": [
                     {
@@ -3138,7 +3138,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "8",
+                "id": "13",
                 "name": "ChatGPT 6",
                 "cookies": [
                     {
@@ -3431,10 +3431,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Codecademy",
+            "url": "https://www.codecademy.com/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
-            "url": "https://codecademy.com/",
-            "id": "6"
+            "id": "14"
         },
         "cookies": [
             {
@@ -3696,10 +3696,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Coohom",
+            "url": "https://www.coohom.com/",
             "category": "design",
             "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
-            "url": "https://coohom.com/",
-            "id": "7"
+            "id": "15"
         },
         "cookies": [
             {
@@ -4082,10 +4082,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Coursera",
+            "url": "https://www.coursera.org/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
-            "url": "https://coursera.org/",
-            "id": "8"
+            "id": "16"
         },
         "cookies": [
             {
@@ -4493,14 +4493,14 @@ const servicesData = [
     {
         "meta": {
             "name": "Epidemic Sound",
+            "url": "https://www.epidemicsound.com/",
             "category": "music",
             "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
-            "url": "https://epidemicsound.com/",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "9",
+                "id": "17",
                 "name": "Epidemic Sound 1",
                 "cookies": [
                     {
@@ -5140,7 +5140,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "10",
+                "id": "18",
                 "name": "Epidemic Sound 2",
                 "cookies": [
                     {
@@ -5780,7 +5780,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "11",
+                "id": "19",
                 "name": "Epidemic Sound 3",
                 "cookies": [
                     {
@@ -6424,10 +6424,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Figma",
+            "url": "https://www.figma.com/",
             "category": "design",
             "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
-            "url": "https://www.figma.com/",
-            "id": "9"
+            "id": "20"
         },
         "cookies": [
             {
@@ -6773,14 +6773,14 @@ const servicesData = [
     {
         "meta": {
             "name": "Flaticon",
+            "url": "https://www.flaticon.com/",
             "category": "design",
             "icon": "https://groupy.id/assets/images/services/flaticon.png",
-            "url": "https://flaticon.com/",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "12",
+                "id": "21",
                 "name": "Flaticon 1",
                 "cookies": [
                     {
@@ -7131,7 +7131,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "13",
+                "id": "22",
                 "name": "Flaticon 2",
                 "cookies": [
                     {
@@ -7482,7 +7482,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "14",
+                "id": "23",
                 "name": "Flaticon 3",
                 "cookies": [
                     {
@@ -7837,14 +7837,14 @@ const servicesData = [
     {
         "meta": {
             "name": "Freepik",
+            "url": "https://www.freepik.com/",
             "category": "design",
             "icon": "https://groupy.id/assets/images/services/freepik.png",
-            "url": "https://www.freepik.com/",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "15",
+                "id": "24",
                 "name": "Freepik 1",
                 "cookies": [
                     {
@@ -8115,7 +8115,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "16",
+                "id": "25",
                 "name": "Freepik 2",
                 "cookies": [
                     {
@@ -8328,7 +8328,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "17",
+                "id": "26",
                 "name": "Freepik 3",
                 "cookies": [
                     {
@@ -8545,14 +8545,14 @@ const servicesData = [
     {
         "meta": {
             "name": "HIX AI",
+            "url": "https://hix.ai/",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
-            "url": "https://hix.ai/",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "18",
+                "id": "27",
                 "name": "HIX AI 1",
                 "cookies": [
                     {
@@ -8894,7 +8894,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "19",
+                "id": "28",
                 "name": "HIX AI 2",
                 "cookies": [
                     {
@@ -9240,10 +9240,10 @@ const servicesData = [
     {
         "meta": {
             "name": "iLoveIMG",
+            "url": "https://www.iloveimg.com/",
             "category": "utilities",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
-            "url": "https://www.iloveimg.com/",
-            "id": "10"
+            "id": "29"
         },
         "cookies": [
             {
@@ -9450,10 +9450,10 @@ const servicesData = [
     {
         "meta": {
             "name": "iLovePDF",
+            "url": "https://www.ilovepdf.com/",
             "category": "utilities",
             "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
-            "url": "https://www.ilovepdf.com/",
-            "id": "11"
+            "id": "30"
         },
         "cookies": [
             {
@@ -9648,14 +9648,14 @@ const servicesData = [
     {
         "meta": {
             "name": "Perplexity",
+            "url": "https://www.perplexity.ai/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
-            "url": "https://perplexity.ai/",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "20",
+                "id": "31",
                 "name": "Perplexity 1",
                 "cookies": [
                     {
@@ -10046,7 +10046,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "21",
+                "id": "32",
                 "name": "Perplexity 2",
                 "cookies": [
                     {
@@ -10437,7 +10437,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "22",
+                "id": "33",
                 "name": "Perplexity 3",
                 "cookies": [
                     {
@@ -10854,7 +10854,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "23",
+                "id": "34",
                 "name": "Perplexity 4",
                 "cookies": [
                     {
@@ -11275,10 +11275,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Slideshare",
+            "url": "https://www.slideshare.net/",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
-            "url": "https://slideshare.net/",
-            "id": "12"
+            "id": "35"
         },
         "cookies": [
             {
@@ -11464,14 +11464,14 @@ const servicesData = [
     {
         "meta": {
             "name": "Sora",
+            "url": "https://sora.chatgpt.com/",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-            "url": "https://sora.chatgpt.com/",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "24",
+                "id": "36",
                 "name": "Sora 1",
                 "cookies": [
                     {
@@ -11761,7 +11761,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "25",
+                "id": "37",
                 "name": "Sora 2",
                 "cookies": [
                     {
@@ -12051,7 +12051,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "26",
+                "id": "38",
                 "name": "Sora 3",
                 "cookies": [
                     {
@@ -12336,7 +12336,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "27",
+                "id": "39",
                 "name": "Sora 4",
                 "cookies": [
                     {
@@ -12665,7 +12665,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "28",
+                "id": "40",
                 "name": "Sora 5",
                 "cookies": [
                     {
@@ -12994,7 +12994,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "29",
+                "id": "41",
                 "name": "Sora 6",
                 "cookies": [
                     {
@@ -13327,10 +13327,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Symbolab",
+            "url": "https://www.symbolab.com/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
-            "url": "https://symbolab.com/",
-            "id": "13"
+            "id": "42"
         },
         "cookies": [
             {
@@ -13565,10 +13565,10 @@ const servicesData = [
     {
         "meta": {
             "name": "TradingView",
+            "url": "https://www.tradingview.com/",
             "category": "utilities",
             "icon": "https://groupy.id/assets/images/services/tradingview.png",
-            "url": "https://tradingview.com/",
-            "id": "14"
+            "id": "43"
         },
         "cookies": [
             {
@@ -13718,10 +13718,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Udemy",
+            "url": "https://www.udemy.com/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
-            "url": "https://www.udemy.com/",
-            "id": "16"
+            "id": "45"
         },
         "cookies": [
             {
@@ -14571,10 +14571,10 @@ const servicesData = [
     {
         "meta": {
             "name": "Vectorizer.ai",
+            "url": "https://vectorizer.ai/",
             "category": "design",
             "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
-            "url": "https://vectorizer.ai/",
-            "id": "17"
+            "id": "46"
         },
         "cookies": [
             {
@@ -14634,10 +14634,10 @@ const servicesData = [
     {
         "meta": {
             "name": "WolframAlpha",
+            "url": "https://www.wolframalpha.com/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
-            "url": "https://wolframalpha.com/",
-            "id": "18"
+            "id": "47"
         },
         "cookies": [
             {
@@ -14723,10 +14723,10 @@ const servicesData = [
     {
         "meta": {
             "name": "WriteHuman",
+            "url": "https://writehuman.ai/",
             "category": "utilities",
             "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
-            "url": "https://writehuman.ai/",
-            "id": "19"
+            "id": "48"
         },
         "cookies": [
             {
