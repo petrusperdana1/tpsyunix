@@ -2,6 +2,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Academia",
+            "url": "https://www.academia.edu/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
             "id": "1"
@@ -206,6 +207,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Apple Music",
+            "url": "https://music.apple.com/",
             "category": "music",
             "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
             "isGroup": true
@@ -664,6 +666,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Apple TV+",
+            "url": "https://tv.apple.com/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
             "isGroup": true
@@ -1306,6 +1309,7 @@ const servicesData = [
     {
         "meta": {
             "name": "AskYourPDF",
+            "url": "https://askyourpdf.com/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
             "id": "26"
@@ -1498,6 +1502,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Bein Sports",
+            "url": "https://connect-id.beinsports.com/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
             "isGroup": true
@@ -2028,6 +2033,7 @@ const servicesData = [
     {
         "meta": {
             "name": "BLACKBOX.AI",
+            "url": "https://www.blackbox.ai/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP",
             "isGroup": true
@@ -2330,6 +2336,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Brilliant",
+            "url": "https://brilliant.org/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
             "id": "31"
@@ -2558,6 +2565,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Bstation",
+            "url": "https://www.bilibili.tv/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
             "isGroup": true
@@ -2866,6 +2874,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Busuu",
+            "url": "https://www.busuu.com/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
             "id": "32"
@@ -3187,6 +3196,7 @@ const servicesData = [
     {
         "meta": {
             "name": "CapCut",
+            "url": "https://www.capcut.com/",
             "category": "design",
             "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
             "isGroup": true
@@ -6466,6 +6476,7 @@ const servicesData = [
     {
         "meta": {
             "name": "ChatGPT",
+            "url": "https://chatgpt.com/",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
             "isGroup": true
@@ -8191,6 +8202,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Codecademy",
+            "url": "https://www.codecademy.com/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
             "id": "39"
@@ -8417,6 +8429,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Coohom",
+            "url": "https://www.coohom.com/",
             "category": "design",
             "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
             "id": "44"
@@ -8699,6 +8712,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Coursera",
+            "url": "https://www.coursera.org/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
             "id": "45"
@@ -9057,6 +9071,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Crunchyroll",
+            "url": "https://www.crunchyroll.com/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
             "isGroup": true
@@ -9763,6 +9778,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Curiosity Stream",
+            "url": "https://curiositystream.com/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
             "id": "50"
@@ -10524,6 +10540,7 @@ const servicesData = [
     {
         "meta": {
             "name": "DeepL",
+            "url": "https://www.deepl.com/",
             "category": "utilities",
             "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
             "id": "51"
@@ -10740,6 +10757,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Duolingo",
+            "url": "https://www.duolingo.com/",
             "category": "education",
             "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
             "id": "52"
@@ -10996,6 +11014,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Educative",
+            "url": "https://www.educative.io/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
             "id": "53"
@@ -11550,6 +11569,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Epidemic Sound",
+            "url": "https://www.epidemicsound.com/",
             "category": "music",
             "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
             "isGroup": true
@@ -12827,6 +12847,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Everand",
+            "url": "https://www.everand.com/",
             "category": "music",
             "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
             "id": "8"
@@ -13147,6 +13168,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Figma",
+            "url": "https://www.figma.com/",
             "category": "design",
             "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
             "id": "56"
@@ -13547,6 +13569,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Flaticon",
+            "url": "https://www.flaticon.com/",
             "category": "design",
             "icon": "https://groupy.id/assets/images/services/flaticon.png",
             "isGroup": true
@@ -14259,6 +14282,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Freepik",
+            "url": "https://www.freepik.com/",
             "category": "design",
             "icon": "https://groupy.id/assets/images/services/freepik.png",
             "isGroup": true
@@ -14753,6 +14777,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Ground News",
+            "url": "https://ground.news/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
             "id": "9"
@@ -15074,6 +15099,7 @@ const servicesData = [
     {
         "meta": {
             "name": "HIX AI",
+            "url": "https://hix.ai/",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
             "isGroup": true
@@ -15755,6 +15781,7 @@ const servicesData = [
     {
         "meta": {
             "name": "iLoveIMG",
+            "url": "https://www.iloveimg.com/",
             "category": "utilities",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
             "id": "61"
@@ -15964,6 +15991,7 @@ const servicesData = [
     {
         "meta": {
             "name": "iLovePDF",
+            "url": "https://www.ilovepdf.com/",
             "category": "utilities",
             "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
             "id": "62"
@@ -16161,6 +16189,7 @@ const servicesData = [
     {
         "meta": {
             "name": "iQIYI",
+            "url": "https://www.iq.com/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/iqiyi.png",
             "id": "12"
@@ -16580,6 +16609,7 @@ const servicesData = [
     {
         "meta": {
             "name": "LinkedIn Learning",
+            "url": "https://www.linkedin.com/learning/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
             "id": "13"
@@ -16982,6 +17012,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Marvel Unlimited",
+            "url": "https://www.marvel.com/unlimited",
             "category": "utilities",
             "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
             "id": "64"
@@ -17354,6 +17385,7 @@ const servicesData = [
     {
         "meta": {
             "name": "MasterClass",
+            "url": "https://www.masterclass.com/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
             "id": "65"
@@ -17821,6 +17853,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Motion Array",
+            "url": "https://motionarray.com/",
             "category": "design",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
             "id": "66"
@@ -18168,6 +18201,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Netflix",
+            "url": "https://www.netflix.com/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/netflix.png",
             "isGroup": true
@@ -18566,6 +18600,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Pacdora",
+            "url": "https://www.pacdora.com/",
             "category": "design",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
             "id": "70"
@@ -18808,6 +18843,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Perplexity",
+            "url": "https://www.perplexity.ai/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
             "isGroup": true
@@ -20240,6 +20276,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Prime Video",
+            "url": "https://www.primevideo.com/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/primevideo.png",
             "isGroup": true
@@ -20775,6 +20812,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Quizlet",
+            "url": "https://quizlet.com/",
             "category": "education",
             "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
             "id": "75"
@@ -21052,6 +21090,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Rawpixel",
+            "url": "https://www.rawpixel.com/",
             "category": "design",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
             "id": "76"
@@ -21140,6 +21179,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Scholarcy",
+            "url": "https://library.scholarcy.com/",
             "category": "education",
             "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
             "id": "63"
@@ -21293,6 +21333,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Scribd",
+            "url": "https://www.scribd.com/",
             "category": "utilities",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
             "isGroup": true
@@ -22873,6 +22914,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Semrush",
+            "url": "https://www.semrush.com/",
             "category": "utilities",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
             "id": "21"
@@ -23259,6 +23301,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Slideshare",
+            "url": "https://www.slideshare.net/",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
             "id": "80"
@@ -23460,6 +23503,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Symbolab",
+            "url": "https://www.symbolab.com/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
             "id": "81"
@@ -23723,6 +23767,7 @@ const servicesData = [
     {
         "meta": {
             "name": "TradingView",
+            "url": "https://www.tradingview.com/",
             "category": "utilities",
             "icon": "https://groupy.id/assets/images/services/tradingview.png",
             "id": "82"
@@ -23875,6 +23920,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Udemy",
+            "url": "https://www.udemy.com/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
             "id": "22"
@@ -24686,6 +24732,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Vectorizer AI",
+            "url": "https://vectorizer.ai/",
             "category": "design",
             "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
             "id": "87"
@@ -24748,6 +24795,7 @@ const servicesData = [
     {
         "meta": {
             "name": "WeTV",
+            "url": "https://wetv.vip/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/wetv.png",
             "isGroup": true
@@ -26122,6 +26170,7 @@ const servicesData = [
     {
         "meta": {
             "name": "WolframAlpha",
+            "url": "https://www.wolframalpha.com/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
             "id": "88"
@@ -26210,6 +26259,7 @@ const servicesData = [
     {
         "meta": {
             "name": "WriteHuman",
+            "url": "https://writehuman.ai/",
             "category": "utilities",
             "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
             "id": "89"
