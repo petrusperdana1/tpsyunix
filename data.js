@@ -2,7 +2,6 @@ const servicesData = [
     {
         "meta": {
             "name": "Academia",
-            "url": "https://www.academia.edu/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
             "id": "1"
@@ -206,15 +205,472 @@ const servicesData = [
     },
     {
         "meta": {
+            "name": "Apple Music",
+            "category": "music",
+            "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
+            "isGroup": true
+        },
+        "accounts": [
+            {
+                "id": "67",
+                "name": "Apple Music 1",
+                "cookies": [
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "myacinfo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d31616b70608815a84af5300843f6cad3c3c5f662b5cff864a6975d0dbada2ca2389bc40c5e1de939f8eea2a79414ccaf34df27d2ec7e6bade6b3e9f8c2708db21eb973185abdca3c813026e0c91b16f3b404dca3355782701f7eef2c5e7833d9e4cbc4a64204126783e2371f71fc613d3afa36ccaefdede701337fd5077e3e2bcecc440b3f5e8be488742fddc74b94820d6338182613ce472ca1bf2093461bc404a893f9d020ea7adbd0eb16deef4a21b827c4225a98f0e2219518af971c86148fb1cf5d5879c833b944efb78c3b8f01710b61356d5c76dc9dd3b0eb06390d4d7e98de2d0ac2208b845bbbf551ba2b46b5483806b9f67b4b32f27cf2928c124c8045482f8f38188af5ba9371fe2c877ef16818ac9a9f2f7bb60962366362040216c3e8e37824921f9539c9c24407e14d1a32a80d9e77e5def3c3d51ccdbedfb91b2a6528d344f4a9bc5af591e262ad4e8330e24d7309a00a31b5a5740e6e3ff2dd4567092282149bc54d8bc051b24116aa6b5629391599e1a1eb953ad719804c70131cc5a99933e365f00db34c04dbba3e7dbfc599bbdb5835112973ad3c6172305acaf20355b945f7192454ec4d73167267e0b661e1cdbe45f021bd1887d4c23ce0925d9eebf8cb3e2f4b8b6d490d63d48745d42d3fdf9b50197ed926e5961b8585a47V3"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1762054364.412318,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "mut-refresh",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "dslang",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "US-EN"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "geo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1771160088,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itre",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "0"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1790168096.73815,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "72"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1785814364.412199,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itua",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CA"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1769830364.412086,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "media-user-token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "AsKxVuzVhTzdEK3UdAuTuf3mDx9lFF9WJF/8bpDXypxKKjrFiS0Wi+U2VRtnHr541iv12eZhvoIm9NL6K4wO2xBHa9wVELx7wQYEI0gMuXvKE2O+tY9U1E+JKosn+144i8NOWcv9aOKhTX77gtqFwYzbu2Vf5aiw+rHLtu4VS2bGB7hnACAOW29GfDQRv1OSpxNb4zjbswBKKSS9COXJq7CR7TTbW8562p2aYpNHX09hcyT5ww=="
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1770046364.41228,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pldfltcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "46848778928c495daffd7b5f1374c200019"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1770046364.412241,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pltvcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "579d20bfc2ce491d85058723f58cf405019"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "site",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "USA"
+                    }
+                ]
+            },
+            {
+                "id": "68",
+                "name": "Apple Music 2",
+                "cookies": [
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "myacinfo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d30b1d5986c136a6a8e56d82e3639f7862ea311ea87fa1f5136405327b9495db1a088c54e77e3bced49ee4ffffa5f485e31b8fe338ac96d47ca6d805e09ebf9bfc1a7a68e648033616071eea4b348a143ee56f30dead5f321c5ad182ef2497c7630aaa5073a5e677f1164d1c12179b3f59347294254a62d0bd5f691a70b49e84f2864fc6a99beb57c7c2cefca659e1c494fdd616657775b0a2b197e4c6e1ced1c695ed769e85f24d5634a2540ef49ee010f100bc4448caf0ce0e0e223afbc33fed114745870d0eeec0fa28f37e23a3fc7dfaab727cc6dd29f4a34a7ea9b329063ae04b38369cd581522b575e79204c1ae81e106636f330617284679b61c529b83e6730614fb52d64dc519be1ba5120700599c4115e32ca826f113c5a334ef31f1bb450d1423fed954f1a154c74cf89be7b376a86486ced7b3d2ac02f37a4dfecc13eb4a84234e414b6914ea32a9b3dc431c9be5524392b806a3217d7c84eca0099bcd84cdbdf90aeaa44d54644c0f33bf55837843146942831172f1c0252262c4f011523bc6429d492cf78100f5873901edd9690e3dd4b4705fb8f83cb6644a3893c7623db6d995f01a65448f829d7e3ae7878d65ffadf5da7c669c1b87f0c5a7f8c40c57353780473d3cfd103b5cde4c602aa95aaa0b80ff7bcef20db9484ce03585a47V3"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1762054817.115376,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "mut-refresh",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "dslang",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "US-EN"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "geo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1771160779,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itre",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "0"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1790168779.871691,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "46"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1785814817.115259,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itua",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CA"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1769830817.115143,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "media-user-token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "AoA3XwZb1kdeF7bYoIeToWw/BpFBFy3GrnLIu7whPokbuVDehtvhvnC07/464gq34f6MylBH52+VfEyHrSQeUiDDIHsgtmwquHclsvPXLIUw4JdMaqjdvGblg3ws1yATgH7RO8d/isH05KVGCXleD0TdWI9XJeOBUmD/Zkponho9Z3ojRzZ9obDNgIzXOPXnBYtDuiCqGEwBYZKVFbZkEiXfRtC0vwO9xW/isi6dKeOnvkdfng=="
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1770046817.115339,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pldfltcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "459baf44c63442a3bafb014d39ec1dc8046"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1770046817.1153,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pltvcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "0ab2394712324923ae382bcfc280bcad046"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "site",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "USA"
+                    }
+                ]
+            },
+            {
+                "id": "69",
+                "name": "Apple Music 3",
+                "cookies": [
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "myacinfo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d30b1d5986c136a6a8e56d82e3639f7862ea311ea87fa1f5136405327b9495db1a088c54e77e3bced49ee4ffffa5f485e31b8fe338ac96d47ca6d805e09ebf9bfc1a7a68e648033616071eea4b348a143ee56f30dead5f321c5ad182ef2497c7630aaa5073a5e677f1164d1c12179b3f59347294254a62d0bd5f691a70b49e84f2864fc6a99beb57c7c2cefca659e1c494fdd616657775b0a2b197e4c6e1ced1c695ed769e85f24d5634a2540ef49ee010f100bc4448caf0ce0e0e223afbc33fed114745870d0eeec0fa28f37e23a3fc7dfaab727cc6dd29f4a34a7ea9b329063ae04b38369cd581522b575e79204c1ae81e106636f330617284679b61c529b83e6730614fb52d64dc519be1ba5120700599c4115e32ca826f113c5a334ef31f1bb450d1423fed954f1a154c74cf89be7b376a86486ced7b3d2ac02f37a4dfecc13eb4a84234e414b6914ea32a9b3dc431c9be5524392b806a3217d7c84eca0099bcd84cdbdf90aeaa44d54644c0f33bf55837843146942831172f1c0252262c4f011523bc6429d492cf78100f5873901edd9690e3dd4b4705fb8f83cb6644a3893c7623db6d995f01a65448f829d7e3ae7878d65ffadf5da7c669c1b87f0c5a7f8c40c57353780473d3cfd103b5cde4c602aa95aaa0b80ff7bcef20db9484ce03585a47V3"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1762054817.115376,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "mut-refresh",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "1"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "dslang",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "US-EN"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "geo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1771161398,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itre",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "0"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1790169409.232077,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itspod",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "46"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1785814817.115259,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "itua",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CA"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1769830817.115143,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "media-user-token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "AoA3XwZb1kdeF7bYoIeToWw/BpFBFy3GrnLIu7whPokbuVDehtvhvnC07/464gq34f6MylBH52+VfEyHrSQeUiDDIHsgtmwquHclsvPXLIUw4JdMaqjdvGblg3ws1yATgH7RO8d/isH05KVGCXleD0TdWI9XJeOBUmD/Zkponho9Z3ojRzZ9obDNgIzXOPXnBYtDuiCqGEwBYZKVFbZkEiXfRtC0vwO9xW/isi6dKeOnvkdfng=="
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1770046817.115339,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pldfltcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "459baf44c63442a3bafb014d39ec1dc8046"
+                    },
+                    {
+                        "domain": ".music.apple.com",
+                        "expirationDate": 1770046817.1153,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "pltvcid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "0ab2394712324923ae382bcfc280bcad046"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "site",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "USA"
+                    },
+                    {
+                        "domain": ".apple.com",
+                        "expirationDate": 1755915109.839298,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "vrep",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "CJ332KtGEgQIBhAGEgQIBBAAEgQICBAAEgQIExAAEgQIDBAAEgQIDRAAEgQIARAAEgQIEhAAEgQIBxAAEgkICxCck8zRgzMSBAgKEAASBAgQEAASBAgOEAASBAgREAASBAgJEAASBAgDEAASBAgPEAASBAgCEAASBAgFEAA"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "meta": {
             "name": "Apple TV+",
-            "url": "https://tv.apple.com/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "69",
+                "id": "83",
                 "name": "Apple TV+ 1",
                 "cookies": [
                     {
@@ -359,7 +815,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "70",
+                "id": "84",
                 "name": "Apple TV+ 2",
                 "cookies": [
                     {
@@ -517,7 +973,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "71",
+                "id": "85",
                 "name": "Apple TV+ 3",
                 "cookies": [
                     {
@@ -688,7 +1144,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "72",
+                "id": "86",
                 "name": "Apple TV+ 4",
                 "cookies": [
                     {
@@ -850,10 +1306,9 @@ const servicesData = [
     {
         "meta": {
             "name": "AskYourPDF",
-            "url": "https://askyourpdf.com/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
-            "id": "18"
+            "id": "26"
         },
         "cookies": [
             {
@@ -1042,16 +1497,545 @@ const servicesData = [
     },
     {
         "meta": {
-            "name": "Blackbox.ai",
-            "url": "https://www.blackbox.ai/",
+            "name": "Bein Sports",
+            "category": "streaming",
+            "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
+            "isGroup": true
+        },
+        "accounts": [
+            {
+                "id": "40",
+                "name": "Bein Sports 1",
+                "cookies": [
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "CountryCode",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "host",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "connect-id.beinsports.com"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "expirationDate": 1758200103.850618,
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "NEXT_LOCALE",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "id"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "Authorization",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMc4IL0ss1Ezedtclpj6iZkecFjSQXKjfDZ3GDT0UzIThKOuBAqUXyEFU95ITcKONHx5Qz0M6Ks5FFcibhb62FfXAz8W674LMBEGj59Um16aM0ta6HQ1RlZZXACnrQBEeY%253d"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790168107,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3A509ff8eb-b746-63af-66c8-7b020e2f37bf%7Ce%3Aundefined%7Cc%3A1753536371428%7Cl%3A1755608107572"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790168107,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3AVID_ScLjKQxcPUp1SUUPY9TekoOOAEAE%7Ce%3Aundefined%7Cc%3A1755608107570%7Cl%3A1755608107572"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790168107,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3A6c166c73-f708-7229-662c-19fa9ca6181b%7Ce%3A1755609907571%7Cc%3A1755608107571%7Cl%3A1755608107571"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "apacgeo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "5189"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "DeviceId",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "slbB5IQu6WIxDHiqZmEaH"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE1jNElMMHNzMUV6ZWR0Y2xwajZpWmtlY0ZqU1FYS2pmRFozR0RUMFV6SVRoS091QkFxVVh5RUZVOTVJVGNLT05IeDVRejBNNktzNUZGY2liaGI2MkZmWEF6OFc2NzRMTUJFR2o1OVVtMTZhTTB0YTZIUTFSbFpaWEFDbnJRQkVlWSUzZCZ1aT1FQjZMSUxqOGZFNEJpUkVMMFFnd3ZzVHpTekVBRDVKa0hSOVFKUjRyS2V3PSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTU2MDgxMDUsImV4cCI6MTc2MzM4NDEwNX0.kM7XrqpqlCbSs2zrhsVke4Jw0mK5vtPS_tvphyIOi9c"
+                    }
+                ]
+            },
+            {
+                "id": "41",
+                "name": "Bein Sports 2",
+                "cookies": [
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "CountryCode",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "host",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "connect-id.beinsports.com"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "expirationDate": 1758200103.850618,
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "NEXT_LOCALE",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "id"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "Authorization",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMc4IL0ss1Ezedtclpj6iZkecFjSQXKjfDZ3GDT0UzIThKOuBAqUXyEFU95ITcKONHx5Qz0M6Ks5FFcibhb62FfXAz8W674LMBEGj59Um16aM0ta6HQ1RlZZXACnrQBEeY%253d"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790168644,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3A509ff8eb-b746-63af-66c8-7b020e2f37bf%7Ce%3Aundefined%7Cc%3A1753536371428%7Cl%3A1755608377925"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790168644,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3AVID_eD6vfIAqaFp0QPpfUJLtBuHB1vwE%7Ce%3Aundefined%7Cc%3A1755608377924%7Cl%3A1755608377925"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790168644,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3A905920b1-4a07-4627-c198-1837a166ea55%7Ce%3A1755610444880%7Cc%3A1755608377924%7Cl%3A1755608644880"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "apacgeo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "5189"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "DeviceId",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "slbB5IQu6WIxDHiqZmEaH"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE1jNElMMHNzMUV6ZWR0Y2xwajZpWmtlY0ZqU1FYS2pmRFozR0RUMFV6SVRoS091QkFxVVh5RUZVOTVJVGNLT05IeDVRejBNNktzNUZGY2liaGI2MkZmWEF6OFc2NzRMTUJFR2o1OVVtMTZhTTB0YTZIUTFSbFpaWEFDbnJRQkVlWSUzZCZ1aT1FQjZMSUxqOGZFNEJpUkVMMFFnd3ZpR3NOaDJ4VGRsM05HQXRYZW40cE1jPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTU2MDgzNzYsImV4cCI6MTc2MzM4NDM3Nn0.cuM0oIiLqPEmTX2pfLQMaxK4MiypdCC8I6L6ipmg4Ns"
+                    }
+                ]
+            },
+            {
+                "id": "42",
+                "name": "Bein Sports 3",
+                "cookies": [
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "CountryCode",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "host",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "connect-id.beinsports.com"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "expirationDate": 1758200103.850618,
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "NEXT_LOCALE",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "id"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "Authorization",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMc4IL0ss1Ezedtclpj6iZkecFjSQXKjfDZ3GDT0UzIThKOuBAqUXyEFU95ITcKONHx5Qz0M6Ks5FFcibhb62FfXAz8W674LMBEGj59Um16aM0ta6HQ1RlZZXACnrQBEeY%253d"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790169844,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3A509ff8eb-b746-63af-66c8-7b020e2f37bf%7Ce%3Aundefined%7Cc%3A1753536371428%7Cl%3A1755609844341"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790169844,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3AVID_lFVp3KkTzMJbVHdB5h3MRHb0YdEE%7Ce%3Aundefined%7Cc%3A1755609844340%7Cl%3A1755609844341"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790169844,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3Ae1a78658-be06-c2b2-1b6e-26897270bbae%7Ce%3A1755611644341%7Cc%3A1755609844341%7Cl%3A1755609844341"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "apacgeo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "5189"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "DeviceId",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "slbB5IQu6WIxDHiqZmEaH"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE1jNElMMHNzMUV6ZWR0Y2xwajZpWmtlY0ZqU1FYS2pmRFozR0RUMFV6SVRoS091QkFxVVh5RUZVOTVJVGNLT05IeDVRejBNNktzNUZGY2liaGI2MkZmWEF6OFc2NzRMTUJFR2o1OVVtMTZhTTB0YTZIUTFSbFpaWEFDbnJRQkVlWSUzZCZ1aT1FQjZMSUxqOGZFNEJpUkVMMFFnd3ZuSnBKWER3emw3RUhKWjRvbldkWDdJPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTU2MDk4NDIsImV4cCI6MTc2MzM4NTg0Mn0.R8Iacehrv60NyUKt5AtNj-S8UXANsk3yUP7Uc41jnMY"
+                    }
+                ]
+            },
+            {
+                "id": "43",
+                "name": "Bein Sports 4",
+                "cookies": [
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "CountryCode",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "ID"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "host",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "connect-id.beinsports.com"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "expirationDate": 1758200103.850618,
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "NEXT_LOCALE",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "id"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "Authorization",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMc4IL0ss1Ezedtclpj6iZkecFjSQXKjfDZ3GDT0UzIThKOuBAqUXyEFU95ITcKONHx5Qz0M6Ks5FFcibhb62FfXAz8W674LMBEGj59Um16aM0ta6HQ1RlZZXACnrQBEeY%253d"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790169844,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3A509ff8eb-b746-63af-66c8-7b020e2f37bf%7Ce%3Aundefined%7Cc%3A1753536371428%7Cl%3A1755609844341"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790169844,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3AVID_lFVp3KkTzMJbVHdB5h3MRHb0YdEE%7Ce%3Aundefined%7Cc%3A1755609844340%7Cl%3A1755609844341"
+                    },
+                    {
+                        "domain": ".beinsports.com",
+                        "expirationDate": 1790169844,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "g%3Ae1a78658-be06-c2b2-1b6e-26897270bbae%7Ce%3A1755611644341%7Cc%3A1755609844341%7Cl%3A1755609844341"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "apacgeo",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "5189"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "DeviceId",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "slbB5IQu6WIxDHiqZmEaH"
+                    },
+                    {
+                        "domain": "connect-id.beinsports.com",
+                        "hostOnly": true,
+                        "httpOnly": true,
+                        "name": "token",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": true,
+                        "storeId": null,
+                        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE1jNElMMHNzMUV6ZWR0Y2xwajZpWmtlY0ZqU1FYS2pmRFozR0RUMFV6SVRoS091QkFxVVh5RUZVOTVJVGNLT05IeDVRejBNNktzNUZGY2liaGI2MkZmWEF6OFc2NzRMTUJFR2o1OVVtMTZhTTB0YTZIUTFSbFpaWEFDbnJRQkVlWSUzZCZ1aT1FQjZMSUxqOGZFNEJpUkVMMFFnd3ZuSnBKWER3emw3RUhKWjRvbldkWDdJPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTU2MDk4NDIsImV4cCI6MTc2MzM4NTg0Mn0.R8Iacehrv60NyUKt5AtNj-S8UXANsk3yUP7Uc41jnMY"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "meta": {
+            "name": "BLACKBOX.AI",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "21",
-                "name": "Blackbox.ai 1",
+                "id": "29",
+                "name": "BLACKBOX.AI 1",
                 "cookies": [
                     {
                         "domain": "www.blackbox.ai",
@@ -1196,8 +2180,8 @@ const servicesData = [
                 ]
             },
             {
-                "id": "22",
-                "name": "Blackbox.ai 2",
+                "id": "30",
+                "name": "BLACKBOX.AI 2",
                 "cookies": [
                     {
                         "domain": "www.blackbox.ai",
@@ -1346,10 +2330,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Brilliant",
-            "url": "https://brilliant.org/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
-            "id": "23"
+            "id": "31"
         },
         "cookies": [
             {
@@ -1575,14 +2558,13 @@ const servicesData = [
     {
         "meta": {
             "name": "Bstation",
-            "url": "https://www.bilibili.tv/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "19",
+                "id": "27",
                 "name": "Bstation 1",
                 "cookies": [
                     {
@@ -1731,7 +2713,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "20",
+                "id": "28",
                 "name": "Bstation 2",
                 "cookies": [
                     {
@@ -1884,10 +2866,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Busuu",
-            "url": "https://www.busuu.com/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
-            "id": "24"
+            "id": "32"
         },
         "cookies": [
             {
@@ -2206,7 +3187,6 @@ const servicesData = [
     {
         "meta": {
             "name": "CapCut",
-            "url": "https://www.capcut.com/",
             "category": "design",
             "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
             "isGroup": true
@@ -5486,14 +6466,13 @@ const servicesData = [
     {
         "meta": {
             "name": "ChatGPT",
-            "url": "https://chatgpt.com/",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "25",
+                "id": "33",
                 "name": "ChatGPT 1",
                 "cookies": [
                     {
@@ -5769,7 +6748,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "26",
+                "id": "34",
                 "name": "ChatGPT 2",
                 "cookies": [
                     {
@@ -6045,7 +7024,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "27",
+                "id": "35",
                 "name": "ChatGPT 3",
                 "cookies": [
                     {
@@ -6309,7 +7288,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "28",
+                "id": "36",
                 "name": "ChatGPT 4",
                 "cookies": [
                     {
@@ -6611,7 +7590,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "29",
+                "id": "37",
                 "name": "ChatGPT 5",
                 "cookies": [
                     {
@@ -6909,7 +7888,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "30",
+                "id": "38",
                 "name": "ChatGPT 6",
                 "cookies": [
                     {
@@ -7212,10 +8191,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Codecademy",
-            "url": "https://www.codecademy.com/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
-            "id": "31"
+            "id": "39"
         },
         "cookies": [
             {
@@ -7439,10 +8417,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Coohom",
-            "url": "https://www.coohom.com/",
             "category": "design",
             "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
-            "id": "32"
+            "id": "44"
         },
         "cookies": [
             {
@@ -7722,10 +8699,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Coursera",
-            "url": "https://www.coursera.org/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
-            "id": "33"
+            "id": "45"
         },
         "cookies": [
             {
@@ -8081,14 +9057,13 @@ const servicesData = [
     {
         "meta": {
             "name": "Crunchyroll",
-            "url": "https://www.crunchyroll.com/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "34",
+                "id": "46",
                 "name": "Crunchyroll 1",
                 "cookies": [
                     {
@@ -8262,7 +9237,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "35",
+                "id": "47",
                 "name": "Crunchyroll 2",
                 "cookies": [
                     {
@@ -8436,7 +9411,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "36",
+                "id": "48",
                 "name": "Crunchyroll 3",
                 "cookies": [
                     {
@@ -8610,7 +9585,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "37",
+                "id": "49",
                 "name": "Crunchyroll 4",
                 "cookies": [
                     {
@@ -8788,10 +9763,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Curiosity Stream",
-            "url": "https://curiositystream.com/",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
-            "id": "38"
+            "id": "50"
         },
         "cookies": [
             {
@@ -9549,48 +10523,10 @@ const servicesData = [
     },
     {
         "meta": {
-            "name": "Cursor",
-            "url": "https://www.cursor.com/",
-            "category": "productivity",
-            "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
-            "id": "39"
-        },
-        "cookies": [
-            {
-                "domain": ".cursor.com",
-                "expirationDate": 1760508951.513755,
-                "hostOnly": false,
-                "httpOnly": false,
-                "name": "sign",
-                "path": "/",
-                "sameSite": null,
-                "secure": true,
-                "session": false,
-                "storeId": null,
-                "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613838426b6c61762b4e354165612f67543455554f4d41"
-            },
-            {
-                "domain": ".cursor.com",
-                "expirationDate": 1760508951.513755,
-                "hostOnly": false,
-                "httpOnly": true,
-                "name": "WorkosCursorSessionToken",
-                "path": "/",
-                "sameSite": "lax",
-                "secure": true,
-                "session": false,
-                "storeId": null,
-                "value": "user_01JTMRPT3AFBVJ604CCBCER0N3%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSlRNUlBUM0FGQlZKNjA0Q0NCQ0VSME4zIiwidGltZSI6IjE3NTUzMjQ5NDciLCJyYW5kb21uZXNzIjoiZWE4NzgyOGEtNDhkMC00YWUwIiwiZXhwIjoxNzYwNTA4OTQ3LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.ikmYTKCGsRWJwfRYBJ0jx7z7nVDwIdr4HMxr063ppWQ"
-            }
-        ]
-    },
-    {
-        "meta": {
             "name": "DeepL",
-            "url": "https://www.deepl.com/",
             "category": "utilities",
             "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
-            "id": "40"
+            "id": "51"
         },
         "cookies": [
             {
@@ -9804,10 +10740,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Duolingo",
-            "url": "https://www.duolingo.com/",
             "category": "education",
             "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
-            "id": "41"
+            "id": "52"
         },
         "cookies": [
             {
@@ -10061,10 +10996,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Educative",
-            "url": "https://www.educative.io/",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
-            "id": "42"
+            "id": "53"
         },
         "cookies": [
             {
@@ -10616,14 +11550,13 @@ const servicesData = [
     {
         "meta": {
             "name": "Epidemic Sound",
-            "url": "https://www.epidemicsound.com/",
             "category": "music",
             "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "43",
+                "id": "54",
                 "name": "Epidemic Sound 1",
                 "cookies": [
                     {
@@ -11263,7 +12196,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "44",
+                "id": "55",
                 "name": "Epidemic Sound 2",
                 "cookies": [
                     {
@@ -11893,11 +12826,330 @@ const servicesData = [
     },
     {
         "meta": {
+            "name": "Everand",
+            "category": "music",
+            "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
+            "id": "8"
+        },
+        "cookies": [
+            {
+                "domain": "www.everand.com",
+                "expirationDate": 1758288836,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "_fs_sample_user",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "false"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1787232834.939151,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "osano_consentmanager",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "vrEZFFz4wZze4lNZuRhl4TfXG2-0D3g4IPBFCzBcuK0VX9HKR1s56Au670tbjUyRd8TvZHz27l-d4439G8YCPxMiAKdm1gGmLo1XymcenR7vnyDtHXJ1MHNI3IWvvR2iTaL6pAqAt0lM3Gra0x40pO1bbZGpX00YrviRDiOL87v6ixjW99A3WKjFJzyxxT2oPNwH50YmgSWlNAGqRnWvScoedKmTgkqI7PsJPu7XBzUPfkQfrfA35jfEh75VSHApNxRP0h39GRkUK8vjuKcMyapsyCwL_LHMKwylQtKBO7vjW7lWzcIgqz3mVbPcPRBd18QK8GMMb4PXCDsJeI3IBqtliOFJ2WXpuUcR9-kZH_dT12M8olOujatu5ZBuXn7REL438IC8uq1nCAiv4GXC3WP8Xxgcqt1uhOu0kaFvOOmWWWxBCPgQx9JHj3U2XDOb4O_MIATpMBWE9Gxp76FXiz4CgDhIFcThM-52O9f32Tqt-4dEXEpvrxROjzh64jR7UhDyZbxLUEmeDUi7b4Nslt11DTlEBXnW_Npn4qqL102vzEy_gD4ex_JQnC6LgCdE8q2-GDOYmAEKinU_yHkRf7hzsYhWKe9EhbxcOsO5pJXgl8s_1EIgvfLNJ-jv-cQj1odoB68ZVlyZ8p9mtdHa4k7gkrar3woVYxsBSpHzchSnxq6yNL3H83eQkY1vRVGA5CzEgaVm3vKYHcsNdtJOVihTMctKnyHwQdRvvZF_blQd5kfreMAhdCqhKPpyTFhIl3d1o41RrYMD1TpVaym05ON7sMdg_-mGwLUBpZ7SQOm3AKlhU2IAXFwqEA_uaLP1l2s6yhqKGEgGG9v34_ZA-iWe1Lk="
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1790256836.928774,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_DVE36KXX3G",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "GS2.1.s1755696836$o2$g0$t1755696836$j60$l0$h0"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1785809743.720328,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "_scribd_user_id",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "ODc4NjAxNDM2--845a79d8ef4b580f2b46238fd12af108e5295f66"
+            },
+            {
+                "domain": "www.everand.com",
+                "expirationDate": 1755698112,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "_dd_s",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "rum=2&id=ab031d29-e620-4ea3-b427-5c8cbb9b59be&created=1755696837770&expire=1755698110611"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1790256839.130146,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "_scribd_session",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "cHJpMURpbTRPZ2w2clRBd3U3U0IySkh0YzNIdTFLVE5uVGZGUEx5aGNrNllaaHBiNmlrRXppd3gyalE2YjhQUC8ya0pyU1lTblN3cGIrK1QxOFBod2RDWmhVaFFpVG5PL3RMdGpNa2FzYkszVFEwdmFscmlZbm1wRU9zSGgrQzc5UjBwQzNOTUxDMzFQV3U0SVQ2aFNheDhoSlRKZWVsM0ZLNUtQOWFacC9YVWZSZ05qR08vZk1JVHlUTytLUFAxV2lkY1lPWnBkclc0Tkh2YzFLZ3F0K0FXQTB4Um5PREd0SkNsNlh4MXVGdFBmYUdHWkQ5YmpPM2FUOVZBdXJHeTd3ZW1DQ3B6dHJsMGNJYTMrRnB4d3RrMGhvOW10Tk9RV0VYeGV5QWZxclZEMFBsWjd4azBFODFlTWl5OXhjL1pvN1ZqM0JtS3VYZHVTNktPcDZSTGtRK0UvRHlyV1ZMYzFMb1dTdzA3QVRYdlo3NWFKeitNdkRiOHNYS3B3Q1F5cWRrajhnMUtqUDNuRXJ1ZkYzWkdGM1JuN3VvZTNTNEozTlhnWTNzL3pFSGpyckcxaGZueGt5ZEwyUVhQWFlDYjZLSFE3V09ybE1UN2dhN3hQVGw1Mnc9PS0tcFk0TDVBM25JR2FBZTdPUi9TWUlHUT09--0edb52f702912d80633fb8f7623a64aa99cee17e"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1755698640,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "RoktSessionId-3339569218936537088",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "b33f00df-8ff7-4640-990b-2e319d710000|false|1755698640478"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1759025706,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gcl_gs",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "2.1.k1$i1751249701$u73950534"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1785809750.570326,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__ssid",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "b6ecf0aa27164af198ca07dc433d0d3"
+            },
+            {
+                "domain": ".www.everand.com",
+                "expirationDate": 1787232843,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__stripe_mid",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "cd1d776e-ba8c-4f68-bc15-83e70e0a36876cfdad"
+            },
+            {
+                "domain": ".www.everand.com",
+                "expirationDate": 1755698643,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__stripe_sid",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "10015edb-bb9e-49f2-8db2-8dca17d7dfb1a9c31f"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1763472843,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_fbp",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "fb.1.1751249707521.955945725485400443"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1790256836.92996,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "GA1.1.521393658.1751249706"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1759025705,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gcl_au",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "1.1.102570762.1751249705"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1759025707,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gcl_aw",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "GCL.1751249707.EAIaIQobChMIqrqEwYmYjgMVbahmAh316S9hEAAYASAAEgJOQPD_BwE"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1755783241,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_uetsid",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "5505da607dca11f094eb6db1418f23a4"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1789392841,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_uetvid",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "0a9b7b80555811f0ab8549277f595bcd"
+            },
+            {
+                "domain": ".everand.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IR_21324",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1755696840802%7C0%7C1755696840802%7C%7C"
+            },
+            {
+                "domain": ".everand.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IR_gbd",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "everand.com"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1787232834.938548,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "osano_consentmanager_uuid",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "e55454f6-f99e-44a3-b0f8-758697388370"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1763472836,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "pscd",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "go.everand.com"
+            },
+            {
+                "domain": "www.everand.com",
+                "expirationDate": 1787232840,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "RoktRecogniser",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "20ffdd87-f684-4b0c-8328-146e1e397d6d"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1755698640,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "RoktSelectionCount-b33f00df-8ff7-4640-990b-2e319d710000",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".everand.com",
+                "expirationDate": 1785809702.187124,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "scribd_ubtc",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "u%3D11c13fa4-5a55-41c4-9a5b-845238a70428%26h%3DwwL%2BfxKdVe4mhjNlyjOWQBbg1VpDaKffqQKzTudW82Y%3D"
+            }
+        ]
+    },
+    {
+        "meta": {
             "name": "Figma",
-            "url": "https://www.figma.com/",
             "category": "design",
             "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
-            "id": "45"
+            "id": "56"
         },
         "cookies": [
             {
@@ -12295,14 +13547,13 @@ const servicesData = [
     {
         "meta": {
             "name": "Flaticon",
-            "url": "https://www.flaticon.com/",
             "category": "design",
             "icon": "https://groupy.id/assets/images/services/flaticon.png",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "46",
+                "id": "57",
                 "name": "Flaticon 1",
                 "cookies": [
                     {
@@ -12653,7 +13904,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "47",
+                "id": "58",
                 "name": "Flaticon 2",
                 "cookies": [
                     {
@@ -13008,14 +14259,13 @@ const servicesData = [
     {
         "meta": {
             "name": "Freepik",
-            "url": "https://www.freepik.com/",
             "category": "design",
             "icon": "https://groupy.id/assets/images/services/freepik.png",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "48",
+                "id": "59",
                 "name": "Freepik 1",
                 "cookies": [
                     {
@@ -13286,7 +14536,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "49",
+                "id": "60",
                 "name": "Freepik 2",
                 "cookies": [
                     {
@@ -13502,15 +14752,335 @@ const servicesData = [
     },
     {
         "meta": {
+            "name": "Ground News",
+            "category": "productivity",
+            "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
+            "id": "9"
+        },
+        "cookies": [
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787233177.667171,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "osano_consentmanager",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "15R9esCsCi8WeXN6NB8TZNNekqiY6xm-Jbave7CLOAsy2ELmXBKOYlky7svoTOzfXBj6BU9X0PWAhBFxjWW65MexVs0HkHHtwSlXnk6h5mN9GNmqAr4AC5e-Nk5wp92LFwaiH6bVdvTL87anKymOcCxZN0G0_ynmDWQL2yuoTFGwc6VM7RuQZE36wg2o8LBZH4SlzW9RR8-VdhYKjelfX3UbvoUTwE3ep1n6LWc6DKge4jS4noE7bO8A4pVRUsFpr2sHIH4biPHAg3uFxS94MCNl9Hus8LwGNK6m6A9i0K2O_-fHJFKqrRDr6-DRSn1KsYsdByyi7vw="
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1790212556.527063,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_F2T1ZY3G9V",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS2.1.s1755652519$o1$g1$t1755652556$j23$l0$h0"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188520,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__ps_r",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "_"
+            },
+            {
+                "domain": ".ground.news",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "firstPage",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "%2Flogin"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188555.50726,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "user_personalization",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22stickyBannerState%22%3A%22trial%22%7D"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188558,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_dd_s",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "aid=dfffe288-55e1-4a0f-80e6-3c0216c9b602&rum=0&expire=1755653456302&logs=1&id=a0a96851-1236-46fc-ad2c-edf6a3d0768b&created=1755652532583"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188520,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_clck",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "vueaoq%5E2%5Efym%5E0%5E2058"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188520,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__ps_did",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "pscrb_27248f8d-a56b-4415-df00-8e0e9f1c9e76"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1763428518,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_rdt_uuid",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1755652518714.386cad8b-6754-4f06-9965-43b24e0df22b"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188516.491568,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ul",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22userCountry%22%3A%22ID%22%2C%22userRegion%22%3A%22JI%22%2C%22userCity%22%3A%22Tulungagung%22%7D"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1755738956,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_clsk",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "6eph0e%5E1755652556195%5E9%5E1%5Ee.clarity.ms%2Fcollect"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188520,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__ps_fva",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1755652520207"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188520,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__ps_lu",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "https://ground.news/login?redirect=/account/account-information"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188556,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__stripe_mid",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "3ab24efa-c7ca-431c-a15c-de2df5a4b4019e80a9"
+            },
+            {
+                "domain": "ground.news",
+                "expirationDate": 1787233182,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "_dd_s",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "aid=dfffe288-55e1-4a0f-80e6-3c0216c9b602&rum=0&expire=1755653456302&logs=1&id=a0a96851-1236-46fc-ad2c-edf6a3d0768b&created=1755652532583&lock=f02affb7-ee92-4aca-b6df-e2bfec8295f0"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1763428555,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_fbp",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "fb.1.1755652520253.306477231706743070"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1790212519.292431,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GA1.1.2035886632.1755652519"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1790212556.551772,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_PG1LPXY8KE",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS2.1.s1755652495$o1$g1$t1755652556$j59$l0$h0"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1763428519,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gcl_au",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1.1.1785345108.1755652519.356134442.1755652524.1755652556"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787188516.491447,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gngb",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "775e8d87-9a84-4a5b-bdb2-1efbbd342018"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1755738920,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_uetsid",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "15bb78b07d6311f09c4e134ff8fedf5b"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1789348520,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_uetvid",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "15bc61807d6311f092ea3711fbd4374c"
+            },
+            {
+                "domain": ".ground.news",
+                "expirationDate": 1787233177.666888,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "osano_consentmanager_uuid",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "25851a89-0608-46d5-bb71-6cef0d69ef89"
+            },
+            {
+                "domain": "ground.news",
+                "expirationDate": 1787233178.403296,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "user_personalization",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22stickyBannerState%22%3A%22trial%22%2C%22homepageBannerSeen%22%3A%222025-08-20T13%3A39%3A38.402Z%22%7D"
+            }
+        ]
+    },
+    {
+        "meta": {
             "name": "HIX AI",
-            "url": "https://hix.ai/",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "8",
+                "id": "10",
                 "name": "HIX AI 1",
                 "cookies": [
                     {
@@ -13852,7 +15422,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "9",
+                "id": "11",
                 "name": "HIX AI 2",
                 "cookies": [
                     {
@@ -14185,10 +15755,9 @@ const servicesData = [
     {
         "meta": {
             "name": "iLoveIMG",
-            "url": "https://www.iloveimg.com/",
             "category": "utilities",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
-            "id": "50"
+            "id": "61"
         },
         "cookies": [
             {
@@ -14395,10 +15964,9 @@ const servicesData = [
     {
         "meta": {
             "name": "iLovePDF",
-            "url": "https://www.ilovepdf.com/",
             "category": "utilities",
             "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
-            "id": "51"
+            "id": "62"
         },
         "cookies": [
             {
@@ -14592,11 +16160,2415 @@ const servicesData = [
     },
     {
         "meta": {
+            "name": "iQIYI",
+            "category": "streaming",
+            "icon": "https://groupy.id/assets/images/services/iqiyi.png",
+            "id": "12"
+        },
+        "cookies": [
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1755783241,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "abtest",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22pcw_focus_banner%22%3A%228546_A%2C8706_C%22%2C%22pcw_continue_watching%22%3A%228546_A%252C8706_C%22%2C%22pcw_vertical_list%22%3A%228546_A%25252C8706_C%22%7D"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1763472841.127049,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "I00001",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "35m2SKOWHdZhUeWigqZ1PgpcylCkMm2WB9n5DsEdygHdMOvt2NbeRgJ5GigGejiJzC4pdb"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1787232837.172407,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "mod",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "us"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1762853174,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gcl_au",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1.1.700745072.1755077175"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1787232837.172383,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "lang",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "en_us"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1755704037.172455,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ak_bmsc",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "E49E33FB15EEC3D9DAA03EDF0D6CBB72~000000000000000000000000000000~YAAQlawwF/fTmKiYAQAAFKmvxxxPlcfb05pLuXj5ki69GTddtCkeaXtG4LyvAP3TDzR4BlcL9uW39kYn2hLSMhbQkA1TS+qv8wz/DPdA0qbYUzXDE7sPHjUeWb58XYb8psALFBdQGurfe4cGwYOfIO60Xn3mfz1QIVw3I6lyC53B4ZNgWvrgqfcK6Y2HD+O4WkdDAA0BUMyuVmJZjRWJtl2waERB3Ixq/PHx++LwJD0VK1SiRPffcgOhoJ3M3nvtFukPfe4DMXeaR7oSMi/6wY/M3y9lKO/u8CMQCTN2hi8X3aK3RUl41JsXK6lmblEFhktAWQW30maSFqCX+HLArXaTw5uaWO7wnDuo54fyUkJHaUSeSP6sum44I0pjyFG3XbHI3YGmSg=="
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1787232841,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QC006",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "x7v8vsvlo95gn9xt4bb2ffnv"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1758811829,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QiyiPlayerSupported",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22v%22%3A3%2C%22dp%22%3A1%2C%22dm%22%3A%7B%22wv%22%3A1%7D%2C%22m%22%3A%7B%22wm-vp9%22%3A1%2C%22wm-av1%22%3A1%2C%22m4-hevc%22%3A1%2C%22m4-dv%22%3A1%7D%2C%22hvc%22%3Atrue%7D"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1755728377,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "pspStatusUid",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "30111718187"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1755783237.172364,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "cloudmode_msg_sended",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1787232837.17243,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "random-uuid",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "11fab85bee0947588e3fd85fed91ac78"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1790257158.175616,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__dfp",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "a0b555b0c2ce2252e799777118b1f0b40652b5c2f159a7409bdc8714748e590032@1755932866939@1754636867939"
+            },
+            {
+                "domain": ".iq.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QC010",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "17459005"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1755783241,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IQC163",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".iq.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "nu",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "0"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1789637226.522563,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_PCTZRE9688",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS2.1.s1755077226$o47$g0$t1755077226$j60$l0$h0"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1755728377,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "pspStatus",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".iq.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QCVtype",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "21"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1763472841.127126,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "I00002",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22msg%22%3A%22%22%2C%22code%22%3A%22A00000%22%2C%22data%22%3A%7B%22birthday%22%3A%22507859200%22%2C%22uid%22%3A%2230111718187%22%2C%22nickname%22%3A%22Groupy+Pro%22%2C%22icon%22%3A%22http%3A%2F%2Fwww.iqiyipic.com%2Fcommon%2Ffix%2Fheadicons%2Fmale-130.png%22%7D%7D"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1789637226.553905,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GA1.1.2010162761.1726662278"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1789637226.429724,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_VTJGB1PRBJ",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS2.1.s1755077226$o34$g0$t1755077226$j60$l0$h0"
+            },
+            {
+                "domain": ".iq.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "adcookie",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1787232839,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "b_ext_ip",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "36.76.152.75"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1755704039.572665,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "bm_sv",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "E337D02FC54713B34B8BEB76847E66FA~YAAQlawwF0DVmKiYAQAASrqvxxzARfGcHb3rrobV6qlfoW6xiXCOLM09TKkaVWAg30SArpUf+pGFY2P9+dbZ8kavFoCQ/9UKqe/h68a+VIcNk+BstyOWBMuIQhfbeGY7VRCWQ6x6utE31Ow+c7dQaqhNc8scWyCalghzPdWu5pTWZJ4zVf67CjZ+lWaUQ3oi8ccQDKowJnBkdUZbwC+h6UjlA9ZimkPGOHFW5+/WyBwAQpbIDDLExdYAvyY=~1"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1787048037,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "FCNEC",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%5B%5B%22AKsRol_x2YbDcBnq0aQ3viSQKwQqWTYP-1HEes6D5eUcOePxFBK1-xZ4L_96z5Q1xK4xME-_z7WWBxsQWNGoubYLM3z-bd6OS0-O-_LGabX-kwV7qqTJ7dTV16Q9b29WMCeDjlj5AhmOSAyc10IZoxwAZFb4AglzbA%3D%3D%22%5D%5D"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1763472841.127161,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "I00019",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".iq.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "lastGlobalLoginMsg",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "%7B%22path%22%3A100%2C%22icon%22%3A%22%2F%2Fwww.iqiyipic.com%2Fcommon%2Ffix%2Fheadicons%2Fmale-130.png%22%2C%22nickname%22%3A%22Groupy%20Pro%22%2C%22email%22%3A%22qi****%40bahrudin.xyz%22%2C%22realEmail%22%3A%22qiyi%2540bahrudin.xyz%22%2C%22phone%22%3A%22%22%2C%22realPhone%22%3A%22%22%2C%22isPhonePwdLogin%22%3A%22%22%2C%22areaCode%22%3A%22%22%7D"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1790256837.257454,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QC005",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "b0745edc6ad23ec14ac6ed224d41fff5"
+            },
+            {
+                "domain": ".iq.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QC007",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "DIRECT"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1758198277,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QC008",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1726662265.1726662277.1726662277.4"
+            },
+            {
+                "domain": ".iq.com",
+                "expirationDate": 1790256837.257595,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "QC173",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "0"
+            },
+            {
+                "domain": ".iq.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "SVR005",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "c0d2967ff56bd617f84ece35d53d8b18"
+            }
+        ]
+    },
+    {
+        "meta": {
+            "name": "LinkedIn Learning",
+            "category": "education",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
+            "id": "13"
+        },
+        "cookies": [
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1768099428,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_ips",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "911"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1787232931.679681,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "bcookie",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "\"v=2&e59a1f9e-6aba-403c-8fb6-f9002462a9d8\""
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1755698723.916588,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "__cf_bm",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "7VvP79QirwTZVRFQE0NcV8se9aI_xSj3D5eBI.nUmxU-1755696921-1.0.1.1-tM55RobkXwPsUGlvAb7nlGrWe9MiDilg1lqYLOn6k.IWXHmltYg.ZRzd90yq7aQo74QJlcwyBvyALuyiNUQTFqFXwk.HZTBu93hJ7BtTiSE"
+            },
+            {
+                "domain": ".www.linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "lil-lang",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "in_ID"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1760323389,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gcl_au",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1.1.2067138922.1752547389"
+            },
+            {
+                "domain": ".www.linkedin.com",
+                "expirationDate": 1786705714.542543,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "li_ep_auth_context",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "AG1hcHA9bGVhcm5pbmcsYWlkPTczNzIzOTQwLGlpZD04NzA2NTUzMixwaWQ9MzI0NjE3MjU0LGV4cD0xNzYwMzUzODcyMDU0LGN1cj10cnVlLHNpZD0xNTA2NTY0MDMyLGNpZD0xOTk5NTQyNTcxAVyHaKvTxW9YpFuTeGJE350G6z73"
+            },
+            {
+                "domain": "www.linkedin.com",
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "lil-lang",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "en_US"
+            },
+            {
+                "domain": ".linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "AMCVS_14215E3D5995C57C0A495C55%40AdobeOrg",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1768099428,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "sign",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b54566567365a6958517677675672436552676d50564f5634627a6761396b714c6f44437959325a4a5859673d3d"
+            },
+            {
+                "domain": ".www.linkedin.com",
+                "expirationDate": 1786705714.542394,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "li_at",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "AQEGALcBAAAAABeeLcgAAAGYqEbYnAAAAZjMU1ycTgAAmnVybjpsaTplbnRlcnByaXNlQXV0aFRva2VuOmVKeGpaQUFDbHBRUEtpQmFPTkpGRFVTekdqVHZZUVF4eXZWbWFvTVprV2ZDRHpBd0F3Q1BBd2R5XnVybjpsaTplbnRlcnByaXNlUHJvZmlsZToodXJuOmxpOmVudGVycHJpc2VBY2NvdW50OjczNzIzOTQwLDMyNDYxNzI1NCkSuJYg6UKEnJYXgbamqBi8rt60jZM55sbJAp2rrSpvUGVWH29VenXsgank2DyqDUX09gAeOIEM7WpwmD23fTYgl7swDZWs6Uok-9hhvn3fogTW5JY"
+            },
+            {
+                "domain": ".linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "lang",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "v=2&lang=en-US"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1755783328.606481,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "lidc",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "\"b=OGST04:s=O:r=O:a=O:p=O:g=3598:u=1:x=1:i=1755696926:t=1755783326:v=2:sig=AQG7ocLrWq7MG5_qP4bLrEaHlgAtnnGA\""
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1768099428,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "gpv_pn",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "www.linkedin.com%2Flearning%2F"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1786897133,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_uetvid",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "70f7fb90612511f0805f7515a70f244f"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1755793132,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "aam_uuid",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "63542968717113618050313621343497280887"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1768753132,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "AMCV_14215E3D5995C57C0A495C55%40AdobeOrg",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "-637568504%7CMCIDTS%7C20292%7CMCMID%7C64046292994418096060330200727744949948%7CMCAAMLH-1753805932%7C3%7CMCAAMB-1753805932%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1753208332s%7CNONE%7CvVersion%7C5.1.1"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1755753931.574101,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "AnalyticsSyncHistory",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "AQLckKmqmaZ6HwAAAZgwmZitpTPuwnrDBJxHPCRd3HwLCXULxhE-pTFLt8ETqlzWUhcHdfAHHtGrQv0FuCi3JA"
+            },
+            {
+                "domain": ".www.linkedin.com",
+                "expirationDate": 1787232931.679718,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "bscookie",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "\"v=1&20250519035617e6ba6128-5ab3-4575-8b0b-d9ad93fc9dabAQEJ2BIPvx5gqj6KWXDWcozq-UkJzv2Y\""
+            },
+            {
+                "domain": ".www.linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "JSESSIONID",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "ajax:8644299037167760511"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1760279660.549516,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "li_sugr",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "56d03071-42b1-4f98-8e72-b20b73e16a38"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1786705714.542491,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "liap",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "true"
+            },
+            {
+                "domain": ".www.linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "PLAY_LANG",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "en"
+            },
+            {
+                "domain": "www.linkedin.com",
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "PLAY_LANG",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "en"
+            },
+            {
+                "domain": ".linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_cc",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "true"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1768099428,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_fid",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "5D78F5E66B8D0BAC-1083A4B7D7F89025"
+            },
+            {
+                "domain": ".linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_plt",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "2.38"
+            },
+            {
+                "domain": ".linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_pltp",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "www.linkedin.com%2Flearning%2F"
+            },
+            {
+                "domain": ".linkedin.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_ppv",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "www.linkedin.com%2Flearning%2F%2C58%2C58%2C911%2C1%2C1"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1768099428,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_tp",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1559"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1768099428,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_tslv",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1752547428353"
+            },
+            {
+                "domain": ".linkedin.com",
+                "expirationDate": 1755753931.574056,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "UserMatchHistory",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "AQIchugAi8IL4QAAAZgwmZis9znTXEw7PiA-iNNAXNmbRfzcuuq5WJnzOMlXfBon3GS5QjdsCw8Icg"
+            }
+        ]
+    },
+    {
+        "meta": {
+            "name": "Marvel Unlimited",
+            "category": "utilities",
+            "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
+            "id": "64"
+        },
+        "cookies": [
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_sq",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "%5B%5BB%5D%5D"
+            },
+            {
+                "domain": ".www.marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_ensCDS",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "0"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IR_24536",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1754184219065%7C5620337%7C1754184219065%7C%7C"
+            },
+            {
+                "domain": "www.marvel.com",
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "s_ensCDS",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "0"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1758202014.188328,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "marvel_autologin",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22username%22%3A+%22reading%40belajaar.id%22%2C+%22loginDate%22%3A+%222025-08-19+13%3A26%3A51%22%2C+%22signature%22%3A+%225b1709e66c2fc4edb6b3771b08024620173b391260766d5729a4faf37c1339c06dbaaf36651b33ccf8e44b01854fabd3c6f3a85b16ed4c95847642cc70be2edf%22%7D"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IR_gbd",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "marvel.com"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "country",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "id"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1785720214,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "SWID",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "{C03A1BFF-D236-4D5B-BB0C-702FE0E72AE3}"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_pltp",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "Marvel%20Unlimited"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1761960201,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_fbp",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "fb.1.1754184201865.911255456512996638"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1758202014.188414,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "PHPSESSID",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1vt7ot7usfi8g6ofdf1mkcvab3"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "AMCVS_D83AE33C56937B7B7F000101%40AdobeOrg",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1790170008.619915,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "MARVEL-MARVEL.COM.WEB-PROD-ac",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "XID"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1785776399,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_vnc365",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1785720200679%26vn%3D1"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1756776219,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_nr30",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1754184219024-New"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_ips",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "911"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1761960201,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_gcl_au",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1.1.2120855077.1754184201"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1790170015.18191,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "AMCV_D83AE33C56937B7B7F000101%40AdobeOrg",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "-50417514%7CMCMID%7C08989315497231925182862514806063976339%7CMCAAMLH-1754788999%7C3%7CMCAAMB-1754788999%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1755617215s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1770081814,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "device_20c0ac22",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "d4812983-7303-4834-9ee6-0a92fcaa17b7"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1788744219.929889,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IR_PI",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "6fbcab3f-7008-11f0-b321-6b232843922f%7C1754184219065"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "MARVEL-MARVEL.COM.WEB-PROD.idn",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "008c804aa2"
+            },
+            {
+                "domain": ".marvel.com",
+                "expirationDate": 1790170008.620191,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "MARVEL-MARVEL.COM.WEB-PROD.token",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "5=eyJhY2Nlc3NfdG9rZW4iOiJjNDhiYzYzYWNkMzA0MzQ0YTg4ZDA2NWE4ZGYxYTIwMSIsInJlZnJlc2hfdG9rZW4iOiIwYzMzNGJmZDNkNjM0OWZhOWFlMWMzOTUzNTEwYjhjMSIsInN3aWQiOiJ7QzAzQTFCRkYtRDIzNi00RDVCLUJCMEMtNzAyRkUwRTcyQUUzfSIsInR0bCI6ODU3OTMsInJlZnJlc2hfdHRsIjoxNTU1MjAwMCwiaGlnaF90cnVzdF9leHBpcmVzX2luIjpudWxsLCJpbml0aWFsX2dyYW50X2luX2NoYWluX3RpbWUiOjE3NTQxODQyMTI3MzIsImlhdCI6MTc1NTYxMDAwNTAwMCwiZXhwIjoxNzU1Njk1Nzk4MDAwLCJyZWZyZXNoX2V4cCI6MTc3MTE2MjAwNTAwMCwiaGlnaF90cnVzdF9leHAiOm51bGwsInNzbyI6bnVsbCwiYXV0aGVudGljYXRvciI6ImRpc25leWlkIiwibG9naW5WYWx1ZSI6bnVsbCwiY2xpY2tiYWNrVHlwZSI6bnVsbCwic2Vzc2lvblRyYW5zZmVyS2V5IjoidldJdWlwZzhKNXEtMUVxOUJ2N3hSRmptLWU2a0pNeTRCME5vOEZWMTlSQ3Y3R2hjNU1qaS1HQS1EMWlRTFZtYjVWbjlpOWlaVkI1d0dzcFZOblh3V0tiM3R3TE10U2xRRENtSjREOVlxRDNhd3dtR3dpNCIsImNyZWF0ZWQiOiIyMDI1LTA4LTE5VDEzOjI2OjQ4LjYxOFoiLCJsYXN0Q2hlY2tlZCI6IjIwMjUtMDgtMTlUMTM6MjY6NDguNjE4WiIsImV4cGlyZXMiOiIyMDI1LTA4LTIwVDEzOjE2OjM4LjAwMFoiLCJyZWZyZXNoX2V4cGlyZXMiOiIyMDI2LTAyLTE1VDEzOjI2OjQ1LjAwMFoifQ==|eyJraWQiOiJxUEhmditOL0tONE1zYnVwSE1PWWxBc0pLcWVaS1U2Mi9DZjNpSm1uOEJ6dzlwSW5xbTVzUnc9PSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJodHRwczovL2F1dGhvcml6YXRpb24uZ28uY29tIiwic3ViIjoie0MwM0ExQkZGLUQyMzYtNEQ1Qi1CQjBDLTcwMkZFMEU3MkFFM30iLCJhdWQiOiJNQVJWRUwtTUFSVkVMLkNPTS5XRUItUFJPRCIsImV4cCI6MTc1NTY5NjQwNSwiaWF0IjoxNzU1NjEwMDA1LCJqdGkiOiJ5OVJmSzZxUkhyTTlWZVBaVVZyTzVRIiwibmJmIjoxNzU1NjA5OTQ1LCJhX3R5cCI6Ik9ORUlEX1RSVVNURUQiLCJhX2NhdCI6IkdVRVNUIiwiYXRyIjoiZGlzbmV5aWQiLCJzY29wZXMiOlsiQVVUSFpfR1VFU1RfVU5TRUNVUkVEX1NFU1NJT04iXSwiY190aWQiOiIxODE5IiwiaWdpYyI6MTc1NDE4NDIxMjczMiwiaHRhdiI6MiwiaHRkIjoxODAwLCJlbWFpbCI6InJlYWRpbmdAYmVsYWphYXIuaWQifQ.KTnPGYXeWLHnyePPMDoYmFtep2sHsbK4lCduQeaX0hyyYTQckdhSG40Ti4vRPmb9086PrJByCwnARnbfwycuJESVX3tLRo_iJrdpyDOll2G9ZSPsm_IwgET8Fw1XM_tfn7bwbNDBuplLyMLsKEjuLvD8M3p1lSWQJiqj5tuZny60dBX69Iguj6ZxAsF6fPG3S1En0oRLL6RK8J8OOTR8YxkVXEhIkjgG6Ia0otODSX9dIZUjuV5eUvZxvcgCc7KRh4wlmwhvOvFyMAksQ7EGxAlmOsEP_mBThLppQZ5WlSO_o8gnEh4D6KQjnO3pWBAQqQtqCXp3AIWO7SepH3nNlQ"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_cc",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": true,
+                "storeId": null,
+                "value": "true"
+            },
+            {
+                "domain": ".www.marvel.com",
+                "expirationDate": 1758227196,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_ensNR",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1755609996362-Repeat"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_plt",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "2.63"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_ppv",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "Marvel%2520Unlimited%2C27%2C27%2C911%2C1%2C3"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "s_tp",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "3381"
+            },
+            {
+                "domain": ".marvel.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "sign",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f48614d337837546769372f4a387032672b43514e6f5569556731474d4f556543656b32484138432f2f42413d3d"
+            },
+            {
+                "domain": ".www.marvel.com",
+                "expirationDate": 1755624395.579188,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "userab_1",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": ""
+            }
+        ]
+    },
+    {
+        "meta": {
+            "name": "MasterClass",
+            "category": "education",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
+            "id": "65"
+        },
+        "cookies": [
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1770022063.339978,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_TXTKCL3651",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS1.2.1735462051.1.1.1735462063.48.0.0"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1755610987.756814,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "__cf_bm",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "HPQaMQLKVrzOdkd6QG92tYeIriYanKdbJELucVuu2WM-1755609186-1.0.1.1-rpJt6KL14uRCxmlMepJkbbKwZzHjmY0uRAmpFmMx4e146yD_TYLcIWfFE_CKXkFYaJbvK1a4fOZp3JrZNx8C5WIy_ZHyfYrJrm10ABrkgYY"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022062.049665,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_mcl",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1770022051.316934,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "tatari-session-cookie",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "0540de16-d7b0-c338-00cb-94a0379195c2"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "bogo_available",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "false"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022065.948506,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "_mc_session",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "dIFyZlFqg3qOmju1M7eW0FPmlAk2rviDAxKnfh8XOJA0U0HP8Y%2BaBrlcNOaDeQXMyVDoLEuzLDugsZKq167A90LFNjONYXe%2B%2BSGhNBukvVrnfWJz7xWhN%2BnGh8qfRYk5ec8x0pbeVPDCF9iEj4u4UJL%2Baif3glIis%2B0oz3U%2FKkHtQiycju6XXAcUQWL9kdrbwqzr4F0obDFYaLEjBnSQ7mfH3GNbgV%2F%2BEjpWnFKznHmcLOincwKgeNVUJ7O8L0zN9KJnA0PpwZPwfNiNrmT5Z9VFCwLtQ9rJNOXZag2Kvhw8lvhNpHoqXJVIrtSOjExKH44JKsWWJsjhr%2Bw%2FIxmsavv4rxSrpfP8SkPcoyj6hR6EOKVRWe35v2aW%2FeSJ4wk3oGRu2J2HHX1WU%2FsQRqP97pZUeRlTX6tDDD%2FTDqWSHK3R%2FN56F5ZyDZs82OgOL%2FMEioWsIIy55h8o%2FzTL9%2Fk507uu4BOvV1UIqEPGkHnkz2m%2FMgnpYuiZactk2%2BLD5E2WqhCI8GEHaktBx6B8NHnvDjH5lgpo5eBwT7jMZDx3MgvHKv79Obf%2ByUGhZExpvGVh96Zlm3SxtL1sRR4OCg%2FS5Yg%2FmsfYR4Y7UMdXCwsftyDZWnk6fZy5khGegsE2jTNoXviTzt54hM1c1Ugu8VKWg5reEXT2--eLnARqGWi9F1tSyq--GIm9kQhGXgPb%2BBF8cmlnmw%3D%3D"
+            },
+            {
+                "domain": ".masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__hssrc",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022061.048125,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "first_visit_on",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "2024-12-29"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022060.653399,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ajs_anonymous_id",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "%22next-gen-304baace-3b1d-4f50-ab9a-c0bb43b43d03%22"
+            },
+            {
+                "domain": "www.masterclass.com",
+                "expirationDate": 1755610993,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "track_visit_session_id",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "2f7bdc94-2f4b-4642-9f0e-d0c45a8bb416"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1770022061.429192,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_MXX8KXSBK0",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS1.1.1735461971.1.1.1735462061.0.0.0"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022051,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_aid",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "cc162d8c-bc36-47d8-9f8c-815c642371cd"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "apple_sign_in_state",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "14aa3c5d-55fd-4fb2-bd19-ff1b37a4e04e"
+            },
+            {
+                "domain": ".masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IR_gbd",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "masterclass.com"
+            },
+            {
+                "domain": "www.masterclass.com",
+                "expirationDate": 1790169188.833414,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "_mcl",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1769158052,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_uetvid",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "7d6f4c3073d811ef80381736cb0327a5"
+            },
+            {
+                "domain": ".masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "amplitude_idundefinedmasterclass.com",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ=="
+            },
+            {
+                "domain": "www.masterclass.com",
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "bogo_available",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "false"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1770022063.332831,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "amplitude_id_07018da2854fa6ca5b7bab195253250bmasterclass.com",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "eyJkZXZpY2VJZCI6Im5leHQtZ2VuLTMwNGJhYWNlLTNiMWQtNGY1MC1hYjlhLWMwYmI0M2I0M2QwMyIsInVzZXJJZCI6IjYyNDgzMjMiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE3MzU0NjIwNTEyMTksImxhc3RFdmVudFRpbWUiOjE3MzU0NjIwNjMzMzIsImV2ZW50SWQiOjI3LCJpZGVudGlmeUlkIjo4LCJzZXF1ZW5jZU51bWJlciI6MzV9"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1787145198,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__stripe_mid",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "65cacb12-1a37-4607-bc78-c01af0a85b1b1786e2"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1755610998,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "__stripe_sid",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "bd83087c-c56a-4dfe-a363-da1d7eb6ce31b34c4c"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1770022062.420132,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GA1.2.1841398719.1735462051"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1770022061.431606,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_CKM9ZCCQBN",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS1.1.1735462003.1.1.1735462061.2.0.0"
+            },
+            {
+                "domain": "www.masterclass.com",
+                "expirationDate": 1790169469.9829,
+                "hostOnly": true,
+                "httpOnly": true,
+                "name": "_mc_session",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "h2c%2BLWgI8RXJm1AnKWrn69DAIUH7SvZ51QHjqoAZMvcB1YNhyzkz2nTHdAplRs1LVnlGEBzB5pBAb%2BI2TZ0eJ3kq%2BoxAUWYgBHZ4elOAMxBfHuNZ4NfvoguN7O1I9q6mSLyca3Mw6EnJAjwv8OHG0AXtTCtZRXO4RR117Aq1leNK5X6G6XSkLgNNmATWGtaS%2BlLiKZlGNBJLUe0MX%2FYK3WPFla%2BP3KMtzM2TQwYOVeupEkOp9g0b6Acf77%2FLJYlJmApip2V96yxH%2FfmqQ1T24HL7w9%2FWsEQZNEp0dKU%2BqE9FYwLoU0WuXGiapjhmOzhIVLa527qXTjpk81jqplDrjqgNqwp0AK%2F0%2B7sP30UJDbY1q%2BPx8QLdjEZkAklfLF%2BRgGbyqdeFuAoAuTskXgTU2b0KYU%2B0j%2Brc%2FsKLAP3ddeq3GmjOANKzkavIpuEac%2B1%2BVFq%2FODCKof3cqPoTH27RNWdRj5jpo%2FCJjDuwDvdSDUdEBa%2F1FTrdxksr2GbF6yHRiYYu7whurXdjdOoQaa55vI3e9p0Y%2ByXOvsUSMa5MyQAOjLhbbf39jCpilxPIHE62YNNOEAcuC24pJ%2BwNJxJxFV9saGkNtE8iyEfbLHWCORoXNhmMbdHS8Ex6yvN7OMZX9tP7iB2vubPCVl59%2BBynueYO7yRu--8duX%2BLsh%2B6cdTvr2--FGIJJZ2JCFA2Wf2MHGuC0Q%3D%3D"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022065.948404,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "active_membership",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": "www.masterclass.com",
+                "expirationDate": 1790169469.982809,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "active_membership",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1766998063,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ajs_user_id",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "6248323"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "discount_slug",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "parents-2022-promo"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "first_session",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022061.048088,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "first_visit",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": "www.masterclass.com",
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "guest_pass_feature_available",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "true"
+            },
+            {
+                "domain": ".masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "IR_16021",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "1735462051293%7C0%7C1735462051293%7C%7C"
+            },
+            {
+                "domain": ".masterclass.com",
+                "expirationDate": 1770022063.339978,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "sign",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613970376155624c4b6e4358664b745179684a77717267"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1766998061.048031,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "splitter_subject_id",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "6248323"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "expirationDate": 1770022051.3099,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "tatari-cookie-test",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "18992494"
+            },
+            {
+                "domain": ".www.masterclass.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "user_membership",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "AAP"
+            }
+        ]
+    },
+    {
+        "meta": {
+            "name": "Motion Array",
+            "category": "design",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
+            "id": "66"
+        },
+        "cookies": [
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1780237667,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_uetvid",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "e8a7dc3004b411f0b0bee7afd25da3bb"
+            },
+            {
+                "domain": "motionarray.com",
+                "expirationDate": 1755667595.645232,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "XSRF-TOKEN",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "eqO5IFghfDtPdlwzMP8eAZ3VyrCd9mrJsdCbxG4i"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1781101668.800033,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GA1.1.1613178662.1746541669"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1790170001,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ab.storage.userId.322b109c-179d-46e0-8fb8-a62b84bc8402",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22g%22%3A%2212033176%22%2C%22c%22%3A1746541694072%2C%22l%22%3A1755610001199%7D"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1780237691,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ttcsid_C5EQ4UNGE0M3SF4IOBM0",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1746541667540::wZAlwV9WfwIXFadQU-L_.1.1746541691005"
+            },
+            {
+                "domain": ".motionarray.com",
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_hjHasCachedUserAttributes",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": true,
+                "storeId": null,
+                "value": "true"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1790170001,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ab.storage.sessionId.322b109c-179d-46e0-8fb8-a62b84bc8402",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22g%22%3A%22ae6b1f62-9231-fa0c-ded0-7fc53338d8ff%22%2C%22e%22%3A1755611801242%2C%22c%22%3A1755610001198%2C%22l%22%3A1755610001242%7D"
+            },
+            {
+                "domain": "motionarray.com",
+                "expirationDate": 1756214795.770022,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "AWSALB",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "zyGkoV+1dAZtPYOKYjmfecDJaFYY+xu/0Ai0UscLb0dFmL0dSOVPPkLAXk8iwr4V/fkdNsFj/H7mEmrn1JgAr1IqIcxVar7BRteaDAIDut9W8PSxfoICkPNt2rYq"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1781101692.392096,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "12033176%7CPap35qAS0eEItnbi%7C%242y%2410%246faAFrjw3HrepbN4gzIEuuas9hqh.FMukVCeYZ2vah7fSb%2FWQB%2F2G"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1781101668.79971,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ga_QDDGKZ95EN",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "GS2.1.s1746541667$o1$g0$t1746541667$j60$l0$h0"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1780237667,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "sign",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f6a315a7445466376362b4944377371423331727537"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1787146132,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ajs_user_id",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "12033176"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1755611932.932448,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "__cf_bm",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "CiTb8fEo_i7drv0qEwhMz_1JWuRm0uhuw2sdKjIPoVo-1755610131-1.0.1.1-wQvwgH4fYQBFHEU4zhXWXH8RImyZoePHLFPGhkjH86q_sHzHWMUFSOyduiLW5BvWbI4UsP7HFHq3n3apqWeqOXAnpVoobhykGCR3vmwo4p0"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1778077668,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_clck",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "d9fz2v%7C2%7Cfvo%7C0%7C1952"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1755611802,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_hjSession_2086831",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "eyJpZCI6ImY3MWY0YWIyLTAyMDItNDQ3Ny05NjQyLTVjNmUxYTIyYjg0ZSIsImMiOjE3NTU2MTAwMDI1OTUsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ=="
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1787146002,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_hjSessionUser_2086831",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "eyJpZCI6ImJjMDhiZTQ3LWYyYTktNTUyNi1iYTMxLWMzNjUzN2M2NzNhZiIsImNyZWF0ZWQiOjE3NDY1NDE2NjgwODEsImV4aXN0aW5nIjp0cnVlfQ=="
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1780237667,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_tt_enable_cookie",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1780237667,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "_ttp",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "01JTJZXS6KZ7ZC6AHF0B64Z1JP_.tt.1"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1790170001,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ab.storage.deviceId.322b109c-179d-46e0-8fb8-a62b84bc8402",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "%7B%22g%22%3A%227b691ec2-36e6-3feb-a0d3-19da6305c3ea%22%2C%22c%22%3A1742383549178%2C%22l%22%3A1755610001198%7D"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1787146132,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ajs_anonymous_id",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "3adf23c7-3460-48ae-8cac-f7ede37da585"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1778077666.739274,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "anonymous_id",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "cc19d98e-490c-4e39-8e23-caa0ccc76789"
+            },
+            {
+                "domain": "motionarray.com",
+                "expirationDate": 1756214795.770103,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "AWSALBCORS",
+                "path": "/",
+                "sameSite": "no_restriction",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "zyGkoV+1dAZtPYOKYjmfecDJaFYY+xu/0Ai0UscLb0dFmL0dSOVPPkLAXk8iwr4V/fkdNsFj/H7mEmrn1JgAr1IqIcxVar7BRteaDAIDut9W8PSxfoICkPNt2rYq"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1778077675,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "device",
+                "path": "/",
+                "sameSite": "strict",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1OiWtF7p7tjAwmpRIo7c1gsKtWoPL84jmehpz5GV8BCsfoSQMt"
+            },
+            {
+                "domain": "motionarray.com",
+                "expirationDate": 1755667598.770141,
+                "hostOnly": true,
+                "httpOnly": true,
+                "name": "laravel_session",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "eyJpdiI6Ijg3UHM5WjRhYW9jRFB0WlkwWWkwblE9PSIsInZhbHVlIjoickZsTXJjZjBnOWwyaVdiNzlZUERtWjRKenVuODBBNGVxWERDNVROcm1HSjdVRnR0dndmYVdVVEN4bzhOT3VpcjRhTFUxYWZMZ0RKeUV5bCthd2xxZzBaRjlDVXZHcUZ6UFRWaU9tdHVtcXB5eTNqR0pXa0o1NC9JWWhmS0N2dGgiLCJtYWMiOiI5ZTUwMDVhN2FiNjM5NzVkNWMyODI1NGU1OGY1N2ZjMTgzMjhkZGFkNTkxYmQwOGNhYWY3NzVmNGY3NTdmNmExIiwidGFnIjoiIn0%3D"
+            },
+            {
+                "domain": ".motionarray.com",
+                "expirationDate": 1780237691,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ttcsid",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "1746541667540::6mxnghm4ExRJdiXVhzwF.1.1746541691005"
+            },
+            {
+                "domain": "motionarray.com",
+                "expirationDate": 1755611795,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "userSession",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "f9316ba2-cecb-4650-a35f-f4fd4cd21ffa"
+            }
+        ]
+    },
+    {
+        "meta": {
+            "name": "Netflix",
+            "category": "streaming",
+            "icon": "https://groupy.id/assets/images/services/netflix.png",
+            "isGroup": true
+        },
+        "accounts": [
+            {
+                "id": "14",
+                "name": "Netflix 1",
+                "cookies": [
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763473788.55063,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-normal-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787233788.550741,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "SecureNetflixId",
+                        "path": "/",
+                        "sameSite": "strict",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26mac%3DAQEAEQABABRFxi9FGr5W9zqbSlBECnMuVjQ9NcZPPOY.%26dt%3D1755697786076"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787233788.55077,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "NetflixId",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26ct%3DBgjHlOvcAxL3Ar2IrEROR7mCSjtvS2ceOlyHAZOkPmET9jHUWTUda_yntK2hHTcZwWnRaLeR0E4Ts9F1LQTNCjbHe5-FBthi9RQzxeQXN5nlkzBWTpIP-3vT1-QM5O8axYLnXQLQ0AnOd1H1j744_JEVcKFJlJWoiL-cbsiXJuR2kuF4MILzz1F6wkPGWBWSYppx0c0qP3BMqj_IFG6NOU760Ko8O-5TBgPs4ZZm1ZANYD1yA2TSSLItQjjLpoRi-f_HllXZLB2nKdVwN1qWcZ7FRa0j0Yb_BWH6Eq6qKiLCyAThuUonL2ri63cpGoJLBF9htXSdM-PBWwMZ9hl7ex3guGqiib8RAkL8CAT91ElZ4zp1ibgBehOGzOhy_TvQtnLw9JUOT-tLS5-OKMajLZrXL5GWrXNML21Zsgm7NMsOCagtdty5BsjJ1svOSzBVL3yL0J3ntbb2uHAmw5JwtHD4w2DsiQC_zcuS5-oq5r-7-hTJAdAOoG5C95G9jncdWhgGIg4KDLrTl1sEffM3ElQI5w..%26pg%3DXZXSQJFXDBDNZCHJ5FVW5S7XH4%26ch%3DAQEAEAABABTWV-zSn03FNlxzhSjIurlbCDCIys0kRTM."
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787233791,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "OptanonConsent",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "consentId=960afd9d-6313-46ad-8627-8c13782268ad&datestamp=Wed+Aug+20+2025+20%3A49%3A51+GMT%2B0700+(Indochina+Time)&version=202506.1.0&interactionCount=1&isAnonUser=1&isGpcEnabled=0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763473788.550696,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-bold-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1786595003.620824,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "nfvdid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "BQFmAAEBEIiyVfV32JnZ_gxpa_O0G6NgoePIDDdOMBJxYuRzX2MnM7pI5wigh31U2tMnmbaSq45WrDBJM50_qc1kRG8nLyL4SnWXbVzVH7QvJcw9ohhQwmNSIkZoy9EcaTxtCNfZpohSaJ6_2e8tgc2OLLkGOxVN"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1762835032.051446,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f6b3331795553364737686330696176533137307159476e53715770535334576a6f765638346b57737365673d3d"
+                    }
+                ]
+            },
+            {
+                "id": "15",
+                "name": "Netflix 2",
+                "cookies": [
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763385235.864264,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-normal-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787145232.780307,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "SecureNetflixId",
+                        "path": "/",
+                        "sameSite": "strict",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26mac%3DAQEAEQABABTDxi5bBJ6LtG5Vh4UUeox9D8jhAm--Vic.%26dt%3D1755609230705"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787145232.780382,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "NetflixId",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26ct%3DBgjHlOvcAxLqAo1eHNW0Vaqid2aFyGL4gIbF_iItu8SGz5-O9QPvMiWqTJuWTl38ftGjlunqlQJxubfLOxaXxtN0qs4yOY9k8n474myghqhyLC_KYcMFq8k-Jz4aFf9LMlpi6iIx-7gxpNz5tZe7950ijnfG3Q0F7pZZRUmLCI0lvP_cbuh7jyy4_BCp-QozL7yhQacREqTsHhON6fswXWNPX0pNBUr-NjnyMuJRu7EatBchi83XoNAYyp1M2UzdS-6b7kPiucDVy_i0Hbty4LT8OLLmtMPXjigPWJCD2az-tzoxJzZzMG-I4FrmhpjZzTnbN-0m41tA0hHOzUZCN0jr50kWwUeg7FRdVTEKn_fE9_WXrmYqw5J9GFscaazBixQh65OIa2inwOydEqYQgPbhh9nblFSuv_vwZMqCPEnzPwm07u2ijaGv5FmYjmCoo9bvGZbN9ZGKbAoDqJ2tisVA5ei9w4HvhGXnWrcNTs9vaTQTGAYiDgoMfG5uc8wIu2tV11vR%26pg%3DKMSIEDKDB5HZND5KGBHKTCCYF4%26ch%3DAQEAEAABABRGHlQfzh4oC4_rzqjaUPRMKST7DVklHPA."
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787145245,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "OptanonConsent",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "isGpcEnabled=0&datestamp=Tue+Aug+19+2025+20%3A14%3A05+GMT%2B0700+(Indochina+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f527cc1d-64bf-4458-8f8e-e6c139b3f33c&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763385235.864332,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-bold-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1786981930.671084,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "nfvdid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "BQFmAAEBENzg57w-nEclRDnau-4I-TxgN0meRNwF3jhaRYgAP80bcIWBdXkD_hxB5Vh3wtJs_3qFrpTRsQ-PIsmNnP6bLF3fZTl2EuJ5ZGoYWh8k6wOK5MCDwdrZkfOCFW5AWjXOWRzspkF-yC7Rp1Rx9MrgJ95l"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763302405.603112,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f2b433938714a504e4373644e4c5168565530497868"
+                    }
+                ]
+            },
+            {
+                "id": "16",
+                "name": "Netflix 3",
+                "cookies": [
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763385615.278621,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-normal-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787145613.924513,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "SecureNetflixId",
+                        "path": "/",
+                        "sameSite": "strict",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26mac%3DAQEAEQABABTXoqK7o16TvCiq88kmGIjQHp4uQJuHW5Y.%26dt%3D1755609612375"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787145613.92459,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "NetflixId",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26ct%3DBgjHlOvcAxLxAo-XTrctZYusmOPesu_HaMKZ3IsTZB8CRYtdyCv1RsXjFbeTN20meSacKjuge0DMaf9P1egj1voFTgYBp6hDEvqgY_-kuIWCfKxrhAWvomCbonJkXiuFMEOZtX_-tLH0RVDI_5zxN4DwZdropGYayJm2pKKsdAzDRpBhhpadmrful_Ig4gvreiZF0DwepaR6kxfdrLKvWHTCkph5lRhp1LmEpqHtksTrCbWluTsfBQmoNCOXqavj02FWmz7hA3CBFXeAE4xqEJn8CiYdu7OKctMvMGAmMYDIVMOUHXaN42TS9FTW8XKY_achUQWQeWla62nceWX3siBDQT4zwCAZu4NDf--YnAEKcADZ-BtAmEJcJV46khB9wLAxbUEDwqpheOHOId7YAeBbvmLJVfTNNqSsx2p7Iy9rPbNVUlMHRzAqqGcKiqpUKs5Rt64Xm-qZPTRQP-WCTDqaXz4deXIPuUTQCWKkiGKwoi-mM4meQNT1eRgGIg4KDKbcE7yfs0nC33IlbQ..%26pg%3DE6VFMGDBEZFVRPN6SLZJGGYL2Y%26ch%3DAQEAEAABABQ0dsY9pH45dtTqU5kW0lbxwCR8sK0wmpQ."
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787145615,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "OptanonConsent",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "isGpcEnabled=0&datestamp=Tue+Aug+19+2025+20%3A20%3A15+GMT%2B0700+(Indochina+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=78101797-7769-4df0-8329-8ab75a20d247&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763385615.278689,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-bold-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1785002186.460852,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "nfvdid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "BQFmAAEBEAB27dTfyczEb_vVidS2KBhgE7_havIovEdYEuL9rcufgffL6a7AB1rg8UvcGEBrsCeUOKuTLVQ9mu2ja8t_zRu2yjSqq_3-fiJ-gp47-7-uFSCOY0_uA8umokrZ9OYbLRfC4U5p5-_T_4iG3pgfjYIx"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1761242187.019694,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613966736a775a72796b6e7656752b657a6d6868625974"
+                    }
+                ]
+            },
+            {
+                "id": "17",
+                "name": "Netflix 4",
+                "cookies": [
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763386090.641733,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-normal-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787146096.919642,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "SecureNetflixId",
+                        "path": "/",
+                        "sameSite": "strict",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26mac%3DAQEAEQABABRgI0GrPjimVYRZ-39xzR9ClqGad7Cm3PA.%26dt%3D1755610095294"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787146096.919719,
+                        "hostOnly": false,
+                        "httpOnly": true,
+                        "name": "NetflixId",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "v%3D3%26ct%3DBgjHlOvcAxL1Am-LTNHizbflpd6ea3BslAYXT-xaAvwwx5JAnOsju-RFrNFzmr1bk_gcprFdutHN_lJee0WNO5B52SrR4FzXOcEunrrYMtOURs0gXoXY6r--4UVP5gTZ8zJ2dA_q70h1PGVE46UfVG6v4CT2NSeQNLWXGNivZRtTppRnH7-wUR9rTTjxLnyginN0F9AHtBiw_hyE_W_MQG8f-UYkLOnqLZtkBLIXq-RNpA3UKYLTGXM-nEHLdz-eXgml6JpLy2ZOZa1mObty1R8jnmgTARuqzYX98GcSGdRf_rWEYNehcvlUCcTo-FQPgCAnT-b68hFjeQ0EC3NIYJcBTNjiU84ls0W9khZVNn3oIGANC-gDabvvItqsn3gr7PsXPVQWy-CTqctxXvySu8E97A3fvokaRHjdpSRPDQQk5c_p_VUY6KAVpt7QarkWLmfSNaD__oZqAHtHOA6TBAU3F_P34cYssBWBEbk2-m4Wt62XKQLAA1CO6AYu-_IYBiIOCgzhtqmQRj6k2yL5fZg.%26pg%3DTO3XDSADN5DWPDNQFLWIDIYPTQ%26ch%3DAQEAEAABABTKKDwuP9lnheENd2W9cRXozvJxVLe9UdU."
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1787146092,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "OptanonConsent",
+                        "path": "/",
+                        "sameSite": "lax",
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "isGpcEnabled=0&datestamp=Tue+Aug+19+2025+20%3A28%3A12+GMT%2B0700+(Indochina+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f64e1f46-b2a4-4270-a0fc-c0c1c17bd90a&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1763386090.641802,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "netflix-sans-bold-3-loaded",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": false,
+                        "session": false,
+                        "storeId": null,
+                        "value": "true"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1786379573.084583,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "nfvdid",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "BQFmAAEBECyduNC7zmzw4TEket3jatNg5rTQ4yS8Xg6Yc1spBht7ex2LoB2D0yq-uFZzFcwmuydT2RJWD5dc8kglF8BzUI7fFNmf4JAdeBf07geuzl_gbBL91KMihfEA8-EeXhMPhZn9ZRBy1qdet8fv0dmk-n3y"
+                    },
+                    {
+                        "domain": ".netflix.com",
+                        "expirationDate": 1762619573.736482,
+                        "hostOnly": false,
+                        "httpOnly": false,
+                        "name": "sign",
+                        "path": "/",
+                        "sameSite": null,
+                        "secure": true,
+                        "session": false,
+                        "storeId": null,
+                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961396f4b614e3756645137774e3630616e533552675a75"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "meta": {
             "name": "Pacdora",
-            "url": "https://www.pacdora.com/",
             "category": "design",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
-            "id": "52"
+            "id": "70"
         },
         "cookies": [
             {
@@ -14836,14 +18808,13 @@ const servicesData = [
     {
         "meta": {
             "name": "Perplexity",
-            "url": "https://www.perplexity.ai/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "53",
+                "id": "71",
                 "name": "Perplexity 1",
                 "cookies": [
                     {
@@ -15092,7 +19063,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "54",
+                "id": "72",
                 "name": "Perplexity 2",
                 "cookies": [
                     {
@@ -15470,7 +19441,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "55",
+                "id": "73",
                 "name": "Perplexity 3",
                 "cookies": [
                     {
@@ -15848,7 +19819,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "56",
+                "id": "74",
                 "name": "Perplexity 4",
                 "cookies": [
                     {
@@ -16269,14 +20240,13 @@ const servicesData = [
     {
         "meta": {
             "name": "Prime Video",
-            "url": "https://www.primevideo.com/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/primevideo.png",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "10",
+                "id": "18",
                 "name": "Prime Video 1",
                 "cookies": [
                     {
@@ -16451,7 +20421,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "11",
+                "id": "19",
                 "name": "Prime Video 2",
                 "cookies": [
                     {
@@ -16626,7 +20596,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "12",
+                "id": "20",
                 "name": "Prime Video 3",
                 "cookies": [
                     {
@@ -16805,10 +20775,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Quizlet",
-            "url": "https://quizlet.com/",
             "category": "education",
             "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
-            "id": "57"
+            "id": "75"
         },
         "cookies": [
             {
@@ -17083,10 +21052,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Rawpixel",
-            "url": "https://www.rawpixel.com/",
             "category": "design",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
-            "id": "58"
+            "id": "76"
         },
         "cookies": [
             {
@@ -17171,15 +21139,167 @@ const servicesData = [
     },
     {
         "meta": {
+            "name": "Scholarcy",
+            "category": "education",
+            "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
+            "id": "63"
+        },
+        "cookies": [
+            {
+                "domain": ".scholarcy.com",
+                "expirationDate": 1755618745.60174,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "extract-api-token",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SnBaQ0k2TmpnMk56QXpMQ0psZUhCcGNtVnpJam9pTWpBeU5TMHdPQzB4TWxReE5qb3dNam95Tnk0MU1UUmFJbjAuMU1vcHJUWnJXX0pKWmVQb0cxX2daUEwyeFlBdEdsNmtXdTZZcHNtMmt5ayI%3D"
+            },
+            {
+                "domain": ".scholarcy.com",
+                "expirationDate": 1755618745.60174,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "sign",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f4d436a35303772764f716a513348315a754f4e6e36"
+            },
+            {
+                "domain": ".scholarcy.com",
+                "expirationDate": 1787145561.289204,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "ui-prefs",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "eyJzb3J0Ijp7Im15LWxpYnJhcmllcyI6ImRhdGUtZGVzYyJ9fQ%3D%3D"
+            },
+            {
+                "domain": "library.scholarcy.com",
+                "expirationDate": 1787145562.854399,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "CH-prefers-contrast",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "no-preference"
+            },
+            {
+                "domain": ".scholarcy.com",
+                "expirationDate": 1755618744.281466,
+                "hostOnly": false,
+                "httpOnly": true,
+                "name": "__session",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "eyJ1c2VyIjp7ImF1dGhTZXNzaW9uSWQiOiI2OWJlOWIyNC1hMTJiLTQ4MTAtYWEyYy0wNjNjOTM1ZmQzYjIifX0%3D.0TlySs2pY5j2SEvGTQ%2B6sPGr43OtCLza2dMxOj9OkCg"
+            },
+            {
+                "domain": ".library.scholarcy.com",
+                "expirationDate": 1786549932.560949,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "CH-is-mobile",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "false"
+            },
+            {
+                "domain": "library.scholarcy.com",
+                "expirationDate": 1787145562.854436,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "CH-is-mobile",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "false"
+            },
+            {
+                "domain": ".library.scholarcy.com",
+                "expirationDate": 1786549932.556751,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "CH-prefers-color-scheme",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "dark"
+            },
+            {
+                "domain": "library.scholarcy.com",
+                "expirationDate": 1787145562.854348,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "CH-prefers-color-scheme",
+                "path": "/",
+                "sameSite": null,
+                "secure": false,
+                "session": false,
+                "storeId": null,
+                "value": "dark"
+            },
+            {
+                "domain": ".library.scholarcy.com",
+                "expirationDate": 1786549932.558933,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "CH-prefers-contrast",
+                "path": "/",
+                "sameSite": null,
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "no-preference"
+            },
+            {
+                "domain": ".scholarcy.com",
+                "expirationDate": 1784867559.79465,
+                "hostOnly": false,
+                "httpOnly": false,
+                "name": "sidebarOpen",
+                "path": "/",
+                "sameSite": "lax",
+                "secure": true,
+                "session": false,
+                "storeId": null,
+                "value": "dHJ1ZQ%3D%3D"
+            }
+        ]
+    },
+    {
+        "meta": {
             "name": "Scribd",
-            "url": "https://www.scribd.com/",
             "category": "utilities",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "59",
+                "id": "77",
                 "name": "Scribd 1",
                 "cookies": [
                     {
@@ -17687,7 +21807,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "60",
+                "id": "78",
                 "name": "Scribd 2",
                 "cookies": [
                     {
@@ -18218,7 +22338,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "61",
+                "id": "79",
                 "name": "Scribd 3",
                 "cookies": [
                     {
@@ -18753,10 +22873,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Semrush",
-            "url": "https://www.semrush.com/",
             "category": "utilities",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
-            "id": "13"
+            "id": "21"
         },
         "cookies": [
             {
@@ -19140,10 +23259,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Slideshare",
-            "url": "https://www.slideshare.net/",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
-            "id": "62"
+            "id": "80"
         },
         "cookies": [
             {
@@ -19341,1237 +23459,10 @@ const servicesData = [
     },
     {
         "meta": {
-            "name": "Sora",
-            "url": "https://sora.chatgpt.com/",
-            "category": "productivity",
-            "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-            "isGroup": true
-        },
-        "accounts": [
-            {
-                "id": "63",
-                "name": "Sora 1",
-                "cookies": [
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1763385047.12895,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.session-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..0fiJNn9FtJ74z3R9.wCv4IFC3YUUZHhQvxxwHzf2w2o9e4Warmvl_d6HI7mmwahToHhvc5JGU2KOSGhX7Iternp6awSmVns7F22q1duq-P_pb_FLbxIePuCsSVn_B2lCTir4ZFIzIQfAEcL9cjaZD_BpQvmrUqJE4Pa8LVAf87UlFK-bI9C98s8wVcxVdxfl5ZjeKtGES99sDhuyzSzbEb8xf57mCFxyHW8uja9726p0vyD63wRaIHwjyccC9XyLeavGFZbGYr5eXJRk-2dlsXgGI1A_P_psb4fq9kyqwligLne1tDmqNLiF1JKiHYedBPWlkOS_Ye9xtrAiwJ8YhaYEt4poqMt6VCuoDadGpU1K2zLlEx_RvegSdyqOphOPwzlLRQkG_dw7rs0pChxm9_a-IVFQj_EeFcNqxppcNd_VY2wsudxAkklS4zfwFfk5WsOInQDhAb5UzpTDoF3kvAEdyZclLOxSMkbpcB_4Za84UI-uQi9PdAts1rmdfahMO_VDS1oNGBXNnG6sFSOQC2OvUbTIzvMAlmVNgGgHrn5S2rLZbIpEqFwdJnggk4UEvPYcKuPXL481zndwBd7kI-l8OxUkcXJ5UwHjewxhm9Pu5BKVYnjx7Z70XadXgNKu0Dw-whRQ3x1KZMEV_IjvTh9ZhzFmip0wb5hKTqkXFxlovQCDodwQm4oHuJq5jXjSt4CLk3_JlcrkBViAupduzB2Zb55Ke0ZSc9SmDP2CN8nPZyQyYM_wS_qHTZkr6RE8Ov1PQDitfSEkwHuaIv_yd3HsgkzCsmvi09TCw-Tq4A2R4e_UkJi7Xdahn0UM9IHC-BB8_azyHa0bgoQh-Jn-Bl0qC16nP0WLUWkdxolmGDjmRRPWKbQoQKmaTr9sXhvO83pgotY59YmLc1wclapAI9jmqWwTok_qqU3nviTnmkwy5OGSZju1DDu4TX8ee6yo97otakPvx_wTsDZnNYZQucdzzWoATtw9hn17UZbVwaw3KfOL-XnWQdszX90CqKBP06_ZY1mzGvdPhJd0WbOFhUoctVV1R97WyRZBe6DnuLiDFvIy1RdKjN65dXuJG_8u-kk53NJ20Eo5a6TiOHDzWcOBb35Fyr18BAL-6_eqnmBADEQTBNwaKrYSHU5FjUfUprTvYZxUKf7DVs54vEDniFliuKQLXqCUTw1ML7xswe4CZQfAu0Jg0zBhhfrqQixo8yZi-BOG15qr2jgi5rDFQKr-ZOzlyv1VIFz5_NmFdTuyyt2yqaQRFSU5mfWQPxtebIp9EWWTalHr6_VKsZec8MKzkqwjrETcfFvTtBYCotNveai7v1nh-BdFX7ZDW2B3R7r-yKWsA2x2dL0txbyZrJddWgJMfbA3hIh5COT0Rt3-P59Faq_IA19SO8ZjMulJZOAHcTYTBX9m9koNrI0lfKAzT9C4iwsFyGFCLKfSEXVdc2c7H4ZLFkrdOy4jV2TnjzSZoH57mGwaFBCYOuACHzgt2ad1dryBORwSaHDragFJ-iusevxGHTVqljyu2dfaMwuM2xB-IYLqS8j42_V-SNx8YfJgdbTg9x-fzh5G8YinGGKZsQEQ-crQf4ll4rNBVcUpm9fC66TbyufwIx1Rd-9ui9PZTf3lG3IQHrxWAh7jN8Hc8em325xZ4NpnjHFQVcYq367FuxX1TzYq_uWX8c4mgCqAfJjsUm01yzbmNF6FZNlEJ7XLel2EA8gVP6J7Ryj5KXJafZWaKfU3bqDARo_SvqosCPFUanh_gOvZSdWE_IvzM9uniUpQ6vsQee340o3_X_oqWy3ySKj901CvTe8z2y5uvfxxnABmSMiGv-JwcfHQHibr8p_glJEfNUO7U7E1Yei8juAvz272dhCh_LL53TGpjeRUlPXEGOBIwZk7lTI6pYx0DiMs7ULaX_iiJ9QSw49kE_yVLla163qik257a9MsUA_zitsI_kIh-u77EDxJI3tnMrzByh52SrUG12l9o91UMLZx-EGVnitfiWnofk9iMPAv9DCaf40ct8hDX8UmD_imY1TK7-AVTuRdOPyOXREXXtMAciinQP6vfuMlt27UvoApiVjH1bTDkS0s8IRmb55YrQOWEZ1XlG0e9w5rokA5XQLCk5ADsgiWkQ61iPselvrqtvzELQommDjNS790aGVa0tlJ3q8nxIOxUv_7x0M8ZjTky-CHcZllmPlSHh3slkqOyVmIOd48eGzrF3YV5qgNuiCZIdcsp0VEwMNenLRK7sYlPuqD9l0-CWZvOzOXDpmgY3PlaMbXuK2-rxzNQtdN-ZO-eEf1kNZ13OzCUGbIH4v3A5tuCu2DBwgN3jaJ8bVYsNZsxhRv-qEP_mQ8Pibs1Np3cIkD1-gUGuVAYoIXW9i_N8Zb1KBS73r_nphJm6bI7qwFg4nohikeIBD2tsHBTCV8f8znfbl55MygPCOHYwVXwrxp4HryW0Bug2_tmom-l2oAft7i40A-LsWkdV5yELCZMbAQWTFh81CyDF9GE1U4X4Vg51w9ewB6BYyit9mDTY4QXuqHM54FhncXcmJMyyhLNSTdKM5t_8I7zFCy56dNGJOienPzYnu6UZFXdJdPNpEuVZMv3blCqDZ4ZuMNGHFs5J20iLm1V71G65woE0I8qoeUK_x8WLe1bfchyTITVEj_GBsqe_meMxAfXHtT_mVpiK1aADmyzVnl32dEEIAnB47Dq2pdL_Ng-oIf1snZiCAE5x_y1_JmuP9t6wpAcQaF18uh9mc216sgHnZo1c-MsrdJ0TDvlqXwT4tEQNBMpk0JaCDXe6EsRdmGVBCv4aDNtPtE_PiA4LVOt9f-IW-Yfh5FuMO8gnOgAdv1wkykOe6ubDpL1eiDJc9AFldF85GreVcvCIkJFM__2YYmlOvvYggf0d4EN0NcCSwaRNweMY3R94MaFayZAcA34Mc2Ks1haD0PfJOjGDpE2x4i5ZwhsscjFp9ZLpIprz_5j9IJacVqe_JsGEKbzVMBNiT_YqwgZo-BdKpiL4Jv9SajH-nSMS55I-oqH5i6TmXJm_gVko_OGhJMYXV6gbI2kYL1bpzg8.h08_IUcLZtDXKPJYnbw5SA"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877643,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "sign",
-                        "path": "/",
-                        "sameSite": null,
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f314e615776396c656e387879367568513944784c39"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877648,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "cf_clearance",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "QvCoCGOjcP1PKFwbcuXhFIsgZ7BACn.WubSSqP8pQew-1755156369-1.2.1.1-OZPAHyd6AITTOSmtT8qbxrASKrCmKT1e1hqvZ1DVfiPYJO6B4hRBCyeHuAO8RCHPsbwIxXKa4eQsqNKsdGTizQ05E4d4LXnmaq_2Gtx9CJYmjnLZP069BjQoPbH7h_MsCZg.Y9.lLdjDYJM2mCtlxd3RV2VZsPqYNmvhZJXvbsQQokZl.LryBJxb1nq.VpnYnerb752U.ylXC.y0kbo5frMQ2L..fokYws9kPa5EXaw"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877651,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai_consent_marketing",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.87765,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-hlib",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "true"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877651,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai_consent_analytics",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1755610204.975148,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "T7PqZ_ISwSTJ0TX.QX1mMsrxxhLnAb8AQR3HVkvAiD4-1755608403-1.0.1.1-xQ8SHw65F3BOD2F8P_1t5on3nv906XecilTdMlMNYQIDS3F8EUg3ccI03NnGe9BYbmJGbt1dXqTNLaupn1DtKbf_xZ8isSMoydGtAE4LxjA"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1787144896.771903,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-sc",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0gAAAAABopHc-D2kNrNyrOnEZ2yNo9vXmXIbwuzU6SpRWxBMYAg4jbwx_tyANC7b1kEVQKOcAZWjwEc5-yK3z0VIIlJZdDBI9ygbelMRZ1BTyZBox0tbaR-tLd4fa6uBxuv_ULpyIO73P1SLVHWqDNt7B2_IgsrcxejvsUzazJlMETDBhx0Xgd52gpFG3Oc1linbn_kkIKzbScBneXXHLRUEXezGthIQwRdDskydEGtZUieAKxe8GnVw"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755609946,
-                        "hostOnly": true,
-                        "httpOnly": false,
-                        "name": "_dd_s",
-                        "path": "/",
-                        "sameSite": "strict",
-                        "secure": false,
-                        "session": false,
-                        "storeId": null,
-                        "value": "rum=2&id=c68ade17-f81d-459b-97e0-ef6726036b7b&created=1755608887788&expire=1755609945272"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "expirationDate": 1755610847.129041,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "s0Pf.8bl165CQeZIQcUh6I7ROKAJvqZuiFAqlQdCFDM-1755609045-1.0.1.1-dplkdbGnMc34AQKFJACx4Itdebtmd7bsiyuR1ck7d5SK5KoZvDJ.dM4qm7in710JjxeS15Zn0ExOfvQliB827uGl11t8ycnIDwB4mG.Zz9I"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755610686.379054,
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__cflb",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReM9xoHM1JBrPgy"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1757748272.877643,
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Host-next-auth.csrf-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "8c6c5e85f663a0cf87ead5f1bd5baf40e20606368da3b92283361ea44735ba5d%7C6128efb7327c6dc6d125abfd7ae2f0e03770ca9cbb34cf1e7bb8ea874f19e3cb"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877649,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fchatgpt.com%2F"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fsora.com"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_cfuvid",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "6wseXMot5my.wPVw7MAzVaIlwHrq3DLePb.EJRnnNgs-1755608884821-0.0.1.1-604800000"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877655,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_dd_s",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "rum=0&expire=1755157166043&logs=1&id=fb3c72d1-f2fc-4e05-9933-c246cfbbb215&created=1755156212493"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877651,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-allow-ne",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877646,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-did",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "da01517c-2594-44c0-b702-f1110f007258"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877652,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-gn",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "Alison"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877652,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-hm",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "AGENDA_TODAY%20%7C%20ON_YOUR_MIND"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757748272.877652,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-model-sticky-for-new-chats",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    }
-                ]
-            },
-            {
-                "id": "64",
-                "name": "Sora 2",
-                "cookies": [
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1763385480.452664,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.session-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..28Ki_pU2u0ndwrKA.WgwdBxcAgirBbP1Xpm_SxeDIb0PJzA2I2hMCovgEYTeahsvTRZX9GWg7qnkvO_tU1ZhPwajtO4q3HmCF5jfxadPRvXouEpc8OXhtYcVsmY3sN-tK3n-st8-msvZE8XdzYx-QatNi5Tlckrc1iw4rkQMxIukLspEWkCoDqF-xfrC4D2H_-ojtcpa_mmALTGTWCVJYvUlesK1RQsWyRWq2mu7iVwMSMF8JY3NfvbsqW_uuF2ggGTMsjdCNKfLoBivC7wbhp5MdBQxXAYZ-RJUrVIlpxlKbArf7SrsJspvbua46XGYZXx3M-Y8bFcQP1fTLX84nBaf5aHBH7Nug6ifNEH44W03YkxzsLtcBdPcO4CxITWi_4ZcFKzwb5DJGWO1flqC762XZlgWNr9aP6PU-HYIS4SPfa9lsD3YTKPDxDxhWNJeSI3mKGIq0bWyxAfU8-Sn0isqzyWj5mi4CEeAFcpvPSmFUooQTn5IPyiySBCMITAlSwto1OgA6yJ_caR4aM7Ze6t63wT4tTExkKLmE0Wdoh9HqI7r90WfZqvp07luq5UaWaMAaVQIaJ0VdF06t6ncgrjxmchRcR8xPlHop4B1yAyoifHvO5thFJioUlgr_68opluv08NcWShDjdn1VhGjCMhXEVmhS9iS_iiQMlzfd3O2FLhFp0Fd7fP0MZtwSy9Of5dn-S46EzOtE6IlnQT8pjH-FsQz0aV6RJHHzMkYSkZG_rAS5DBBK9MwVE12WAtp5rOdbm8J-c0tEJAS-DBLkvEX4Uz0egSTXy92KDYxpaO94FuC6S9ugFsNPZZAy-We3GG0FRC6XThzykgyXZhCI90H2ihxvarK5iz46LzPHkvf_neQbw2_ty-h3I9jWkojo9iRO0L6AEvODFOnLLRjCfIIjZjHyP7UCiKRSWwic0R44obPKSCbk0hBFjWsqlqANOeHjwPIc3YCZ_-EBV8b-bUlcuOhN8MqIr-nxeZ4_Z4B6TUCHhuByLty5j_FJEKxQAg9iv64Hfe8ivD7Nsk1HqzFfTeuQdohvaiKTkCFEcObXwMTVeLS5u42pGulh2p9v9MyPqPVz6upHfqmRjYUKoZoB-JugIDfQyaP5G5_p_72tvGeTjF2VUwRsHySAqY2Y8A5psmdWGT6k6eo5bFnQ1DTu67qddrrYIMgRCR_7Wi09nExZzaehiTAJJnd-gDQNAHpJI-uiWbUUgNl8yWTnuu8k0jXQKS-aUWVvH5MTRwq9bXPgX1NDaTjCTn1qJ07J4rrxNRGfaiXD-MjJ7adrIpGOx05LI-tLw-wCCiYXrAmJIud-3ifzGmvJgUofqcaJbF-6SSNXfPZ8xgTtzxE8yCGua6ZJV0AVIZCx7p7iXq6vS__NRMMMqJIt-Vacshxm3quA8bcFVb0ajakJ4SWQHyAs4Fuvhp3f_CmVnBBBPTno6yj7lU4KS1_RN9Fbhj_pVdmuZIZk0VbblVT_Us0XTQJXGSgyHB81Tl_9aeRFBvhux3AEkykzM3ngRoSibPR-qxYVuUHpdg6tIlJ0ohVveOe8r1Ic9YZyVeSJFBTuA6ap9Bge7HnlqSjqvHO9WWqmJNxHEhc4DUQ2kqOyqpPdoG8mevWEK9FODYQDoIqp6DX6MOn17CEBUb0fRHR9dMvXaXlZbtviamFtUlR4H23XJIZZRdTQoU-xEjMdViFcL13cg-AeLM3OlJHRLo43sM5AnRTS-2geq33EP_SEgxzOaNHKXTRFAAR95e3-aZmPS5gNyxCenqkeAUyju9B0lR-sNqEsCS56_Rsx8gGWGTpwY_eF5TGddx9OYU0oU4OP8Ly0jtmHrU_RISmaDtplms-gd00hZRz2kO-kpBE4yq5IbiIo0sNzpTFji8hy1OxYORRXfIr0vG-iXkQiBdjuoELzVKnlEo8iSkL_5bIvqFFzNdzAabPuiZEhKB71trpZ7C3UkwvM3Olvc0By30FnuQm1xkdVsfgx65fpZuWG4W7JLBRBK5f5W2Y3Y8ykEvPZp0iIQ39Fhy91OzK9iZ5eO8q5ChIqiAvBiyC29oPeLkOnAVRystiiK-erq0EGF0bNyzC10TyTFm-BsUkDSDO8gJA10nBPl2QOhuEl7R93_9RgLYh3AuiByGDNzY2h01i2vsN2aCpfr0ufa0WkGPMAtZ8ZwRU_O_aV3-04fBJ_geIhJy-VKbK9jbD4JJRC3d7V0XqiENZDu7kLCHjPAwWlz92TAhCWGMLBaYJAgW6m-elGbrauGBdw0Yj2FDJs2oHW_Ch-QV8_7cgInm6VsN0-ZijY5rWaBg_eVRDaBPWq2uoyPaTbbGW7FJoyNyPv6iL4CGQE0VhmFz82tspR4WewldN_A4QLOHuBJwnt8Iv0tSaR0_o3b4Ly4iqT8AVdVWzitMyZ1ZDCmBX4ONeZzSFxE_Xr5aes3VAkYUhl31FzP58rrcucq3LrrPArX1SDQjYGwMfRJ2ceLcdI9e9NsQuIl3MwisVpwR8njHkMiWvAL173gVqQwAOWNnh6SgubelpFFcwryHxUKDeYSq7Uja0IoMMWNhxSwkjz2E2XQIpJtNlAfSBFCwEyta0ohycMqnYtCKQhbV9oQ3gbvOB8gp37gYNrnIDny2iSSoVrMXsaH8M4LQVuLGT7k36RTr2GhB4G6yB3Hkxs86OKEGTIUG2tmFjpaiok1j5JotY5laC8nAZgiUWl6PGtgok9bd9gE_rwcFmN0dOuz3ddEJ61Nl_TKsY47PFGsPyDREjqOa0sgXTMpkzOhgEpf_PBOAZk9325j6idRy30X3a0gE2IGT42tgLSgsdsLGZE9-F9cUXIYhmGyrPWrCSGLunWmx4jFx5vnPhXye5uLpjqJ-Fg-8tn9iuiiXV8cOCpkdoKv_XfeYd5PyEnGby3w9zQ2zjQ6_DFrK6JIeQLEnxEtuMCt3nNYDmPEe5RD-dyBHXIafOC3YfK7sqPqNqmpCDadN924sABWxY1J0IHBa-ZPrWmoPVORiBApB_7sD_358LU071s99NOkYRJBvfp9zVNkWZGYQYThNCidcmv87uJfCQ1-Mud9D1yvlQ.OnERlMnb00W6wxqbUbYQLw"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297956,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "sign",
-                        "path": "/",
-                        "sameSite": null,
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b6d5139727653792b557637335a316d736a7a507557"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.29796,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "cf_clearance",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0Tv7yNopr9nN0Ng6q8ehXstPlLTIDGKPHjWE7dtfrlY-1755451723-1.2.1.1-OvkK7qLNdu0STTD2Em8KC6Pf.5JxNawq3TH6MUhVvYErKkalyksobssc4qLb10Ju9e2igMUeGll7fTuwOQUtnZplp6TEcwyMzQEtNk.BzBwvLiLvph3nLu7EKFWuY6AaD7WQEf8w1AGnlG4mavayWLSjOG.dJ_ST3J2NMBZyKxImbGMCcsDBgaydAPMOENr2rPykkv4inV4Zgf1KEtiX9pDzw3jO.cJgEi9JAvh.meA"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297963,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai_consent_marketing",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297961,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-hlib",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "true"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297962,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai_consent_analytics",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1755611016.039675,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "o8jtKgAB6fC0GFwRtr7ypNU.YgS7s.zsXZkKWK2eE0Y-1755609214-1.0.1.1-nVrPQe0P92Q1F2zhLXeSyD71pen9ym3c8jLGe7rTUF2jNh0daAf6worQbFEEz26Vxho3D.H.zbysYTVHxxxsMggiInK6OFVqhUcO_L1lyXI"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757434940.239967,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-cbs",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "%2F"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_cfuvid",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "7i.0lAp11iH.TEPFNcGXdthlmrmZ.nFxg6ep30Z.o8E-1755609438243-0.0.1.1-604800000"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1787145441.329508,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-sc",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0gAAAAABopHlfylrnolyf9jNLEtGFOF49WXsBtHP-rlyaNcuc3iA1ZbMoJw0heLa6M0rOy0Cr8Ayd3ss2-Md8cvB4AWGxyArlbUq_kIoAGowVIoYJIxx-tRhoTjq8H8oJJ1L9ZbedFQWc0MQuTLVBuA3VuDRykhlaQ9mzEKp9Tbm3Hc5_g58DkwKYfeVUfUktFESXYh7TMiaCfRsDy5bjas99BDqCaVQI1xDUHmx3AxclBJgiyGSaSCQ"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755610380,
-                        "hostOnly": true,
-                        "httpOnly": false,
-                        "name": "_dd_s",
-                        "path": "/",
-                        "sameSite": "strict",
-                        "secure": false,
-                        "session": false,
-                        "storeId": null,
-                        "value": "rum=2&id=91cc114b-6ee7-4ea2-aaee-d9b08011fa54&created=1755609216026&expire=1755610378870"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "expirationDate": 1755611015.227451,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "fETPrBX1sFFgdm3190k0kzAEQLDkzO9I.Og9Q79qsPI-1755609213-1.0.1.1-97AV0PPMgQJbrHxT9mSicU3ezoH9uI5Xk452e4UUumNVFj7p5U8BkW2hJChj0VehwYkedZoMmeCf76qNGlI_IIIRLt6HmDX9B7crgmlemxQ"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755611015.227483,
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__cflb",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReM9obpwgWbChSD"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1758043595.297956,
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Host-next-auth.csrf-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "51374580d890c4018556f6a5795c7612d3c5864b171f08eeaa93b08a55b66d74%7Cea0fe53c8b4b480e8f64ced0be174b76d08dbf4f82ceb352437ab512a73fdc9c"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.29796,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fchatgpt.com%2F"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fsora.com"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_cfuvid",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "K1O_dLktbhUk4Yco8Od1WRjQf0Zt6CLrBWh1lZ2z0pM-1755609213748-0.0.1.1-604800000"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297968,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_dd_s",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "rum=0&expire=1755452492783&logs=1&id=70b03f72-658b-4cfd-8fd6-7697df0e3ff1&created=1755451557388"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297963,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-allow-ne",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297958,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-did",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0ad68a6c-b530-4771-b4f2-8d51be83f817"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297964,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-gn",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": ""
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297965,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-hm",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "WHAT_ARE_YOU_WORKING_ON%20%7C%20WHAT_ARE_YOU_WORKING_ON"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758043595.297963,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-model-sticky-for-new-chats",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    }
-                ]
-            },
-            {
-                "id": "65",
-                "name": "Sora 3",
-                "cookies": [
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1755797008.709039,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "_puid",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "user-WBqcKnxeyuymHwcll6jf8yOG:1755192366-hGcO060U16X4ED047%2BarEoXYahjSK9hYB6OQvYwB0%2FI%3D"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1763385881.570751,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.session-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..4jeo7PYqvBBdW9Ge.VQoWXKwIQCCXjM9AeXnXabM0Ye-YVtsFeb4_ZYtnuhFVTeZxzaGZM8iW7zz3vUpNZgb_NNZCytpfqZ5gUhA0R9ly4kNVgXwoRq0nnJZQ0LRDFCJ6v9Yu5YidPpj6U9SvduYlpnTYMLrykJTLHZWILa3JNYZ_MgpBBK2uvEO0rHSE_h-9-x4iKjmrPQvkEjDYByKf-Gd05_X71lT_52JKFQm4t1mrtMMD_DsUpiI4N6dG75_c23_KrSGjwnm12kjxcWte9FKzyJ3GXDLC6FM3JHwd4aKw81fDt4LV8Qg6SnYGe739kt9twA9MBhDBTOb7CKnln6Dvo2JcFXh8diEKrC1nnpyaj-q7kmv9jhBTS6gRW3hhxNdWofbWClOOtOcve0giLpu7cCjFyFdH3R6y09GwQgI6Y53eJqCMTOFgLSuMF687eDZ3yNJ7rJWg3zuETfGAbZkzXdK_Hh1KCWDle_98Wlw8WHBLVp8N2ZVBF_7A7vM6PeAZFzsp1GnlSPhBq9D9WKzj3euVmIhaj-_itxCxBdXGE0DwR3CO5FlGMLVvmRYUThkchs-htP0wvU5acBod-dLfvmoWjO8H9YdzuB_gfhGOddSSX65YxwS-mFVbQMCEAOEfEarllfUGzn9qhLuqSTyEBmQPl4VXsWisODb-FK_GwunmeQ1DsGOjApuw68Z7wTw83MLTuZa1DgqDCz2I0n_osCRmu5vfn_mfazfaNDTT-tmdky4ZSMFPhmU20uHu4T90jiPYIj1i4vJhx8tB8TtHO5cEnjpIyXCKvDRjcSlK0NrsohhZ0mevc8QVuRer6_jnVgStqUCK2yKtsjxothThYlMLkFCWAXc7YrvxS-F1SsH6O2wsdo4vUb8xdzy33RO0Wwt2wvA3HwD6XGGuo9fNAU3gwSeI3XraG9eVltzFxblNspx6IsIp9SiEQ8QdIFrSTbhqcMrtSLJqMGFlwCU4UDyV1wjmEJWvJd1oTCwmvJ8xIetCiiG0-FxFrjAE1ShW_XhWRPd4HPZSMpnOtsVYi6-s2gtGmL3rj6VnPzqH03wA6kebQbQOY9dO3K8dIjW2IQk2SktusZjj7hOf8HabrYQ7GvTNRmg8P1kG9gR9-z0Wdrt4scnYQPJzQNGt5COsc-n4EDTtCxG8pkHv70FwE92oQusxEpYPbt8pnDKoOY14Y6V5IKmA6uIK4YTdfVqjobG66Ocauoc6gtNWxY0b7FeJ01jF5cOZqZhaV-dNYhtI2Z3L6VvxMBBExlfCFtQWqAfwYdzSGLzXdbMnM6SZ_LixsurlMgaC04HM0Cvccl4UwqjmU27Nzz9rx0AZt9NjNUsejoLDuCodOlX79eg2-CIrEguJoefm8wJO_4h9AGZJVQsBXLhSBcP9odSs6G7Xv0ISqYU4l5I50kRjQwOpWwmMyG4mBfckoP2-fIlClapIsxjaR0rBwgonYbDMUpdLdeQpvuQPv5ZPA6em67v9aTv8DTJHzlKUhxgRvygCpN-XuCbO1cd8OcYmCBw9AuEQ7tVqsyu07Fe715gn84hlfQRrnb4fU7zEQU1yOjeV4a6tXc87EZlk8GvWxVLwmknFqSn-VSSfcqgqzPiydgCb38sXON84Scp0B8ChYinu3rqk0VAeMHZ2bGuhsAzL3f0OlKw6i6LLMMO211stAkriCnDZqpbOHMaJAmRHaomI4aKTonZVZ8lRoaeuCFExPczdKCemLfJoxoFTYPvtk6JfYZy7Txdywwsxi4iQaIYJvdAT6IUFtla_2BZYJ5Me0yxm9b3ulRXmIZgdYiEr9R_7v3xjECe6SX_X50abJI6M5Cswwx_LnfK9L8TfKbJsxq6Vy1OdQwDqu12V5RTXxf2yO7KcpdGnjD5DscRFDvTtlNRMQracN5NN1bOv8wjvlNrZYFwVnV5l38pmeCCYYMcJ20HBy0p1qW2GQpLBp2kqHXw8fsbckkudl6QR3VwvuE57XgJ9z_fUZTW0N0L43iZfdvbINYPT752qske2s5PlNeX2KQSwtVwtTRL3xEfZ3Ed2XtZLYP-QW46GSol3xlVHUVnN4nycgk9eIYJ4PemA_S3OzSmIJInoAioipsVJ_8UCBhGNkoxAkyUJtGf-Om00a4l_1F8hA7KmM3SxQ68_z7RNEO6WfxZMLfreh7b4j2EHe6RJRHEsWlS3TEx8MCuu-Hu2peP5OD7UQT1XYDwvSnFQiLF_g26ylxNfe-pKf0s1oEnClxeeVP6lcy-L7y0OfHp2W7B125wkJoSvSGDaNemgBUf4pOBiTLK9t9-Pf25GluOWhJKZ0Py3NeAImTbIQYxzIniA51KTD0J8WRrJqrv0oRypSawW11XVJeaBlWWqffXeVA1UIByHYEvnPgDNPXpb7MueVi4qbl64SGKFbhzl0Wnqco2RoNBVSKJImf4nW5PnkIr5prUGbaPVGjBTqXL24Nm1g_z-_i1iottAa4W__xwv2SIzfwzDAdg054s7KSZsxqoVbdIMa9XV2iQ5dAHcDZH0Qc5V4NYei1qyxKOcfwBXMz1s1kaV3gOmjtMdfIBzLDG4B4Wzb3zrR_Xu9N6UrCVMKzAoaaWH94T67H0UPsET6H2V7g0Q-JXUYkb0gvU4HOtjQTrLZzULdyAr1a_cQg6lrX7PGf-Yt1nNQQAXmdp3a3EwTYpA8Be8DVR62qurlU9zq6CRSekBtuWyEjX46n14MFs1tGNrDBiycF7e6vLKG5rsF5sjLJJskLv3cUBP5UHQGegJWeq6KBQIRJJTP8yy55rW3G8013ClJTATC1jy4tysl2Ano-KtIl57v1gXqau1eZ5UBTCXDaajxgWBzxjwAgecI72oVIxcgHaZbV1-DZiKV0E-Wil0P_qtulPqmq4TmrwT7xAIMFmNvu_ldTST7XnNeehlwxcGMygIXPcnig_ky_iwvcBENrsY6vDEZpwtjVv1MAKgjlHPm4UDnDgsgmLgupwSuvFssN6-pMoEr0SrDMNfqzXPvedumCythwQ9RQ.R4UVD2CfopdvM2lZo-c18Q"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1755797008.709039,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "sign",
-                        "path": "/",
-                        "sameSite": null,
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386a63742b302f396643712b316a4853357749654b59"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758177005.390891,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "cf_clearance",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "c8dbk46AApj1HlsNoepsx3FskyCxZxM1OT6Ay_wUO5Q-1755584959-1.2.1.1-RRNZs2.u5LugkMfN41Kvgx9BB08CE5RwjgTKoW4lpRHvfg3gZRag4P9Vi4IC5IpeqOdKwi7ZW1ft9jL_z7uK3c82_y8GmpGDCRR2UVCJiYzk2QVQdza8OZ3RrhnDmb99kKChwk3kaevkEgSCE7ynIHXgpmYRn7ZkiOYWmxI2qOL68jLTpSUDMy4cFnqppMpQsGySzibyGd2.vjMewOpx9imCgkDMrpV.oZ4w583DE88"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1770744207.66273,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai_consent_marketing",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": "chatgpt.com",
-                        "expirationDate": 1755610783,
-                        "hostOnly": true,
-                        "httpOnly": false,
-                        "name": "_dd_s",
-                        "path": "/",
-                        "sameSite": "strict",
-                        "secure": false,
-                        "session": false,
-                        "storeId": null,
-                        "value": "rum=0&expire=1755610726707&logs=1&id=ef5762e7-95a3-4ce8-8217-9f19a0e4fb45&created=1755609826707"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1786296078.863949,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-hlib",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "true"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1770744207.662622,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai_consent_analytics",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1755611626.477143,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "Sjv6Ei9jUJ7zDf1ANNm09Uc1YJH9CBuGaaVYT8tc0tc-1755609824-1.0.1.1-NzsXenM2uy5OZNhYbmns0SCLHDOAlfN1ZB.q9.wgdYrtjmQ5GsAKh4mnLErI36xUPLfYIa0Y7J4jBPFJfObVKLoSnon6DOUbMXEZHqhGdXI"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1762968080,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "_gcl_au",
-                        "path": "/",
-                        "sameSite": null,
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "1.1.1368264043.1755192081"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757434940.239967,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-cbs",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "%2F"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_cfuvid",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "uXGBdgeRDOoa2ZPGngMZyMSfgSPW3iZfvUmA_lW2ahI-1755609824977-0.0.1.1-604800000"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1787145827.89716,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-sc",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0gAAAAABopHri-6Z6uCMmvqe3g0YNzmZo__6IqU-mh8XCBhtYO9EuRkMb2XhQ40kl2HSCPyA_T3gcsuwL7uobIAYDYybu_ZXGUeaJtpESt70azzfqPtwDfpoO2fPCCO5HlOil226T-GXMbbMYmNeVQz8xXRux4IUJ9m5UE5g79236j22iaOd2e5Itwlvm4KImCEjEJSrtFhCnuJxnLs16cfdn3bNv50dmgqfUr_myeotzppwn44HPshA"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755610783,
-                        "hostOnly": true,
-                        "httpOnly": false,
-                        "name": "_dd_s",
-                        "path": "/",
-                        "sameSite": "strict",
-                        "secure": false,
-                        "session": false,
-                        "storeId": null,
-                        "value": "rum=2&id=51c24a32-f4e5-4dd4-a642-17d5c9d76d9b&created=1755609738695&expire=1755610781123"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "expirationDate": 1755611537.803168,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "5VweY6.lwTcza33AcI6fxFuvRAA4B14wkwJUfkMEsas-1755609735-1.0.1.1-qdR.8byFLlhxcQJDNJ8R4TQdNN9cmTqSmAeKLf.kl_Uu6twKKxPsQiEgcPKbNo2s2txtgKQ5vrgYWfyWwmeMEIa1Km_VJMuLByeVAGswUFg"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755611537.8032,
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__cflb",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReM9q2STijeH2MK"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1758103998.888505,
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Host-next-auth.csrf-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "c5ef5ab9b77433eda9fc848a5c805d9018d6221745e4e27e33dd10db06afc1f5%7Ccf15ff24291fcab92b02b6d3982737afc1b0084ab656f6fa39ff8720c7c5f35f"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fsora.com"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fchatgpt.com%2Fp%2FFUCPPKPW92ALR6UH"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_cfuvid",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "ZdYgUY16brz2JdTSnbdHUVe4QVrdkMEH0KCR9RyuYAU-1755609735973-0.0.1.1-604800000"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1770744207.662782,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-allow-ne",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1786296028.4519,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-did",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "a48ac258-dbe5-4b37-bdf8-d0961f97cb2c"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-gn",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": ""
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-hm",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "READY_WHEN_YOU_ARE%20%7C%20DIVE_IN"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757784080.694658,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-model-sticky-for-new-chats",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    }
-                ]
-            },
-            {
-                "id": "66",
-                "name": "Sora 4",
-                "cookies": [
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1756191547.103909,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "_puid",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "user-NCYUK5Tf31cBGAicbD7zzpmH:1755586749-opEQG9U9nFkuOLyNZbUwQoMuBEGLp2SCgWfq5aLFKcI%3D"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1763386039.168533,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.session-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..58J-x6cc43glaj0M.nc7cceqJbBRCSKqAg9kRNmLnxKsSK4lxC2q9SM9gqyj-CDHLdGgH5IO90okJdghP_POx3gGBI_n8EFIyZLUn0wPzvHm29Lpe2jrrfrwevY0sAXDzpK9DPxLfSBuxH0-3q6B12QD3UqXTotVfPN1ZiQD5fWx56Hsdi_45B1o0Y1Bkdw2BZpA9nmxerWS2j-BCxb0zqKKV3dSPMbNKgJiPMAwqbRSFu34PZ8ARNUMV39OQe4N4UsjrGkhlbM2xKUiYuiUVhWJltzRH9rHJmANEiCMNgNsoZSyPVbUYgd4RlwJ__CLz_WXIK3qx30hcWINYALe67M6KVgt8iVPXqFZTV0P6ej6cmtRAh7jy9St5Kcaw4DUSzCZJ9zxZrcV3uDLRxHyiAzW5GXuXarsEFjahNFM5rY2LHvct58nOkDwv9e78vU8hmTYbtkOHnK_uBQB-4a9O9GGXSxqh9UUXQtzuC-XNA52p03FoTeP3kdE5KY-IUE4Ht2q1_2CK8ho8MtSb884VTfsYePIdRl2pXQ91qMhkGiZTgprtSoupqjTWHcXc1Lc-RDTYS3FgIhVkYU_l6vWEalKMUFfggY633wDEpf_p9cYzgVouRg5naPC5MX-XkyH-rngK8HUMbVz-ZvWnTLpmAYc1afRaN6bJ-_xlGvtsKaZFf4IRKLb_Sv1LT0k6D1n5St7kl1Kd8ygkvz6bLyREFwFezivyrN8aCBCNYNK8Mc-DtTR1ZaBv1SlGIM68xH6__BKYfDZzGL2VKvVoCS7tdaILWPJ-fXF4S2f7C-Gq0PXelXBwtzNmjg6594xfuzCuoGS5SVLgzDvCpBgp3qPVG3597c5QEg2Xih3RQi_-umrwzh36n3ro4-pO_I-CblPFvJWFG7Jj52jqRalA3qqTsxUwA2dqj-4NWNk4n-ZMemC52EwKXsC3q7RHE0GIMecxGowMFYhLAkYPxxTF6DUZ4d07DRbC3d0pZxaHNNXq3k2tlPa0xe4ZiAPuvYh3-wcU1M_zON9soFEBJ9Y3XHTm_ZZMuln5n9p8VmlK1ky2ZgxQTFwY5Y8tYEaSMz-ARldgzQdO-rGqgd6Q_gPUkJqkBEVZaCp0niqd69ZmS11al5Hgro0rKssBTpWTKZdcJNazlNaSA8ncaYhi4xDAn2m6SzuibMKJ9PYaVYtY1FwR8Bcb7RAz25CnfSz_EuxNE85zbod6OhkQ7yO9b3igYY8UswvXgtpUC5SmEfZJkS1HVSrOVAPI5cWwS0hbS5Wh8CNHWjuxWAORLsIhyEbYjJsnkXPTm8h7yg-88cgYm0sc-UKftdYy9tzubk0S2g6s5KlJjAQHISetacOk3XuX6vozpv5j-jq3M65bg7LOo6Hzth2HvfkEHMflPDUZNklAHbkArkxT_CsHzjxIGW2OmZ2p9rm1yEmPf-DX0pfz1wV4_BKsxbXaXhwU5tSt4U9MfEdVqPNWDyOGgi2aivWXWceIEOdrGWPCMInbHFDqcNECxT1LyPU1oH3BJHQid8v8h5PpFl7eUy7GjEZ1yu8Daz-UHJYCBZxHSPKl3J9gDWnSJsgd0R0op13OmiKD9ILR2rVbb1c2ODDHqHVA-lmW07kMEzQOfCf1h3lFLBdNNlEYjp_UYro2UoNpIAF3U0Pbo4fNPLV_s3WLiQt4u8xpMCpp6oL0_hafdibLnZphlGJ5YYhNlq_hIWzWwzOd2_5PN0Yi6Zog4O2H--5CSM9hvkDnUew5tpmeJeYqpgFEN0kUWH9IphEtXmUlwyW7NxeKLc6Fm62yfdeQi1p68M7kb4VOUJTQBCXVze5A5IkrSZpZXK3kK_hpvVoRn2DCuFDmtpeGfUG3C3-5ehqCkwL8eGbaE1hW2NHVgRw7Gq9z_C3XkSu-cYkTcdPXdS_8aafem_bxizpnwrhWzZKDoVicsx1VJgHJbZGRShv5VdLmOnE2pQ71AGHZFnZDttkyy9bUmhjwIm6YR45tfDr0Be7Z0f9IcE2pU7qJBddy81Pt029I34VOAzAjUeZez80QiKO890bAlPomUyuMbAot3dz2vIR7ZMJIHNMwH0lukPgtWgcvuyaCFKESklSLNDw48uQGAQMQOVbGwp2gAzK1nvYNWEtrsqPrHncV5o3Npt26DauK7dlcevERzDRZv2q5ZsFqW-DgDAj8ZwiwZQUj6VYBmiGhjJvuP6jaelrmGDS4m0tqnUCPuGRGvmFyYs2OgWZh18BvPUWZDcJNn6WyiqvqnBaYzM400R7gYhekqku8Zv8aa8GUc-AM_uGj32RGYdUt1cMTt5X8LnKT53e-Qgb82r4DCZE_ygCoY_eqsjYI9rMCDBHgfOa_obN7eptNhXG4v4RPAcV1kHNelBKCrhjy8sO3qcNm5avhskUPKWT54LFFXFv6zGA8ajCKmvzJPOEv7QFzlziK3ElYLUiRIyvwU2ykSOfwCQtiqpRUYBh5cCa1j9zgfwBtwvw5ZAERe9BxViBGjgw8765DIhR_eT3lN-9bR5U7aaXZNJ_uwGnZ2maCgd6Y8NR2xfCbR4OVvYYDW9CaDeNBngy-67C1msB9pyiIsADhtOeQYJrNSLWbBQsgiLBPPcLvTAjFy1yFkrO52VAUEkyjzInmWOURDyqo-4ENogSqk91xhs8xHGu38VTV3YMrCqMb-47WZbSJeqBIivsqnJ2L3QJOrwN2Cg-h4-I96U5IR8r-0h80cSs6v9UC6JC3b6VxcRGoNQjiAEl1KO0p2cTroMMCZiUEK1u_QMikbuAQxK4JBZTHZ4P48osiQZFkaCeSPM4BbFbu82EKb__3jvEpFmuDxzDFmdz04AYEfF721qV_5PVl48Q44tEu_lbr_1yluOtlAFtdyEI8hYhfz-DwFhgl3pH66IFK8KWb_AcDuomlP0pQkZsJpSAa2ZlcZyxyjIHoQ_jWfAOZYT7dznbUa1bmZwa-jvw4qv7rmImSlhSX5pnz3KZ-xQ6Hf6MO3kfcfk6l5pA5yTYLVOOHhKHMFvTyjUUg_HGFmA.9gURhaceCjm0OdYxQSwH_Q"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1756191547.103909,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "sign",
-                        "path": "/",
-                        "sameSite": null,
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139442f59782b526a364f427438766b5a4d3041522b62"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758103998.888509,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "cf_clearance",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "BRddESVxiUtUJUe.z_Vf0kLd5rt6CE.xtUc9yO0Gp3I-1755511902-1.2.1.1-d_UCN0L1UzJXf9OCG17mpeTRr96Vf99DTZKIBCqWiyO_Z.NOeafT4aaWEnWAn_jGcjGT2v3P_JXCnACp7Tr98a9D4rF_XYke8yQe1CF3r6Ioib5IwqH8TqqASDNOXAcVfiCdKUzZpp3uIgK38otsdBXxqpswNHjFUqR5vSv7ybsSowLCYKTqlCRcMPEhRdNxuIrPlVkmf8zvnco6GGi67kmV6izvdo384N99wLbs5LM"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1771138746.234706,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai_consent_marketing",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1786690615.851573,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-hlib",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "true"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1771138746.234597,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai_consent_analytics",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1755611820.193862,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "RzoF1JrirQ2VhPyCsNw4XDkA.Dim9.TqKVT4B2qJuHg-1755610018-1.0.1.1-Uv17dMzwEncqQVmwW_XWMUH1hV5tUpE2d2oBJMmo1.ynPdYIe3NdRc6.j7V1y97XR1vs5cxDj9N2Mb9bnQ0sqIjA6seBT15dxwBodcg3ouQ"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1763362617,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "_gcl_au",
-                        "path": "/",
-                        "sameSite": null,
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "1.1.1268033029.1755586617"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1757434940.239967,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "oai-cbs",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "%2F"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_cfuvid",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "HI29KBeDat7xszgeJcgW1_uhYOlqCUtiH0Jott51.Kw-1755586564913-0.0.1.1-604800000"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1787146046.486653,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-sc",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0gAAAAABopHu8S3nHAj-eIhs79NvX7rxvKkGQkiOfue5w_8Y048XdSP8LMqmJW34WVE9oW5YnHCRgVyH-z29nda4y3W31-2VDoPWr4myK0zuNHLFgqOeFaY-hBJv7buDJbIwczW1T_Zj2fRZnEIjtpM5Deesv8V_1e_2w9Qg4TWw_-0uGZ9A0EPjUIKAA3ItUg0QMtLTUaLy7LWRRMmASqKO1EuwdQFz-udQNoqi9o2OK_6Ukahbl65k"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755611043,
-                        "hostOnly": true,
-                        "httpOnly": false,
-                        "name": "_dd_s",
-                        "path": "/",
-                        "sameSite": "strict",
-                        "secure": false,
-                        "session": false,
-                        "storeId": null,
-                        "value": "rum=2&id=1d913833-7917-4454-8854-c1548e0f36de&created=1755610020206&expire=1755611041961"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "expirationDate": 1755611819.173153,
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__cf_bm",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "kOqu8oSDBsr8J40XJC39pCbda7ExBC4MsVmSkNMUU0s-1755610017-1.0.1.1-gc.YQ0oYbsWsBuzCMEshyeT7Yb8QPA.ZPAzkgqUw48Jm_KF5OblwneB83wfm.waLi3DWr0cgkeZnxLmRAqhinTWRqCcGYz9O0Yywl0oWSyk"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "expirationDate": 1755611819.173188,
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__cflb",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReM9uNkM3TtkfcZ"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Host-next-auth.csrf-token",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "2799176fa8a0a870305e19662e3cdbf4857c644d8cf15a6491ac86f82172a54c%7C1186f71c27a61ee2494becb80187f71aeb68f3d8effab4f981e5d4c82e1533ea"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fchatgpt.com%2Fp%2F5CHSGEZAPS22EJHC"
-                    },
-                    {
-                        "domain": "sora.chatgpt.com",
-                        "hostOnly": true,
-                        "httpOnly": true,
-                        "name": "__Secure-next-auth.callback-url",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "https%3A%2F%2Fsora.com"
-                    },
-                    {
-                        "domain": ".sora.chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": true,
-                        "name": "_cfuvid",
-                        "path": "/",
-                        "sameSite": "no_restriction",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "KIXJOru2DxRmBBa.gCYFeijx0BA4l_vifsSD0OgPKW8-1755610040425-0.0.1.1-604800000"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1771138746.234759,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-allow-ne",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1786690562.872675,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-did",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "fb7aa18e-7949-4576-8367-5662f3ded27f"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-gn",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": ""
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-hm",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": true,
-                        "storeId": null,
-                        "value": "READY_WHEN_YOU_ARE%20%7C%20AGENDA_TODAY"
-                    },
-                    {
-                        "domain": ".chatgpt.com",
-                        "expirationDate": 1758178561.670013,
-                        "hostOnly": false,
-                        "httpOnly": false,
-                        "name": "oai-model-sticky-for-new-chats",
-                        "path": "/",
-                        "sameSite": "lax",
-                        "secure": true,
-                        "session": false,
-                        "storeId": null,
-                        "value": "false"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "meta": {
             "name": "Symbolab",
-            "url": "https://www.symbolab.com/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
-            "id": "67"
+            "id": "81"
         },
         "cookies": [
             {
@@ -20832,10 +23723,9 @@ const servicesData = [
     {
         "meta": {
             "name": "TradingView",
-            "url": "https://www.tradingview.com/",
             "category": "utilities",
             "icon": "https://groupy.id/assets/images/services/tradingview.png",
-            "id": "68"
+            "id": "82"
         },
         "cookies": [
             {
@@ -20985,10 +23875,9 @@ const servicesData = [
     {
         "meta": {
             "name": "Udemy",
-            "url": "https://www.udemy.com/",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
-            "id": "14"
+            "id": "22"
         },
         "cookies": [
             {
@@ -21796,11 +24685,10 @@ const servicesData = [
     },
     {
         "meta": {
-            "name": "Vectorizer.ai",
-            "url": "https://vectorizer.ai/",
+            "name": "Vectorizer AI",
             "category": "design",
             "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
-            "id": "73"
+            "id": "87"
         },
         "cookies": [
             {
@@ -21860,14 +24748,13 @@ const servicesData = [
     {
         "meta": {
             "name": "WeTV",
-            "url": "https://wetv.vip/",
             "category": "streaming",
             "icon": "https://groupy.id/assets/images/services/wetv.png",
             "isGroup": true
         },
         "accounts": [
             {
-                "id": "15",
+                "id": "23",
                 "name": "WeTV 1",
                 "cookies": [
                     {
@@ -22326,7 +25213,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "16",
+                "id": "24",
                 "name": "WeTV 2",
                 "cookies": [
                     {
@@ -22798,7 +25685,7 @@ const servicesData = [
                 ]
             },
             {
-                "id": "17",
+                "id": "25",
                 "name": "WeTV 3",
                 "cookies": [
                     {
@@ -23235,10 +26122,9 @@ const servicesData = [
     {
         "meta": {
             "name": "WolframAlpha",
-            "url": "https://www.wolframalpha.com/",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
-            "id": "74"
+            "id": "88"
         },
         "cookies": [
             {
@@ -23324,10 +26210,9 @@ const servicesData = [
     {
         "meta": {
             "name": "WriteHuman",
-            "url": "https://writehuman.ai/",
             "category": "utilities",
             "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
-            "id": "75"
+            "id": "89"
         },
         "cookies": [
             {
