@@ -4,7 +4,7 @@ const servicesData = [
             "name": "Academia",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-            "url": "https://www.academia.edu/",
+            "url": "https://academia.edu/",
             "isGroup": true
         },
         "accounts": [
@@ -415,7 +415,7 @@ const servicesData = [
             "name": "Apple TV+",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
-            "url": "https://www.tv.apple.com/",
+            "url": "https://tv.apple.com/",
             "id": "15"
         },
         "cookies": [
@@ -578,7 +578,7 @@ const servicesData = [
             "name": "AskYourPDF",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
-            "url": "https://www.askyourpdf.com/",
+            "url": "https://askyourpdf.com/",
             "id": "1"
         },
         "cookies": [
@@ -909,7 +909,7 @@ const servicesData = [
             "name": "Brilliant",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
-            "url": "https://www.brilliant.org/",
+            "url": "https://brilliant.org/",
             "id": "4"
         },
         "cookies": [
@@ -1164,7 +1164,7 @@ const servicesData = [
             "name": "Bstation",
             "category": "streaming",
             "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
-            "url": "https://www.bilibili.tv/",
+            "url": "https://bilibili.tv/",
             "id": "2"
         },
         "cookies": [
@@ -1318,7 +1318,7 @@ const servicesData = [
             "name": "Busuu",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
-            "url": "https://www.busuu.com/",
+            "url": "https://busuu.com/",
             "id": "5"
         },
         "cookies": [
@@ -1705,7 +1705,7 @@ const servicesData = [
             "name": "ChatGPT",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-            "url": "https://www.chatgpt.com/",
+            "url": "https://chatgpt.com/",
             "isGroup": true
         },
         "accounts": [
@@ -3433,7 +3433,7 @@ const servicesData = [
             "name": "Codecademy",
             "category": "education",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
-            "url": "https://www.codecademy.com/",
+            "url": "https://codecademy.com/",
             "id": "6"
         },
         "cookies": [
@@ -3698,7 +3698,7 @@ const servicesData = [
             "name": "Coohom",
             "category": "design",
             "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
-            "url": "https://www.coohom.com/",
+            "url": "https://coohom.com/",
             "id": "7"
         },
         "cookies": [
@@ -4084,7 +4084,7 @@ const servicesData = [
             "name": "Coursera",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
-            "url": "https://www.coursera.org/",
+            "url": "https://coursera.org/",
             "id": "8"
         },
         "cookies": [
@@ -4495,7 +4495,7 @@ const servicesData = [
             "name": "Epidemic Sound",
             "category": "music",
             "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
-            "url": "https://www.epidemicsound.com/",
+            "url": "https://epidemicsound.com/",
             "isGroup": true
         },
         "accounts": [
@@ -6775,7 +6775,7 @@ const servicesData = [
             "name": "Flaticon",
             "category": "design",
             "icon": "https://groupy.id/assets/images/services/flaticon.png",
-            "url": "https://www.flaticon.com/",
+            "url": "https://flaticon.com/",
             "isGroup": true
         },
         "accounts": [
@@ -8547,7 +8547,7 @@ const servicesData = [
             "name": "HIX AI",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
-            "url": "https://www.hix.ai/",
+            "url": "https://hix.ai/",
             "isGroup": true
         },
         "accounts": [
@@ -9650,7 +9650,7 @@ const servicesData = [
             "name": "Perplexity",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
-            "url": "https://www.perplexity.ai/",
+            "url": "https://perplexity.ai/",
             "isGroup": true
         },
         "accounts": [
@@ -11277,7 +11277,7 @@ const servicesData = [
             "name": "Slideshare",
             "category": "productivity",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
-            "url": "https://www.slideshare.net/",
+            "url": "https://slideshare.net/",
             "id": "12"
         },
         "cookies": [
@@ -11466,7 +11466,7 @@ const servicesData = [
             "name": "Sora",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-            "url": "https://www.sora.chatgpt.com/",
+            "url": "https://chatgpt.com/",
             "isGroup": true
         },
         "accounts": [
@@ -13329,7 +13329,7 @@ const servicesData = [
             "name": "Symbolab",
             "category": "education",
             "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
-            "url": "https://www.symbolab.com/",
+            "url": "https://symbolab.com/",
             "id": "13"
         },
         "cookies": [
@@ -13567,7 +13567,7 @@ const servicesData = [
             "name": "TradingView",
             "category": "utilities",
             "icon": "https://groupy.id/assets/images/services/tradingview.png",
-            "url": "https://www.tradingview.com/",
+            "url": "https://tradingview.com/",
             "id": "14"
         },
         "cookies": [
@@ -14573,7 +14573,7 @@ const servicesData = [
             "name": "Vectorizer.ai",
             "category": "design",
             "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
-            "url": "https://www.vectorizer.ai/",
+            "url": "https://vectorizer.ai/",
             "id": "17"
         },
         "cookies": [
@@ -14636,7 +14636,7 @@ const servicesData = [
             "name": "WolframAlpha",
             "category": "productivity",
             "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
-            "url": "https://www.wolframalpha.com/",
+            "url": "https://wolframalpha.com/",
             "id": "18"
         },
         "cookies": [
@@ -14725,7 +14725,7 @@ const servicesData = [
             "name": "WriteHuman",
             "category": "utilities",
             "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
-            "url": "https://www.writehuman.ai/",
+            "url": "https://writehuman.ai/",
             "id": "19"
         },
         "cookies": [
