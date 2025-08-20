@@ -11466,7 +11466,7 @@ const servicesData = [
             "name": "Sora",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-            "url": "https://chatgpt.com/",
+            "url": "https://sora.chatgpt.com/",
             "isGroup": true
         },
         "accounts": [
