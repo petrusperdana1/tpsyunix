@@ -18627,6 +18627,7 @@ const servicesData = [
     {
         "meta": {
             "name": "Sora",
+            "url": "https://chatgpt.com/",
             "category": "productivity",
             "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
             "isGroup": true
