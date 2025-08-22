@@ -5,54 +5,48 @@
     <title>Login Success</title>
     <style>
         body { font-family: 'Montserrat', sans-serif; background-color: #121212; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .login-container { background-color: #1e1e1e; padding: 40px; border-radius: 10px; text-align: center; width: 100%; max-width: 380px; }
+        .container { background-color: #1e1e1e; padding: 40px; border-radius: 10px; text-align: center; width: 100%; max-width: 380px; }
         h2 { font-weight: 600; }
         .success { color: #4CAF50; }
         .error { color: #ff4d4d; }
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <h2 id="status" class="success">Login Berhasil!</h2>
-        <p>Mengautentikasi ekstensi Anda... Anda bisa menutup tab ini sebentar lagi.</p>
+    <div class="container">
+        <h2 id="status"></h2>
+        <p id="message"></p>
     </div>
     
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js"></script>
     <script>
-        const firebaseConfig = {
-            apiKey: "AIzaSyB099Q-MXSgZ0oPc1a4wFN7CKJOM6vY104",
-            authDomain: "groupyextensionauth.firebaseapp.com",
-            projectId: "groupyextensionauth",
-            storageBucket: "groupyextensionauth.firebasestorage.app",
-            messagingSenderId: "485883911190",
-            appId: "1:485883911190:web:b64672fac6256987b0a937",
-            measurementId: "G-3VND6ZWN0Z"
-        };
-        firebase.initializeApp(firebaseConfig);
-        const auth = firebase.auth();
-        
-        // ======================================================================
-        // PENTING: Ganti dengan ID Ekstensi Anda setelah di-load di Chrome
-        // ======================================================================
-        const EXTENSION_ID = "hlkmegiipmagkkmaemgghgimeeamdiok"; 
-        
-        auth.onAuthStateChanged((user) => {
+        document.addEventListener('DOMContentLoaded', () => {
             const statusElement = document.getElementById('status');
-            if (user) {
-                const userData = { email: user.email, uid: user.uid };
-                chrome.runtime.sendMessage(EXTENSION_ID, { action: "loginSuccess", user: userData }, 
-                    (response) => {
-                        if (chrome.runtime.lastError) {
-                            statusElement.className = 'error';
-                            statusElement.textContent = 'Gagal! Buka popup ekstensi Anda sekali, lalu refresh halaman ini.';
-                        } else {
-                            setTimeout(() => window.close(), 2000); // Tutup tab setelah 2 detik
-                        }
+            const messageElement = document.getElementById('message');
+            const params = new URLSearchParams(window.location.search);
+            const token = params.get('token');
+
+            if (token) {
+                statusElement.className = 'success';
+                statusElement.textContent = 'Login Berhasil!';
+                messageElement.textContent = 'Mengautentikasi ekstensi Anda...';
+
+                // Kirim pesan ke SEMUA ekstensi yang mendengarkan
+                chrome.runtime.sendMessage({ 
+                    action: "loginSuccess",
+                    token: token 
+                }, (response) => {
+                    if (chrome.runtime.lastError) {
+                        statusElement.className = 'error';
+                        statusElement.textContent = 'Gagal!';
+                        messageElement.textContent = 'Buka popup ekstensi Anda sekali, lalu refresh halaman ini.';
+                    } else {
+                        messageElement.textContent = 'Sukses! Anda bisa menutup tab ini sekarang.';
+                        setTimeout(() => window.close(), 2000); // Tutup tab setelah 2 detik
                     }
-                );
+                });
             } else {
-                window.location.href = './login.html';
+                statusElement.className = 'error';
+                statusElement.textContent = 'Gagal!';
+                messageElement.textContent = 'Token tidak ditemukan. Silakan coba login kembali.';
             }
         });
     </script>
