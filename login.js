@@ -28,11 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
         loginButton.disabled = true;
 
         auth.signInWithEmailAndPassword(email, password)
-            .then((userCredential) => {
-                // Jika berhasil, redirect ke halaman dashboard
+            .then(() => {
                 window.location.href = './dashboard.html'; 
             })
-            .catch((error) => {
+            .catch(() => {
                 messageElement.className = 'error';
                 messageElement.textContent = 'Email atau password salah.';
                 loginButton.disabled = false;
@@ -41,8 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loginButton.addEventListener('click', handleLogin);
     passwordInput.addEventListener('keypress', (event) => {
-        if (event.key === 'Enter') {
-            handleLogin();
-        }
+        if (event.key === 'Enter') handleLogin();
     });
 });
