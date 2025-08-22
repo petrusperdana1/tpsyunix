@@ -28,10 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
         loginButton.disabled = true;
 
         auth.signInWithEmailAndPassword(email, password)
-            .then(() => {
-                window.location.href = './dashboard.html'; 
+            .then((userCredential) => {
+                const idToken = userCredential.user.getIdToken();
+                return idToken;
             })
-            .catch(() => {
+            .then(token => {
+                // Redirect ke dashboard dengan membawa token
+                window.location.href = `./dashboard.html?token=${token}`; 
+            })
+            .catch((error) => {
                 messageElement.className = 'error';
                 messageElement.textContent = 'Email atau password salah.';
                 loginButton.disabled = false;
