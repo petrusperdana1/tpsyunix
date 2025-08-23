@@ -2,53 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login Success</title>
-    <style>
-        body { font-family: 'Montserrat', sans-serif; background-color: #121212; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .container { background-color: #1e1e1e; padding: 40px; border-radius: 10px; text-align: center; width: 100%; max-width: 380px; }
-        h2 { font-weight: 600; }
-        .success { color: #4CAF50; }
-        .error { color: #ff4d4d; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - GitHub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2 id="status"></h2>
-        <p id="message"></p>
-    </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const statusElement = document.getElementById('status');
-            const messageElement = document.getElementById('message');
-            const params = new URLSearchParams(window.location.search);
-            const token = params.get('token');
 
-            if (token) {
-                statusElement.className = 'success';
-                statusElement.textContent = 'Login Berhasil!';
-                messageElement.textContent = 'Mengautentikasi ekstensi Anda...';
+    <header class="header">
+        <div class="header-left">
+            <a href="dashboard.html">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" class="header-logo">
+            </a>
+            <input type="text" placeholder="Search or jump to..." class="search-bar">
+            <nav class="header-nav">
+                <a href="#">Pull requests</a>
+                <a href="#">Issues</a>
+                <a href="#">Marketplace</a>
+                <a href="#">Explore</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="profile-icon">
+                <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Profile">
+            </div>
+        </div>
+    </header>
 
-                // Kirim pesan ke SEMUA ekstensi yang mendengarkan
-                chrome.runtime.sendMessage({ 
-                    action: "loginSuccess",
-                    token: token 
-                }, (response) => {
-                    if (chrome.runtime.lastError) {
-                        statusElement.className = 'error';
-                        statusElement.textContent = 'Gagal!';
-                        messageElement.textContent = 'Buka popup ekstensi Anda sekali, lalu refresh halaman ini.';
-                    } else {
-                        messageElement.textContent = 'Sukses! Anda bisa menutup tab ini sekarang.';
-                        setTimeout(() => window.close(), 2000); // Tutup tab setelah 2 detik
-                    }
-                });
-            } else {
-                statusElement.className = 'error';
-                statusElement.textContent = 'Gagal!';
-                messageElement.textContent = 'Token tidak ditemukan. Silakan coba login kembali.';
-            }
-        });
-    </script>
+    <main class="main-container">
+
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h3>Top Repositories</h3>
+                <button class="new-repo-btn">New</button>
+            </div>
+            <ul class="repo-list">
+                <li><a href="#">petrusperdana1/tpsyunix</a></li>
+                <li><a href="#">petrusperdana1/project-alpha</a></li>
+                <li><a href="#">some-org/awesome-library</a></li>
+                <li><a href="#">petrusperdana1/learning-journal</a></li>
+                <li><a href="#">another-user/cool-tool</a></li>
+                <li><a href="#">petrusperdana1/portfolio-site</a></li>
+            </ul>
+        </aside>
+
+        <section class="feed">
+            <h2>Home</h2>
+            <div class="feed-item">
+                <p><strong>petrusperdana1/tpsyunix</strong> - 2 new issues need your attention.</p>
+                <span class="time">15 minutes ago</span>
+            </div>
+            <div class="feed-item">
+                <p><strong>some-org/awesome-library</strong> - Pull request #123 was merged by johndoe.</p>
+                <span class="time">1 hour ago</span>
+            </div>
+            <div class="feed-item">
+                <p><strong>Security Alert</strong> - We’ve found a potential security vulnerability in one of your dependencies in <strong>petrusperdana1/project-alpha</strong>.</p>
+                <span class="time">3 hours ago</span>
+            </div>
+             <div class="feed-item">
+                <p>Welcome to your new dashboard! Explore repositories and stay up-to-date with your projects.</p>
+                <span class="time">1 day ago</span>
+            </div>
+        </section>
+
+    </main>
+
 </body>
 </html>
