@@ -1,15 +1,21 @@
+/* --- Global & Login Page Styles --- */
+
 /* General Body Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
     background-color: #f6f8fa;
+    margin: 0;
+    color: #24292e;
+}
+
+/* Login Container - only affects login.html */
+.login-body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
-/* Login Container */
 .login-container {
     text-align: center;
     width: 340px;
@@ -23,7 +29,6 @@ body {
 h1 {
     font-size: 24px;
     font-weight: 300;
-    color: #24292e;
     letter-spacing: -0.5px;
 }
 
@@ -63,6 +68,7 @@ form button {
     border: 1px solid rgba(27, 31, 35, 0.15);
     border-radius: 6px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 form button:hover {
@@ -85,4 +91,145 @@ form button:hover {
 
 .create-account-box a:hover {
     text-decoration: underline;
+}
+
+
+/* --- Dashboard Page Styles --- */
+
+/* Header */
+.header {
+    background-color: #24292e;
+    color: white;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-logo {
+    width: 32px;
+    filter: invert(1); /* Makes the black logo white */
+}
+
+.search-bar {
+    background-color: #24292e;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: white;
+    min-width: 300px;
+}
+
+.search-bar::placeholder {
+    color: #ccc;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.header-nav a:hover {
+    color: #ddd;
+}
+
+.profile-icon img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* Main Content Layout */
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 24px auto; /* Center the container with space on top/bottom */
+    gap: 24px;
+    padding: 0 24px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 296px;
+    flex-shrink: 0; /* Prevents sidebar from shrinking */
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.sidebar-header h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.new-repo-btn {
+    background-color: #2da44e;
+    color: white;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.repo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.repo-list li a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #24292e;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.repo-list li a:hover {
+    color: #0366d6;
+}
+
+/* Main Feed */
+.feed {
+    flex-grow: 1; /* Allows feed to take remaining space */
+}
+
+.feed h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.feed-item {
+    border: 1px solid #d8dee4;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+}
+
+.feed-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.feed-item .time {
+    font-size: 12px;
+    color: #586069;
+    margin-top: 8px;
+    display: block;
 }
