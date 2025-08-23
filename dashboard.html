@@ -3,47 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Dashboard - Professional UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* --- CSS Profesional Terintegrasi --- */
+
+        /* 1. Reset & Global Variables */
+        :root {
+            --bg-dark: #1A1D21;
+            --bg-card: #2C2F33;
+            --text-primary: #FFFFFF;
+            --text-secondary: #A0A0A0;
+            --accent-color: #6C63FF;
+            --border-color: #3A3D40;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+        }
+
+        /* 2. Header Styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .header .logo {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .header .user-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .header .user-email {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        
+        .header .logout-btn {
+            background-color: transparent;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .header .logout-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--text-primary);
+        }
+
+        /* 3. Main Dashboard Layout */
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 40px;
+        }
+
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .dashboard-header h1 {
+            font-size: 32px;
+        }
+
+        .new-project-btn {
+            background-color: var(--accent-color);
+            color: var(--text-primary);
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .new-project-btn:hover {
+            background-color: #5a52e0;
+        }
+
+        /* 4. Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background-color: var(--bg-card);
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .project-card .stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .progress-bar-container {
+            background-color: var(--border-color);
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background: linear-gradient(90deg, #8E2DE2, #4A00E0);
+            height: 100%;
+            border-radius: 4px;
+        }
+    </style>
 </head>
-<body class="dashboard-page">
-    <main class="dashboard-container">
-        <div class="user-info-header">
-            <span id="user-email-display" class="user-email">Loading user...</span>
+<body>
+    <header class="header">
+        <div class="logo">Groupy</div>
+        <div class="user-info">
+            <span id="user-email-display" class="user-email"></span>
             <button id="logout-button" class="logout-btn">Log out</button>
         </div>
-        <h1>Dashboard</h1>
+    </header>
 
-        <div class="dashboard-card plan-card">
-            <h3>Your plan</h3>
-            <div class="plan-name">Premium</div>
-            <div class="plan-expiry">Your premium is valid until September 07, 2025. 07:11:10 (UTC +7).</div>
+    <main class="dashboard-container">
+        <div class="dashboard-header">
+            <h1>My Projects</h1>
+            <button class="new-project-btn">+ New Project</button>
         </div>
 
-        <div class="dashboard-card account-card">
-            <h2>Account</h2>
-            <div class="action-row">
-                <span>Edit profile</span>
-                <span>&gt;</span>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Website Redesign Project</h3>
+                <div class="stats">
+                    <span>Tasks: 8/12</span>
+                    <span>Team: 4 members</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 66%;"></div>
+                </div>
             </div>
-            <div class="action-row">
-                <span>Activity logs</span>
-                <span>&gt;</span>
-            </div>
-            <div class="action-row">
-                <span>Manage Discord connection</span>
-                <span>&gt;</span>
-            </div>
-        </div>
 
-        <div class="dashboard-card account-card">
-            <h2>Premium</h2>
-            <div class="action-row">
-                <span>Purchase premium</span>
-                <span>&gt;</span>
+            <div class="project-card">
+                <h3>Mobile App Development</h3>
+                <div class="stats">
+                    <span>Tasks: 21/30</span>
+                    <span>Team: 6 members</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>API Integration</h3>
+                <div class="stats">
+                    <span>Tasks: 5/5</span>
+                    <span>Team: 2 members</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 100%;"></div>
+                </div>
             </div>
         </div>
     </main>
+
     <script type="module" src="dashboard.js"></script>
 </body>
 </html>
