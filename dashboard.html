@@ -3,71 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - GitHub</title>
+    <title>Dashboard - Groupy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header class="header">
-        <div class="header-left">
-            <a href="dashboard.html">
-                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" class="header-logo">
-            </a>
-            <input type="text" placeholder="Search or jump to..." class="search-bar">
-            <nav class="header-nav">
-                <a href="#">Pull requests</a>
-                <a href="#">Issues</a>
-                <a href="#">Marketplace</a>
-            </nav>
-        </div>
-        <div class="header-right">
-            <span id="user-email-display" class="user-email"></span>
-            
+        <div class="logo">groupy</div>
+        <div class="user-info">
+             <span id="user-email-display" class="user-email"></span>
             <button id="logout-button" class="logout-btn">Log out</button>
-            <div class="profile-icon">
-                <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Profile">
-            </div>
         </div>
     </header>
 
-    <main class="main-container">
+    <div class="dashboard-page-container">
+        <div class="dashboard-header">
+            <h1>Dashboard</h1>
+            <div class="dashboard-actions">
+                <input type="search" class="search-bar" placeholder="Search project...">
+                <button class="new-project-btn">+ New Project</button>
+            </div>
+        </div>
 
-        <aside class="sidebar">
-            <div class="sidebar-header">
-                <h3>Top Repositories</h3>
-                <button class="new-repo-btn">New</button>
-            </div>
-            <ul class="repo-list">
-                <li><a href="#">petrusperdana1/tpsyunix</a></li>
-                <li><a href="#">petrusperdana1/project-alpha</a></li>
-                <li><a href="#">some-org/awesome-library</a></li>
-                <li><a href="#">petrusperdana1/learning-journal</a></li>
-                <li><a href="#">another-user/cool-tool</a></li>
-                <li><a href="#">petrusperdana1/portfolio-site</a></li>
-            </ul>
-        </aside>
+        <div class="dashboard-tabs">
+            <a href="#" class="active">All</a>
+            <a href="#">On Progress</a>
+            <a href="#">Completed</a>
+        </div>
 
-        <section class="feed">
-            <h2>Home</h2>
-            <div class="feed-item">
-                <p><strong>petrusperdana1/tpsyunix</strong> - 2 new issues need your attention.</p>
-                <span class="time">15 minutes ago</span>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Website Redesign Project</h3>
+                <div class="stats">
+                    <span>Tasks: 8/12</span>
+                    <span>Team: 4 members</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 66%;"></div>
+                </div>
             </div>
-            <div class="feed-item">
-                <p><strong>some-org/awesome-library</strong> - Pull request #123 was merged by johndoe.</p>
-                <span class="time">1 hour ago</span>
-            </div>
-            <div class="feed-item">
-                <p><strong>Security Alert</strong> - We’ve found a potential security vulnerability in one of your dependencies in <strong>petrusperdana1/project-alpha</strong>.</p>
-                <span class="time">3 hours ago</span>
-            </div>
-             <div class="feed-item">
-                <p>Welcome to your new dashboard! Explore repositories and stay up-to-date with your projects.</p>
-                <span class="time">1 day ago</span>
-            </div>
-        </section>
 
-    </main>
+            <div class="project-card">
+                <h3>Mobile App Development</h3>
+                <div class="stats">
+                    <span>Tasks: 21/30</span>
+                    <span>Team: 6 members</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>API Integration</h3>
+                <div class="stats">
+                    <span>Tasks: 5/5</span>
+                    <span>Team: 2 members</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="module" src="dashboard.js"></script>
 </body>
 </html>
