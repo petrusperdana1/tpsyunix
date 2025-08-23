@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in - Professional UI</title>
+    <title>Login - Groupy Service</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         /* --- CSS Profesional Terintegrasi --- */
-        
-        /* 1. Reset & Global Variables */
         :root {
             --bg-dark: #1A1D21;
             --bg-card: #2C2F33;
@@ -39,26 +37,25 @@
             padding: 20px;
         }
 
-        /* 2. Login Page Specific Styles */
-        .login-container {
+        .container {
             width: 100%;
             max-width: 420px;
             text-align: center;
         }
 
-        .login-header .logo {
+        .header .logo {
             font-weight: 700;
             font-size: 32px;
             margin-bottom: 20px;
         }
 
-        .login-header h1 {
+        .header h1 {
             font-size: 28px;
             font-weight: 600;
             margin-bottom: 10px;
         }
 
-        .login-header p {
+        .header p {
             color: var(--text-secondary);
             margin-bottom: 40px;
         }
@@ -101,32 +98,128 @@
         #login-form button:hover {
             background-color: #5a52e0;
         }
-
-        .error-message {
-            margin-top: 20px;
-            color: var(--error-color);
-            font-weight: 500;
-            height: 20px; /* Reserve space to prevent layout shift */
+        
+        #login-form button:disabled {
+            background-color: #3e3e3e;
+            cursor: not-allowed;
         }
+
+        .message-area {
+            margin-top: 20px;
+            font-weight: 500;
+            height: 40px; /* Cadangkan ruang agar layout tidak bergeser */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .error-message { color: var(--error-color); }
+        .success-message { color: var(--success-color); }
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <header class="login-header">
+    <div class="container" id="main-container">
+        <header class="header">
             <div class="logo">Groupy</div>
-            <h1>Welcome Back</h1>
-            <p>Log in to continue your work.</p>
+            <h1>Welcome</h1>
+            <p>Login or Register to activate your extension.</p>
         </header>
 
         <form id="login-form">
             <input type="email" id="email" placeholder="Enter your email" required>
             <input type="password" id="password" placeholder="Enter your password" required>
-            <button type="submit">Log In</button>
+            <button type="submit" id="submit-button">Login / Register</button>
         </form>
 
-        <div id="error-message" class="error-message"></div>
+        <div id="message-area" class="message-area"></div>
     </div>
 
-    <script type="module" src="auth.js"></script>
+    <script type="module">
+        // Import fungsi yang kita butuhkan dari Firebase SDK
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+        import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+
+        // Konfigurasi Firebase Anda
+        const firebaseConfig = {
+            apiKey: "AIzaSyB099Q-MXSgZ0oPc1a4wFN7CKJOM6vY104",
+            authDomain: "groupyextensionauth.firebaseapp.com",
+            projectId: "groupyextensionauth",
+            storageBucket: "groupyextensionauth.firebasestorage.app",
+            messagingSenderId: "485883911190",
+            appId: "1:485883911190:web:b64672fac6256987b0a937",
+            measurementId: "G-3VND6ZWN0Z"
+        };
+
+        // Inisialisasi Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        // Mengambil elemen dari halaman
+        const loginForm = document.getElementById('login-form');
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+        const messageArea = document.getElementById('message-area');
+        const submitButton = document.getElementById('submit-button');
+        const mainContainer = document.getElementById('main-container');
+
+        // Menambahkan event listener ke form
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = emailInput.value;
+            const password = passwordInput.value;
+            
+            messageArea.textContent = 'Processing...';
+            messageArea.className = 'message-area';
+            submitButton.disabled = true;
+
+            // 1. Mencoba untuk login terlebih dahulu
+            signInWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    // Jika login berhasil
+                    console.log('Login berhasil:', userCredential.user.email);
+                    handleLoginSuccess();
+                })
+                .catch((error) => {
+                    // 2. Jika error karena user tidak ditemukan, maka kita coba buat akun baru
+                    if (error.code === 'auth/user-not-found') {
+                        console.log('User tidak ditemukan, mencoba membuat akun baru...');
+                        createUserWithEmailAndPassword(auth, email, password)
+                            .then((userCredential) => {
+                                // Jika pendaftaran berhasil
+                                console.log('Akun baru berhasil dibuat:', userCredential.user.email);
+                                handleLoginSuccess();
+                            })
+                            .catch((signUpError) => {
+                                // Jika pendaftaran juga gagal, tampilkan pesan error
+                                console.error('Error saat pendaftaran:', signUpError);
+                                messageArea.textContent = signUpError.message;
+                                messageArea.classList.add('error-message');
+                                submitButton.disabled = false;
+                            });
+                    } else {
+                        // Jika login gagal karena alasan lain (misal: password salah)
+                        console.error('Error saat login:', error);
+                        messageArea.textContent = error.message;
+                        messageArea.classList.add('error-message');
+                        submitButton.disabled = false;
+                    }
+                });
+        });
+
+        function handleLoginSuccess() {
+            // Tampilkan pesan sukses di halaman web
+            mainContainer.innerHTML = `
+                <div class="header">
+                    <div class="logo">Groupy</div>
+                    <h1>Login Successful!</h1>
+                    <p class="success-message">Authentication signal sent to the extension. This tab will close automatically.</p>
+                </div>
+            `;
+
+            // =========================================================================
+            // INI BAGIAN PALING PENTING: MENGIRIM SINYAL KE CONTENT SCRIPT EKSTENSI
+            // =========================================================================
+            window.postMessage({ action: "userLoggedInFromWebsite" }, "*");
+        }
+    </script>
 </body>
 </html>
