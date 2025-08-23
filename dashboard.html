@@ -3,69 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Groupy</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="header">
-        <div class="logo">groupy</div>
-        <div class="user-info">
-             <span id="user-email-display" class="user-email"></span>
+<body class="dashboard-page">
+    <main class="dashboard-container">
+        <div class="user-info-header">
+            <span id="user-email-display" class="user-email">Loading user...</span>
             <button id="logout-button" class="logout-btn">Log out</button>
         </div>
-    </header>
+        <h1>Dashboard</h1>
 
-    <div class="dashboard-page-container">
-        <div class="dashboard-header">
-            <h1>Dashboard</h1>
-            <div class="dashboard-actions">
-                <input type="search" class="search-bar" placeholder="Search project...">
-                <button class="new-project-btn">+ New Project</button>
+        <div class="dashboard-card plan-card">
+            <h3>Your plan</h3>
+            <div class="plan-name">Premium</div>
+            <div class="plan-expiry">Your premium is valid until September 07, 2025. 07:11:10 (UTC +7).</div>
+        </div>
+
+        <div class="dashboard-card account-card">
+            <h2>Account</h2>
+            <div class="action-row">
+                <span>Edit profile</span>
+                <span>&gt;</span>
+            </div>
+            <div class="action-row">
+                <span>Activity logs</span>
+                <span>&gt;</span>
+            </div>
+            <div class="action-row">
+                <span>Manage Discord connection</span>
+                <span>&gt;</span>
             </div>
         </div>
 
-        <div class="dashboard-tabs">
-            <a href="#" class="active">All</a>
-            <a href="#">On Progress</a>
-            <a href="#">Completed</a>
-        </div>
-
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Website Redesign Project</h3>
-                <div class="stats">
-                    <span>Tasks: 8/12</span>
-                    <span>Team: 4 members</span>
-                </div>
-                <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 66%;"></div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3>Mobile App Development</h3>
-                <div class="stats">
-                    <span>Tasks: 21/30</span>
-                    <span>Team: 6 members</span>
-                </div>
-                <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 70%;"></div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3>API Integration</h3>
-                <div class="stats">
-                    <span>Tasks: 5/5</span>
-                    <span>Team: 2 members</span>
-                </div>
-                <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 100%;"></div>
-                </div>
+        <div class="dashboard-card account-card">
+            <h2>Premium</h2>
+            <div class="action-row">
+                <span>Purchase premium</span>
+                <span>&gt;</span>
             </div>
         </div>
-    </div>
-
+    </main>
     <script type="module" src="dashboard.js"></script>
 </body>
 </html>
