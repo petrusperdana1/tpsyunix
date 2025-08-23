@@ -136,7 +136,7 @@
     <script type="module">
         // Import fungsi yang kita butuhkan dari Firebase SDK
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-        import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+        import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
 
         // Konfigurasi Firebase Anda
         const firebaseConfig = {
@@ -152,6 +152,22 @@
         // Inisialisasi Firebase
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
+
+        // =========================================================================
+        // --- BLOK BARU: PENJAGA OTENTIKASI (AUTH GUARD) ---
+        // Kode ini berjalan saat halaman dimuat untuk mengecek status login.
+        // =========================================================================
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                // Jika user SUDAH login, jangan tampilkan halaman ini.
+                // Langsung alihkan ke halaman dashboard.
+                console.log("User sudah login, mengalihkan ke dashboard...");
+                window.location.href = 'https://petrusperdana1.github.io/tpsyunix/dashboard.html';
+            } else {
+                // Jika user BELUM login, biarkan dia di halaman ini.
+                console.log("Tidak ada user yang login. Halaman login ditampilkan.");
+            }
+        });
 
         // Mengambil elemen dari halaman
         const loginForm = document.getElementById('login-form');
