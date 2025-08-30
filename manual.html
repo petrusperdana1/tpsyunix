@@ -97,6 +97,7 @@
                 switch (lowerCaseName) {
                     case 'blush design':
                     case 'viu':
+                    case 'hbo max': // <-- PENAMBAHANNYA DI SINI
                         const login = params.get('login');
                         const password = params.get('password');
                         const loginUrl = params.get('url');
@@ -111,7 +112,6 @@
 
                     case 'canva':
                         document.getElementById('canva-layout').style.display = 'block';
-                        document.getElementById('canva-title').textContent = name; // Menambahkan judul dinamis
 
                         const teamUrls = params.get('url');
                         const dropdown = document.getElementById('join-team-dropdown');
