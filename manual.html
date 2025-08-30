@@ -61,6 +61,7 @@
         </div>
 
         <div id="canva-layout" class="canva-layout" style="display: none;">
+            <h1 id="canva-title" class="card-title"></h1>
             <p class="canva-text top">Click to access Canva if you already join Groupy Canva Team</p>
             <a href="https://www.canva.com" class="canva-button" target="_blank" rel="noopener noreferrer">Access Canva</a>
             <p class="canva-text"><strong>Don't forget to keep back up your project.</strong></p>
@@ -99,7 +100,10 @@
                     case 'viu':
                     case 'hbo max':
                     case 'picsart':
-                    case 'quillbot 2': // <-- PENAMBAHANNYA DI SINI
+                    case 'quillbot 2':
+                    case 'turnitin':     // <-- BARU
+                    case 'jenni ai':     // <-- BARU
+                    case 'scite 2':      // <-- BARU
                         const login = params.get('login');
                         const password = params.get('password');
                         const loginUrl = params.get('url');
@@ -114,6 +118,7 @@
 
                     case 'canva':
                         document.getElementById('canva-layout').style.display = 'block';
+                        document.getElementById('canva-title').textContent = name;
 
                         const teamUrls = params.get('url');
                         const dropdown = document.getElementById('join-team-dropdown');
