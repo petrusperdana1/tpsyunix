@@ -6,37 +6,31 @@
     <title>Login - Blush Design</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* General Body Styling */
+        /* CSS tidak berubah, jadi kita biarkan sama seperti sebelumnya */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f8f8; /* Very light gray background */
+            background-color: #f8f8f8;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
         }
-
-        /* Container for the form */
         .login-card {
-            background-color: #ffffff; /* White background for the card */
+            background-color: #ffffff;
             padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Softer shadow */
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
             width: 100%;
-            max-width: 480px; /* Slightly wider card */
+            max-width: 480px;
             box-sizing: border-box;
-            text-align: center; /* Center content */
+            text-align: center;
         }
-
-        /* Form Group Styling */
         .form-group {
-            margin-bottom: 25px; /* More space between groups */
-            text-align: left; /* Align label and input to left */
-            position: relative; /* For positioning copy button */
+            margin-bottom: 25px;
+            text-align: left;
+            position: relative;
         }
-
-        /* Label Styling */
         label {
             display: block;
             margin-bottom: 8px;
@@ -44,75 +38,60 @@
             color: #333;
             font-size: 0.95em;
         }
-
-        /* Input Field Styling */
         .input-wrapper {
-            display: flex; /* Flexbox for input and button */
+            display: flex;
             align-items: center;
-            border: 1px solid #ddd; /* Light gray border */
+            border: 1px solid #ddd;
             border-radius: 8px;
-            overflow: hidden; /* Ensure border-radius applies to children */
+            overflow: hidden;
         }
-
         input[type="text"],
         input[type="email"] {
-            flex-grow: 1; /* Input takes most of the space */
+            flex-grow: 1;
             padding: 12px 15px;
-            border: none; /* No individual border for input */
+            border: none;
             background-color: #ffffff;
             color: #333;
             font-size: 1em;
             outline: none;
         }
-
-        input[type="text"]:focus,
-        input[type="email"]:focus {
-            /* No direct border change on focus here, handled by input-wrapper */
-        }
-
-        /* Copy Button Styling */
         .copy-button {
-            background-color: transparent; /* No background */
+            background-color: transparent;
             border: none;
             padding: 12px 15px;
             cursor: pointer;
             font-size: 1.1em;
-            color: #888; /* Darker icon color */
+            color: #888;
             transition: color 0.2s ease;
             outline: none;
         }
-
         .copy-button:hover {
-            color: #555; /* Slightly darker on hover */
+            color: #555;
         }
-
-        /* Manual Login Button Styling */
         .manual-login-button {
-            display: inline-block; /* Make it block-level but respect text-align center */
-            width: 100%; /* Full width within its parent */
+            display: inline-block;
+            width: 100%;
             padding: 16px;
-            background-color: #000; /* Black background */
-            color: #fff; /* White text */
+            background-color: #000;
+            color: #fff;
             border: none;
-            border-radius: 10px; /* More rounded corners */
+            border-radius: 10px;
             font-size: 1.15em;
             font-weight: 600;
-            text-decoration: none; /* Remove underline for link */
+            text-decoration: none;
             cursor: pointer;
             transition: background-color 0.2s ease;
-            margin-top: 15px; /* Space above button */
+            margin-top: 15px;
         }
-
         .manual-login-button:hover {
-            background-color: #333; /* Slightly lighter black on hover */
+            background-color: #333;
         }
     </style>
 </head>
 <body>
 
     <div class="login-card">
-        <form id="dataForm">
-            <div class="form-group">
+        <form id="dataForm" onsubmit="return false;"> <div class="form-group">
                 <label for="emailInput">Email</label>
                 <div class="input-wrapper">
                     <input type="email" id="emailInput" name="login" readonly placeholder="cs@belajaar.id">
@@ -130,33 +109,41 @@
                     </button>
                 </div>
             </div>
-            <a href="#" id="manualLoginLink" class="manual-login-button">Manual login</a>
+            
+            <a href="#" id="manualLoginLink" class="manual-login-button" target="_blank" rel="noopener noreferrer">Manual login</a>
+            
         </form>
     </div>
 
     <script>
-        // Function to copy text to clipboard
+        // PERBAIKAN 2: Menggunakan metode Clipboard API yang lebih modern
         function copyToClipboard(elementId) {
             const inputElement = document.getElementById(elementId);
-            inputElement.select(); // Select the text in the input field
-            inputElement.setSelectionRange(0, 99999); // For mobile devices
-            document.execCommand("copy"); // Copy the text
-            alert("Copied to clipboard: " + inputElement.value); // Optional: give feedback
+            const textToCopy = inputElement.value;
+
+            // Cek apakah browser mendukung Clipboard API
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    alert("Berhasil disalin: " + textToCopy);
+                }).catch(err => {
+                    console.error("Gagal menyalin: ", err);
+                    alert("Gagal menyalin teks.");
+                });
+            } else {
+                // Fallback untuk browser yang sangat lama
+                alert("Browser Anda tidak mendukung fitur salin.");
+            }
         }
 
         window.onload = function() {
             const params = new URLSearchParams(window.location.search);
 
-            // Get values from URL parameters
             const loginFromUrl = params.get('login') || '';
             const passwordFromUrl = params.get('password') || '';
-            const targetUrl = params.get('url') || '#'; // Default to '#' if no URL param
+            const targetUrl = params.get('url') || '#'; 
 
-            // Fill input fields
             document.getElementById('emailInput').value = loginFromUrl;
             document.getElementById('passwordInput').value = passwordFromUrl;
-
-            // Set the 'href' for the "Manual login" button
             document.getElementById('manualLoginLink').href = targetUrl;
         };
     </script>
