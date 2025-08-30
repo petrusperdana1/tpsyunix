@@ -8,8 +8,8 @@
     <style>
         /* General Body Styling */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f8f8;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8f9fa;
             margin: 0;
             display: flex;
             justify-content: center;
@@ -23,113 +23,99 @@
         .card-container {
             background-color: #ffffff;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
             width: 100%;
             max-width: 480px;
             box-sizing: border-box;
             text-align: center;
         }
-
         .card-title {
-            font-size: 2em;
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 30px;
-            color: #222;
+            font-size: 2em; font-weight: 700; margin: 0 0 30px; color: #1c1c1c;
         }
 
         /* --- STYLING KHUSUS LOGIN LAYOUT --- */
-        .login-layout .form-group {
-            margin-bottom: 25px;
-            text-align: left;
-        }
-        .login-layout label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 500;
-            color: #333;
-        }
-        .login-layout .input-wrapper {
-            display: flex;
-            align-items: center;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .login-layout input {
-            flex-grow: 1;
-            padding: 12px 15px;
-            border: none;
-            background-color: #ffffff;
-            color: #333;
-            font-size: 1em;
-            outline: none;
-        }
-        .login-layout .copy-button {
-            background: transparent; border: none; padding: 12px 15px; cursor: pointer;
-            font-size: 1.1em; color: #888; transition: color 0.2s ease;
-        }
-        .login-layout .copy-button:hover { color: #555; }
-        .login-layout .manual-login-button {
-            display: block; width: 100%; padding: 16px; background-color: #000;
-            color: #fff; border: none; border-radius: 10px; font-size: 1.15em;
-            font-weight: 600; text-decoration: none; cursor: pointer;
-            transition: background-color 0.2s ease; margin-top: 15px;
-        }
-        .login-layout .manual-login-button:hover { background-color: #333; }
+        .login-layout .form-group { margin-bottom: 25px; text-align: left; }
+        .login-layout label { display: block; margin-bottom: 8px; font-weight: 500; color: #555; }
+        .login-layout .input-wrapper { display: flex; align-items: center; border: 1px solid #ddd; border-radius: 12px; overflow: hidden; }
+        .login-layout input { flex-grow: 1; padding: 14px 16px; border: none; font-size: 1em; outline: none; }
+        .login-layout .copy-button { background: transparent; border: none; padding: 12px 16px; cursor: pointer; font-size: 1.1em; color: #888; }
+        .login-layout .manual-login-button { display: block; width: 100%; padding: 16px; background-color: #1c1c1c; color: #fff; border: none; border-radius: 14px; font-size: 1.1em; font-weight: 600; text-decoration: none; cursor: pointer; margin-top: 15px; }
 
         /* --- STYLING KHUSUS CANVA LAYOUT --- */
-        .canva-layout .access-button {
-            display: block; width: 100%; padding: 16px; background-color: #fff;
-            color: #000; border: 2px solid #000; border-radius: 10px; font-size: 1.15em;
-            font-weight: 600; text-decoration: none; cursor: pointer;
-            transition: all 0.2s ease; margin-bottom: 20px; box-sizing: border-box;
+        .canva-layout .canva-text {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.5;
+            margin: 20px 0;
         }
-        .canva-layout .access-button:hover { background-color: #f0f0f0; }
-
-        .canva-layout .dropdown-button {
-            display: block; width: 100%; padding: 16px; background-color: #000;
-            color: #fff; border: none; border-radius: 10px; font-size: 1.15em;
-            font-weight: 600; -webkit-appearance: none; -moz-appearance: none;
-            appearance: none; cursor: pointer; text-align: center;
-            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%208l5%205%205-5z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fsvg%3E');
+        .canva-layout .canva-text.top { margin-top: 0; }
+        .canva-layout .canva-text.bottom { margin-bottom: 0; font-size: 0.9em; }
+        .canva-layout .canva-text strong { color: #1c1c1c; font-weight: 600; }
+        
+        .canva-layout .canva-button {
+            display: block; width: 100%; padding: 18px; box-sizing: border-box;
+            background-color: #1c1c1c; color: #fff; border: none; border-radius: 14px;
+            font-size: 1.1em; font-weight: 600; text-decoration: none; cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .canva-layout .canva-button:hover { transform: scale(1.02); }
+        
+        .canva-layout .dropdown-wrapper { margin: 25px 0; text-align: left; position: relative; }
+        .canva-layout .dropdown-label {
+            position: absolute; top: -10px; left: 12px;
+            background-color: #fff; padding: 0 5px;
+            font-size: 0.85em; color: #888;
+        }
+        .canva-layout .dropdown-select {
+            width: 100%;
+            padding: 16px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            -webkit-appearance: none; appearance: none;
+            background-color: #fff;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%208l5%205%205-5z%22%20fill%3D%22%23888888%22%2F%3E%3C%2Fsvg%3E');
             background-repeat: no-repeat;
-            background-position: right 1.5em center;
-            background-size: 1em;
+            background-position: right 1em center;
+        }
+        .canva-layout .canva-button.disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+            pointer-events: none; /* Mencegah klik */
         }
     </style>
 </head>
 <body>
 
     <div class="card-container">
-        <div id="login-layout" style="display: none;">
-            <h1 id="login-title" class="card-title"></h1>
-            <form onsubmit="return false;">
+        <div id="login-layout" class="login-layout" style="display: none;">
+             <h1 id="login-title" class="card-title"></h1>
+             <form onsubmit="return false;">
                 <div class="form-group">
                     <label for="emailInput">Email</label>
-                    <div class="input-wrapper">
-                        <input type="email" id="emailInput" readonly>
-                        <button type="button" class="copy-button" onclick="copyToClipboard('emailInput')"><i class="fas fa-copy"></i></button>
-                    </div>
+                    <div class="input-wrapper"><input type="email" id="emailInput" readonly><button type="button" class="copy-button" onclick="copyToClipboard('emailInput')"><i class="fas fa-copy"></i></button></div>
                 </div>
                 <div class="form-group">
                     <label for="passwordInput">Password</label>
-                    <div class="input-wrapper">
-                        <input type="text" id="passwordInput" readonly>
-                        <button type="button" class="copy-button" onclick="copyToClipboard('passwordInput')"><i class="fas fa-copy"></i></button>
-                    </div>
+                    <div class="input-wrapper"><input type="text" id="passwordInput" readonly><button type="button" class="copy-button" onclick="copyToClipboard('passwordInput')"><i class="fas fa-copy"></i></button></div>
                 </div>
                 <a href="#" id="manualLoginLink" class="manual-login-button" target="_blank" rel="noopener noreferrer">Manual login</a>
-            </form>
+             </form>
         </div>
 
         <div id="canva-layout" class="canva-layout" style="display: none;">
-            <h1 id="canva-title" class="card-title"></h1>
-            <a href="https://www.canva.com" class="access-button" target="_blank" rel="noopener noreferrer">Access Canva</a>
-            <select id="join-team-dropdown" class="dropdown-button">
-                <option value="">Join Groupy Canva Team</option>
-            </select>
+            <p class="canva-text top">Click to access Canva if you already join Groupy Canva Team</p>
+            <a href="https://www.canva.com" class="canva-button" target="_blank" rel="noopener noreferrer">Access Canva</a>
+            <p class="canva-text"><strong>Don't forget to keep back up your project.</strong></p>
+            <div class="dropdown-wrapper">
+                <label for="join-team-dropdown" class="dropdown-label">Team</label>
+                <select id="join-team-dropdown" class="dropdown-select">
+                    <option value="">Select Groupy Canva Team</option>
+                </select>
+            </div>
+            <a href="#" id="join-team-button" class="canva-button disabled" target="_blank" rel="noopener noreferrer">Join Groupy Canva Team</a>
+            <p class="canva-text bottom">No need to join multiple times, just join once if your Canva account is not pro yet.</p>
         </div>
         
         <div id="default-message" style="display: none;">
@@ -139,94 +125,91 @@
     </div>
 
     <script>
-        function copyToClipboard(elementId) {
-            const inputElement = document.getElementById(elementId);
-            const textToCopy = inputElement.value;
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(textToCopy)
-                    .then(() => alert("Berhasil disalin: " + textToCopy))
-                    .catch(err => console.error("Gagal menyalin: ", err));
-            }
-        }
+        function copyToClipboard(elementId) { /* ... fungsi ini tidak berubah ... */ }
 
         window.onload = function() {
             const params = new URLSearchParams(window.location.search);
             const name = params.get('name');
 
-            // Sembunyikan semua layout terlebih dahulu
             document.getElementById('login-layout').style.display = 'none';
             document.getElementById('canva-layout').style.display = 'none';
             document.getElementById('default-message').style.display = 'none';
 
-            // Gunakan 'name' sebagai penentu utama
             if (name) {
                 const lowerCaseName = name.toLowerCase();
-
-                // SWITCH LOGIC: Memilih tampilan berdasarkan 'name'
                 switch (lowerCaseName) {
                     case 'blush design':
-                        // Ambil data yang diperlukan untuk layout ini
-                        const login = params.get('login');
-                        const password = params.get('password');
-                        const loginUrl = params.get('url');
-
-                        // Tampilkan layout login
-                        document.getElementById('login-layout').style.display = 'block';
-                        
-                        // Isi data
-                        document.getElementById('login-title').textContent = name;
-                        document.getElementById('emailInput').value = login || '';
-                        document.getElementById('passwordInput').value = password || '';
-                        document.getElementById('manualLoginLink').href = loginUrl || '#';
+                        /* ... logika blush design tidak berubah ... */
                         break;
 
                     case 'canva':
-                        // Ambil data yang diperlukan untuk layout ini
-                        const teamUrls = params.get('url');
-                        
-                        // Tampilkan layout Canva
-                        document.getElementById('canva-layout').style.display = 'block';
+                        const canvaLayout = document.getElementById('canva-layout');
+                        canvaLayout.style.display = 'block';
 
-                        // Isi data
-                        document.getElementById('canva-title').textContent = name;
+                        const teamUrls = params.get('url');
+                        const dropdown = document.getElementById('join-team-dropdown');
+                        const joinButton = document.getElementById('join-team-button');
                         
                         if (teamUrls) {
                             const urls = teamUrls.split(',');
-                            const dropdown = document.getElementById('join-team-dropdown');
                             urls.forEach((url, index) => {
                                 if (url.trim() !== '') {
                                     const option = document.createElement('option');
                                     option.value = url.trim();
-                                    option.textContent = `Join Team ${index + 1}`;
+                                    option.textContent = `Groupy Canva Team ${index + 1}`;
                                     dropdown.appendChild(option);
                                 }
                             });
-
-                            dropdown.addEventListener('change', function() {
-                                if (this.value) {
-                                    window.open(this.value, '_blank');
-                                    this.selectedIndex = 0;
-                                }
-                            });
                         }
+
+                        // === LOGIKA BARU UNTUK DROPDOWN & TOMBOL JOIN ===
+                        dropdown.addEventListener('change', function() {
+                            const selectedUrl = this.value;
+                            if (selectedUrl) {
+                                // Jika ada tim yang dipilih
+                                joinButton.href = selectedUrl; // Atur link pada tombol
+                                joinButton.classList.remove('disabled'); // Aktifkan tombol
+                            } else {
+                                // Jika kembali ke pilihan "Select Team"
+                                joinButton.href = '#'; // Hapus link
+                                joinButton.classList.add('disabled'); // Nonaktifkan tombol
+                            }
+                        });
                         break;
 
-                    // Anda bisa menambahkan 'case' lain di sini untuk nama-nama baru
-                    // case 'nama_aplikasi_lain':
-                    //     // ... logika untuk aplikasi lain
-                    //     break;
-
                     default:
-                        // Jika 'name' ada tapi tidak dikenali
                         document.getElementById('default-message').style.display = 'block';
-                        document.querySelector('#default-message p').textContent = `The name '${name}' is not recognized.`;
                 }
             } else {
-                // Jika tidak ada parameter 'name' sama sekali
                 document.getElementById('default-message').style.display = 'block';
             }
         };
-    </script>
 
+        // Salin fungsi copyToClipboard dari kode sebelumnya karena tidak berubah
+        function copyToClipboard(elementId) {
+            const inputElement = document.getElementById(elementId);
+            const textToCopy = inputElement.value;
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(textToCopy)
+                    .then(() => alert("Berhasil disalin: " + textToCopy))
+                    .catch(err => console.error("Gagal menyalin: ", err));
+            }
+        }
+        // Pastikan logika blush design juga ada di sini
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('name') && params.get('name').toLowerCase() === 'blush design') {
+            const login = params.get('login');
+            const password = params.get('password');
+            const loginUrl = params.get('url');
+            
+            const loginLayout = document.getElementById('login-layout');
+            loginLayout.style.display = 'block';
+            
+            document.getElementById('login-title').textContent = params.get('name');
+            document.getElementById('emailInput').value = login || '';
+            document.getElementById('passwordInput').value = password || '';
+            document.getElementById('manualLoginLink').href = loginUrl || '#';
+        }
+    </script>
 </body>
 </html>
