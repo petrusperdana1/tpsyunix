@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Otomatis</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        input { width: 300px; padding: 8px; margin-bottom: 10px; }
+        label { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Data Login</h1>
+    <p>Data berikut diambil secara otomatis dari URL.</p>
+
+    <form id="dataForm">
+        <div>
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" readonly>
+        </div>
+        <div>
+            <label for="email">Email/Login:</label><br>
+            <input type="email" id="email" name="email" readonly>
+        </div>
+        <div>
+            <label for="sandi">Password:</label><br>
+            <input type="text" id="sandi" name="sandi" readonly>
+        </div>
+    </form>
+
+    <script>
+        // Jalankan fungsi ini ketika halaman selesai dimuat
+        window.onload = function() {
+            // 1. Ambil semua parameter dari URL saat ini
+            const params = new URLSearchParams(window.location.search);
+
+            // 2. Ambil nilai dari setiap parameter berdasarkan 'kunci'-nya
+            const namaDariUrl = params.get('name'); // kunci = 'name'
+            const loginDariUrl = params.get('login'); // kunci = 'login'
+            const passwordDariUrl = params.get('password'); // kunci = 'password'
+
+            // 3. Masukkan nilai tersebut ke dalam kolom input di formulir
+            // document.getElementById() digunakan untuk menemukan elemen berdasarkan id-nya
+            document.getElementById('nama').value = namaDariUrl;
+            document.getElementById('email').value = loginDariUrl;
+            document.getElementById('sandi').value = passwordDariUrl;
+        };
+    </script>
+
+</body>
+</html>
