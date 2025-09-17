@@ -1,6 +1,6 @@
 {
     "maintenance_enabled": true,
-    "maintenance_time": "19.00",
+    "maintenance_time": "19.33",
     "maintenance_duration_minutes": 1,
     "maintenance_active_message": "Maaf tunggu sebentar, sedang maintenance. Hanya satu menit...",
 
