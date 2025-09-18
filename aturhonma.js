@@ -1,9 +1,14 @@
 const gracelyConfig = {
-  // Bagian untuk URL yang bisa diubah
+  // Bagian untuk semua URL yang bisa diubah secara dinamis
   "urls": {
     "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
     "tutorial": "https://petrussiahaan.blogspot.com/p/tools-online-gratis.html",
-    "purchase": "https://petrussiahaan.blogspot.com/search/label/Photos"
+    "purchase": "https://petrussiahaan.blogspot.com/search/label/Photos",
+    "onInstallHomepage": "https://petrussiahaan.blogspot.com/",
+    "onInstallSocial": "https://www.instagram.com/petrusperdana1/",
+    "onUninstall": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
+    "onGuardMissing": "https://petrussiahaan.blogspot.com/p/contact.html",
+    "onLogoutBlock": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html"
   },
 
   // Pointer ke sumber data utama (cookies)
@@ -11,7 +16,7 @@ const gracelyConfig = {
     "services": "https://petrusperdana1.github.io/tpsyunix/data.js"
   },
 
-  // Konten notifikasi dari notif.js dipindahkan ke sini
+  // Konten notifikasi (isi dari notif.js dipindahkan ke sini)
   "notifications": {
     "announcement": {
       "enabled": true,
