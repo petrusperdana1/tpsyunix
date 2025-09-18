@@ -17,11 +17,10 @@ const gracelyConfig = {
       "enabled": true,
       "id": "info2-update-agustus-2025",
       "title": "Informasi Update",
-      "lines": [
-        "Karena masa depan sungguh ada, dan harapanmu tidak akan hilang. <b>Amsal 23 : 18</b> 🙏",
-        "<a href='https://petrussiahaan.blogspot.com/'>petrussiahaan.blogspot.com</a>"
-      ]
-    },
+      "Karena masa depan sungguh ada, dan harapanmu tidak akan hilang. <b>Amsal 23 : 18</b> 😊🙏",
+      "<b>petrussiahaan.blogspot.com</b>"
+    ]
+  },
     "folderInfo": {
       "chatgpt-group-id": {
         "title": "ChatGPT",
