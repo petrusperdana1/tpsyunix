@@ -1,5 +1,4 @@
 const gracelyConfig = {
-  // Bagian untuk semua URL yang bisa diubah secara dinamis
   "urls": {
     "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
     "tutorial": "https://petrussiahaan.blogspot.com/p/tools-online-gratis.html",
@@ -7,16 +6,12 @@ const gracelyConfig = {
     "onInstallHomepage": "https://petrussiahaan.blogspot.com/",
     "onInstallSocial": "https://www.instagram.com/petrusperdana1/",
     "onUninstall": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
-    "onGuardMissing": "https://petrussiahaan.blogspot.com/p/contact.html",
+    "onGuardMissing": "https://petrusperdana1.github.io/p/contact.html",
     "onLogoutBlock": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html"
   },
-
-  // Pointer ke sumber data utama (cookies)
   "dataSources": {
     "services": "https://petrusperdana1.github.io/tpsyunix/data.js"
   },
-
-  // Konten notifikasi (isi dari notif.js dipindahkan ke sini)
   "notifications": {
     "announcement": {
       "enabled": true,
@@ -30,8 +25,8 @@ const gracelyConfig = {
     "folderInfo": {
       "chatgpt-group-id": {
         "title": "ChatGPT",
-        "content": "<p><img src=\"https://us1.discourse-cdn.com/openai1/original/4X/7/0/1/701493b167007f5ab689eda8f388260e7390abc1.png\" width=\"90%\"></p><p>Jika kamu mengalami pesan error: <b>\"Something went wrong while generating the response\"</b>, cukup hapus cookie dan cache pada browser yang kamu gunakan.</p><p>Jika kamu mengalami pesan error: <b>\"Our system have detected unusual activity from your system\"</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p><p>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4o.</p>"
-    },
+        "content": "<p><img src=\"https://ws1.discord-cdn.com/openai/original/4X/7/0/1/701493b1670b7f5ab608eda0f380260e7390abc1.png\" width=\"90%\"></p><p>Jika kamu mengalami pesan error: <b>'Something went wrong while generating the response'</b>, cukup hapus cookie dan cache pada browser yang kamu gunakan.</p><p>Jika kamu mengalami pesan error: <b>'Our system have detected unusual activity from your system'</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p><p>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4s.</p>"
+      },
       "freepik-group-id": {
         "title": "Informasi Freepik",
         "content": "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
