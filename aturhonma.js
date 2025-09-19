@@ -42,7 +42,7 @@ const gracelyConfig = {
     }
   },
   "maintenanceMode": {
-    "enabled": false,
+    "enabled": true,
     "scheduleType": "daily",
     "dailyTime": "16:00:00",
     "specificDateTime": "2025-12-31T23:00:00",
