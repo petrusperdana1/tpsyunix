@@ -41,7 +41,6 @@ const gracelyConfig = {
       }
     }
   },
-  // ▼▼▼ BAGIAN MAINTENANCE BARU ▼▼▼
   "maintenanceMode": {
     "enabled": false, // Ganti ke `true` untuk mengaktifkan
     "scheduleType": "daily", // Pilihan: "daily" atau "specific"
