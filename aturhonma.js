@@ -44,13 +44,13 @@ const gracelyConfig = {
   "maintenanceMode": {
     "enabled": true,
     "scheduleType": "daily",
-    "dailyTime": "22:53:00",
+    "dailyTime": "22:59:00",
     "specificDateTime": "2025-12-31T23:00:00",
-    "durationMinutes": 2,
-    "countdownMinutes": 10,
-    "warningTitle": "Peringatan Maintenance",
-    "warningMessage": "Layanan akan memasuki mode perbaikan dalam:",
-    "maintenanceTitle": "SEDANG MAINTENANCE",
-    "maintenanceMessage": "Mohon bersabar. Kami sedang melakukan perbaikan."
+    "durationMinutes": 15, //
+    "countdownMinutes": 10, //
+    "warningTitle": "Peringatan Maintenance", //
+    "warningMessage": "Layanan akan memasuki mode perbaikan dalam:", //
+    "maintenanceTitle": "SEDANG MAINTENANCE", //
+    "maintenanceMessage": "Mohon bersabar. Kami sedang melakukan perbaikan." //
   }
 };
