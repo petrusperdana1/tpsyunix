@@ -44,7 +44,7 @@ const gracelyConfig = {
   "maintenanceMode": {
     "enabled": true,
     "scheduleType": "daily",
-    "dailyTime": "22:39:00",
+    "dailyTime": "22:45:00",
     "specificDateTime": "2025-12-31T23:00:00",
     "durationMinutes": 2,
     "countdownMinutes": 10,
