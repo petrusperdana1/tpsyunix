@@ -42,15 +42,15 @@ const gracelyConfig = {
     }
   },
   "maintenanceMode": {
-    "enabled": false, // Ganti ke `true` untuk mengaktifkan
-    "scheduleType": "daily", // Pilihan: "daily" atau "specific"
-    "dailyTime": "16:00:00", // Format HH:MM:SS (contoh: jam 4 sore)
-    "specificDateTime": "2025-12-31T23:00:00", // Contoh: 31 Desember 2025, jam 11 malam
-    "durationMinutes": 15, // Durasi maintenance dalam menit
-    "countdownMinutes": 10, // Hitung mundur muncul 10 menit sebelum maintenance
+    "enabled": false,
+    "scheduleType": "daily",
+    "dailyTime": "16:00:00",
+    "specificDateTime": "2025-12-31T23:00:00",
+    "durationMinutes": 15,
+    "countdownMinutes": 10,
     "warningTitle": "Peringatan Maintenance",
     "warningMessage": "Layanan akan memasuki mode perbaikan dalam:",
     "maintenanceTitle": "SEDANG MAINTENANCE",
-    "maintenanceMessage": "Mohon bersabar. Kami sedang melakukan perbaikan." // Pesan ini akan ditambahkan waktu selesai otomatis
+    "maintenanceMessage": "Mohon bersabar. Kami sedang melakukan perbaikan."
   }
 };
