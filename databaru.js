@@ -1,7 +1,7 @@
 [
   {
     "meta": {
-      "id": "academia-1020",
+      "id": "academia-1021",
       "name": "Academia",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.academia.edu/",
@@ -141,7 +141,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1013",
+      "id": "apple-music-1014",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -641,7 +641,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1014",
+      "id": "brain-fm-1015",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -938,7 +938,7 @@
   },
   {
     "meta": {
-      "id": "bstation-1021",
+      "id": "bstation-1022",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
       "url": "https://www.bilibili.tv/en/anime",
@@ -1192,7 +1192,7 @@
   },
   {
     "meta": {
-      "id": "busuu-1022",
+      "id": "busuu-1023",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
       "url": "https://www.busuu.com/dashboard/timeline/a1",
@@ -1442,7 +1442,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1008",
+      "id": "bypass---hix-ai-1009",
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -1651,10 +1651,10 @@
   },
   {
     "meta": {
-      "id": "bypassgpt-1023",
+      "id": "bypassgpt-1024",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
-      "url": "https://www.bypassgpt.ai/#groupy",
+      "url": "https://www.bypassgpt.ai/",
       "category": "productivity"
     },
     "cookies": [
@@ -1849,7 +1849,7 @@
   },
   {
     "meta": {
-      "id": "chat---hix-ai-1009",
+      "id": "chat---hix-ai-1010",
       "name": "Chat | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/id/home",
@@ -2061,7 +2061,7 @@
       "id": "chatgpt-group-id",
       "name": "ChatGPT",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-      "url": "https://chatgpt.com/#groupy",
+      "url": "https://chatgpt.com/",
       "category": "productivity",
       "isGroup": true
     },
@@ -2283,7 +2283,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506962.78073,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -2564,7 +2563,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506982.79914,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -2835,7 +2833,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506990.526859,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -3106,7 +3103,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507005.237204,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -3377,7 +3373,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507019.601247,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -3648,7 +3643,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507032.342673,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -3919,7 +3913,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507048.176615,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -4190,7 +4183,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507060.326069,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -4461,7 +4453,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507071.986647,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -4742,7 +4733,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507089.755519,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -5013,7 +5003,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507097.964838,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -5284,7 +5273,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507111.626247,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -5555,7 +5543,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507124.125592,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -5826,7 +5813,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507136.463015,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6097,7 +6083,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507150.765165,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6368,7 +6353,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507166.945965,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6639,7 +6623,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507181.459337,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6910,7 +6893,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507194.278993,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7181,7 +7163,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507206.275625,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7452,7 +7433,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507219.076752,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7723,7 +7703,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507232.097919,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7994,7 +7973,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507244.257433,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8265,7 +8243,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507255.399928,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8536,7 +8513,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507276.384357,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8807,7 +8783,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507298.05651,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9078,7 +9053,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507313.010356,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9349,7 +9323,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507326.713792,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9620,7 +9593,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507339.075708,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9683,7 +9655,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506775.511072,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9955,7 +9926,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506807.171623,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10227,7 +10197,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506823.856689,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10499,7 +10468,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506838.949241,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10771,7 +10739,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506853.871394,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11043,7 +11010,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507081.989374,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11315,7 +11281,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507096.099666,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11587,7 +11552,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507113.273499,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11859,7 +11823,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507128.636918,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12131,7 +12094,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507143.070865,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12403,7 +12365,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507158.316957,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12675,7 +12636,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507198.85223,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12957,7 +12917,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507212.389844,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13239,7 +13198,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507224.142483,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13521,7 +13479,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507237.041469,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13803,7 +13760,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507248.230722,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14085,7 +14041,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507258.494842,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14367,7 +14322,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507270.545741,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14649,7 +14603,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507287.230172,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14927,7 +14880,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507301.663581,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15218,7 +15170,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507313.331201,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15678,7 +15629,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758506945.873623,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15836,7 +15786,7 @@
   },
   {
     "meta": {
-      "id": "codecademy-1024",
+      "id": "codecademy-1025",
       "name": "Codecademy",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
       "url": "https://www.codecademy.com/learn",
@@ -16065,7 +16015,7 @@
   },
   {
     "meta": {
-      "id": "coohom-1025",
+      "id": "coohom-1026",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
       "url": "https://www.coohom.com/pub/saas/workbench",
@@ -16286,7 +16236,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1026",
+      "id": "coursera-1027",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -16563,6 +16513,1198 @@
   },
   {
     "meta": {
+      "id": "curiosity-stream-1007",
+      "name": "Curiosity Stream",
+      "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
+      "url": "https://curiositystream.com/",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Curiosity Stream 1",
+        "cookies": [
+          {
+            "name": "__zlcmid",
+            "value": "1TSnt3cdrCYpWoR",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400483,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ALGOLIA",
+            "value": "anonymous-6e965a4c-b2d5-4b98-ac8c-efe00f86ea30",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772416463,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_clck",
+            "value": "1t59ofo%5E2%5Efz0%5E0%5E2072",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400464,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1756864411428.743364404922351309",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764640443,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.2.895800402.1756864464",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424504.658833,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ga_GH3462EJ5M",
+            "value": "GS2.1.s1756864464$o1$g1$t1756864503$j21$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424503.448087,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.2056265889.1756864464.1764032317.1756864473.1756864487",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764640464,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_hjSessionUser_271876",
+            "value": "eyJpZCI6IjU5ZTYwY2JlLTcwM2EtNTBiYy04ODU5LWViMDFiMGY4ZDcwNiIsImNyZWF0ZWQiOjE3NTY4NjQ0NjQwNzYsImV4aXN0aW5nIjpmYWxzZX0=",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400464,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_lc2_fpi",
+            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424463.993122,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_lc2_fpi_js",
+            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_li_dcdm_c",
+            "value": ".curiositystream.com",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_pin_unauth",
+            "value": "dWlkPU9EY3dNalExTkRjdE9XWTROaTAwWm1Vd0xUaGtOekV0WXpVMFlqZ3haak0zTWpZeg",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1756864410580.f0f380a6-a631-4f06-9dc5-3b0d49008ab9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764640410,
+            "sameSite": "strict",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_scid",
+            "value": "ntSZVARwY4Kso-CCCSV4b8tpVdUe9S8wxB2Frg",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791051164,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_scid_r",
+            "value": "ntSZVARwY4Kso-CCCSV4b8tpVdUe9S8wxB2Frg",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791051164,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sctr",
+            "value": "1%7C1756832400000",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791051167,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sp_id.7e45",
+            "value": "b86eac97-70c3-454c-b040-d303375c7ff0.1756864464.1.1756864505.1756864464.4fb507bd-8c65-44f1-9f86-85b196dbda11",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424504.662976,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sp_id.f88e",
+            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864462.1.1756864505..419dba84-f995-44c9-9967-325abcb011b8..fcd03871-0634-429c-a24e-b55e1d4f7a46.1756864461912.246",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424504.964502,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ttp",
+            "value": "01K46MEXDGJ1ESJE09QK8TV1M9_.tt.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "cab5e350886811f0805a7bcf23369368",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560464,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ab.storage.deviceId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
+            "value": "%7B%22g%22%3A%22a1e1999e-37d2-38c1-2d80-83773f3d9a4a%22%2C%22c%22%3A1756864437585%2C%22l%22%3A1758505752653%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065752,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ab.storage.sessionId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
+            "value": "%7B%22g%22%3A%22a5fa5f1f-708a-ef6b-61d2-0b69826deb26%22%2C%22e%22%3A1758507552650%2C%22c%22%3A1758505752651%2C%22l%22%3A1758505752651%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065752,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ab.storage.userId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
+            "value": "%7B%22g%22%3A%226d320661-f218-44b4-ade1-af294905a829%22%2C%22c%22%3A1756864476865%2C%22l%22%3A1758505752654%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065752,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "auth_token",
+            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDc0LCJleHAiOjE3ODg0MjIwNzQsIm5iZiI6MTc1Njg2NDQ3NCwianRpIjoiTjI1YmxNbkFLQlU1aUk0dSIsInN1YiI6IjcyZDk5OTU5LTk2ZDQtNGE1Ni05OWVlLTU3NjhkNjQ1NjNmNyIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiI2ZDMyMDY2MS1mMjE4LTQ0YjQtYWRlMS1hZjI5NDkwNWE4MjkifQ.JPCpuQyUbUFC5xXfPrLYBB7CEs6P6DGMOs4Napev4AQ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400476,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "blueID",
+            "value": "55f2d8b0-361c-4956-870d-0a0452fe384b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400464,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "country",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "cs_app_lang",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "cs_evnts",
+            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:54:23.803Z%22}]}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400463,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "csUserId",
+            "value": "6d320661-f218-44b4-ade1-af294905a829",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "datadome",
+            "value": "O_foh9FAotvoNr4P7OA_xnK0PHa0mG_FQ8JoohW8W9uGnhu1S8RIuJ1BVGLvDUdZZoalu8JbGNiz3ShvYlyG1yzN8W4jMKF4hQEd743baLW8G9BlyT7KV52s0dYVe8_7",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400474.875105,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "eu_user",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "first_name",
+            "value": "EDWIN",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "hashed_email",
+            "value": "047e7788667e9abc85fc0744066fd2a7",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ndp_session_id",
+            "value": "2fd87cc7-3af9-4ebc-be96-c1595e301d4f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759456411,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "referral_source",
+            "value": "[{%22contact_date%22:%222025-09-02%2018:54:27%22%2C%22count%22:1%2C%22referrer%22:%22https://www.google.com/%22%2C%22tags%22:[{%22tag%22:%22clientId%22%2C%22value%22:%22895800402.1756864464%22}%2C{%22tag%22:%22page%22%2C%22value%22:%22/login%22}%2C{%22tag%22:%22redirect%22%2C%22value%22:%22/video/11516%22}]}]",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400467,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961394c476457426a44524d4e637334775375664e735a536a4b3970437251734967636b337168663072715164513d3d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560464,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_not",
+            "value": "default",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424466.883521,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_sesn",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424466.881992,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_session_id",
+            "value": "vXAssksHkNz15gdPwIv8ONEM6V94MpRy",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_spv",
+            "value": "6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_tag",
+            "value": "eyJpZCI6NjY3OCwibmFtZSI6ImN1cmlvc2l0eXN0cmVhbS5jb20ifQ%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400466,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_tpv",
+            "value": "6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424502.581221,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_uid",
+            "value": "1756864414227247",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424467.525163,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smct_last_ov",
+            "value": "%5B%7B%22id%22%3A137043%2C%22loaded%22%3A1756864466898%2C%22open%22%3Anull%2C%22eng%22%3Anull%2C%22closed%22%3Anull%7D%5D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759456466,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smct_session",
+            "value": "%7B%22s%22%3A1756864462242%2C%22l%22%3A1756864504281%2C%22lt%22%3A1756864503279%2C%22t%22%3A39%2C%22p%22%3A38%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid",
+            "value": "1756864411062::lwQrzc1E-FO62UMcWG48.1.1756864443386",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560443,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_BSDF75DBA6LC1K03O4AG",
+            "value": "1756864411064::gUePtfhhEzdrFpw1jecp.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_CHNQ3IJC77UCDSLJ3ND0",
+            "value": "1756864411132::OKoZ1psUzbCqGOqmU1Mb.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_CJSBIIBC77UEOD73PTDG",
+            "value": "1756864411135::wr023tlvFG-CW7COQGtW.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_CJVJJKJC77UEOD73TEOG",
+            "value": "1756864411061::UR8ScV0Fdgn8lFR8oXGA.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sp_id.f88e",
+            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864462.1.1758505766..419dba84-f995-44c9-9967-325abcb011b8..fcd03871-0634-429c-a24e-b55e1d4f7a46.1756864461912.247",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065766.496041,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "_sp_ses.f88e",
+            "value": "*",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758507566,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "auth_token",
+            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDc0LCJleHAiOjE3ODg0MjIwNzQsIm5iZiI6MTc1Njg2NDQ3NCwianRpIjoiTjI1YmxNbkFLQlU1aUk0dSIsInN1YiI6IjcyZDk5OTU5LTk2ZDQtNGE1Ni05OWVlLTU3NjhkNjQ1NjNmNyIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiI2ZDMyMDY2MS1mMjE4LTQ0YjQtYWRlMS1hZjI5NDkwNWE4MjkifQ.JPCpuQyUbUFC5xXfPrLYBB7CEs6P6DGMOs4Napev4AQ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790041752,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "cs_app_lang",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "cs_evnts",
+            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:54:23.803Z%22}%2C{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{%22locale%22:%22en-US%22}%2C%22event_datetime%22:%222025-09-22T01:49:11.803Z%22}]}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790041751,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "csUserId",
+            "value": "6d320661-f218-44b4-ade1-af294905a829",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "eu_user",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "first_name",
+            "value": "Groupy",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "hashed_email",
+            "value": "047e7788667e9abc85fc0744066fd2a7",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          }
+        ],
+        "sourceUrl": "https://curiositystream.com/"
+      },
+      {
+        "name": "Curiosity Stream 2",
+        "cookies": [
+          {
+            "name": "__zlcmid",
+            "value": "1TSnt3cB7HdosFB",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400414,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ALGOLIA",
+            "value": "anonymous-00486ba4-780f-486d-a584-b5ed1088cc7c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772416410,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_clck",
+            "value": "19g74su%5E2%5Efz0%5E0%5E2072",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1756864411428.743364404922351309",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764640443,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.2.327560088.1756864411",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424449.273791,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ga_GH3462EJ5M",
+            "value": "GS2.1.s1756864411$o1$g1$t1756864444$j27$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424444.349161,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.249541615.1756864410.587233280.1756864428.1756864435",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764640410,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_hjSessionUser_271876",
+            "value": "eyJpZCI6IjI4NmQ3MjUzLTg5MDUtNWQ5My1iOWE0LTYxZGZkMGE2OTdiMyIsImNyZWF0ZWQiOjE3NTY4NjQ0MTEzMzgsImV4aXN0aW5nIjpmYWxzZX0=",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_lc2_fpi",
+            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424411.097176,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_lc2_fpi_js",
+            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_li_dcdm_c",
+            "value": ".curiositystream.com",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_pin_unauth",
+            "value": "dWlkPU9EY3dNalExTkRjdE9XWTROaTAwWm1Vd0xUaGtOekV0WXpVMFlqZ3haak0zTWpZeg",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1756864410580.f0f380a6-a631-4f06-9dc5-3b0d49008ab9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764640410,
+            "sameSite": "strict",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_scid",
+            "value": "hVSZVARwY4Kso-CCCSV4b8tpVdUe9S8w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791051109,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_scid_r",
+            "value": "hVSZVARwY4Kso-CCCSV4b8tpVdUe9S8w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791051109,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sctr",
+            "value": "1%7C1756832400000",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791051112,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sp_id.7e45",
+            "value": "a74beffb-a88e-4d3d-a46a-ca95af3446f8.1756864411.1.1756864449.1756864411.09fbc80e-6611-4a01-8b8f-8608c7f59d7d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424449.277643,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sp_id.f88e",
+            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864411.1.1756864450..419dba84-f995-44c9-9967-325abcb011b8..3321a118-c9d0-44d3-b5b1-760981cc7833.1756864410892.160",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424450.01963,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_ttp",
+            "value": "01K46MEXDGJ1ESJE09QK8TV1M9_.tt.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560411,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "cab5e350886811f0805a7bcf23369368",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560410,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ab.storage.deviceId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
+            "value": "%7B%22g%22%3A%22a1e1999e-37d2-38c1-2d80-83773f3d9a4a%22%2C%22c%22%3A1756864437585%2C%22l%22%3A1758505736472%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065736,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ab.storage.sessionId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
+            "value": "%7B%22g%22%3A%22eb86cc5c-e336-4a75-6814-eac13ad41563%22%2C%22e%22%3A1758507536470%2C%22c%22%3A1758505736470%2C%22l%22%3A1758505736470%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065736,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ab.storage.userId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
+            "value": "%7B%22g%22%3A%22e0dae1bd-3326-46b2-b671-e550fbf5f6d0%22%2C%22c%22%3A1756864437589%2C%22l%22%3A1758505736473%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065736,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "auth_token",
+            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDM0LCJleHAiOjE3ODg0MjIwMzQsIm5iZiI6MTc1Njg2NDQzNCwianRpIjoiM01qMlJyWllkbFVaekdPWSIsInN1YiI6Ijc1NTI2ZTUzLWRmNTUtNGY3Ni05NTI4LTI3YWFmZWQ0ZjhmZiIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiJlMGRhZTFiZC0zMzI2LTQ2YjItYjY3MS1lNTUwZmJmNWY2ZDAifQ.C0JTomELFaxg8uc7Z7JIASpa9CviDgy-JZOnIETJFb4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400437,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "blueID",
+            "value": "9ca8fe83-59ab-486e-81ef-282b25e3cf17",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400412,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "country",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "cs_app_lang",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "cs_evnts",
+            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:53:30.860Z%22}]}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400410,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "csUserId",
+            "value": "e0dae1bd-3326-46b2-b671-e550fbf5f6d0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "datadome",
+            "value": "NjSAiJTRnDdt~h_KQBCbmVS6vQDK2VelAY84gojRc0sT7MZPuu8gES1pnLdyV2N0b~L_6RG0frHv3MPrzkgsye2aIakglzLhuUqkSSf1S0G6F_nWjKpmQtM3RUTTUURd",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400422.06178,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "eu_user",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "first_name",
+            "value": "Groupy",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "hashed_email",
+            "value": "2bfe24d3f381b975d46b3e075c6e7144",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ndp_session_id",
+            "value": "2fd87cc7-3af9-4ebc-be96-c1595e301d4f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759456411,
+            "sameSite": "lax",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "referral_source",
+            "value": "[{%22contact_date%22:%222025-09-02%2018:53:34%22%2C%22count%22:1%2C%22referrer%22:%22https://www.google.com/%22%2C%22tags%22:[{%22tag%22:%22clientId%22%2C%22value%22:%22327560088.1756864411%22}%2C{%22tag%22:%22page%22%2C%22value%22:%22/%22}]}]",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400414,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961394c476457426a44524d4e637334775375664e735a5364316368315756624f52477876793268754a623635773d3d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560410,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_not",
+            "value": "default",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424414.852964,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_sesn",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424414.851098,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_session_id",
+            "value": "ov0FXDuJzNg1zpcoaxbXdiRNkNnJU5dp",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_spv",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_tag",
+            "value": "eyJpZCI6NjY3OCwibmFtZSI6ImN1cmlvc2l0eXN0cmVhbS5jb20ifQ%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788400414,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_tpv",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424443.398519,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smc_uid",
+            "value": "1756864414227247",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791424414.227858,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smct_last_ov",
+            "value": "%5B%7B%22id%22%3A137043%2C%22loaded%22%3A1756864415054%2C%22open%22%3Anull%2C%22eng%22%3Anull%2C%22closed%22%3Anull%7D%5D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759456415,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "smct_session",
+            "value": "%7B%22s%22%3A1756864415240%2C%22l%22%3A1756864451235%2C%22lt%22%3A1756864450236%2C%22t%22%3A35%2C%22p%22%3A30%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid",
+            "value": "1756864411062::lwQrzc1E-FO62UMcWG48.1.1756864443386",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560443,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_BSDF75DBA6LC1K03O4AG",
+            "value": "1756864411064::gUePtfhhEzdrFpw1jecp.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_CHNQ3IJC77UCDSLJ3ND0",
+            "value": "1756864411132::OKoZ1psUzbCqGOqmU1Mb.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_CJSBIIBC77UEOD73PTDG",
+            "value": "1756864411135::wr023tlvFG-CW7COQGtW.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "ttcsid_CJVJJKJC77UEOD73TEOG",
+            "value": "1756864411061::UR8ScV0Fdgn8lFR8oXGA.1.1756864445601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790560445,
+            "sameSite": "no_restriction",
+            "domain": ".curiositystream.com"
+          },
+          {
+            "name": "_sp_id.f88e",
+            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864411.1.1758505741..419dba84-f995-44c9-9967-325abcb011b8..3321a118-c9d0-44d3-b5b1-760981cc7833.1756864410892.161",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793065740.526228,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "_sp_ses.f88e",
+            "value": "*",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758507540,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "auth_token",
+            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDM0LCJleHAiOjE3ODg0MjIwMzQsIm5iZiI6MTc1Njg2NDQzNCwianRpIjoiM01qMlJyWllkbFVaekdPWSIsInN1YiI6Ijc1NTI2ZTUzLWRmNTUtNGY3Ni05NTI4LTI3YWFmZWQ0ZjhmZiIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiJlMGRhZTFiZC0zMzI2LTQ2YjItYjY3MS1lNTUwZmJmNWY2ZDAifQ.C0JTomELFaxg8uc7Z7JIASpa9CviDgy-JZOnIETJFb4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790041736,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "cs_app_lang",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "cs_evnts",
+            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:53:30.860Z%22}%2C{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{%22locale%22:%22en-US%22}%2C%22event_datetime%22:%222025-09-22T01:48:54.553Z%22}]}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790041734,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "csUserId",
+            "value": "e0dae1bd-3326-46b2-b671-e550fbf5f6d0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "eu_user",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "first_name",
+            "value": "Groupy",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          },
+          {
+            "name": "hashed_email",
+            "value": "2bfe24d3f381b975d46b3e075c6e7144",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "curiositystream.com"
+          }
+        ],
+        "sourceUrl": "https://curiositystream.com/"
+      }
+    ]
+  },
+  {
+    "meta": {
       "id": "datacamp-1000",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
@@ -16712,7 +17854,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1758506209.815308,
         "sameSite": "strict",
         "domain": ".datacamp.com"
       },
@@ -16875,7 +18016,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1027",
+      "id": "duolingo-1028",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -17076,7 +18217,7 @@
   },
   {
     "meta": {
-      "id": "educative-1028",
+      "id": "educative-1029",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -17502,7 +18643,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1029",
+      "id": "epidemic-sound-1030",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -18723,7 +19864,7 @@
   },
   {
     "meta": {
-      "id": "everand-1030",
+      "id": "everand-1031",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -18941,7 +20082,7 @@
   },
   {
     "meta": {
-      "id": "figma-1031",
+      "id": "figma-1032",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1529307847297173012/recents-and-sharing?fuid=1529307842546721481",
@@ -19157,7 +20298,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1032",
+      "id": "flaticon-1033",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/profile/me",
@@ -19556,7 +20697,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1758506394.653778,
         "sameSite": "no_restriction",
         "domain": ".grammarly.com"
       },
@@ -19664,7 +20804,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1758506394.653437,
         "sameSite": "no_restriction",
         "domain": ".grammarly.com"
       },
@@ -19713,7 +20852,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1007",
+      "id": "ground-news-1008",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
       "url": "https://ground.news/",
@@ -19963,7 +21102,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1033",
+      "id": "guitartricks-1034",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -20242,7 +21381,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1034",
+      "id": "iflix-1035",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -20512,7 +21651,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1035",
+      "id": "iloveimg-1036",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -20674,7 +21813,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1036",
+      "id": "ilovepdf-1037",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -20827,7 +21966,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1037",
+      "id": "linkedin-learning-1038",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -21128,7 +22267,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1038",
+      "id": "marvel-unlimited-1039",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -21405,7 +22544,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1039",
+      "id": "masterclass-1040",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -21832,7 +22971,7 @@
   },
   {
     "meta": {
-      "id": "medium-1011",
+      "id": "medium-1012",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -21912,7 +23051,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1012",
+      "id": "motion-array-1013",
       "name": "Motion Array",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
       "url": "https://motionarray.com/account/downloads/",
@@ -22171,7 +23310,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1040",
+      "id": "musicbed-1041",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -22338,7 +23477,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1015",
+      "id": "notegpt-1016",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -22457,7 +23596,7 @@
   },
   {
     "meta": {
-      "id": "notion-1041",
+      "id": "notion-1042",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/495a4d586ce44fd58751f1739687af57",
@@ -22677,7 +23816,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1042",
+      "id": "pacdora-1043",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -22866,7 +24005,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507345.664832,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -23093,7 +24231,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758506450,
             "sameSite": "strict",
             "domain": "www.perplexity.ai"
           },
@@ -23159,7 +24296,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507357.631223,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -23289,7 +24425,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758507363,
             "sameSite": "strict",
             "domain": ".www.perplexity.ai"
           },
@@ -23396,7 +24531,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758506462,
             "sameSite": "strict",
             "domain": "www.perplexity.ai"
           },
@@ -23462,7 +24596,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507369.318493,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -23592,7 +24725,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758507373,
             "sameSite": "strict",
             "domain": ".www.perplexity.ai"
           },
@@ -23689,7 +24821,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758506474,
             "sameSite": "strict",
             "domain": "www.perplexity.ai"
           },
@@ -23765,7 +24896,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758507333.280829,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -23952,7 +25082,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758506438,
             "sameSite": "strict",
             "domain": "www.perplexity.ai"
           },
@@ -24013,7 +25142,7 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1043",
+      "id": "productioncrate-1044",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
       "url": "https://www.productioncrate.com/",
@@ -24115,7 +25244,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1016",
+      "id": "quizlet-1017",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -24328,7 +25457,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1044",
+      "id": "rawpixel-1045",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -24400,7 +25529,7 @@
   },
   {
     "meta": {
-      "id": "relume-1045",
+      "id": "relume-1046",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -24531,7 +25660,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1010",
+      "id": "scholarcy-1011",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -24653,7 +25782,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1046",
+      "id": "scribd-1047",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -24992,7 +26121,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758506824,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           }
@@ -25360,7 +26488,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758506839,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           }
@@ -25692,7 +26819,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758506807,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           }
@@ -25703,7 +26829,7 @@
   },
   {
     "meta": {
-      "id": "sider-ai-1017",
+      "id": "sider-ai-1018",
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/id/chat",
@@ -25873,7 +26999,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1047",
+      "id": "skillshare-1048",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -26236,7 +27362,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1048",
+      "id": "slideshare-1049",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -26695,7 +27821,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1049",
+      "id": "studocu-1050",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -26962,7 +28088,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1758506745.87912,
         "sameSite": "lax",
         "domain": "www.studocu.com"
       },
@@ -27051,7 +28176,7 @@
       "id": "svgator-1003",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
-      "url": "https://app.svgator.com/#/",
+      "url": "https://app.svgator.com/",
       "category": "design"
     },
     "cookies": [
@@ -27149,7 +28274,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1050",
+      "id": "symbolab-1051",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -27333,7 +28458,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1051",
+      "id": "udemy-1052",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -28345,7 +29470,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1018",
+      "id": "vectorizer-ai-1019",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -28397,7 +29522,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1019",
+      "id": "wetv-1020",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
