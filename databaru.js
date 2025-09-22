@@ -1,7 +1,7 @@
 [
   {
     "meta": {
-      "id": "academia-1022",
+      "id": "academia-1026",
       "name": "Academia",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.academia.edu/",
@@ -141,7 +141,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1015",
+      "id": "apple-music-1017",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -519,6 +519,1238 @@
   },
   {
     "meta": {
+      "id": "apple-tv--1023",
+      "name": "Apple TV+",
+      "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
+      "url": "https://tv.apple.com/ca",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Apple TV+ 1",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "56",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793068918.480676,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d3f690711c4d70d94ebada9bc4eb228da5116364cb6da6b92bb2d85d505f26e150fe07cda53bbbbd9aaa5973a17c3eac4a62df60f945e6625c2251013ef819a44db8e2e2a3da31c56b036cd2a74041395aaab3c961cfa1f3ed0b1e25e76e6f702dfb95cb93e4a4c8bbad9dfb083413c8da0c324ec7d6f4a7ef81558467e3a9c0cfed0e49f0383c90dad9c667b705d67221f6af1806abbc497cd3606bb1b713fed4460f1677077b892fea9aa34c0d282a7f21835f10fcb67d31bfd6088f057fbbd05b72345c4ae4285e71bb58af8c4273b6b07f4c5c1f34db211c40f71826d565ea280e0a2fdecde3adbec4d3f4e66103135daf834c889aa60544660bb63f932aaddccba0164c0843434a38fd9b6d405c9bc70ac6e3d7cfeb75e1c483f3e8c6ddd75a04c83b1ddc4269ef04f0ccbd65fcdad9cbe5d25ee60e8f91bfeddcff6a0160481166ae65fc836d7b08e41a5a3b3a0dda7d0a0cf48228d664b9ea433b391153ea3840252d723912b7fcf66bfb8a254d93c1157c0ed6ee63b7b4455536a325ffbc8d8a294083ce709a6992b841208ce6145714436306444e343b6afd01091d106f2e4a6441c69cafd35ea0781fed6da5033ac8566f720133b05c226be870b58e60351040d5a0f1e1faf104112c100e5f7efa67152a219d70cf005bcaae889b5b585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CLnvwutTEgQIAxAAEgQIExAAEgQIDBAAEgQIBBAAEgQIBxAAEgkICxCf_7vuhjMSBAgGEBUSBAgIEAASBAgNEAASBAgFEAASBAgPEAASBAgJEAASBAgBEAASBAgSEAASBAgOEAASBAgQEAASBAgCEAASBAgKEAASBAgREAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758513977.75911,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787457974.856964,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "ArIV22JdiIs+oN1KWAGulx6MDoxKaUvZUMFNKXlIena4WO85Ls3ZlmprAo4LC7XQr7tBm25awpmRCmSuADYiWEPlITp5D8DrsDAIORpgx14ufHe+dCXFMD2Y8DrRjDYT1K2CjI8BP9HPmekCw1AJ5E2WimiQhLBljUwOUblDlI7NwecHBFtmHbW8wPR0wx98yvRARnphzp3H3u71AIhDyl9oCUpQwq0Zu1UFHt/JRTPGkLVpmw==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771473974.856848,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763697974.857062,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "1da27dcb00784fefb469fd589fd6cbc5056",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771689974.857032,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "c10f3f427bb84d59a45e2e2b615e05d3056",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771689974.857,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4379347236564d34753775625a6a6f4d704e447564",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771689974.857,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 2",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "57",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793068933.825368,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d322b365638381029337470c6e93ca86e7aad22149d98fb3eb787e72846700880412e9e5ca5144b614b94ca0082a974f6180324ffe6b0097fa99962acc80e118bf39e24c46fe609ea0804c1bf7a714216dd83b0b04991b61a3f9e7ae53fb4ef626e06d5f3cb9d2328d21d0aa3de2e25183a5696882949e962f6489c6380cb096361c0ebdf5df54cbda91961948f2a48e53fa71d4dfa29b985f1dba80c8e3672ff635993a2b6af126ea75558863cfaa2de090731031e78e4a279c941f8fad7ad77a4539631809f7dd33d24d4fefefc50de3775231a77f92da2a74b344a63ea7194cb53d8faadd4b92bea4cdd68e8c7c2a745c99ec98a60d2f0169c84ead0335c8c2bfffa31941299bef9c7ad9a4446ff62a5f8f9ee91a06c171814c967b84c97b6abccbc4aad629420b272b78487afa7dbe075d8ca1a0959619b87cf526e2d6fd3637d551f2457c1afd4acc8450d9d1f22e05b0f766f6f5b960197c90d4bf626e8a983677503c1284707601fc4e8d1472abde801493217cedb19b6268563b6db56090dbe4822b8f2bd3c1f80e9be36e9423c3d9d6ccd9f5750fd1f822bb9fb3a57e61d143f8dabfe272c0a902c7db7fdc55d2cf55d648dc65798e074509de84b1fd526421f94e2ec9726021753a992a73ed2cf84b946d7b2e75cf3ea98aa8dc4533585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CPDnqO9TEgQIBBAAEgQICBAAEgQIAhAAEgQIBhAVEgQIAxAAEgQIEhAAEgQIChAAEgQICRAAEgQIARAAEgQIDhAAEgQIBRAAEgQIERAAEgQIExAAEgQIDxAAEgkICxC1z9LuhjMSBAgHEAASBAgMEAASBAgNEAASBAgQEAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514043.253974,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458041.246446,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "Ar32ZIGRkKjhojguItMsZ1BoYQY7JRxW9RSgouR3mk5FEKtCZynFA4meyvvp+gFuFkM/dzt0GbL1W7BMeNJz76voiAStrok62CdebVTTKToTQH/YloooTCgMpg85UHMLCNuzO8rxZL/Hcks76VEZTVmXdOPmuKWsDRdyAj2fHKxDRZNP+p4GDx2j6FnC8H5Wk9IWAfJceh448WEdZDLmB0P96XafQWL3Il6Xqw5d5gYUvIuJmw==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474041.246327,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698041.246583,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "67dadc3cb6914e37bb938a5c5ecee3df057",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690041.246541,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "b4d4a52fcaa547a29307e8bd914541c7057",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690041.246494,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f546c62776c5964774157756b3258626558756e6f78",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690041.246494,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 3",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "36",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793068948.872213,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d30a95c0f338a9f116f91b29db35c9853923c6991321bd57d9f7028a247c9cef24f53caf0f1de26fdcb4554cb1c5c3e48677bef32fcaa56bbe47297919e0371560a47c8d102a362945069667e456bf65cf2c2a8c869b58becf87935c7b0fada4fc91e43c34920782026a9427675bdf784118fc06440a8a155c8532a39322a4e29d2f4cda29075b10e437e03b6529517e3ac7b357d52be5c0b2bd6f6c3e0b39f537c565b5f9345ae8c7d106f16ed8ccf7e3b60aed006689c14f0c17ff5d8f238521433db9aa03dfbdde80796b88dad27411ad646191523247e48f06bc3131d7d4ef45189394ed340e82fa4e02f0c7a7dedbbff2da30329f8b7da7f7ecb0747bb9cadd9d5ef62d2fef34497b9ccd87a7b4b558b95851a0b96d7c242fb1092bace13c52344fccd188f331f979c539055b3520bf2185f1158f2be62b6e6909e6f0f6cd3b6d0daa1a3ff03c931faab5ee90a299ae300a189521f9a46380c764e2cefb7aad307cb6bb46242c1128303234bc1088a10a73bf0bab29d8d532cf41213a5a376cbf93cb29277f5d865993722283ebb084006dee6e2ca0526f6606c251b934d96f990466fe528931780cc147662dbd6e0065a7a4ce641fafb8f9aeb414a3f99d05a2e594605fdedbee34cf528b0f3fb81495eaa92bb616f3e12daecf355ced74585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CKi3455GEgQIBxAAEgQIAhAAEgQIAxAAEgkICxDAjefuhjMSBAgEEAASBAgJEAASBAgFEAASBAgQEAASBAgREAASBAgSEAASBAgOEAASBAgGECASBAgBEAASBAgNEAASBAgMEAASBAgPEAASBAgTEAASBAgIEAASBAgKEAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514132.450885,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458130.269043,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "Ai9sfcMpcRuhQMSJUIeLke0VOhEAZuZOSIvANpx6A4NIgc80230pfBdcTl988KCJ4zgJFv2QxwSmTS9CN82eHEee3IkqDH8yYSwQ+YW8JhL/sRQ7cBd2DBuhyVbUz9m3WQEUDPImak9mJoXtLLlo+WpClfjsb0f4TaazjM3epkGn9mXPWbj491rAsXyKGJCDdPvdeQHmKPK/nhOXeprz7D984WHPF9vtEhjY38JOuSa2um893w==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474130.268922,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698130.269173,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "c277155e822743f39f835cfdcbcc9411036",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690130.269133,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "f60c6264a5d14d5f837a5b74c1abc9da036",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690130.269089,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613835586861325570754971306c454550783471717975",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690130.269089,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 4",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "56",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793068965.445527,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d3dec5db3b73f2badcfdbf4e2aaabb6d1bb1287dd6295499379ae11f1364a87499f3daaaf47ee0a4dc63884344b4bccd19a0c081210e7b9ed436950d7b0e59f37d529b273a390c6bc1ed97f8d36351087791126bd2aca49b6c62386a1b0d2934ea8d72ef5f5d288434fd0a052b929b70c5832f33c3b94ee0498b8bd4b6a0233de2ed737e589301378d9540165a9d2550f356a4eb580059fabe2feb398774b33840c0d9512b0a9c754f3de9afad985306e873ac7c300851145e01d133a0924714590f718e913d5bf10ba6aec273772a83eab2f0519fdaac5976000229dfbe6279c47680b46e3e952607eae574d8def9b0256f6402f24a65938bbcc09c0ebb8b33758581cef3daf9f269369e2244177993433c855aa6eb1ad3dff1dbde172926541fd07d8fc4263408fa5db22236a9b589be89304317327dad5e3de235ab950e113fc47a39d9ce1d1fb2bb17bfa5b40797512547067e582369ac363fb525172696770675c0b92a249f8fa56913c7741a593416cc8d22e9c1bc1d7937817105f98e78c71329726c28ee457b621488d059c28e9d43960388b8ee9868e457ec1378a33a2837410b768d148cef224718374b16dcc63139ff6a4e73acd81a6989163461e5cbc29755ebc3562ef4b458c919b783e7134149d728683205a64153ddacfe430a585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CPG85J5GEgQIAxAAEgQIExAAEgQIDBAAEgQIBBAAEgQIBxAAEgkICxDs-O3uhjMSBAgGEBQSBAgIEAASBAgNEAASBAgFEAASBAgPEAASBAgJEAASBAgBEAASBAgSEAASBAgOEAASBAgQEAASBAgCEAASBAgKEAASBAgREAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514186.877495,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458185.038164,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "AhlJ1h7Sh4NQJpR+H1FCEfc9nFtJu/pDIIPM5ueBn8UGaFAjAWqac8Vl9kcNw6xGdgzG8A5s2MCTM7OnsxocS8IP9pIaOND+L02fpFoVUrVoz2j70GlnYBwa5skAP5ciTYbjRdWcJfxcTjTqFiLo+Fg6Wz/5TS8ALzmjfUJMm6TVspbZEQ+e97sxq5WGokv0gzrgKdoPipolZOfX+esOxLJV6nzEw7UEhPQKx0yEfZdd5TkDKA==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474185.038054,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698185.038366,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "5f26e8bf6f114edab55cc771d531336f056",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690185.038316,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "1f810df33b4c4136a725ea1952bdcdd3056",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690185.038239,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b555a4e53546247374f783670637165716f4e524670",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690185.038239,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 5",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "19",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790482220.327535,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d379f19f5458570b56344d00f6091dc48781c865b33d0ec2ba1d750d36fd568ed4c19c7570b13db039e6474aa1516543b3453227b9cc7c8b19bc662ff4d1cac59d18649c08dd646ebba531e465e53a556fb6dafe5194c5f909c28bbe428a27b27859ec1ec4d928953cc7592c33564692f7961b41c5e00ae03ad33db113387aef6fa52a0560be9966382461146c859e1005dfc8267cdb8b57775ff097ae14e0e3d87ed28ceb5eedcb247b1ac978c5fcf6b335b20bd5d48680d6a10e9a8d2ef63d0ce961ed33fe400717e2d59536492ac40caf448388d880fcf97bea43501a37d573d9138506067cda305e0426c268b1f0eae0136105e55a5b77ed4c751b5c825e026fb9d64c85a336ba7229c0b03b5b3ab706ef7c2a8c078e424369a90f7772cd65717c7d52b7359276bdaff77a80362ff539e3300ecb851820623fa1fd6d5ae83a5838ec25dff1c1c65a777b5c1ef1629d3b649142a8960a365f24f9f3b65ce6feb0210aeca113610ccf37df03eeedd54dc173c8aac3f8eff252d3e8534d8f014cb81b5c0154fa45d9c21b9500ffe46205f196563f783b69ccff553f9af8393ca30976c513ccb9c9a689e59babcfc7d5aafc9cbc09e14f95457575817ab42d21f35aa6e87d7ee9b5b920371af5c3675ed0826daa712211156c870f5e99dee7a246585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CMXO5otGEgQIBBAAEgQICBAAEgQIAhAAEgQIBhAWEgQIAxAAEgQIEhAAEgQIChAAEgQICRAAEgQIARAAEgQIDhAAEgQIBRAAEgQIERAAEgQIExAAEgQIDxAAEgkICxCUg5KZhzMSBAgHEAASBAgMEAASBAgNEAASBAgQEAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514220.946378,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458220.382122,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "AjKR7//rtr0JLr/FMMbrhrWIXi8w8PqztQPxeJ7HpEuvAnMbSkNNaHRkFlH9eiPnQHCKnNOcXWGzb0qIy7btxg1SFOuHJN8q3s8w4Suy3K6a5hgm6CEum8dxtkke100J0I98z1zs/pwOlQAurs0wYFV6hyOmlsDbtTM/b4fBUTobxO9u1ZXINhJEqZmpIALJDqs5CCL0W9gpTKt9/lfnPdLtV+9cuaL7llFoSXejQg0zZyBSPQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474220.382006,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698220.382223,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "46848778928c495daffd7b5f1374c200019",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690220.382195,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "579d20bfc2ce491d85058723f58cf405019",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690220.382161,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138696b426c705030716e5561546d58516f4a376d6e50",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690220.382161,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 6",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "14",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793068989.511363,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d3d310859ee875439e0a42d2b03da1521a8cd891b49e7d17f1cb26135edd3771eba1e7790e360bf185eda4ec265bbc19d35b293b76c6cc3911c5fc2525975c6340aa995720a7a71b8fb529b886248ff89f63a269c35a786ec91b4b87cc2867493b3e41c901e56d6ff8fb57c90fd5bc5e038f74eeb47ded8d90c8110d3ebe240e147da202eaaf7b4c89fafd98c87f35fa17ad4379e6f8fd4756e3289b5fac0654cd13fee3015df658c8a6deea6428c80f2930095c4a82e785c3fb010967593ac072b4bcb5617ea2eff08564c09e52a6692314bdf05b7a7edb70212d977b291bf105a61f538b2a7ebb7ab5b64ce38d5815d3d50bf0c26705943044d901391049c568cd717bfe018cfe89360f11b09c2e24b91ee89afacf8deba007b5dabcd5de51c717eb106bbe47e4b9802ef66a19cc4802a87c2984c01fa5658fc999ade49298a80cd8b0c77c780d608164036680b2341fe62fb5e1a95771ba4ade35a4bf5876be834565771e9448c8fab1e01a963c8283807dc2f396795d5d2fcaa6bae08d281bc20997d0c0d72759fe45fc1bcb46442949635cf79524436b298c0f702fc08bc1cc956485a1591c8905d6a6331d53b70a5149c4d9f7d814a87a6df4cebc3fabaefabec58587b54f8290c1694eab00aed3351a5bdabd049a4608bd6c3220f4141e585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CKCw-qdGEgQIBBAAEgQICBAAEgQIAhAAEgQIBhASEgQIAxAAEgQIEhAAEgQIChAAEgQICRAAEgQIARAAEgQIDhAAEgQIBRAAEgQIERAAEgQIExAAEgQIDxAAEgkICxCIg6SZhzMSBAgHEAASBAgMEAASBAgNEAASBAgQEAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514261.382541,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458259.710741,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "ApbY5wZXLWrbdEPWtYsWU1zethNgok4Qgd30kQtKCdVxnAP7zrh10l6pN4OzQCkH8JdMPWbe0FZENP4SHCuPGoiNfp6jqR8Glil8m/HwiduToUNKi7teb5esK2VMpJiYKL0rTfN26PRt7PdztLU8FTx69wTJIdp9SSgcT5DKYuG/YkXHll2dDmGxdiYR2AUGNrzUR9RQ2eRyMLuf4lCvoxxvlxRNyaniiS8HyiJ+5jwdBL8qhA==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474259.710644,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698259.71083,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "b0c033ba9106401f962aa9f070837118014",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690259.710801,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "ade32a73b9ee4c25b57f7e3cfe4cae1b014",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690259.710774,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f7343716f6a575170316c786a356b366b67544b5741",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690259.710774,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 7",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "14",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069003.76144,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d315ce3417061e0c6cea00e8bf0c25e97341c7b02462edb266f2ad388b1a8c340fcfeb24534eb19f4145980d805777674374b33d8009f22bb8f55cb9c42e48352372b96fb4b7eb7e7b3be79f5618fb2f9413a21ed456834abe048ac77fc66dae92d4312e9660d247fc15048c0812082f453c7eab11428bc4e1ca9d8496c401aeb8177f397157e0bd635b8a27d4f21a339a68d5635e32aab39b426931247234fa5c3e212ee11ea0726bec23111ed8101723ef2c2293c50d1f027c26d1f489a57ffbc260ffe7bc1a877e75468ed4c92944b17d337fbe51169c2f5e3f283ebf76ff7a9d6cfa4b074e71361f352f98fbbf661b21e88ca45c94b34c8670d06181049e443bf05d0f2becb5adaa8b70a873d710ce6971cc6798b992f1a573158fc8e725e08113a5b7c803e2a2b48ae3c541000bfa1f6c6a071a988cf916627deacd047ca605cc1bf516126259eb6f91978079338558d45aa11b6da37d7adf9dbc6a826646e233459069667ddc680283a446395db0d6ca9260d57df83f414ae5880d9994d71ccbecbba87b685c8ad44613ec1ddf346650a98482f8368d6ed90cf3c599acf1533cb3eaae5d0332927ec808e9014462889dcaa5d66b8d4e65305b4c09d1c1ddbe2ea050bfea7ef6e7274a83a21689b5cc1cb3d222d63f5f2557947dae32efdd585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CKCw-qdGEgQIAxAAEgQIExAAEgQIDBAAEgQIBBAAEgQIBxAAEgkICxCIg6SZhzMSBAgGEBISBAgIEAASBAgNEAASBAgFEAASBAgPEAASBAgJEAASBAgBEAASBAgSEAASBAgOEAASBAgQEAASBAgCEAASBAgKEAASBAgREAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514315.14308,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458313.55054,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "ApbY5wZXLWrbdEPWtYsWU1zethNgok4Qgd30kQtKCdVxnAP7zrh10l6pN4OzQCkH8JdMPWbe0FZENP4SHCuPGoiNfp6jqR8Glil8m/HwiduToUNKi7teb5esK2VMpJiYKL0rTfN26PRt7PdztLU8FTx69wTJIdp9SSgcT5DKYuG/YkXHll2dDmGxdiYR2AUGNrzUR9RQ2eRyMLuf4lCvoxxvlxRNyaniiS8HyiJ+5jwdBL8qhA==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474313.550304,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698313.550833,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "b0c033ba9106401f962aa9f070837118014",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690313.550798,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "ade32a73b9ee4c25b57f7e3cfe4cae1b014",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690313.550757,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b41574f4c5332454b7251417249616d2f32386c6e44",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690313.550757,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 8",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "46",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069014.775493,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d359d6c59906a708249f480ebac62ce026506a72fa519b45679e9d22315fa259511a5f38df560d476a6473b9423572bc502afb6bd873fa0e4457739efeb8be797d51a36f574e7616644bf31c1c48ccb19a36ba02bc1121237a25276a8311e8342854d70e1b0c86e62b83ce1a7c82b3499d89201dcb6eaf50fa0cf86a72063ac99f95a6d8e88912997fdc109b834c259793cd90eea3b3ce0eda8d4cb9a3622b4f26ddad5d5ed0bb04f78f0ef0327745927fed03fcc32853bb8ca82da33295770432594e7563493af3fcfcf69cf8f03dd47cf4f948a130bfd14441f4ac8c1e3f71335849f3b387c880565d5750b4b8c530a7e5d23b0a59eb0112a26c9cd0be640e9208d3ae599d2948c849716374258f689e089a0125dc7fb0d223fae070bab0293a7ad7b8d1544f66e3232daf57a4840ba3fad946c1b3a3751d5acc4dacb7e3af9db667e7bb8c5710fc4840cad556a93f90997302fc190e051966805ed81e0daf9d06766b6a5188e004372f90c13220b227076b1b8ebe3d669527f756a81d6bd78901f9f1a56524a6e204984e85c95be10c0e27132f829e3f6a615f7870264a2f887f61e343a753fd2c48226d9430d9fe783bcf2b50c6d94dbd635e257c7b0eb81bc1bdf7a64c4f3212eaaba5a92e97aa4be8c3a6da7c655bfc22756a7420d51f68585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CJ332KtGEgQIBxAAEgQIAhAAEgQIAxAAEgkICxDjoKuZhzMSBAgEEAASBAgJEAASBAgFEAASBAgQEAASBAgREAASBAgSEAASBAgOEAASBAgGEBISBAgBEAASBAgNEAASBAgMEAASBAgPEAASBAgTEAASBAgIEAASBAgKEAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514347.194241,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458345.627572,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "Ag4nOJrzXfRKdx0riuK/Yr6P3hZ+PsCp48F7LiAKlmNun5Nq1D8TTxxLQXYCzFKpEVCFzCJZKFMiIy61YMLEQWKapeHjm+4IfVZRV9xyKULk4BoEQ/mBlr3Dt1cqeW/tRrMLntXtPGIgH88Mi6PluZ8X5wEkL7Clyg21ZVXHV6wj1fb2bY+RCB2F0q1+P3Dye9AtJstJcD2CXZPcKbbU/txue4+2FrlwPQOEQnlA2rXom9ioiA==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474345.627492,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698345.62765,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "459baf44c63442a3bafb014d39ec1dc8046",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690345.627626,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "0ab2394712324923ae382bcfc280bcad046",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690345.627599,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613851327256655842656c344b45574e33762f2f694750",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690345.627599,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 9",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "30",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069026.548143,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d337aad5fc8ecc600463e81f0cdda6aa9991535208961198745e9779a0c46503ee5be03d2d679bab1dd69746aee4047bb6725076da27f2a70a627289100ce6d279c61dd3cf26f76ff52fe34e70de788488c96fa1f5010122317d5e2f22281013189b1971692d9a2a0397f0187cb6d62957e3f5b01ba12f464c785479466d01a36c0308a48f543dd3ecf4ec2d0c0440659af20073fbad4331be322e88a5051c1d27be0e7e23b05b6ed897ce7dd7af2a95a139969bcc7f3892b32636d6bde8663d39aea91f73d3b9a2c32f9eaf4b9932a85a6d3dd5776115c9c62c303115cb84b137f1a953152b45b7c92382b79e0d96ded015383deeceb125ec312c8cd1b5187ee8618eaf4ce1ef1d0c85acca679212154f1e55e126e3849f88f7cda6c3d6983ce397cdfb3f2f8d23dccc73015b62a079c254d6c94e7f74a252428547da1debb4bd44cc39d66d74078da70228c0353ad1da1f153daee57562ebb44ed58295ef9beefbb31fe6d557069178e1b3d373e6c0b74f298004cb08ee83745af03a149515826cc0d0884a550c59636e02c58a46cccbfb5944c1b5d94ea49714641c5c0477149ffb05dd3fe010f0f55b4b1695791c5c040387a64c6d3701207f135999c796a2744d5f28048de51ee2154e6827f85ddb03b0f4a3b91102cdadb06f7eb646e7e7585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CJ3ln7NGEgQIAxAAEgQIExAAEgQIDBAAEgQIBBAAEgQIBxAAEgkICxCw3NmYhzMSBAgGEA8SBAgIEAASBAgNEAASBAgFEAASBAgPEAASBAgJEAASBAgBEAASBAgSEAASBAgOEAASBAgQEAASBAgCEAASBAgKEAASBAgREAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514384.116904,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458383.639984,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "AjQH4PGN2vUKwqThwYNSrpKKsidJ93ykl2TOrcbcxh4cL137sKpYkAKms4zqvskvv2NDra0cixDqQq2VdV2kfsuZEdckU8C+Ggqtcc+vqLH4wq61JXoL+JjqjoIvgGX4u3jJHaHQJG8m938XiMrRXW6mn9c/bdMrGQsDDPgFbFWyKKjBdo6gyaC9WNHnoyskuYiXxFV8saDBxiTcVqw9WfVSpbyWaoIEQ+6pIMrJtqg/lJ6kHQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474383.63987,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698383.64011,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "bcc84dc3105541f8ad13c236d691e5b5030",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690383.640075,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "00888e33fef24d2182ef95e4fdd56c5f030",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690383.640036,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4c364c5632724c4977636a434c69494a55786d6e38",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690383.640036,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      },
+      {
+        "name": "Apple TV+ 10",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "46",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793068900.24188,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d359d6c59906a708249f480ebac62ce026506a72fa519b45679e9d22315fa259511a5f38df560d476a6473b9423572bc502afb6bd873fa0e4457739efeb8be797d51a36f574e7616644bf31c1c48ccb19a36ba02bc1121237a25276a8311e8342854d70e1b0c86e62b83ce1a7c82b3499d89201dcb6eaf50fa0cf86a72063ac99f95a6d8e88912997fdc109b834c259793cd90eea3b3ce0eda8d4cb9a3622b4f26ddad5d5ed0bb04f78f0ef0327745927fed03fcc32853bb8ca82da33295770432594e7563493af3fcfcf69cf8f03dd47cf4f948a130bfd14441f4ac8c1e3f71335849f3b387c880565d5750b4b8c530a7e5d23b0a59eb0112a26c9cd0be640e9208d3ae599d2948c849716374258f689e089a0125dc7fb0d223fae070bab0293a7ad7b8d1544f66e3232daf57a4840ba3fad946c1b3a3751d5acc4dacb7e3af9db667e7bb8c5710fc4840cad556a93f90997302fc190e051966805ed81e0daf9d06766b6a5188e004372f90c13220b227076b1b8ebe3d669527f756a81d6bd78901f9f1a56524a6e204984e85c95be10c0e27132f829e3f6a615f7870264a2f887f61e343a753fd2c48226d9430d9fe783bcf2b50c6d94dbd635e257c7b0eb81bc1bdf7a64c4f3212eaaba5a92e97aa4be8c3a6da7c655bfc22756a7420d51f68585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CJ332KtGEgQIBxAAEgQIAhAAEgQIAxAAEgkICxDjoKuZhzMSBAgEEAASBAgJEAASBAgFEAASBAgQEAASBAgREAASBAgSEAASBAgOEAASBAgGEBISBAgBEAASBAgNEAASBAgMEAASBAgPEAASBAgTEAASBAgIEAASBAgKEAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758514347.194241,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787458345.627572,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "Ag4nOJrzXfRKdx0riuK/Yr6P3hZ+PsCp48F7LiAKlmNun5Nq1D8TTxxLQXYCzFKpEVCFzCJZKFMiIy61YMLEQWKapeHjm+4IfVZRV9xyKULk4BoEQ/mBlr3Dt1cqeW/tRrMLntXtPGIgH88Mi6PluZ8X5wEkL7Clyg21ZVXHV6wj1fb2bY+RCB2F0q1+P3Dye9AtJstJcD2CXZPcKbbU/txue4+2FrlwPQOEQnlA2rXom9ioiA==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771474345.627492,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763698345.62765,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "459baf44c63442a3bafb014d39ec1dc8046",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690345.627626,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "0ab2394712324923ae382bcfc280bcad046",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690345.627599,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4b44743436654c57486650647947536b7539753563",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771690345.627599,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
+      }
+    ]
+  },
+  {
+    "meta": {
       "id": "askyourpdf-1004",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
@@ -641,7 +1873,1019 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1016",
+      "id": "bein-sports-1008",
+      "name": "Bein Sports",
+      "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
+      "url": "https://connect-id.beinsports.com/id",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Bein Sports 1",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509058972",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069058,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A72994989-5c78-d5ae-37fd-3232946bcbff%7Ce%3A1758510858971%7Cc%3A1758509058971%7Cl%3A1758509058971",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069058,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_KaK2CiN7D7diNftklZaQU9MYvBkE%7Ce%3Aundefined%7Cc%3A1758509058969%7Cl%3A1758509058973",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069058,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVliK3c1MFVDb3ZRS2RmdlpyRWdYTkJnPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkwNTgsImV4cCI6MTc2NjI4NTA1OH0.xdxKT6ZQmCTSEIV-Y-91zCGe8J4G3Z1HCEve1XPmfiY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 2",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509069554",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069069,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A7632c69b-5fd2-1516-aa90-2106530e454c%7Ce%3A1758510869553%7Cc%3A1758509069553%7Cl%3A1758509069553",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069069,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_RyAPzJwS1FbJBEj0WRiPIB4qLgQE%7Ce%3Aundefined%7Cc%3A1758509069551%7Cl%3A1758509069554",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069069,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVlkaXQrUzN3V1E5NkVFWmxWSmVoZnRBPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkwNjksImV4cCI6MTc2NjI4NTA2OX0.PVt3fyOrkr9wp-K_UFD9Wb4qQRTgUn41bYAqszpfldk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 3",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509069554",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069078,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A7632c69b-5fd2-1516-aa90-2106530e454c%7Ce%3A1758510878509%7Cc%3A1758509069553%7Cl%3A1758509078509",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069078,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_RyAPzJwS1FbJBEj0WRiPIB4qLgQE%7Ce%3Aundefined%7Cc%3A1758509069551%7Cl%3A1758509069554",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069078,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVlkaXQrUzN3V1E5NkVFWmxWSmVoZnRBPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkwNjksImV4cCI6MTc2NjI4NTA2OX0.PVt3fyOrkr9wp-K_UFD9Wb4qQRTgUn41bYAqszpfldk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 4",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509069554",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069088,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A7632c69b-5fd2-1516-aa90-2106530e454c%7Ce%3A1758510888898%7Cc%3A1758509069553%7Cl%3A1758509088898",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069088,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_RyAPzJwS1FbJBEj0WRiPIB4qLgQE%7Ce%3Aundefined%7Cc%3A1758509069551%7Cl%3A1758509069554",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069088,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVlkaXQrUzN3V1E5NkVFWmxWSmVoZnRBPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkwNjksImV4cCI6MTc2NjI4NTA2OX0.PVt3fyOrkr9wp-K_UFD9Wb4qQRTgUn41bYAqszpfldk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 5",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509099742",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069099,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A6a7fb2e1-0e76-de79-a4b9-1d8126288119%7Ce%3A1758510899740%7Cc%3A1758509099741%7Cl%3A1758509099741",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069099,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_yBmkrynZwC3VxADzUFn3o8HU2H4E%7Ce%3Aundefined%7Cc%3A1758509099738%7Cl%3A1758509099743",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069099,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVlVRERBcy91bGhndm1OdG1Ua0g1TkJJPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkwOTksImV4cCI6MTc2NjI4NTA5OX0.YjrluHzAFkxtzck8SPjZ2qfbHCoxNlej18Le9aukcqY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 6",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509111071",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069111,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3Aa345f653-e08d-d82c-ead0-3352ee27b1c8%7Ce%3A1758510911070%7Cc%3A1758509111070%7Cl%3A1758509111070",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069111,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_I3G7a2JAU3Kwq1ucSsSnZ15hSw4E%7Ce%3Aundefined%7Cc%3A1758509111068%7Cl%3A1758509111071",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069111,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVlScFJCZTBsLzg3S3E4Q2dxRVhFK1QwPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkxMTAsImV4cCI6MTc2NjI4NTExMH0.qYUhQuZB8t_yIiIj1SvWEq7e0jN6sQQKK-Tf9r9Tc4c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 7",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509120645",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069120,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A102cd141-e5ad-3c50-5290-d34eaea58033%7Ce%3A1758510920644%7Cc%3A1758509120644%7Cl%3A1758509120644",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069120,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_XeymVGTS2aaXbg620TCM3QllIy8E%7Ce%3Aundefined%7Cc%3A1758509120641%7Cl%3A1758509120646",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069120,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVljaTdtS1lBQkxtYWlTV1FPZ0hhUTljPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkxMjAsImV4cCI6MTc2NjI4NTEyMH0.C7FipOzdqilaTKtO1iU9DHP1d9u6QZTKKh5QQzxyuw0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 8",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509120645",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069129,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A102cd141-e5ad-3c50-5290-d34eaea58033%7Ce%3A1758510929631%7Cc%3A1758509120644%7Cl%3A1758509129631",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069129,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_XeymVGTS2aaXbg620TCM3QllIy8E%7Ce%3Aundefined%7Cc%3A1758509120641%7Cl%3A1758509120646",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069129,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVljaTdtS1lBQkxtYWlTV1FPZ0hhUTljPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkxMjAsImV4cCI6MTc2NjI4NTEyMH0.C7FipOzdqilaTKtO1iU9DHP1d9u6QZTKKh5QQzxyuw0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 9",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509141529",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069141,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A079bef3e-206c-9699-91de-7b6ce5f1c2a8%7Ce%3A1758510941528%7Cc%3A1758509141528%7Cl%3A1758509141528",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069141,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_OYU3ibdMPlKwTA8PQaGvMu6IqY4E%7Ce%3Aundefined%7Cc%3A1758509141525%7Cl%3A1758509141529",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069141,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVlRdUhjd1NDRVVMTCsvQ2ZuYWpmT3NvPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkxNDEsImV4cCI6MTc2NjI4NTE0MX0.-bStoI6JJ63DY3LnBDdeseB17k57Lkmsnt20G-7N1a4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      },
+      {
+        "name": "Bein Sports 10",
+        "cookies": [
+          {
+            "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A87a5ae7a-96e2-fc46-f549-33c8b9839fb4%7Ce%3Aundefined%7Cc%3A1755834366259%7Cl%3A1758509042139",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069042,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3A370a0c0b-f72a-0193-9201-0ea44ff01855%7Ce%3A1758510842137%7Cc%3A1758509042137%7Cl%3A1758509042137",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069042,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+            "value": "g%3AVID_iXh8l9LAoUHgRVoaVVI7Hl5xgL4E%7Ce%3Aundefined%7Cc%3A1758509042134%7Cl%3A1758509042139",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069042,
+            "sameSite": "no_restriction",
+            "domain": ".beinsports.com"
+          },
+          {
+            "name": "apacgeo",
+            "value": "5189",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "Authorization",
+            "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdMz58XKwi58yR60vxc6BbpKBeQ42x9uF5NOmDPkP3JNpMjcalDoSwPJQKdA%252fa5W1Hx%252fvQem9lHXZI79tTv7K3hZkQJeo6myOguXZfixmei5WYX59KJg4SuvOkIiY%252bBWHQM%253d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "CountryCode",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "DeviceId",
+            "value": "-X80b3vgQx7EyoKXYJTs-",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "host",
+            "value": "connect-id.beinsports.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761101037.959089,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          },
+          {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE16NThYS3dpNTh5UjYwdnhjNkJicEtCZVE0Mng5dUY1Tk9tRFBrUDNKTnBNamNhbERvU3dQSlFLZEElMmZhNVcxSHglMmZ2UWVtOWxIWFpJNzl0VHY3SzNoWmtRSmVvNm15T2d1WFpmaXhtZWk1V1lYNTlLSmc0U3V2T2tJaVklMmJCV0hRTSUzZCZ1aT1Fbi9QdHVhWXhVWnlWVVRESHRINVlaZUFSN3plYzJqQ1NwVnljbGlBM21RPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NTg1MDkwNDEsImV4cCI6MTc2NjI4NTA0MX0.Uzo_mbubkMl8Xo7-kKXFLrlHGPaNXAkJuDdTw0MmfUI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "connect-id.beinsports.com"
+          }
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "brain-fm-1018",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -938,7 +3182,7 @@
   },
   {
     "meta": {
-      "id": "bstation-1023",
+      "id": "bstation-1027",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
       "url": "https://www.bilibili.tv/en/anime",
@@ -1192,7 +3436,7 @@
   },
   {
     "meta": {
-      "id": "busuu-1024",
+      "id": "busuu-1028",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
       "url": "https://www.busuu.com/dashboard/timeline/a1",
@@ -1442,7 +3686,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1010",
+      "id": "bypass---hix-ai-1012",
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -1651,7 +3895,7 @@
   },
   {
     "meta": {
-      "id": "bypassgpt-1025",
+      "id": "bypassgpt-1029",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
       "url": "https://www.bypassgpt.ai/",
@@ -1849,7 +4093,3619 @@
   },
   {
     "meta": {
-      "id": "chat---hix-ai-1011",
+      "id": "capcut-1030",
+      "name": "CapCut",
+      "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
+      "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+      "category": "design",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "CapCut 1",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "3fdzbo%5E2%5Efzj%5E0%5E2071",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045185,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "bd2zx4%5E1758509187424%5E1%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595587,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1975868052.1756778340",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045157,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1756778339$o1$g1$t1756778439$j39$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314439,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1468265861.1756778434",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764554433,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595585,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "474440600b9611f09a5a33f0c6bcd4ff",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205185,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962441.032112,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "9ERC8M3WRveJAEIC2zTLa-7oSVgTZSy6KiOVINvBCDO-QtaP5rB15D4BAwxc0q8ipcAgrlwqYLNXOpb8xNtTkmJKqj0zej5hJPy2b0yv5YCiP4CFAvoVvDCDjPzYhFhAmwekJDZm",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373189.098143,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "21478db9f507057cd517961fbb02254bccfc4b58ccb544a0b692401814df6801c689552594917d959275d5d44cdbfaa0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788314442.313035,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "5fbb5dc6d68b73d6d3ee4554ec2c80b9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761962434.38059,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "5fbb5dc6d68b73d6d3ee4554ec2c80b9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761962434.380684,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "060e9c69d5621fc95187199c5fe352c0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962439.366113,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "060e9c69d5621fc95187199c5fe352c0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962439.366142,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "060e9c69d5621fc95187199c5fe352c0%7C1756778439%7C5184000%7CSat%2C+01-Nov-2025+02%3A00%3A39+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787882439.365882,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "060e9c69d5621fc95187199c5fe352c0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962439.366086,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KDRjMWY4ZDg5ODkxNGM4ZjI5MDdhYzRlOGEzOWVjYWM3ZDExZmExMzUKGQiSiK6SiarCz2gQx5_ZxQYYnKAVOAFA6wcQAxoCbXkiIDA2MGU5YzY5ZDU2MjFmYzk1MTg3MTk5YzVmZTM1MmMw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962439.366166,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b634657397545436c6d312f6f3249566c6859736f68",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761962440.87982,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KDRjMWY4ZDg5ODkxNGM4ZjI5MDdhYzRlOGEzOWVjYWM3ZDExZmExMzUKGQiSiK6SiarCz2gQx5_ZxQYYnKAVOAFA6wcQAxoCbXkiIDA2MGU5YzY5ZDU2MjFmYzk1MTg3MTk5YzVmZTM1MmMw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962439.366192,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "kr",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962441.031834,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962441.031976,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDFkhjz-gvmQa-DJ10AQgaMzGBPWTfLKtcfuxeegadW6QrP6mjhVVC3FmPnvkKzcEENGHrdbtjWeVaoDg3s-JBXA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962441.031668,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962441.031383,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "GovsdRnzu04kpeIIbtbTvpzHQgEmUeP-UNfzDmjqJ7fu0eOKXevxv0aWxsAd8K1QvVTif_NF69UjZCr2CQe11tHnoy1tclOleBAcmWUHdCeu1MBc13FvGMSS4n3uPbGndZKFGKMCvlsHya8LbGtV9dMzUuna6ZDmZpfymxO0AES8PyWs1fT0r7h1DRaISJGnqIkuvDicvSjIOmqka0cL8pcbGxTCQj9N25XaP1ADNcao99rKP-mS6bYveW1A-LV72tfc6gL3wQKfllZul8C_5ON8aTM4kCM898mE9iskZ2hEeyboxyLFDE563wKitGMe23oK1HKJqp_yLbb0IObjqbyYAJqUQ7nLbEl3L2z8H_ybTazloQmOZpwX-x_Mf0dMYNSsGgC9VSm8f9KZhNtzqcicEvFu31ZJaQ4v2RspMkEyzgmtri_audoZ3FVt2qNuoYT3A5-3oOwRFvr6Z28WMyOFmER1-aioLtbd7kcLUP-leI0GD40_onDXLI_sKeav",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788314439.366367,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|XxiAxyprRXTLfSZ7e6GGG8GR6vUjPsSBhEtgi-T8FtQ|1758509178|2255e0b707c55109234d765c2397e6f510b4aa34d99e3b710d4ee0e45de22d76",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045178.355568,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "062fac10dbbe640c4833e7f79558f8fdbc6c784cdbdb9baf80c46e14325b1765",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962439.365989,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "062fac10dbbe640c4833e7f79558f8fdbc6c784cdbdb9baf80c46e14325b1765",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761962439.366022,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fenter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314440.027133,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mf1wipu2_fjU0bLqS_A202_4RJa_Bmfa_CM3CsdYldXvp",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314440.027299,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7545305852753200657",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595578.355847,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045178.133128,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "uzFGplCqtrk0j-ef_lsaR1Gr2ASh8Z4ekZzql6JjDpFAJH5CwKXCcjbeamoXsM2m28tbvL_JHrs6XYowy8xxHweWflmdyUuCUYv4CfczDwHxi-y6Lus4oBacYZWRZFyB0ysLOfI8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285191,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045178.134011,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "2025092210462985E19AFB56E1A1CBF1F5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 2",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "cvb2re%5E2%5Efzj%5E0%5E2067",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045208,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "6jmajm%5E1758509208973%5E1%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595608,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1278022573.1756460709",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045204,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1758509204$o4$g0$t1758509204$j60$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045204,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1520238015.1756460709",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764236709,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595604,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "912f7570774111f09ba96d95fe875dde",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205204,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862938.576676,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "xNTu9HCTF84NkpfGSb7vXLvOeyCx4xjytAN9tCRG-X5NjVDZsGdbFRDU_1rvG2rxxkP_ACF0GYrGJ17yV4NCBR-O6M2dw2s0CsCph7y9yZc1WgfDk3rO8qFJBgocES95qX6PYuNF",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373211.91772,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "ca8584bf09ca4130a2b6be5edfde826c2f9185cba31bf9de910d6b860161754c8b33df5f5e7acfbde4855a2a66ff2945",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996729.277235,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "feb4afa2265b6caa0c608de2eec2c993",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644717.727214,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "feb4afa2265b6caa0c608de2eec2c993",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644717.727284,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "2f719a3744ef921a027226d206e9ae6b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862898.92853,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "2f719a3744ef921a027226d206e9ae6b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862898.928577,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "2f719a3744ef921a027226d206e9ae6b%7C1757678937%7C5184000%7CTue%2C+11-Nov-2025+12%3A08%3A57+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788782898.928269,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "2f719a3744ef921a027226d206e9ae6b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862898.928473,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KDEzZDE2ZjMzNGMxN2IyMGQ1MzhhZGM4YjhjNmFiMWU4MDIwOTA3ZmMKGQiHiIT6turV1mgQ2ZqQxgYYnKAVOAFA6wcQAxoDbXkyIiAyZjcxOWEzNzQ0ZWY5MjFhMDI3MjI2ZDIwNmU5YWU2Yg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862898.928623,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f6936564342313157594674344b6771737032743156",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1762862899.742287,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KDEzZDE2ZjMzNGMxN2IyMGQ1MzhhZGM4YjhjNmFiMWU4MDIwOTA3ZmMKGQiHiIT6turV1mgQ2ZqQxgYYnKAVOAFA6wcQAxoDbXkyIiAyZjcxOWEzNzQ0ZWY5MjFhMDI3MjI2ZDIwNmU5YWU2Yg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862898.928671,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "de",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862938.576398,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862938.576541,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDKPk8tRb-Fj3rItFYgQg7tTa4v3gqqfNIMZJJ-dBBlj9LdAd_SoTyY_Le5dTfwsEEDbJPMauf_5n14r0rC02PK4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862938.576232,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "no1a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862938.575955,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "POj5VhmnMkSrpKVnckg0s54hYcK231JdNPSpwP51IjcBxm8yVymLEzBZWBJNCsz0gRVZ-Dzzsyc3Bdc-S8TGT_CLhyo4agjBlREf9Ks8i4e635EbAWdnEryh_8cTku7pqr7sXgxMrFg6p2ls39UB_wZx9P0LJq-ttXiIny7j0lN0_Au8SC-TK76OwArNrO9GPTkpuaAWRc1bSln-nznBKYKOh87hQhCrtZC8QpTeaCqR6PHOPdv5gtiKdvD_o-VwdMPSEvqcx7SAU1jQlHmbjeBKObOhA-2yraD4FSqtKVWZTIFBC__d4SE-Onmj3fSPCnDa22ovSg9sRwIFteT3yW4ogMn-KUu0mLI4Ss2ljPMNkqFZNcJD_j1i7bnLqdCt5iNpax-ZzW9jlk5KHDIYrEWG2oDAZd3DZ-EYqoRsIhw_a5_Kn8N7lQ4tm3IGZ54CtzJvJMMdNUlG05-LpxiuQuBy2W7ovfCraJ0mJHQx55aeUSC5TqosO6-q6hgcXWSq",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1789214898.928924,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|OSiMiONLY8j5R0c2so6JV_s5PMBScTYcLmqeQC6_eag|1758509200|5b07527236567510eca5b2f4ae37eb20528f9d86bf5b091debbf810dcc7ba9dc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045200.614905,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "2223407587307f403e48c14851d94831ec23bf9915ba624dcf94e34172149f90",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862898.928375,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "2223407587307f403e48c14851d94831ec23bf9915ba624dcf94e34172149f90",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762862898.928427,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Da1.b1.c1.0%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996723.464834,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mewncxdy_tW1gCwC4_iE30_4T9K_AWdL_8rVpvfnaHAk6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789208836.716262,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7543941239479305744",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595600.615205,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045200.43689,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "80e_3W4keiITHYz2ZXvtvsyNm53HBH11KnrxmuqcBOcTE4colxbOCUm9UsfGyHkunsEFNCRiDUXAM8nuE6GnqbwQFDRG_kr4ZAd7p7ESWL3LM8RibEHLjCNciRy6hGU3CCye0tuF",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285212,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045200.43729,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "202509221046531FD94B7528AA084E0F37",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 3",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "1rokd4l%5E2%5Efzj%5E0%5E2067",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045223,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "m236rx%5E1758509226089%5E2%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595626,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1579009758.1756460783",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996811,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1756460782$o1$g1$t1756460817$j25$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996817,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.437582419.1756460783",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764236783,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595626,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "912f7570774111f09ba96d95fe875dde",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205226,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.291844,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "kR3J8oaJNsGEXHfwUBtw0usunA2thvzzpd8sJKNUJuE_eEUXwkw3UN6wM9g65clCiksVyLrldYn3DVDIgMdNratDAJCjERB2YDlkcfrPSw5kGveGsnyfHqtIE_IM31BaBcfJaPN1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373227.912812,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "083190dc04ba1d498beadbbb5d771f1617bf5f5dae64adb6808602c2944e75356605475bdbefbd7d5c3a3a9d14b9890c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045226.117416,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "7cb7e1ad6fcaea198193799f79d19fd8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644806.290223,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "7cb7e1ad6fcaea198193799f79d19fd8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644806.290296,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "81fe756226d015fa54f369a2980193d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.290987,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "81fe756226d015fa54f369a2980193d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.29113,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "81fe756226d015fa54f369a2980193d5%7C1758509229%7C5182711%7CFri%2C+21-Nov-2025+02%3A25%3A40+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1789613229.290349,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "81fe756226d015fa54f369a2980193d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.290838,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KGZjMmQ1NzVkODk2NjNiZGZhZDkwOTgzMTllMWU3NWU5MzI4NmIwODQKGQiRiN-EqOjV1mgQiu7FxQYYnKAVOAFA6wcQAxoDbXkyIiA4MWZlNzU2MjI2ZDAxNWZhNTRmMzY5YTI5ODAxOTNkNQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644810.202907,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139324170662f70435369384a776157612b6842684e4f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644811.039854,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KGZjMmQ1NzVkODk2NjNiZGZhZDkwOTgzMTllMWU3NWU5MzI4NmIwODQKGQiRiN-EqOjV1mgQiu7FxQYYnKAVOAFA6wcQAxoDbXkyIiA4MWZlNzU2MjI2ZDAxNWZhNTRmMzY5YTI5ODAxOTNkNQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644810.202943,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.29157,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.291707,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDApU1nuKBqIlsR7k6QQgO1XPiE-XFpXIh6mNoi_DTLc3bZd7D5hL9IQ1TTPdlNEEECKN04kLmHwqh0FRYmGo7kA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.291415,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.291273,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "DmUc-j0VRo0DmI4n1Ud5p6g-T0rQoQsGGbux1tVEmVMP6utxbO4WUMtEXP1QO1Pt2oDY4bLI14rzXIauPwbdHG_-GAPzJ--N4hL_M6sXk7wiFVzwz2P6EwLMTUdEg0nAz-vfLuWpOzHkNGaAbJML6ElRLpCIykCJ489H0gCAeCmcNi7n2aSEmCJOTWLnT6K0G50W4fNLrXFWUU9Vxe5bud7rapAj3_sCNZgFGvJrOUjagNYRGlsT9Nq-4-fWvpC6NNVXtwYRzkRCen_cwt6fqJuDrSlYQ2oLH_iVUJuni6ENcISmRdSHigI-I8jr98GxsUYQ1W72kmPiQui_iGTU33Q1qcNHgT3CxNydRyRHG3fm5IKKS_rJgaahyOP4ubkRo-kPiz9fTYLwqnBivLIWrEDQBR38m6-5SsNAfb7__dD-VkryU_0KM4x6AWtO6rcDFoc8Ve7MBgeL_cOAKSppIY_eEkpqvr_0qXmfGzEgqdR5t7QUJoISQNZSY4woWokk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996810.203172,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|hnhNiG4BhHp6mmkX-X-Xe91NEYg2i_qUumoBBZiLy5U|1758509221|d0ec66534e032e7bf797304b5f796d9d07f3c38507e90bb34e21c0f54d9cb502",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045221.945168,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "9ef2507f52b7bddb49051fdfd489da7337ce351eadfa91975ef6906422f3a621",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.290513,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "9ef2507f52b7bddb49051fdfd489da7337ce351eadfa91975ef6906422f3a621",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763691940.290685,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Da1.b1.c1.0%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996810.676593,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mewneu3y_RsUw5H5k_AdOO_4zxq_84en_aDcT5au3Pzr1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996810.676706,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7543941563727283728",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595621.946353,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045221.783006,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "EIWESjGJMXe6yeJUAONjK2KqTR4SvhGeXQtUtjWPernrQKjCkuMrYvrHXfRCfpHBePLbie3csI9e33YDG59QE_THdoCxcAcJ3__6asd8gloe-Z2Xf8QLbA0VVxaBTtifys7INHv5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285226,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045221.783234,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "202509221047091FD94B7528AA084E1917",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 4",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "c0mg4g%5E2%5Efzj%5E0%5E2067",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045239,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "1dlfn9%5E1758509242848%5E2%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595642,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1182871387.1756460839",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789579642,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1758043634$o2$g1$t1758043642$j52$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789579642,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.670137267.1756460839",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764236839,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595644,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "912f7570774111f09ba96d95fe875dde",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205244,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227692.461093,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "YYRNLjmkA_WruoeJR9PR3ZZFoCkL4mmTP96e8ORaryCCrU4exo9zlQj_7XLVE6ifhzpPVKMX8RkA5b0YW2Vh7NgtxO84CSbruFkOwk4SuknfaneuGkV_50_mPv_Quc_ic9Hoq6GL",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373243.31008,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "42496b4921c3a7feca33d1977151a010a616b4abcd90ed9a4a8558e79ddf325aa5a66e8e8837c95c3a61d97fb21934b9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996856.669521,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "533f5f0d346dd49e5c31a3a92627c5da",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644845.910494,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "533f5f0d346dd49e5c31a3a92627c5da",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644845.910572,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "eead20fe3b78c09fa3e1638c5bcb0484",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227642.059871,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "eead20fe3b78c09fa3e1638c5bcb0484",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227642.059926,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "eead20fe3b78c09fa3e1638c5bcb0484%7C1758043691%7C5184000%7CSat%2C+15-Nov-2025+17%3A28%3A11+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1789147642.059564,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "eead20fe3b78c09fa3e1638c5bcb0484",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227642.059813,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KGZkNGQxYzhmNjg5ODg4YTA1ZjQ3MzU1ZjkwMjUzMTQwZmJhMjJhNTAKGQiRiIHInunV1mgQq7ymxgYYnKAVOAFA6wcQAxoDbXkyIiBlZWFkMjBmZTNiNzhjMDlmYTNlMTYzOGM1YmNiMDQ4NA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227642.059981,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f6141776950354d59686e6d4779466f456e534f346f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763227643.425312,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KGZkNGQxYzhmNjg5ODg4YTA1ZjQ3MzU1ZjkwMjUzMTQwZmJhMjJhNTAKGQiRiIHInunV1mgQq7ymxgYYnKAVOAFA6wcQAxoDbXkyIiBlZWFkMjBmZTNiNzhjMDlmYTNlMTYzOGM1YmNiMDQ4NA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227642.060043,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "de",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227692.460815,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227692.460957,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDHnEupTr4J9xL4wWxAQg62JTT7T7VszbeEsatVX4RtqcervB2bncUp99rZ34itEEEKIAXKfzmzj7SOpLP_g4Hek",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227692.460647,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "no1a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227692.460331,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "BOvKeAC776XKSD___-oulN5hlQR1kwIQdbT0tKRPUm91p1n3kBes1D2L11oJ736LguebLZX1Fn67WY-nDFZrxjwRg2BersB6eylBBWIBbPsT4orG4GyuY1zO0S84A6mWfgsCWLI7lFHaK9N3zxsik3LK-s4SQx4IgN-x5_KOzp2_C0fO7znZjSt376Iqbm8whJevz7ikYsWfnW-t_YS_ErHXI8LRDlbFj_v9uxp_PaBqaGccYS4TUNTtXPyUyH4uAsWJKW41yos8QmY6cBvUW1iYpyYO2njdR1iQ8Rg-EupU4Jg5HwsUaqFaDlImcFiVhqTZcBYHaQrumxayKf3IPzxNjQGbEnu8RXKmZrxUrlcXcx6uivmqiDdawiy3VURmF_s5vtAwfQ-voMxa9ruQyn3i5ty_7ZEYBjkbdwcpktv0o4g-7WG_yWSSBIB_J3D89aAz5l3WamTUEpOeFP3YZBYKdr56pXls7ek2-bFFkbr-UrbRZriWcAh8BsleGU_5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1789579642.060294,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|tU2khjp-dHXM1aw2r4EqNjuq9P5RWZwV6GR1HSD0oO4|1758509237|547b4f82ebf8fe7831a1faa798ce49bed22c978bc1a45f5b1c1e723a517965fd",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045238.03105,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "08a35d1b34078ddc8732e66b77ca6db630ef7f742edd32b19abeee4e44b94ca1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227642.05969,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "08a35d1b34078ddc8732e66b77ca6db630ef7f742edd32b19abeee4e44b94ca1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763227642.059754,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Da1.b1.c1.0%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996854.562324,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mewnfoh3_whrvFdtv_xCBr_4ghO_B7u5_Lt4KFC3TojiC",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789579631.194256,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7543941801007138305",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595638.031337,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045237.832747,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "KbXY5OhicziNRe3cGW6uCVMB5oGfTxH-dZJpk077uSzVsaA2z0lCusYpAxyYPwgTqy2IHqP2QkG3EOZWH1jALQ-dlXHRIdQjscZxzfjoZR-B6s68UtO3GwIcz9vkYwhca1WsZVwE",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285243,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045237.832994,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "2025092210472485E19AFB56E1A1CC0DEE",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 5",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "lg292e%5E2%5Efzj%5E0%5E2067",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045253,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "w2k6co%5E1758509256911%5E2%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595656,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1182871387.1756460839",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045246,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1756460838$o1$g1$t1756460897$j1$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996897,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1136584590.1756460891",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764236891,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595657,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "912f7570774111f09ba96d95fe875dde",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205257,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644896.298687,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "55xsKJ36v2oCGnQ1ghh0aQzjLTMdcwPx3U1n5shZRrXQj5ODwHACtEnnAapT4IuIK7aorxHu-GHJZHmLqgX3Nw5oJ2MwtblxkS1BsnSuMCScflfl1kjnG4Kax-wXtjVQRNbLuYnm",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373258.661521,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "2cbae785827c5c84b4b913d316b13d2338561431951dedd0136b21f27ca2111a01ec8e9c0a3405818665206a02cba532",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996897.728204,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "4bb4454d3c92e43d3031747e69185aab",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644891.730294,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "4bb4454d3c92e43d3031747e69185aab",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644891.730385,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "c6c90807c7bbbb3a46b28bf05d89c41f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644895.291483,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "c6c90807c7bbbb3a46b28bf05d89c41f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644895.291517,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "c6c90807c7bbbb3a46b28bf05d89c41f%7C1756460895%7C5184000%7CTue%2C+28-Oct-2025+09%3A48%3A15+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787564895.291268,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "c6c90807c7bbbb3a46b28bf05d89c41f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644895.291447,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KDYyZDMzMTViZTdhNDkxNzdjYjhlNDNmMjEyYmYxYjU1NDhjM2E4OTEKGQiSiKyeyOrV1mgQ3-7FxQYYnKAVOAFA6wcQAxoCbXkiIGM2YzkwODA3YzdiYmJiM2E0NmIyOGJmMDVkODljNDFm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644895.291552,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f446535796463412b4533724e5450534a534f69586f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644896.298413,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KDYyZDMzMTViZTdhNDkxNzdjYjhlNDNmMjEyYmYxYjU1NDhjM2E4OTEKGQiSiKyeyOrV1mgQ3-7FxQYYnKAVOAFA6wcQAxoCbXkiIGM2YzkwODA3YzdiYmJiM2E0NmIyOGJmMDVkODljNDFm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644895.291589,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "de",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644896.298509,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644896.2986,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDI2kQT277Vy2K3oWPwQgTqZLFVO05fOT3PF5p4idCuMpvlkdsuSqVih_1l79kskEEKuBFA1Kx3CCzCVQ7rpIcHY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644896.298413,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "no1a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644896.298265,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "A8HuxZ5PRP8Xa06Zan64b92c7xN8uoFcDySzpJwfF0tMiZW0dolG-a1ulESISQK06Or4-OaLbboaeYrcsQTN4vPCWEius1SNNCQdvsnAuKt95PHeILs92xR8CKBHEE4Qfbp0jFAiIUU2qeDRCIJvmr9Cmpsw6V43WT2eHgHV1lGjD6YMXtZNnoZFp0TX83gQ88sKMCKUbix-aewiw3SK6Yd5bquu_NmswrAYcojV075hu77TFbOv5YjCEO4RMEMkCV8QsY2NMcJmBfQCRIzpsI35EoqlaCPcW3yt1zqS4XaQijgiLRJNICXvY2fKC8Cb2duy_UtwUX9qfeQgNFvea3sSiIUPyDndgRMJz5kPK4PivV37054qxzTfAeIJDu15zVQ0dpI9ChOtuDvv_i7g96gbrc7Hzff-R1ZSnVqxVqbyHRZ3pOJtZFB4UjwAaIvh8FArFAzKC9jdO0BWDqCkfPdEPYNhw13HIYb1vVAJjcWK908NC7Htq5x2OX3FqeYv",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996895.291819,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|k1B9MgG5rNFDwJpNJEgEPDZTxR7d-Aw0fM8gd-tG58U|1758509252|f4364c42c7822ca110947125be9edd0700ff9c21a853f8f8353f8dd916e7a228",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045252.185603,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "7fb9e9f65d270cf1a2498a99e01e2a7e10e3db97b9eafb4a66215dddecc40827",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644895.291353,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "7fb9e9f65d270cf1a2498a99e01e2a7e10e3db97b9eafb4a66215dddecc40827",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644895.291409,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Da1.b1.c1.0%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996895.744818,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mewngnz7_4WiqsYqR_9CVJ_48Dd_BWQo_AT29XD3f8qNZ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996895.744929,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7543942002657936897",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595652.185984,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045252.003641,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "5K3QbbzTFnBmnCMAEy302i4XSjKk0Z0cEUfSVKUVfUMOpGCtc9rpE5jrPx1tLyaiB4FZCACv7HhYn5fezHixWfMo9kANqcn6pW6J9CuO_ZIVxDG6BuEnI8qhWkdisEmMMn_NJ_A2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285256,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045252.003854,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "20250922104735D9DB8449FA86BCDF2402",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 6",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "1ipblya%5E2%5Efzj%5E0%5E2067",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045267,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "1kg15fm%5E1758509269603%5E2%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595669,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1182871387.1756460839",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045260,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1756460921$o1$g1$t1756460935$j46$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996935,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1559415161.1756460927",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764236927,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595670,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "912f7570774111f09ba96d95fe875dde",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205270,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644935.456224,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "sQ3Uwywm8kGCXNOO7fQYNbsSezhisoRiNhdSqUWJqytNhcTSdCM-1BPo2hoUIiIhIFlwsHClQnJqxBIMTOYYOVgrrQ2dnSeqHZQebvuxm5sbTYdknkPp7VCRruWz1gXCvb1aTEV2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373273.475339,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "508d8c70e77b70376ff5e642168797caac27e50f2890f9db3bf0e1f73fcbb4149238148f29f4bfcd61645d0b3dfbb9e7",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996935.626714,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "0d65b3c0291b0867e5e82cd9f3bdfd54",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644927.693638,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "0d65b3c0291b0867e5e82cd9f3bdfd54",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644927.693753,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "9dab596c631d4fbc8df95c050960efd0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644932.804131,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "9dab596c631d4fbc8df95c050960efd0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644932.804163,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "9dab596c631d4fbc8df95c050960efd0%7C1756460933%7C5184000%7CTue%2C+28-Oct-2025+09%3A48%3A53+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787564932.803947,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "9dab596c631d4fbc8df95c050960efd0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644932.804097,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KDRhMWE0NzE5MGQwYTBjZjkwNDg0YzdhZTJjNWQzYTI2ZTFmOTk5OTcKGQiIiLDUlvDV1mgQhe_FxQYYnKAVOAFA6wcQAxoDbXkyIiA5ZGFiNTk2YzYzMWQ0ZmJjOGRmOTVjMDUwOTYwZWZkMA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644932.804196,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b326848443636704533676b37314b776b6c6c654442",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644933.880714,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KDRhMWE0NzE5MGQwYTBjZjkwNDg0YzdhZTJjNWQzYTI2ZTFmOTk5OTcKGQiIiLDUlvDV1mgQhe_FxQYYnKAVOAFA6wcQAxoDbXkyIiA5ZGFiNTk2YzYzMWQ0ZmJjOGRmOTVjMDUwOTYwZWZkMA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644932.804229,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "de",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644935.455877,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644935.456019,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDPJyssALjY3GHHmXMAQgbHa9ghQFwY-ljQJA5FjKa25R4jUx5XgwWXcih0lDGOYEEKKBVGladtxN-l3a8kVoCic",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644935.455716,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "no1a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644935.455297,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "CN3cAEr3ZhKXS5wpSo6Ma_7ODtaWY03pTeyVFrRxbiL3a8yHqllZCOExZsq5e6ZiREtZ6h3DFKQhQZL1piuGyRDYSrMEfzbeKCge1GTPTCZTJ5hxWRndTS9q46Z2lUXHph-CLfAMZeqK-pqO5_lBMrYXXbSYPtdWoSu39vHVj-iwPR-Kw_QG1U1slNES_UAU-dH1yH54hZuLouLO4lwUVeIrBo9d2d6zyqdJ6xXbie7gQ640FVaoXknWh5vEIYO58NsOpilKyfAO8n317OqmQkyT1voADb2kvy8vnkgPKz-xX-AgjYfmzMi7s1vhNnf85u7THOHVGdi1gru-J5OC3AS1LhYLkFeCN61FDodenLbSPsQjAJC3bi_Bb-ePqIY2f7WtJe1azkFNilVjndGKc2nbqadnmT8Mh1FhH2mOni_LJfJ5zZWrHl0xIwnzjYIQrfSML4_Bl3S4vKDsL3_PAoqxPkMmrg8AgW5mbHkSHtaiKy8fQfIR7Tk96uJjG1Wq",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996932.804449,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|Uv-eTZKQrTBUod9yZ1c0GSxQmHNb-1spMVUdAjY5a0s|1758509265|e9e25acc8c5aeaac809b864e103a1895cb813461a97418b8aa4d70a8e832cbe7",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045265.623574,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "ee45e333105f4ddb131c4b6b5b5e2826ed53bf52ef3b3338e00a69721530dfce",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644932.804026,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "ee45e333105f4ddb131c4b6b5b5e2826ed53bf52ef3b3338e00a69721530dfce",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644932.804063,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Da1.b1.c1.0%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996933.382573,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mewnhfuu_495jn3iX_GRfP_4DQs_8qD2_ZD03HbXBGxdK",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996933.3827,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7543942149773067777",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595665.639656,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045264.824642,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "OFq0cHs0p5d2lkoeDwdbsLhNNnwVooiqX8NIsYQNjRsc53fChUOWUslkgkV7X1hZEZLvX3_okmk3UPGS83Jz3FnbNXTs69uYyw0hLq5T6jXodd0U7OkBQA3XsQwg2vBKV3zaqNH9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285269,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045264.824881,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "202509221047531134AE8CB497E7BDBD42",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 7",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "1gcd6wr%5E2%5Efzj%5E0%5E2067",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045299,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "hwmgra%5E1758509301321%5E1%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595701,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.2118764543.1756460985",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996985,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1756460985$o1$g1$t1756460991$j54$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996991,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1776684578.1756460985",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764236985,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595699,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "912f7570774111f09ba96d95fe875dde",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205299,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644992.240573,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "mFf70wuZtBCTzh7ZzuEt3oySdrbWZmr5bra7ZcoPUdSacjAKOpo14KmgbYCCl9vy3Vn3c7W_cinePwp7ajrYQ_6MM-Fhv4HgIozfoGQdSZ1DvUj_g1hqpZNqgbz9dKghSclHeagM",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373299.241495,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "b861ea723cae3bf90839dc9a6cf1c88bc0de3bbdee557063cdf17042225c16d523d6357797809bab0e30f36e2e2365fa",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996993.781549,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "0e2b169118e0d6ae870f308d940c748b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644987.921174,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "0e2b169118e0d6ae870f308d940c748b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644987.921253,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "f7030d9652a11ba5d86b84c007be6e3f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644991.138515,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "f7030d9652a11ba5d86b84c007be6e3f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644991.138549,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "f7030d9652a11ba5d86b84c007be6e3f%7C1756460991%7C5184000%7CTue%2C+28-Oct-2025+09%3A49%3A51+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787564991.138293,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "f7030d9652a11ba5d86b84c007be6e3f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644991.138477,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KDg3NWYyN2NjY2RlM2RhOTNhYmVmODcwZmViZDU5NDY5NThjMDE3YjMKGQiQiJH4wrXO1mgQv-_FxQYYnKAVOAFA6wcQAxoCbXkiIGY3MDMwZDk2NTJhMTFiYTVkODZiODRjMDA3YmU2ZTNm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644991.138584,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4a504250666d67425457414c514269334637727864",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761644992.389735,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KDg3NWYyN2NjY2RlM2RhOTNhYmVmODcwZmViZDU5NDY5NThjMDE3YjMKGQiQiJH4wrXO1mgQv-_FxQYYnKAVOAFA6wcQAxoCbXkiIGY3MDMwZDk2NTJhMTFiYTVkODZiODRjMDA3YmU2ZTNm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644991.138618,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "cz",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644992.239993,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644992.240381,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDFZd60ysf5IlOLpGjQQgQok4LUuJmjYltnTlh23_gcwWPfm54-SoBDv4x-tZcWMEEJ40Z-a2jgA43N2sMCZ6ark",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644992.239779,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "no1a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644992.239566,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "SzbMVCxsgYMNjRfycucxsMGpMlzOthwv48t5ZoiONLpuFcNjJceVd1o9CI7-Dz2fr9kLHqYYMEMcEsWWctlwRtVPq4SoYBYsg7SjKMok7WbnEB1z3GOaHoPJPzmQGmL1vvmmhjcV6dZOvmsn4x0gqoage28Ga_dNzWCLv_Mdq17mTWGFuC2ikWhmAsJstrnKpw7nmCWu_nW5iANTO_K3crHreKJ6VQhv8lg5ngy3VWPtTgNkTMHeL5BPATQyXdcZqFvnZnmXouAr6eBWwkYhi1zopjdW46g9G3xLvScIEP5bJ7F3WFex2ju1c33G9qYBxCBbNAnEhD4DfZurqvYv0DNfXChBWj-vmwDCvAHDeafwgnoK3DGOpSmStU82vrhqm775pY9-BAkH5oJk7-5f3J8SV9BpZx-K9CWnAirNsgWsu-tp34hQvvXR1pyD_fFqzcUWmI1VrVC2W_nqL5rmqroBwQ1agdTG8364Zb7j54nCXic_2OdEIeL99VJzqNCn",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787996991.138828,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|Q4JFeb80fnznVjA21x-0h0tAUvTCAgXL4sA7QNH53bY|1758509294|22da8690836c25ee8e3dae25042dfb07fe76c3ab5f3818be59ec8826a614b6d9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045294.200238,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "14aad689e2061b2e9c604f388329e851e0fd34301cbc56f5c9834283ebb3d7d9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644991.138379,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "14aad689e2061b2e9c604f388329e851e0fd34301cbc56f5c9834283ebb3d7d9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761644991.138439,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Da1.b1.c1.0%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996991.627698,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mewniqgb_ZQJjwSdH_tFZf_4NQc_BBpT_aqEQJq4Dwagq",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787996991.627811,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7543942417617225232",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595694.200549,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045293.619574,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "-nYDEShcNFWyeZ5EYI8j-62_mypniEaY5a7jPA5qN62nxx1_5xQlcmoISOGqKHLmkOPKnBDJ1jHoqjimM-i3GHHis5s-1lHeMia6FVFG6hAC9w7gjBI7XDRI830HfkTffCx4Ox4O",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285298,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045293.6198,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "20250922104820D24FA8A396468BBECF0F",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 8",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "le7dic%5E2%5Efzj%5E0%5E2067",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045311,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "1fqsxw8%5E1758509314765%5E2%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595714,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.2118764543.1756460985",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045305,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1756461011$o1$g1$t1756461021$j50$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787997021,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.376540129.1756461017",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764237016,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595715,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "912f7570774111f09ba96d95fe875dde",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205315,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.95942,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "ADqW9ZENfstjy_tYiN2esECQ0lRBsoJdvhr9UK-GRaQPZBbt3g9f-suk5YcfS_BrG_gt_Z8Sm2WildC59pSgNNTVRUtHk0Ossh0yVAp-nnFL6oqXhYtZSAFIJOi7-mb0W3jsrJWh",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373313.083839,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "5cd9e2c760e9fd443670aeb9a1f9faa6447915ba3ecd8b359de84daf96a871edc4429f5d216cd9fd59d3880f5cd44ce3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045314.001424,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "9b085bb1f2a1dc1f1f8fedc32ece5c94",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761645017.152041,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "9b085bb1f2a1dc1f1f8fedc32ece5c94",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761645017.15212,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "bd6c676840441aa761bb050daa391206",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.958171,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "bd6c676840441aa761bb050daa391206",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.958312,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "bd6c676840441aa761bb050daa391206%7C1758509313%7C4781950%7CSun%2C+16-Nov-2025+11%3A07%3A43+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1789613313.957585,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "bd6c676840441aa761bb050daa391206",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.958029,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KGE2YjI3NjhjZmFjYzA1NjAzODU1NzZhOTM3ZDRiOWUzZmNlY2ZiMjIKGQiSiIy22bXO1mgQ3u_FxQYYnKAVOAFA6wcQAxoCbXkiIGJkNmM2NzY4NDA0NDFhYTc2MWJiMDUwZGFhMzkxMjA2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761645021.748574,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386a583374376851432f306e57307a34783238396449",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761645023.009321,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KGE2YjI3NjhjZmFjYzA1NjAzODU1NzZhOTM3ZDRiOWUzZmNlY2ZiMjIKGQiSiIy22bXO1mgQ3u_FxQYYnKAVOAFA6wcQAxoCbXkiIGJkNmM2NzY4NDA0NDFhYTc2MWJiMDUwZGFhMzkxMjA2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761645021.748606,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.959007,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.959228,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDDNpWPIifB0-nsNEGAQggMmeWl2gBZmREBlOGRPmeRTOX30APcDQzIzmUHLc8OsEECczkycy7Fh7lw0S7j97pZ4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.958759,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.958521,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "lFFhVqx1szxzsebm-yx7w-1bV1g7FToloWla4UYretRvGO9l0llP0dZUyOhEp8j6oXiake0uQTHDvUcDree9nmrNAwNedB5PyO0yc2uDKPYNho1HbdSCve2UOS6RGTrG-Yr-aYKucv6D3Gee8IBQEckfK6oYKzX--te_xoEzrM4phewfMO9pDAhUgtB0sMY8-XQwVRtnMtxG_zBqpL2AIGbg7rxNtSb48HErm4D_XUhDJqYueqvcpOcWIzqEv9bQAig9rJBk1i-sBvsnMOeMX3DzlJmBfJVvp-5hBgsBPeC7VY6jV0ljEiBuGXH0cWRE5zXPowFAQt1gwDrowJcxBN282EpjVbHEwB0uD5vBXzt-NU-UUS87XBx03DF-l_JSc7JpJchV5itFodJ7YNoFu6qU9lcYrmz1DlrhxK0W1KyakiCl_QYXzm2Y0Ye_3hPjPm1nn2OcIwP8NcrEdmZmITCuf2zPyL2vnsEWuVU7ob2VDXVzGCquPjzYTBB0rXL_",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1787997021.748786,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|eI905ytr8RmMWEiBiWehkdv8YjB9ZcZW4uDJ-ELP8pY|1758509309|6d847993794643c71557c682d621ae46810bde2ddd4ac28f717123563700ebfc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045309.128447,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "b962f072923af34f4ae2bce81d7f42808e9fabe2b601ee214929df3629e883c3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.957738,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "b962f072923af34f4ae2bce81d7f42808e9fabe2b601ee214929df3629e883c3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763291263.957884,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Da1.b1.c1.0%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fcurrent_page%253Dlanding_page%2526from_page%253Dlanding_page%2526enter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305902354661392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314431.195957,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787997022.186582,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mewnjcqb_YPOZnwV8_ItVh_4b2w_AGzs_SLNdeJQfC2vj",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787997022.186742,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7543942541587891713",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595709.128866,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045309.933483,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "E97MYerZ6CfvORtL-6zSgbZJnPxzGLIQQKetYdBozUqnZ84Rm3zvai2w5xlEV9mkZFwx67tc-ovySnMA4TpdRoDZknchp1T6swBH9dB71CsWq_O0S6H5cWAhM7icRWc-hbCUZG02",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285314,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045309.933693,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "20250922104835ECCEE2706B2BD3B74886",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      },
+      {
+        "name": "CapCut 9",
+        "cookies": [
+          {
+            "name": "_clck",
+            "value": "l7se3d%5E2%5Efzj%5E0%5E2071",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045160,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_clsk",
+            "value": "1rpfwtg%5E1758509167324%5E2%5E0%5Ef.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595567,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1975868052.1756778340",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045157,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1758509157$o3$g0$t1758509157$j60$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045157,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.975372851.1756778340",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764554340,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "446894d0975e11f081fb5ffdfca3e210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595568,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "474440600b9611f09a5a33f0c6bcd4ff",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792205168,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "cc-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595008.470373,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "vaaK419aJ9opAcf5oGceXNqWkYbNCAKrkY9sJqDS6jNzxMMZTp01lCHKFcoKnuyi4PvgUU_nCSTNb2dhK76DC0CcimNR2ZWB00y-Xtu__4AgXxpRj5ch6c3BqBn05DRBfuO2pj6s",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759373168.061797,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "odin_tt",
+            "value": "f9344a4258ada37959818ff712f302f515f5cd15773ff9a51bdd2674c7ef5a43b1fb9b62dc6b6d3c8c3b52713ce6e05a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788314361.466622,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "cda9217e1d1d1ea2cf1c955f8fffa420",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761962349.358265,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "cda9217e1d1d1ea2cf1c955f8fffa420",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761962349.358406,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "52ba93397420fda2ff16cb82ebb022e4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595007.017882,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "52ba93397420fda2ff16cb82ebb022e4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595007.017925,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_guard",
+            "value": "52ba93397420fda2ff16cb82ebb022e4%7C1757411006%7C5184000%7CSat%2C+08-Nov-2025+09%3A43%3A26+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788515007.017544,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_tt",
+            "value": "52ba93397420fda2ff16cb82ebb022e4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595007.017825,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.0-KGJlZmE3YzA4MDZiOWUxYjQzYjc5YTQ1MzdmMjgwN2U1MzIxYTBkNDgKGQiGiJaok5i-umcQvu3_xQYYnKAVOAFA6wcQAxoDbXkyIiA1MmJhOTMzOTc0MjBmZGEyZmYxNmNiODJlYmIwMjJlNA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595007.017968,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f706e6e5a616646667054396c47455474567346366d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1762595009.625302,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.0-KGJlZmE3YzA4MDZiOWUxYjQzYjc5YTQ1MzdmMjgwN2U1MzIxYTBkNDgKGQiGiJaok5i-umcQvu3_xQYYnKAVOAFA6wcQAxoDbXkyIiA1MmJhOTMzOTc0MjBmZGEyZmYxNmNiODJlYmIwMjJlNA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595007.018014,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595008.470024,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595008.470209,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDGimeE2-RH8PetcAyAQgsCKf91hJjm_xXXfT7lHFqtF47z4Ukm4VzTSs1tLQXpAEENMWXVo8-aAmbx2VoUb3EBU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595008.469832,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595008.46947,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "im0SCx-43R9YreNVxcaK06P68rHNRfZdVphUibGfPLOSuAq52SUToMPu2_DzMoMBC2AwY2BFWuOeHW1p8pAkhEj4oZZWQNVVJGcYny6F7YKlyJxQlierV3wi1EFAC8L1NOWp2j9rg6GpPgDfCd9Q5I95twQSIbm1cMyGmJPiR8QU2Bml_WFkh2zYQSOFZHLUUS2AaVKFiL9Jbe7DH8bgkYH3zhSVe_2U-UuUEKc-2hVVcM_ReCFVqtXMpErs-YUG8EDDut62KVcL-uUSzIUfWlRCFDd_3hpFraqrkbwUo1Ra-ELsGZJQpjEfnLjLaBFMneQ3lCS7_u_2UozmKn4CAcQImIeNGA2UrbSNeCxKogtQvOES55A72f8_cOOkHD29FVF1drjuayJCVqsEFp8M2a__1K1_8fOpEzEmAmmIiwndmbpz7w4AQVLtuANU_CF_-9AyIxbdXUXs2UbuoDbclqZXc8maH6RVZm6s0yzkx8I7IhxF-BEU5W8VcD30987P",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788947007.018261,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|nbWxTEFuypmbcnTd0A8OMBt0cCa0rWkmOHd728MKKdg|1758509156|598e9d7e5b50034ca75214598d98f05c9ef1cb4b02d43054fd3c187917d1643f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045156.591815,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt",
+            "value": "a7ee96e2fe96c368292b0514476c72a622c73ac86a801447374aee172488beaa",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595007.017687,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "a7ee96e2fe96c368292b0514476c72a622c73ac86a801447374aee172488beaa",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1762595007.017759,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DCapCut%26source%3Dhttps%253A%252F%252Fwww.capcut.com%252Flogin%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F%253Fenter_from%253Dlogin",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7545305506701737985",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314339.119784,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788314355.130764,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mf1wgt9k_TIrZgfDR_WUBA_4XQM_9jlC_yk5XoE6oZJE2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788947008.166413,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_tea_web_id",
+            "value": "7545305458698143248",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758595556.592701,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ut",
+            "value": "context%3DReferer%26medium%3DDirect%26source%3Denter_url%26channel_from%3Dlocal%26session_start_url%3Dhttp%253A%252F%252Fwww.capcut.com%252F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045156.398879,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "CAPCUT_THEME",
+            "value": "light",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "4kQj7WcxeRiG_1xfkw_uirpUx5V2d6O9mG420v6wJSWDmslP4syHxD6bLwgYMm_z8vYOcrmcDPg8wAC3lPpKRjnXgJ1kXD1XheueOHhSDnfGdpRE2YctvImVlPT1jOHJwmNf2qFg",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285165,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ug_capcut_locale",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045156.39908,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "x_logid",
+            "value": "20250922104606F8E98B31F828CAB54E9A",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          }
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "chat---hix-ai-1013",
       "name": "Chat | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/id/home",
@@ -9863,7 +15719,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508575.511369,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10134,7 +15989,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508607.171746,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10405,7 +16259,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508623.856904,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10676,7 +16529,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508638.949354,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10947,7 +16799,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508653.871591,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11218,7 +17069,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508881.989488,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11489,7 +17339,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508896.099918,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11760,7 +17609,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508913.273614,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12031,7 +17879,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508928.637045,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12302,7 +18149,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508943.070984,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12573,7 +18419,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508958.317063,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12854,7 +18699,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758508998.852354,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13135,7 +18979,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509012.389976,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13416,7 +19259,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509024.142611,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13697,7 +19539,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509037.041608,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13978,7 +19819,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509048.23084,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14259,7 +20099,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509058.495401,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14540,7 +20379,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509070.545904,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14818,7 +20656,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509087.230307,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15107,7 +20944,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509106.282445,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15388,7 +21224,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1758509113.331786,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15786,7 +21621,7 @@
   },
   {
     "meta": {
-      "id": "codecademy-1026",
+      "id": "codecademy-1031",
       "name": "Codecademy",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
       "url": "https://www.codecademy.com/learn",
@@ -16015,7 +21850,7 @@
   },
   {
     "meta": {
-      "id": "coohom-1027",
+      "id": "coohom-1032",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
       "url": "https://www.coohom.com/pub/saas/workbench",
@@ -16308,7 +22143,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1028",
+      "id": "coursera-1033",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -16585,7 +22420,474 @@
   },
   {
     "meta": {
-      "id": "curiosity-stream-1008",
+      "id": "crunchyroll-1034",
+      "name": "Crunchyroll",
+      "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
+      "url": "https://www.crunchyroll.com/discover",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Crunchyroll 1",
+        "cookies": [
+          {
+            "name": "__cf_bm",
+            "value": "CSedVbEPfKx8YIsrM2fud1sztOfFjNCxg5WJlCqOxTs-1758509350-1.0.1.1-tpq0EL_tP1vUnBBvKmAnmx7TJx9brlBcOHa7iIJfO8LT.0VshVQoA3l5pwzU.LX3QGdzc59xemNX76XHcJYa6cPdh.pdjmDWGraoJXOASZ_UsZzFOqbMSEPyuisR.d7p",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758511150.874476,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%229c844c1c-cb3b-4405-cc43-e337f848bdfe%22%2C%22c%22%3A1758509354060%2C%22l%22%3A1758509354060%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069354,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%221eeeb527-a72b-18f7-c7f0-7cfc5552a66b%22%2C%22e%22%3A1758511154063%2C%22c%22%3A1758509354054%2C%22l%22%3A1758509354063%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069354,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%225f86e70b-024d-5397-b163-fad3d50a4392%22%2C%22c%22%3A1758509354053%2C%22l%22%3A1758509354059%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069354,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_anonymous_id",
+            "value": "efe66d1f-cfff-4b42-bd54-1d4e33ea5605",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045355,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_user_id",
+            "value": "5f86e70b-024d-5397-b163-fad3d50a4392",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045355,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "c_locale",
+            "value": "enUS",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045352,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "cr_exp",
+            "value": "5f86e70b-024d-5397-b163-fad3d50a43928f39d689-a4cb-4190-8617-465ccf70c223",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "device_id",
+            "value": "df59bacc-1375-4e55-abdd-96a97211f004",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069352,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "etp_rt",
+            "value": "f4d71f70-4812-4190-9e77-86b77bc007a7",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788145421.460263,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138624a6d35664c304c764f4e566a5a77695665377850",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788145426,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A49%3A12+GMT%2B0700+(Western+Indonesia+Time)&version=202311.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4fa97f03-ab5f-45f7-a92c-13d33be82523&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045352,
+            "sameSite": "lax",
+            "domain": ".www.crunchyroll.com"
+          }
+        ],
+        "sourceUrl": "https://www.crunchyroll.com/discover"
+      },
+      {
+        "name": "Crunchyroll 2",
+        "cookies": [
+          {
+            "name": "__cf_bm",
+            "value": "qV2z0unJ0wBtiMo2ioi3q03Up3KeeFUM47US6iMqk1E-1758509363-1.0.1.1-bcs6BGwQRePIvK9Sa8KrP_ESwHQ3ZMRozm4Yl32312aWo691epbIBU1i5nbEKLuJRwyah3qKLwRY69fkHpLFlXhgNZh3c8JD2A5hJo8euJGtoSq9K6GZr2Vr8ui2K9_C",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758511163.435313,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1757225373033.1748096734",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765001379.453418,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.2120225609.1757225313",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791785378.315616,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "_ga_METRICID",
+            "value": "GS2.1.s1757225313$o1$g1$t1757225378$j57$l0$h1512100337",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791785378.937408,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.425766547.1757225313",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765001313,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "_gtmeec",
+            "value": "e30%3D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1765001379.453342,
+            "sameSite": "strict",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%22e432112e-b5e7-90c8-6944-de71a47e3ef1%22%2C%22c%22%3A1758509367851%2C%22l%22%3A1758509367851%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069367,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%22eb169f71-f780-4fe9-46ba-8cb435912709%22%2C%22e%22%3A1758511167856%2C%22c%22%3A1758509367849%2C%22l%22%3A1758509367856%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069367,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%227181f76b-d4ba-59f4-a218-12fa7dbdd715%22%2C%22c%22%3A1758509367848%2C%22l%22%3A1758509367850%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069367,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_anonymous_id",
+            "value": "86e798ca-5e7e-406b-9947-80a77f9328c9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045367,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_user_id",
+            "value": "7181f76b-d4ba-59f4-a218-12fa7dbdd715",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045367,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "c_locale",
+            "value": "enUS",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045364,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "cr_exp",
+            "value": "7181f76b-d4ba-59f4-a218-12fa7dbdd7157181f76b-d4ba-59f4-a218-12fa7dbdd715",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "device_id",
+            "value": "95b25719-5dcf-4481-9732-dc74072eaf44",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069364,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "etp_rt",
+            "value": "be94241b-61aa-4c26-b907-3b58dde28e2a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1791785370.737106,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.1.425766547.1757225313",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765001315.838357,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.JmGf2lQI24wfg8xJQQyuFgxq04GBfMx4OoTseH56Ynk%3D.1757225313",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1791785379.453159,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2025-09-22T02:49:27.317Z",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045367,
+            "sameSite": "lax",
+            "domain": ".www.crunchyroll.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A49%3A27+GMT%2B0700+(Western+Indonesia+Time)&version=202311.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4fa97f03-ab5f-45f7-a92c-13d33be82523&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045367,
+            "sameSite": "lax",
+            "domain": ".www.crunchyroll.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=b7b44daf-c1dc-43da-8760-fa6ef9addaa5&rum=0&expire=1758510267890",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045367,
+            "sameSite": "strict",
+            "domain": "www.crunchyroll.com"
+          }
+        ],
+        "sourceUrl": "https://www.crunchyroll.com/discover"
+      },
+      {
+        "name": "Crunchyroll 3",
+        "cookies": [
+          {
+            "name": "__cf_bm",
+            "value": "W.51qfdQoUqUh3KmM76hrK.qgdDGkqC7QmLBSlakTSM-1758509328-1.0.1.1-WBK1fp8d_dq67rH8GThSVhAKRCvA0A93Y5ae2sPPIPlSsLi3TqTINJsRz4clEeAfmbst3o5ku0Y2Z0QP736WCCSwCceBqKZdPX.4.r3Em4NZWRfPOiBS04pIdjKP3zhp",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758511128.050503,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%2219058c44-a3f4-5855-91f0-9c56269f6229%22%2C%22c%22%3A1758509331863%2C%22l%22%3A1758509331863%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069331,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%22225067a2-073b-6140-ab01-cf1c904e2078%22%2C%22e%22%3A1758511131872%2C%22c%22%3A1758509331856%2C%22l%22%3A1758509331872%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069331,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%22b901aba1-4c44-5c22-9513-1875bdf7dd97%22%2C%22c%22%3A1758509331853%2C%22l%22%3A1758509331858%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069331,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_anonymous_id",
+            "value": "317f72be-8874-4ba6-82ff-bd5a61fff57e",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045333,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_user_id",
+            "value": "b901aba1-4c44-5c22-9513-1875bdf7dd97",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045333,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "c_locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045330,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "cr_exp",
+            "value": "b901aba1-4c44-5c22-9513-1875bdf7dd9743c40cd2-b231-4129-a361-2c17c36270ad",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "device_id",
+            "value": "e844adb9-03cc-4b8d-9ec4-8493029156f2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069330,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "etp_rt",
+            "value": "2f8baae3-4000-45bf-a658-a90f8bc870dc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790907811.70407,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b336444572f69737070476745734d3555554d6c4642",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790907813,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A48%3A53+GMT%2B0700+(Western+Indonesia+Time)&version=202311.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4fa97f03-ab5f-45f7-a92c-13d33be82523&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045333,
+            "sameSite": "lax",
+            "domain": ".www.crunchyroll.com"
+          }
+        ],
+        "sourceUrl": "https://www.crunchyroll.com/discover"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "curiosity-stream-1009",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
       "url": "https://curiositystream.com/",
@@ -17775,6 +24077,177 @@
   },
   {
     "meta": {
+      "id": "cursor-1010",
+      "name": "Cursor",
+      "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
+      "url": "https://cursor.com/dashboard",
+      "category": "productivity",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Cursor 1",
+        "cookies": [
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f6c54343556674a4a6548524b35634c6a45334a3075",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763365908.114388,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01K5DWX9P9CF3H6CJPEK31ANQP%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSzVEV1g5UDlDRjNINkNKUEVLMzFBTlFQIiwidGltZSI6IjE3NTgxODE5MDQiLCJyYW5kb21uZXNzIjoiZGEyMWRiN2ItODgzYy00MGFmIiwiZXhwIjoxNzYzMzY1OTA0LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.6XJHJQS-ayTHNzR9QWmalqMyxqnoHp7Rs2fc3NWGeu0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763365908.114388,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Cursor 2",
+        "cookies": [
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613931396a635465374f774a5a427869764f5464777751",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763366234.599964,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01K5DX784FQA049A5FGZXRWC1X%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSzVEWDc4NEZRQTA0OUE1RkdaWFJXQzFYIiwidGltZSI6IjE3NTgxODIyMzEiLCJyYW5kb21uZXNzIjoiNzE0NzBiN2UtZGNjOC00MzUzIiwiZXhwIjoxNzYzMzY2MjMxLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.EGjDhxob288XZruV227-GeOxcTN3n6238hCA8WCEstg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763366234.599964,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Cursor 3",
+        "cookies": [
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613838426b6c61762b4e354165612f67543455554f4d41",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763132515.822147,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01K41KKWWFQM0RP5RH2V2CREK1%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSzQxS0tXV0ZRTTBSUDVSSDJWMkNSRUsxIiwidGltZSI6IjE3NTc5NDg1MTUiLCJyYW5kb21uZXNzIjoiMTQ0ZDE4YzMtMjczMC00MWVhIiwiZXhwIjoxNzYzMTMyNTE1LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.JpWEvmFrtNA8_6OnyLdW7w800nYUVajlPyQyMS_Kk8g",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763132515.822147,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "GCLB",
+            "value": "\"10538ad39fa72b8b\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "NEXT_LOCALE",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      }
+    ]
+  },
+  {
+    "meta": {
       "id": "datacamp-1000",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
@@ -18086,7 +24559,1319 @@
   },
   {
     "meta": {
-      "id": "duolingo-1029",
+      "id": "deepl-1035",
+      "name": "DeepL",
+      "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
+      "url": "https://www.deepl.com/en/translator/files",
+      "category": "utilities",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "DeepL 1",
+        "cookies": [
+          {
+            "name": "_fwb",
+            "value": "0Zt5BbKoG9lSC5G7DJIlf.1757412065072",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972158.043703,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.547352743.1757413233",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791973233.180571,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga_66CXJP77N5",
+            "value": "GS2.1.s1757413233$o1$g0$t1757413233$j60$l0$h1519225473",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791973233.18023,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1645082870.1757412065",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765188064,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1757412061863.2daf0c3a-3771-4c98-8a2e-87984d09d9bb",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765188064,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "e6179f408d6311f0a0f4bf70d2feee3f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791108158,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapGid",
+            "value": "gjxiDdFPfnePcEliA00X0LBt91RBUZT7mBDwaxF9hyBPl_eNWOci66wmEo48zaowBejUprMqJZpl8stB9bZ3sNRDYJzytxk_tkjHEIDChHawJGYGYf8YhdofDNBasPFkPHUbZO35nAqhI0XVnwggMyVW2jtgBnxblOPxrp7Yl4l77WZnaptXMxv6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765189231.141215,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapSid",
+            "value": "%7B%22sid%22%3A%22a08aee95-cdf0-4cb5-8acf-f44f5523e1bc%22%2C%22lastUpdate%22%3A1758509434%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758511234,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapUid",
+            "value": "943e7c2e-8a26-42e6-ad43-ddeb1df89eb4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613431,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapVn",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613431,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "deviceId",
+            "value": "1f640e5b0a77d868ba85648f8c5c94c9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774061422,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dl_session",
+            "value": "fw.ac4bc087-db17-4a3e-80ec-7f6c72d8186d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1765189231.14076,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.178546298.1757413233",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765189233.599721,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.RWU42Ffe%2B5lS4fXWVTgSo6KW%2FYfG50805i6Tdqj5FLo%3D.1757293634",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1791973233.599602,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "lastRskxRun",
+            "value": "1757412072239",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972072.239679,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "privacySettings",
+            "value": "%7B%22v%22%3A2.5%2C%22t%22%3A1757413236168%2C%22m%22%3A%22LAX%22%2C%22consent%22%3A%5B%22NECESSARY%22%2C%22PERFORMANCE%22%2C%22COMFORT%22%2C%22MARKETING%22%5D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788949236,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rCookie",
+            "value": "kx5zmcbeei4ug0jkkutfkmfcdrtio",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972074.470869,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "releaseGroups",
+            "value": "220.DF-1925.1.9_2455.DPAY-2828.2.2_8393.DPAY-3431.2.2_8776.DM-1442.2.2_9824.AP-523.2.3_10382.DF-3962.2.2_10550.DWFA-884.2.2_11549.DM-1149.2.2_12498.DM-1867.2.3_12500.DF-3968.2.2_12645.DAL-1151.2.1_13132.DM-1798.2.2_13135.DF-4076.2.2_13870.DF-4078.2.2_13872.EXP-133.2.2_14056.DF-4050.2.2_14097.DM-1916.2.2_14526.RI-246.2.7_15325.DM-1418.2.7_16021.DM-1471.2.2_16753.DF-4044.2.3_17271.DF-4240.2.2_17685.DF-4246.2.2_17696.MTD-862.1.4_18115.DF-4260.2.2_18116.DF-4250.2.2_18131.DM-1931.2.2_18487.DF-4161.2.4_18488.DF-4244.2.2_19666.DAL-1445.2.2_20042.DF-4302.2.3_20742.DF-4301.2.2_21296.DF-4320.2.2_21297.DM-1605.2.2_21299.DF-4319.2.4_21554.DAL-1566.2.2_21556.DM-2121.2.2_21828.CLAB-286.1.4_22071.DF-4338.2.2_22084.AP-857.2.2_22087.CEX-1454.2.2_22616.DAL-1757.2.2_23141.TW-452.2.2_23668.WDW-1009.1.3_23942.CORTEX-524.2.7_23943.DF-4376.2.6_24183.DF-4363.2.2_24483.DM-2237.2.3_25083.TACO-630.2.16_25356.TW-768.2.17_25395.DF-4394.2.3_25399.DF-4393.2.3_25661.WDW-1262.2.7_25988.DM-2267.2.6_26271.BET-1587.2.2_26274.DF-4399.2.2_27038.CORTEX-631.2.11_27039.ITA-887.1.3_27040.APRM-59.2.3_27041.APRM-65.2.4_27057.DM-2331.2.2_27058.CEX-1574.2.2_27427.DF-4434.2.7_27941.ITA-839.2.2_28208.DF-4497.2.4_28210.ITA-734.2.4_28212.WDW-1345.2.2_28213.WDW-1348.2.2_28214.WDW-1498.2.4_28215.CEX-1994.1.2_28487.WTT-1729.1.3_28490.DF-4512.2.4_28742.DF-4127.1.2_29016.TACO-709.2.1_29255.WDW-1375.2.1_29267.CEX-1978.2.2_26275.TW-568.2.2_27059.CLAB-474.2.1_28731.CLAB-623.1.1_28491.COPS-349.1.8_29256.WDW-1374.1.1_29268.AP-999.2.2_29542.WDW-1555.1.1_29823.AAEXP-27293.2.1_29824.AAEXP-27294.2.1_29825.AAEXP-27295.2.1_29826.AAEXP-27296.2.1_29827.AAEXP-27297.2.1_29828.AAEXP-27298.1.1_29829.AAEXP-27299.2.1_29830.AAEXP-27300.1.1_29831.AAEXP-27301.2.1_29832.AAEXP-27302.2.1_29833.AAEXP-27303.2.1_29834.AAEXP-27304.2.1_29835.AAEXP-27305.1.1_29836.AAEXP-27306.1.1_29837.AAEXP-27307.2.1_29838.AAEXP-27308.2.1_29839.AAEXP-27309.1.1_29840.AAEXP-27310.1.1_29841.AAEXP-27311.2.1_29842.AAEXP-27312.1.1_29843.AAEXP-27313.1.1_29844.AAEXP-27314.1.1_29845.AAEXP-27315.1.1_29846.AAEXP-27316.2.1_29847.AAEXP-27317.1.1_29848.AAEXP-27318.1.1_29849.AAEXP-27319.1.1_29850.AAEXP-27320.2.1_29851.AAEXP-27321.1.1_29852.AAEXP-27322.1.1_29853.AAEXP-27323.1.1_29854.AAEXP-27324.1.1_29855.AAEXP-27325.1.1_29856.AAEXP-27326.1.1_29857.AAEXP-27327.1.1_29858.AAEXP-27328.1.1_29859.AAEXP-27329.1.1_29860.AAEXP-27330.1.1_29861.AAEXP-27331.2.1_29862.AAEXP-27332.1.1_29863.AAEXP-27333.1.1_29864.AAEXP-27334.1.1_29865.AAEXP-27335.1.1_29866.AAEXP-27336.1.1_29867.AAEXP-27337.1.1_29868.AAEXP-27338.1.1_29869.AAEXP-27339.1.1_29870.AAEXP-27340.1.1_29871.AAEXP-27341.1.1_29872.AAEXP-27342.1.1_29873.AAEXP-27343.1.1_29874.AAEXP-27344.1.1_29875.AAEXP-27345.1.1_29876.AAEXP-27346.1.1_29877.AAEXP-27347.1.1_29878.AAEXP-27348.1.1_29879.AAEXP-27349.1.1_29880.AAEXP-27350.1.1_29881.AAEXP-27351.1.1_29882.AAEXP-27352.1.1_29883.AAEXP-27353.1.1_29884.AAEXP-27354.1.1_29885.AAEXP-27355.1.1_30053.ITA-952.1.1_30055.CORTEX-861.1.2_29636.AAEXP-27108.2.1_29637.AAEXP-27109.1.1_29638.AAEXP-27110.2.1_29639.AAEXP-27111.2.1_29640.AAEXP-27112.1.1_29886.AAEXP-27356.2.1_29887.AAEXP-27357.1.1_29888.AAEXP-27358.2.1_29889.AAEXP-27359.1.1_29890.AAEXP-27360.2.1_29891.AAEXP-27361.1.1_29892.AAEXP-27362.1.1_29893.AAEXP-27363.1.1_29894.AAEXP-27364.1.1_29895.AAEXP-27365.1.1_29896.AAEXP-27366.1.1_29897.AAEXP-27367.1.1_29898.AAEXP-27368.1.1_29899.AAEXP-27369.1.1_29900.AAEXP-27370.2.1_29901.AAEXP-27371.1.1_29902.AAEXP-27372.1.1_29903.AAEXP-27373.1.1_29904.AAEXP-27374.1.1_29905.AAEXP-27375.1.1_29906.AAEXP-27376.1.1_29907.AAEXP-27377.1.1_29908.AAEXP-27378.1.1_29909.AAEXP-27379.1.1_29910.AAEXP-27380.1.1_30051.TW-569.2.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101432,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rskxRunCookie",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972072.239923,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613830446d2f49414e6f65347448446b4e466c3135745a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788517236,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "userCountry",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "verifiedBot",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "21debb28-43ac-42be-a59a-3536d32b2f22b9e614",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788948249,
+            "sameSite": "strict",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "il",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101431,
+            "sameSite": "lax",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "wcs_bt",
+            "value": "s_568f0eef8df9:1757412158",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972158.044466,
+            "sameSite": "no_restriction",
+            "domain": ".www.deepl.com"
+          }
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
+      },
+      {
+        "name": "DeepL 2",
+        "cookies": [
+          {
+            "name": "_fwb",
+            "value": "204Bdu8wQoj3UV1R6Cd9PDA.1757991696030",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792551817.253638,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.554429588.1757991668",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792551822.219396,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga_66CXJP77N5",
+            "value": "GS2.1.s1757991667$o1$g1$t1757991830$j47$l0$h928885381",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792551830.468117,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1595749520.1757991696",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765767696,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1757991686461.d7bf73a0-c3bc-4599-a798-7ca6e6733538",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765767710,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "6eabc1c092a911f0aa6d0762de68b613",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791687817,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapGid",
+            "value": "NA5kD1H23wp0UEgFi93xbYsTHspnPqjeEwaq85G58B7TgHQq91y1hBrbBgH4XY7BdyMjkGZ1VWGzrabIdmcnTUKDNKZcQsH4nGYU9Df-CqAPfumhRtnnuB6uFBnICuFIux8_BdVarjAgmXL05xXKptNNSpJVWpAcX41qUo-q8MCba6dp_7bmoQ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765767682.055236,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapSid",
+            "value": "%7B%22sid%22%3A%222c535a62-4b5c-4c39-a971-6cf9d5aef64d%22%2C%22lastUpdate%22%3A1758509445%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758511245,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapUid",
+            "value": "40ebc75f-7ae7-4de2-a34a-ca79ff0f5e1f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613441,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapVn",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613442,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "deviceId",
+            "value": "1f640e5b0a77d868ba85648f8c5c94c9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774061422,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dl_session",
+            "value": "fw.8804f498-be34-49fb-8af5-e9de8ee25def",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1765767682.054779,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.462088300.1757991665",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765767667.597278,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.ltbVC7Ls3mLXiBKuSizJcJalX%2BYeNTR%2FEQWyadkbsEw%3D.1757991668",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1792551830.718777,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "lastRskxRun",
+            "value": "1757991714743",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792551714.744009,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "privacySettings",
+            "value": "%7B%22v%22%3A2.5%2C%22t%22%3A1757991820593%2C%22m%22%3A%22LAX%22%2C%22consent%22%3A%5B%22NECESSARY%22%2C%22PERFORMANCE%22%2C%22COMFORT%22%2C%22MARKETING%22%5D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789527820,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rCookie",
+            "value": "spsg0jqkuu9nl8npo6e8scmflyv95a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792551716.186047,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "releaseGroups",
+            "value": "220.DF-1925.1.9_2455.DPAY-2828.2.2_8393.DPAY-3431.2.2_8776.DM-1442.2.2_9824.AP-523.2.3_10382.DF-3962.1.2_10550.DWFA-884.2.2_11549.DM-1149.2.2_12498.DM-1867.2.3_12500.DF-3968.2.2_12645.DAL-1151.2.1_13132.DM-1798.2.2_13135.DF-4076.2.2_13870.DF-4078.2.2_13872.EXP-133.2.2_14056.DF-4050.2.2_14097.DM-1916.2.2_14526.RI-246.2.7_15325.DM-1418.2.7_16021.DM-1471.2.2_16753.DF-4044.2.3_17271.DF-4240.2.2_17685.DF-4246.2.2_17696.MTD-862.1.4_18115.DF-4260.2.2_18116.DF-4250.2.2_18131.DM-1931.2.2_18487.DF-4161.2.4_18488.DF-4244.2.2_19666.DAL-1445.2.2_20042.DF-4302.2.3_20742.DF-4301.2.2_21296.DF-4320.2.2_21297.DM-1605.2.2_21299.DF-4319.2.4_21554.DAL-1566.2.2_21556.DM-2121.2.2_21828.CLAB-286.1.4_22071.DF-4338.2.2_22084.AP-857.2.2_22087.CEX-1454.2.2_22616.DAL-1757.2.2_23141.TW-452.2.2_23668.WDW-1009.1.3_23942.CORTEX-524.2.7_23943.DF-4376.2.6_24183.DF-4363.2.2_24483.DM-2237.2.3_25083.TACO-630.2.16_25356.TW-768.2.17_25395.DF-4394.2.3_25399.DF-4393.2.3_25661.WDW-1262.2.7_25988.DM-2267.2.6_26271.BET-1587.2.2_26274.DF-4399.2.2_27038.CORTEX-631.2.11_27039.ITA-887.1.3_27040.APRM-59.2.3_27041.APRM-65.2.4_27057.DM-2331.2.2_27058.CEX-1574.2.2_27427.DF-4434.2.7_27941.ITA-839.2.2_28208.DF-4497.2.4_28210.ITA-734.2.4_28212.WDW-1345.2.2_28213.WDW-1348.2.2_28214.WDW-1498.2.4_28215.CEX-1994.2.2_28487.WTT-1729.2.3_28490.DF-4512.2.4_28491.COPS-349.1.8_28742.DF-4127.1.2_29016.TACO-709.2.1_29255.WDW-1375.2.1_29267.CEX-1978.2.2_29542.WDW-1555.1.1_26275.TW-568.2.2_27059.CLAB-474.2.1_28731.CLAB-623.1.1_29636.AAEXP-27108.1.1_29637.AAEXP-27109.2.1_29638.AAEXP-27110.1.1_29639.AAEXP-27111.1.1_29640.AAEXP-27112.2.1_29256.WDW-1374.1.1_29268.AP-999.1.2_29823.AAEXP-27293.2.1_29824.AAEXP-27294.1.1_29825.AAEXP-27295.1.1_29826.AAEXP-27296.2.1_29827.AAEXP-27297.2.1_29828.AAEXP-27298.2.1_29829.AAEXP-27299.2.1_29830.AAEXP-27300.2.1_29831.AAEXP-27301.1.1_29832.AAEXP-27302.1.1_29833.AAEXP-27303.2.1_29834.AAEXP-27304.2.1_29835.AAEXP-27305.1.1_29836.AAEXP-27306.1.1_29837.AAEXP-27307.2.1_29838.AAEXP-27308.1.1_29839.AAEXP-27309.2.1_29840.AAEXP-27310.1.1_29841.AAEXP-27311.2.1_29842.AAEXP-27312.1.1_29843.AAEXP-27313.2.1_29844.AAEXP-27314.1.1_29845.AAEXP-27315.1.1_29846.AAEXP-27316.1.1_29847.AAEXP-27317.1.1_29848.AAEXP-27318.1.1_29849.AAEXP-27319.1.1_29850.AAEXP-27320.1.1_29851.AAEXP-27321.1.1_29852.AAEXP-27322.1.1_29853.AAEXP-27323.1.1_29854.AAEXP-27324.1.1_29855.AAEXP-27325.1.1_29856.AAEXP-27326.1.1_29857.AAEXP-27327.1.1_29858.AAEXP-27328.1.1_29859.AAEXP-27329.1.1_29860.AAEXP-27330.1.1_29861.AAEXP-27331.1.1_29862.AAEXP-27332.1.1_29863.AAEXP-27333.1.1_29864.AAEXP-27334.1.1_29865.AAEXP-27335.1.1_29866.AAEXP-27336.1.1_29867.AAEXP-27337.1.1_29868.AAEXP-27338.1.1_29869.AAEXP-27339.1.1_29870.AAEXP-27340.1.1_29871.AAEXP-27341.1.1_29872.AAEXP-27342.1.1_29873.AAEXP-27343.1.1_29874.AAEXP-27344.1.1_29875.AAEXP-27345.1.1_29876.AAEXP-27346.1.1_29877.AAEXP-27347.1.1_29878.AAEXP-27348.1.1_29879.AAEXP-27349.1.1_29880.AAEXP-27350.1.1_29881.AAEXP-27351.1.1_29882.AAEXP-27352.1.1_29883.AAEXP-27353.1.1_29884.AAEXP-27354.1.1_29885.AAEXP-27355.1.1_30053.ITA-952.1.1_30055.CORTEX-861.1.2_29886.AAEXP-27356.2.1_29887.AAEXP-27357.2.1_29888.AAEXP-27358.1.1_29889.AAEXP-27359.1.1_29890.AAEXP-27360.1.1_29891.AAEXP-27361.1.1_29892.AAEXP-27362.1.1_29893.AAEXP-27363.1.1_29894.AAEXP-27364.1.1_29895.AAEXP-27365.1.1_29896.AAEXP-27366.2.1_29897.AAEXP-27367.2.1_29898.AAEXP-27368.1.1_29899.AAEXP-27369.2.1_29900.AAEXP-27370.1.1_29901.AAEXP-27371.1.1_29902.AAEXP-27372.1.1_29903.AAEXP-27373.1.1_29904.AAEXP-27374.1.1_29905.AAEXP-27375.1.1_29906.AAEXP-27376.1.1_29907.AAEXP-27377.1.1_29908.AAEXP-27378.1.1_29909.AAEXP-27379.1.1_29910.AAEXP-27380.1.1_30051.TW-569.1.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101443,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rskxRunCookie",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792551714.744252,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f356d3375653949656f5a6c5358716367567a364b37",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789095820,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "userCountry",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "verifiedBot",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "05ca06b8-07c3-4e90-9377-92ed34b58e51e168aa",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789527861,
+            "sameSite": "strict",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "il",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101442,
+            "sameSite": "lax",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "wcs_bt",
+            "value": "s_568f0eef8df9:1757991817",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792551817.254322,
+            "sameSite": "no_restriction",
+            "domain": ".www.deepl.com"
+          }
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
+      },
+      {
+        "name": "DeepL 3",
+        "cookies": [
+          {
+            "name": "_fwb",
+            "value": "240I5cqEraQIsHuDeuSXivZ.1757992015440",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552115.337566,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1551724146.1757991982",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552121.1654,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga_66CXJP77N5",
+            "value": "GS2.1.s1757991982$o1$g1$t1757992126$j49$l0$h1142809096",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552126.049502,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1156930080.1757992015",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765768015,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1757991998905.33b1cb7e-914f-4291-a28f-66cd6965f38b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765768015,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "28f3af4092aa11f0862c0163f71aa10d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791688115,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapGid",
+            "value": "4Y7ATA32uR2vSTwVUx3TFBFByNml-qeRrbTQuGqp8p1qKMmd7-8HI8PNF_T9ncppzqU2IwhpNfYyRq8OY98ovKeqBHY1icpl0rAW5VmeHpnsa7BCxhY9HoWoCWO-Ay_eC4jHKGa2IbmmY7cBokoI-OHWg1PUk5_GEyNMTv2t3qOMfuN8Syaz3g",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765767995.114595,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapSid",
+            "value": "%7B%22sid%22%3A%22e6c80a4f-7c3c-42e0-80fc-9c2abb2ef648%22%2C%22lastUpdate%22%3A1758509457%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758511257,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapUid",
+            "value": "84b91b29-5648-46ed-860d-4e7f9c1cc211",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613453,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapVn",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613453,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "deviceId",
+            "value": "1f640e5b0a77d868ba85648f8c5c94c9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774061422,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dl_session",
+            "value": "fw.b21ded36-e4cf-4e5e-bed3-5ec57c7546ab",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1765767995.114187,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dl_shield",
+            "value": "nwL3TqFNHiacbtIdm2gYhWhKXdS6Jgc91RyR9ONdjcP0YR4rAfwIPRelXuhJkRO-yCBQmNNrWSZ5ShN8gKskTj9CLHX3pscPzFhuFMGmN-V4anldl6vP97hZEmFiidFboDhdQFd-JxXEtJYpq8-s_D3erqxzuV6M67s_Sc64ovou50nHJTrZYc2P9XvjCMkUOyZgnUOhkujVmQel3N15bK-BsO3GQ0vlafdcCewO5mW6CNVTfjanN-9x0x1dFLxe0hg6FQJ0-aseze7MiX3O09htS1eNJ5pl7SgeIv_ZGb3Idg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1792552003.524566,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.1068543819.1757991995",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765767997.520433,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.oV6In%2FlAYlJBe%2FEKTPSHCQeafoZ5MgWElPUNDSj6dl8%3D.1757991982",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1792552126.27598,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "lastRskxRun",
+            "value": "1757992019665",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552019.666085,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "privacySettings",
+            "value": "%7B%22v%22%3A2.5%2C%22t%22%3A1757992118322%2C%22m%22%3A%22LAX%22%2C%22consent%22%3A%5B%22NECESSARY%22%2C%22PERFORMANCE%22%2C%22COMFORT%22%2C%22MARKETING%22%5D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789528118,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rCookie",
+            "value": "08nt7a2clodi4t46qcyz5kwmflz23te",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552021.542245,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "releaseGroups",
+            "value": "220.DF-1925.1.9_2455.DPAY-2828.2.2_8393.DPAY-3431.2.2_8776.DM-1442.2.2_9824.AP-523.2.3_10382.DF-3962.2.2_10550.DWFA-884.2.2_11549.DM-1149.2.2_12498.DM-1867.2.3_12500.DF-3968.2.2_12645.DAL-1151.2.1_13132.DM-1798.2.2_13135.DF-4076.2.2_13870.DF-4078.2.2_13872.EXP-133.2.2_14056.DF-4050.2.2_14097.DM-1916.2.2_14526.RI-246.2.7_15325.DM-1418.2.7_16021.DM-1471.2.2_16753.DF-4044.2.3_17271.DF-4240.2.2_17685.DF-4246.2.2_17696.MTD-862.1.4_18115.DF-4260.2.2_18116.DF-4250.2.2_18131.DM-1931.2.2_18487.DF-4161.2.4_18488.DF-4244.2.2_19666.DAL-1445.2.2_20042.DF-4302.2.3_20742.DF-4301.2.2_21296.DF-4320.2.2_21297.DM-1605.2.2_21299.DF-4319.2.4_21554.DAL-1566.2.2_21556.DM-2121.2.2_21828.CLAB-286.1.4_22071.DF-4338.2.2_22084.AP-857.2.2_22087.CEX-1454.2.2_22616.DAL-1757.2.2_23141.TW-452.2.2_23668.WDW-1009.1.3_23942.CORTEX-524.2.7_23943.DF-4376.2.6_24183.DF-4363.2.2_24483.DM-2237.2.3_25083.TACO-630.2.16_25356.TW-768.2.17_25395.DF-4394.2.3_25399.DF-4393.2.3_25661.WDW-1262.2.7_25988.DM-2267.2.6_26271.BET-1587.2.2_26274.DF-4399.2.2_27038.CORTEX-631.2.11_27039.ITA-887.1.3_27040.APRM-59.2.3_27041.APRM-65.2.4_27057.DM-2331.2.2_27058.CEX-1574.2.2_27427.DF-4434.2.7_27941.ITA-839.2.2_28208.DF-4497.2.4_28210.ITA-734.2.4_28212.WDW-1345.2.2_28213.WDW-1348.2.2_28214.WDW-1498.2.4_28215.CEX-1994.2.2_28487.WTT-1729.1.3_28490.DF-4512.2.4_28491.COPS-349.1.8_28742.DF-4127.2.2_29016.TACO-709.1.1_29255.WDW-1375.1.1_29267.CEX-1978.2.2_29542.WDW-1555.1.1_26275.TW-568.2.2_27059.CLAB-474.2.1_28731.CLAB-623.1.1_29636.AAEXP-27108.2.1_29637.AAEXP-27109.1.1_29638.AAEXP-27110.1.1_29639.AAEXP-27111.1.1_29640.AAEXP-27112.1.1_29256.WDW-1374.2.1_29268.AP-999.1.2_29823.AAEXP-27293.2.1_29824.AAEXP-27294.1.1_29825.AAEXP-27295.1.1_29826.AAEXP-27296.1.1_29827.AAEXP-27297.2.1_29828.AAEXP-27298.1.1_29829.AAEXP-27299.1.1_29830.AAEXP-27300.1.1_29831.AAEXP-27301.2.1_29832.AAEXP-27302.1.1_29833.AAEXP-27303.2.1_29834.AAEXP-27304.2.1_29835.AAEXP-27305.1.1_29836.AAEXP-27306.1.1_29837.AAEXP-27307.1.1_29838.AAEXP-27308.2.1_29839.AAEXP-27309.1.1_29840.AAEXP-27310.2.1_29841.AAEXP-27311.1.1_29842.AAEXP-27312.1.1_29843.AAEXP-27313.1.1_29844.AAEXP-27314.1.1_29845.AAEXP-27315.1.1_29846.AAEXP-27316.1.1_29847.AAEXP-27317.1.1_29848.AAEXP-27318.1.1_29849.AAEXP-27319.2.1_29850.AAEXP-27320.1.1_29851.AAEXP-27321.1.1_29852.AAEXP-27322.1.1_29853.AAEXP-27323.1.1_29854.AAEXP-27324.1.1_29855.AAEXP-27325.1.1_29856.AAEXP-27326.1.1_29857.AAEXP-27327.1.1_29858.AAEXP-27328.1.1_29859.AAEXP-27329.1.1_29860.AAEXP-27330.1.1_29861.AAEXP-27331.1.1_29862.AAEXP-27332.1.1_29863.AAEXP-27333.1.1_29864.AAEXP-27334.1.1_29865.AAEXP-27335.1.1_29866.AAEXP-27336.1.1_29867.AAEXP-27337.1.1_29868.AAEXP-27338.1.1_29869.AAEXP-27339.1.1_29870.AAEXP-27340.1.1_29871.AAEXP-27341.1.1_29872.AAEXP-27342.1.1_29873.AAEXP-27343.1.1_29874.AAEXP-27344.1.1_29875.AAEXP-27345.1.1_29876.AAEXP-27346.1.1_29877.AAEXP-27347.1.1_29878.AAEXP-27348.1.1_29879.AAEXP-27349.1.1_29880.AAEXP-27350.1.1_29881.AAEXP-27351.1.1_29882.AAEXP-27352.1.1_29883.AAEXP-27353.1.1_29884.AAEXP-27354.1.1_29885.AAEXP-27355.1.1_30053.ITA-952.1.1_30055.CORTEX-861.1.2_29886.AAEXP-27356.1.1_29887.AAEXP-27357.1.1_29888.AAEXP-27358.1.1_29889.AAEXP-27359.1.1_29890.AAEXP-27360.1.1_29891.AAEXP-27361.1.1_29892.AAEXP-27362.1.1_29893.AAEXP-27363.1.1_29894.AAEXP-27364.1.1_29895.AAEXP-27365.2.1_29896.AAEXP-27366.1.1_29897.AAEXP-27367.1.1_29898.AAEXP-27368.2.1_29899.AAEXP-27369.1.1_29900.AAEXP-27370.2.1_29901.AAEXP-27371.1.1_29902.AAEXP-27372.1.1_29903.AAEXP-27373.1.1_29904.AAEXP-27374.1.1_29905.AAEXP-27375.1.1_29906.AAEXP-27376.1.1_29907.AAEXP-27377.1.1_29908.AAEXP-27378.1.1_29909.AAEXP-27379.1.1_29910.AAEXP-27380.1.1_30051.TW-569.2.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101454,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rskxRunCookie",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552019.666381,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613841436278476a4b2b336476457462756d615065427a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789096118,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "userCountry",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "verifiedBot",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "89b1c101-cffc-4cd9-9a3b-db2fc10227824dbd4d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789528157,
+            "sameSite": "strict",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "il",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101453,
+            "sameSite": "lax",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "wcs_bt",
+            "value": "s_568f0eef8df9:1757992115",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552115.338221,
+            "sameSite": "no_restriction",
+            "domain": ".www.deepl.com"
+          }
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
+      },
+      {
+        "name": "DeepL 4",
+        "cookies": [
+          {
+            "name": "_fwb",
+            "value": "103YghpRJBFNdYwdW6U2ffw.1757992208825",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552356.347479,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.712024888.1757992190",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069469.927447,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga_66CXJP77N5",
+            "value": "GS2.1.s1758509469$o2$g0$t1758509469$j60$l0$h1974053581",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793069469.925826,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.2025355976.1757992209",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765768209,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1757992203476.b2134b9f-e2f0-475d-814e-47c10d72ff41",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765768245,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "a2b5ca5092aa11f08ebfa52095eca565",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791688356,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapGid",
+            "value": "wAjHSxWosxBYB5gCsTiEiXWMvhWp3INPRA4HE9dDTthlJMsJrHYIA7ANawk3SQySr76Ta3F4DZXB9Vn8j0c4hZDbMhD37aNCP6WdLT1wpohhuCpoIKDsgGCoObo5zcU4ETRbS_zv-0SWo8a1_KOydsDhou5MRTa7FDkIvmKfhZo3VAXR0Dcj6A",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765768198.594694,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapSid",
+            "value": "%7B%22sid%22%3A%224ccb4b24-b830-4e57-b77e-4870dc5b2df2%22%2C%22lastUpdate%22%3A1758509470%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758511270,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapUid",
+            "value": "ae7d6e9f-9a66-403e-9a14-8b4b7215f688",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613465,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapVn",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613466,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "deviceId",
+            "value": "1f640e5b0a77d868ba85648f8c5c94c9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774061422,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dl_session",
+            "value": "fw.281436c6-d914-4384-a90a-10a08c96ca0b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1765768198.59423,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dl_shield",
+            "value": "nwL3TqFNHiacbtIdm2gYhWhKXdS6Jgc91RyR9ONdjcP0YR4rAfwIPRelXuhJkRO-yCBQmNNrWSZ5ShN8gKskTj9CLHX3pscPzFhuFMGmN-V4anldl6vP97hZEmFiidFboDhdQFd-JxXEtJYpq8-s_D3erqxzuV6M67s_Sc64ovou50nHJTrZYc2P9XvjCMkUOyZgnUOhkujVmQel3N15bK-BsO3GQ0vlafdcCewO5mW6CNVTfjanN-9x0x1dFLxe0hg6FQJ0-aseze7MiX3O09htS1eNJ5pl7SgeIv_ZGb3Idg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1792552003.524566,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.917474181.1757992199",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765768199.36359,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.sWJfuPJPPg5tsjDCEFHTO5m%2BfnXeNRUT7Ko3%2BGKksKY%3D.1757992190",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1793069470.363165,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPLC",
+            "value": "STjFySh7SAv%2BM91qlaVI6ra0ogwpvUx3o8iKbeaS680D8O9b8jhO8ZW6%2FSG2xK5Q2w8md%2BN13Pbp98TdjjPSzKEYqqk42OqOLFUZzqz0Z8f1mhduQy%2Fn8mZJqPXdqA%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758581470.363491,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "lastRskxRun",
+            "value": "1757992249831",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552249.83211,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "privacySettings",
+            "value": "%7B%22v%22%3A2.5%2C%22t%22%3A1757992183220%2C%22m%22%3A%22LAX_AUTO%22%2C%22consent%22%3A%5B%22NECESSARY%22%2C%22PERFORMANCE%22%2C%22COMFORT%22%2C%22MARKETING%22%5D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789528183,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rCookie",
+            "value": "8hauf3d9me62fbyixkppdomflz71ew",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552253.978589,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "releaseGroups",
+            "value": "220.DF-1925.1.9_2455.DPAY-2828.2.2_8393.DPAY-3431.2.2_8776.DM-1442.2.2_9824.AP-523.2.3_10382.DF-3962.1.2_10550.DWFA-884.2.2_11549.DM-1149.2.2_12498.DM-1867.2.3_12500.DF-3968.2.2_12645.DAL-1151.2.1_13132.DM-1798.2.2_13135.DF-4076.2.2_13870.DF-4078.2.2_13872.EXP-133.2.2_14056.DF-4050.2.2_14097.DM-1916.2.2_14526.RI-246.2.7_15325.DM-1418.2.7_16021.DM-1471.2.2_16753.DF-4044.2.3_17271.DF-4240.2.2_17685.DF-4246.2.2_17696.MTD-862.2.4_18115.DF-4260.2.2_18116.DF-4250.2.2_18131.DM-1931.2.2_18487.DF-4161.2.4_18488.DF-4244.2.2_19666.DAL-1445.2.2_20042.DF-4302.2.3_20742.DF-4301.2.2_21296.DF-4320.2.2_21297.DM-1605.2.2_21299.DF-4319.2.4_21554.DAL-1566.2.2_21556.DM-2121.2.2_21828.CLAB-286.1.4_22071.DF-4338.2.2_22084.AP-857.2.2_22087.CEX-1454.2.2_22616.DAL-1757.2.2_23141.TW-452.2.2_23668.WDW-1009.1.3_23942.CORTEX-524.2.7_23943.DF-4376.2.6_24183.DF-4363.2.2_24483.DM-2237.2.3_25083.TACO-630.2.16_25356.TW-768.2.17_25395.DF-4394.2.3_25399.DF-4393.2.3_25661.WDW-1262.2.7_25988.DM-2267.2.6_26271.BET-1587.2.2_26274.DF-4399.2.2_27038.CORTEX-631.2.11_27039.ITA-887.1.3_27040.APRM-59.2.3_27041.APRM-65.2.4_27057.DM-2331.2.2_27058.CEX-1574.2.2_27427.DF-4434.2.7_27941.ITA-839.2.2_28208.DF-4497.2.4_28210.ITA-734.2.4_28212.WDW-1345.2.2_28213.WDW-1348.2.2_28214.WDW-1498.2.4_28215.CEX-1994.2.2_28487.WTT-1729.1.3_28490.DF-4512.2.4_28491.COPS-349.1.8_28742.DF-4127.1.2_29016.TACO-709.1.1_29255.WDW-1375.1.1_29267.CEX-1978.2.2_29542.WDW-1555.1.1_26275.TW-568.2.2_27059.CLAB-474.2.1_28731.CLAB-623.1.1_29636.AAEXP-27108.2.1_29637.AAEXP-27109.1.1_29638.AAEXP-27110.1.1_29639.AAEXP-27111.2.1_29640.AAEXP-27112.2.1_29256.WDW-1374.1.1_29268.AP-999.1.2_29823.AAEXP-27293.2.1_29824.AAEXP-27294.2.1_29825.AAEXP-27295.2.1_29826.AAEXP-27296.2.1_29827.AAEXP-27297.1.1_29828.AAEXP-27298.1.1_29829.AAEXP-27299.2.1_29830.AAEXP-27300.1.1_29831.AAEXP-27301.1.1_29832.AAEXP-27302.2.1_29833.AAEXP-27303.2.1_29834.AAEXP-27304.2.1_29835.AAEXP-27305.1.1_29836.AAEXP-27306.1.1_29837.AAEXP-27307.2.1_29838.AAEXP-27308.1.1_29839.AAEXP-27309.1.1_29840.AAEXP-27310.2.1_29841.AAEXP-27311.2.1_29842.AAEXP-27312.1.1_29843.AAEXP-27313.1.1_29844.AAEXP-27314.1.1_29845.AAEXP-27315.1.1_29846.AAEXP-27316.1.1_29847.AAEXP-27317.1.1_29848.AAEXP-27318.2.1_29849.AAEXP-27319.1.1_29850.AAEXP-27320.1.1_29851.AAEXP-27321.2.1_29852.AAEXP-27322.1.1_29853.AAEXP-27323.1.1_29854.AAEXP-27324.1.1_29855.AAEXP-27325.1.1_29856.AAEXP-27326.1.1_29857.AAEXP-27327.1.1_29858.AAEXP-27328.1.1_29859.AAEXP-27329.1.1_29860.AAEXP-27330.1.1_29861.AAEXP-27331.1.1_29862.AAEXP-27332.1.1_29863.AAEXP-27333.1.1_29864.AAEXP-27334.1.1_29865.AAEXP-27335.1.1_29866.AAEXP-27336.1.1_29867.AAEXP-27337.1.1_29868.AAEXP-27338.1.1_29869.AAEXP-27339.1.1_29870.AAEXP-27340.1.1_29871.AAEXP-27341.1.1_29872.AAEXP-27342.1.1_29873.AAEXP-27343.1.1_29874.AAEXP-27344.1.1_29875.AAEXP-27345.1.1_29876.AAEXP-27346.1.1_29877.AAEXP-27347.1.1_29878.AAEXP-27348.1.1_29879.AAEXP-27349.1.1_29880.AAEXP-27350.1.1_29881.AAEXP-27351.1.1_29882.AAEXP-27352.1.1_29883.AAEXP-27353.1.1_29884.AAEXP-27354.1.1_29885.AAEXP-27355.1.1_30053.ITA-952.1.1_30055.CORTEX-861.1.2_29886.AAEXP-27356.1.1_29887.AAEXP-27357.2.1_29888.AAEXP-27358.2.1_29889.AAEXP-27359.2.1_29890.AAEXP-27360.1.1_29891.AAEXP-27361.1.1_29892.AAEXP-27362.2.1_29893.AAEXP-27363.1.1_29894.AAEXP-27364.1.1_29895.AAEXP-27365.1.1_29896.AAEXP-27366.1.1_29897.AAEXP-27367.1.1_29898.AAEXP-27368.1.1_29899.AAEXP-27369.1.1_29900.AAEXP-27370.1.1_29901.AAEXP-27371.1.1_29902.AAEXP-27372.1.1_29903.AAEXP-27373.1.1_29904.AAEXP-27374.1.1_29905.AAEXP-27375.1.1_29906.AAEXP-27376.1.1_29907.AAEXP-27377.1.1_29908.AAEXP-27378.1.1_29909.AAEXP-27379.1.1_29910.AAEXP-27380.1.1_30051.TW-569.2.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101466,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rskxRunCookie",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552249.832351,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f38644f635157786172582f4d6e4269584f5179466f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789096183,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "userCountry",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "verifiedBot",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "d879780f-c965-4c41-8f73-66de217bc9f3833a8b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789528488,
+            "sameSite": "strict",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "il",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101466,
+            "sameSite": "lax",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "wcs_bt",
+            "value": "s_568f0eef8df9:1757992356",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792552356.348408,
+            "sameSite": "no_restriction",
+            "domain": ".www.deepl.com"
+          }
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
+      },
+      {
+        "name": "DeepL 5",
+        "cookies": [
+          {
+            "name": "_fwb",
+            "value": "0Zt5BbKoG9lSC5G7DJIlf.1757412065072",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972158.043703,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.242296114.1757412047",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972202.666783,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_ga_66CXJP77N5",
+            "value": "GS2.1.s1757412047$o1$g1$t1757412207$j11$l0$h1358787310",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972207.672693,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1645082870.1757412065",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765188064,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1757412061863.2daf0c3a-3771-4c98-8a2e-87984d09d9bb",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765188064,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "e6179f408d6311f0a0f4bf70d2feee3f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791108158,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapGid",
+            "value": "XguQV5JuGUxW4C0ZnMjFwqQKZWnubgf4fisZh1U3xPCgPqRHJ6aku3B_bydTE38T4Qix3pP3pEPPj4zbNm6qUGqBGi58iP25bstzGVUn2Lwh1aiqPGNGqKtTZYx6n5VvbIP4UzPOcvly6ZZezwR9Z_kTpcuVois6bcO3PN1FHAwrYCPBtVvbVsNv",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765188059.860952,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapSid",
+            "value": "%7B%22sid%22%3A%223a4dbd29-6bfe-46da-ba4b-8e188d7c3051%22%2C%22lastUpdate%22%3A1758509423%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758511223,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapUid",
+            "value": "6765b4b5-6e21-4a4d-b6d8-96e27428bb47",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613419,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dapVn",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789613420,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "deviceId",
+            "value": "1f640e5b0a77d868ba85648f8c5c94c9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774061422,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "dl_session",
+            "value": "fw.558f92b0-5ec5-47ed-a7cd-79815b82e8a6",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1765188059.86046,
+            "sameSite": "strict",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.190020323.1757412047",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765188048.036987,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.zapMmPp3O4fd6dEH7PcSfhjW1gLFSsNrNuqe4eCXEG8%3D.1757412047",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1791972208.097586,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "lastRskxRun",
+            "value": "1757412072239",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972072.239679,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "privacySettings",
+            "value": "%7B%22v%22%3A2.5%2C%22t%22%3A1757412094845%2C%22m%22%3A%22LAX%22%2C%22consent%22%3A%5B%22NECESSARY%22%2C%22PERFORMANCE%22%2C%22COMFORT%22%2C%22MARKETING%22%5D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788948094,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rCookie",
+            "value": "kx5zmcbeei4ug0jkkutfkmfcdrtio",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972074.470869,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "releaseGroups",
+            "value": "220.DF-1925.1.9_2455.DPAY-2828.2.2_8393.DPAY-3431.2.2_8776.DM-1442.2.2_9824.AP-523.2.3_10382.DF-3962.2.2_10550.DWFA-884.2.2_11549.DM-1149.2.2_12498.DM-1867.2.3_12500.DF-3968.2.2_12645.DAL-1151.2.1_13132.DM-1798.2.2_13135.DF-4076.2.2_13870.DF-4078.2.2_13872.EXP-133.2.2_14056.DF-4050.2.2_14097.DM-1916.2.2_14526.RI-246.2.7_15325.DM-1418.2.7_16021.DM-1471.2.2_16753.DF-4044.2.3_17271.DF-4240.2.2_17685.DF-4246.2.2_17696.MTD-862.1.4_18115.DF-4260.2.2_18116.DF-4250.2.2_18131.DM-1931.2.2_18487.DF-4161.2.4_18488.DF-4244.2.2_19666.DAL-1445.2.2_20042.DF-4302.2.3_20742.DF-4301.2.2_21296.DF-4320.2.2_21297.DM-1605.2.2_21299.DF-4319.2.4_21554.DAL-1566.2.2_21556.DM-2121.2.2_21828.CLAB-286.1.4_22071.DF-4338.2.2_22084.AP-857.2.2_22087.CEX-1454.2.2_22616.DAL-1757.2.2_23141.TW-452.2.2_23668.WDW-1009.1.3_23942.CORTEX-524.2.7_23943.DF-4376.2.6_24183.DF-4363.2.2_24483.DM-2237.2.3_25083.TACO-630.2.16_25356.TW-768.1.17_25395.DF-4394.2.3_25399.DF-4393.2.3_25661.WDW-1262.2.7_25988.DM-2267.2.6_26271.BET-1587.2.2_26274.DF-4399.2.2_27038.CORTEX-631.2.11_27039.ITA-887.1.3_27040.APRM-59.2.3_27041.APRM-65.2.4_27057.DM-2331.2.2_27058.CEX-1574.2.2_27427.DF-4434.2.7_27941.ITA-839.2.2_28208.DF-4497.2.4_28210.ITA-734.2.4_28212.WDW-1345.2.2_28213.WDW-1348.2.2_28214.WDW-1498.2.4_28215.CEX-1994.1.2_28487.WTT-1729.2.3_28490.DF-4512.2.4_28742.DF-4127.1.2_29016.TACO-709.2.1_29255.WDW-1375.2.1_29267.CEX-1978.2.2_26275.TW-568.2.2_27059.CLAB-474.2.1_28731.CLAB-623.1.1_28491.COPS-349.2.8_29256.WDW-1374.2.1_29268.AP-999.2.2_29542.WDW-1555.1.1_29823.AAEXP-27293.2.1_29824.AAEXP-27294.1.1_29825.AAEXP-27295.2.1_29826.AAEXP-27296.2.1_29827.AAEXP-27297.1.1_29828.AAEXP-27298.2.1_29829.AAEXP-27299.2.1_29830.AAEXP-27300.2.1_29831.AAEXP-27301.1.1_29832.AAEXP-27302.2.1_29833.AAEXP-27303.2.1_29834.AAEXP-27304.2.1_29835.AAEXP-27305.1.1_29836.AAEXP-27306.1.1_29837.AAEXP-27307.2.1_29838.AAEXP-27308.1.1_29839.AAEXP-27309.1.1_29840.AAEXP-27310.2.1_29841.AAEXP-27311.1.1_29842.AAEXP-27312.1.1_29843.AAEXP-27313.2.1_29844.AAEXP-27314.1.1_29845.AAEXP-27315.1.1_29846.AAEXP-27316.1.1_29847.AAEXP-27317.1.1_29848.AAEXP-27318.1.1_29849.AAEXP-27319.1.1_29850.AAEXP-27320.1.1_29851.AAEXP-27321.2.1_29852.AAEXP-27322.1.1_29853.AAEXP-27323.1.1_29854.AAEXP-27324.1.1_29855.AAEXP-27325.1.1_29856.AAEXP-27326.1.1_29857.AAEXP-27327.1.1_29858.AAEXP-27328.1.1_29859.AAEXP-27329.1.1_29860.AAEXP-27330.1.1_29861.AAEXP-27331.1.1_29862.AAEXP-27332.1.1_29863.AAEXP-27333.1.1_29864.AAEXP-27334.1.1_29865.AAEXP-27335.1.1_29866.AAEXP-27336.1.1_29867.AAEXP-27337.1.1_29868.AAEXP-27338.1.1_29869.AAEXP-27339.1.1_29870.AAEXP-27340.1.1_29871.AAEXP-27341.1.1_29872.AAEXP-27342.1.1_29873.AAEXP-27343.1.1_29874.AAEXP-27344.1.1_29875.AAEXP-27345.1.1_29876.AAEXP-27346.1.1_29877.AAEXP-27347.1.1_29878.AAEXP-27348.1.1_29879.AAEXP-27349.1.1_29880.AAEXP-27350.1.1_29881.AAEXP-27351.1.1_29882.AAEXP-27352.1.1_29883.AAEXP-27353.1.1_29884.AAEXP-27354.1.1_29885.AAEXP-27355.1.1_30053.ITA-952.1.1_30055.CORTEX-861.1.2_29636.AAEXP-27108.1.1_29637.AAEXP-27109.2.1_29638.AAEXP-27110.1.1_29639.AAEXP-27111.1.1_29640.AAEXP-27112.2.1_29886.AAEXP-27356.2.1_29887.AAEXP-27357.2.1_29888.AAEXP-27358.1.1_29889.AAEXP-27359.1.1_29890.AAEXP-27360.1.1_29891.AAEXP-27361.1.1_29892.AAEXP-27362.1.1_29893.AAEXP-27363.1.1_29894.AAEXP-27364.1.1_29895.AAEXP-27365.1.1_29896.AAEXP-27366.2.1_29897.AAEXP-27367.2.1_29898.AAEXP-27368.1.1_29899.AAEXP-27369.2.1_29900.AAEXP-27370.1.1_29901.AAEXP-27371.1.1_29902.AAEXP-27372.1.1_29903.AAEXP-27373.1.1_29904.AAEXP-27374.1.1_29905.AAEXP-27375.1.1_29906.AAEXP-27376.1.1_29907.AAEXP-27377.1.1_29908.AAEXP-27378.1.1_29909.AAEXP-27379.1.1_29910.AAEXP-27380.1.1_30051.TW-569.1.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101422,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "rskxRunCookie",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972072.239923,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961393174556a594c4d6672626f616a37547a464e4b6f76",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788516094,
+            "sameSite": "no_restriction",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "userCountry",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "verifiedBot",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".deepl.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "21debb28-43ac-42be-a59a-3536d32b2f22b9e614",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788948249,
+            "sameSite": "strict",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "il",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761101419,
+            "sameSite": "lax",
+            "domain": ".www.deepl.com"
+          },
+          {
+            "name": "wcs_bt",
+            "value": "s_568f0eef8df9:1757412158",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791972158.044466,
+            "sameSite": "no_restriction",
+            "domain": ".www.deepl.com"
+          }
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "duolingo-1036",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -18287,7 +26072,7 @@
   },
   {
     "meta": {
-      "id": "educative-1030",
+      "id": "educative-1037",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -18713,7 +26498,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1031",
+      "id": "epidemic-sound-1038",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -19928,7 +27713,7 @@
   },
   {
     "meta": {
-      "id": "everand-1032",
+      "id": "everand-1039",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -20146,7 +27931,7 @@
   },
   {
     "meta": {
-      "id": "figma-1033",
+      "id": "figma-1040",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1529307847297173012/recents-and-sharing?fuid=1529307842546721481",
@@ -20362,7 +28147,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1034",
+      "id": "flaticon-1041",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/profile/me",
@@ -20462,7 +28247,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1758509403.361098,
         "sameSite": "no_restriction",
         "domain": ".flaticon.com"
       },
@@ -20916,7 +28700,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1009",
+      "id": "ground-news-1011",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
       "url": "https://ground.news/",
@@ -21166,7 +28950,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1035",
+      "id": "guitartricks-1042",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -21445,7 +29229,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1036",
+      "id": "iflix-1043",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -21715,7 +29499,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1037",
+      "id": "iloveimg-1044",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -21877,7 +29661,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1038",
+      "id": "ilovepdf-1045",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -22030,7 +29814,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1039",
+      "id": "linkedin-learning-1046",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -22331,7 +30115,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1040",
+      "id": "marvel-unlimited-1047",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -22608,7 +30392,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1041",
+      "id": "masterclass-1048",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -23035,7 +30819,7 @@
   },
   {
     "meta": {
-      "id": "medium-1013",
+      "id": "medium-1015",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -23115,7 +30899,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1014",
+      "id": "motion-array-1016",
       "name": "Motion Array",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
       "url": "https://motionarray.com/account/downloads/",
@@ -23374,7 +31158,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1042",
+      "id": "musicbed-1049",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -23541,7 +31325,3191 @@
   },
   {
     "meta": {
-      "id": "notegpt-1017",
+      "id": "netflix-1050",
+      "name": "Netflix",
+      "icon": "https://groupy.id/assets/images/services/netflix.png",
+      "url": "https://www.netflix.com/browse",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Netflix 1",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "1491f67c-6302-44fc-b65e-82a8b74f543d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596250.983127,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285850.982957,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285850.982709,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLzAlYKMY-gVF8XrPFPpaCeNjNTtBzie_NbZEi2dd1d28LLQuQFJq8ZWN98GGc5xGL75136H5M1hPBmOx5lK2QIwM3xEYBft4KJ4iEsYIY5PZL13bX3lOYe7d0K2atMx-qs_Fa30VmvDxfthssTIqPzgEmWDrzuBfTvfL_7AyBxXRUPe8_Y5QU1gAaL39EQ9Bjgiy5vCE6SJUTOP1cj_rOkhtbg4iRsPxOM9Uxma-AmCKUdPy1wO16LKEWxrv5SP8f0YRkgm5SIrr6H_zNQi-oPrRhipqaNi7K25A1r9LkZoCSBF40uo1mwj8DzW8yy4yVWj_nhIdGNpWlhnMnU_eficT32YPrJZwTOQl5Qi470WEuJ7aexR0vCsNGZacc8QNgCzY0xiBXu0gmQZ4Eg9YllaVgjKxNXyd5DMvg7Zlrx8kZfS8oq3TQYs5CjI0DgpTHDAb6xyxSZAe59wmbdQh06d0kJ976gMc1_dGSFEovrulgnzfllGAYiDgoM4QqOqPgvFb1n-dyR%26pg%3DTVG7QHTNY5G53E7IO3ID33DWAM%26ch%3DAQEAEAABABSMq6C0nNcVFc3phHpuKDmF5OEnXyvulP4.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045850.48237,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEGUCwscX0YjK6p0q0kG6QHxgfdUuOpC3LL-lM29ftHCfc7wNFMLglLqNx6DaUAE8zaipmqlAE-cwK2gLBgJAePKLzkGiPy_-KHm8G2zLbGD4XtBY7nrWk22ML06wabeRS4BXc1kNZwffnJ8hJeMywU8b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788942587.941625,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A57%3A31+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=cc40833b-cf52-460f-a35f-13bc777d6fbe&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045851,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQk1JY7-HtSPRMtTKRnGaSjYGKBkTeutCs.%26dt%3D1758509850340",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045850.482088,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b6f7758377a4a722f3731704d6b4c4e646e56736533",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765606192.107329,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 2",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "93b9ffde-bd78-4d05-b3ce-a99a03a81e65",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596262.56479,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285862.564577,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285862.564246,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLxAoUPVwmTeYym0Io6RSFhokGwF_-AXRfv0dQ3LO39mlNC5kBNdJEPYW1RmO2_6LIzlyrcV8Ir_oDtW2KfNmbAFSFvAUjf2Wzj8A63LvdNDwk_fQjOX-mzpGtK_GGWMxMlqrlePFms8mQEPWA9vgekWP1PEBxewYPH5qbcXLBJwpgw7jvNCUJ_7hFOGJp8mMW8F_7M6xdmwEcSxmDpYeORsn6Jn5HPMP4Ol1R5jTNwcT__3FVRIuYS8SBsrVaulAy8tCkGMPj7KjgO8ysy87S97_0A1p_oCg3BcNesfX9I_SzwtNbNtHProS_CddNvGwWouoj6xaRHSvk5F63MnFSZPo7TLwK8BGCeu5SeGX4JOw-hqwdN7wgHN9NLf8GLhxSe3PG-QPNbKCWHdOXmmKEGSTUDqTfgXNADKw4VEhWl5IX19NnJf0EYi3ci70k2x1dtorhCYO1GmcYfI901Yu6nj3uwvfNNfLELAWHAJ_AG57LmmxgGIg4KDIJDZEbkZw4oj20xyA..%26pg%3DTK7VC2L2OZB4JPH4VOXXQZLPG4%26ch%3DAQEAEAABABRlEqC7kP65OKuHnGoThgyPXG7U6NId3jc.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045862.003509,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEHJyV1F6fbbUp4iT3SsqmnNgXl9H5G0-4OxYvYlNoX9FUqa_89yGzPVm6oUsf6SOqrvWfZ2DnEQOa0xvX1XESh5gZ20H4YCO179zoH_gxXjWJXW4ooLYR6xWFvAud56cAsw9bH3CylsY4gXU1mDva_GY",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788942667.384321,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A57%3A43+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b86d5860-52c4-4541-9969-0ac11bed67db&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045863,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQx69j4EpLFwRq5bIvi2HHwCXKJxSLztwE.%26dt%3D1758509861861",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045862.003233,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386964717a6333376153774868303933704b74457735",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765182668.107666,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 3",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "2a67eb08-0f54-4d71-8356-346c31675a8e",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596276.139509,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285876.139289,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285876.139031,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1Au8GLF1Oyj0p4cFuE11waEMGoeXw2ouufHkbpZoX5c4iZgvD9qOTeyNS9xpP0nEf6SIiBESMmC-nE2LctIp6LHJeO9o1oQdJ9-n_Kf7Wb1CkJTTrirAEi9qNZDQLWHyfJBRDHIAzkAwxra_XOo69cg2PNg8Wl08ygs6GkpZ2UeIx95KZGPVHwfvtJJ5hzQuik5aaBWyeWRrKEfds7CXPBQF7bAmxN4jaY4haeVY0F0-i7qTzGE-cfzJJPyvsBodOoS7CLFd3jFPn251CfAOAt4i9ifdUtVCyrUcRF3F-EmRVJmhP4DdwGRgaJptMQfkCEK_Iz_GQe3f7NIKeHro-0tPRt3Q8KTX0QPc-_knig4inajv4P-Xqljj66wi8z--0-emcTIF3d5immOLI7vYg3uWUAdKRuFEZITtJSaKeiIOwFRWp98ssbvnpsiaKjhvlzhaRj4aBlq43QtUHhRfzkYLHamOExHtGcVxmMezbI2erVyvJ0qcYBiIOCgxSkpknwqkzInX9Tyk.%26pg%3DSYPAXSBPQ5EXRMVLENKA4SANUA%26ch%3DAQEAEAABABQd0n96BeTmQdXMogknVKkVHyYlRLXOrhE.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045875.310658,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEHn-HoeQZZCtHsQVFdLxf-hgsRcJa5PI40mYMNbBqt1nb6rTnAhS8AY2dFpd5PrA4yetOd4yNOmuFlbnYJ1foerTrFt9BB2fJSaEQdQM787WlyxD9i8L9XY7yrfWMaWE2UzdtH9cu3Uq6uuTlCNY-w5w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784293353.416379,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A57%3A56+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a95e1d31-acc7-4bba-8d22-c5a7b71db690&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045876,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTSTMdwVcd3ZWa35bh3h8qNjRJRJiid538.%26dt%3D1758509875166",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045875.310377,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613841344b4e46486543775363674c704d5a6d496f7459",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761121054.716532,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 4",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "da666f0f-90d9-4dee-8ab8-3e228a75f056",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596285.61927,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285885.61738,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285885.608069,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKQA64z5Pa4ys86_zQLC7XSjNzY5qKUnFsoUl8TQWVBLmIRQ7A0HCDYhIxsxEzuhxNLdy2DnnTEI8VWWo6NNpIDibzVx2HjCs1BRZyei-_4LHOkQwmRIbELzL-Dfwgpz4xRiUeySeCHw7PejnBVy2hG27w2D7SII2E7UsvfkHb682sAH-2h00UxiL7Ty4AzJa6RZ7laY0BLtvV0yna9O_5UTcrjM2vtQPu0122o7B45i76907ADlTX9_kznZXFfmfUPQyxljkAO90ZA3ew6UWsKKYB_vvPhbMBs4hy-RO0R_v0oJksTeNXDjA824sX9yOsyvv-MqtVuN2t-kpUy6-barzfmIzMdnBSb5wT5jfegO7atZ8hUlgcBcBc9Qmju4eR0IGjx15ii2_G9Y3JyZlAR75fmPeW60HMi8RuBerxQFh-6VWcui4ogxfDyU5HqO9nss48QfWFJkBg1tdx5qNlkUHiIRlPTPWcHSTM-31Of62GZnc5ypj3p1sqXCIFA9now_SjUzqlfDxRdLJhZs-kG_WMYBiIOCgwBGkYYbEaqQYbPj9w.%26pg%3DEDX6UP4ZLRBBBBBUXEVDW6TRYE%26ch%3DAQEAEAABABQ3vjzTX8c_h9bNUA4T9V9W71Nm2b8zvP0.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045885.617938,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBELXpFvEhbWMEMMEg2RZhhSxg5c08m7B0c65KYVZCM_VVbN9Rj3Rbv8L0-8VsU5nSHZP3bkq67JY94qptXdgJ2ialKouXIHEwl0tY0NElxLscTbJ83o7zhwyuxxJHLNl-O9IkvSLWO3-MtkeRIp5k6jw9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1786262985.808987,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A58%3A06+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=c170c2c8-756d-4c26-8e57-d4948451e5a4&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045886,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABR_kloD2Jn98yDgrFUZtmNn5Md2kdqY-lk.%26dt%3D1758509885396",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045885.617641,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b424477503268524a4a4735313464525435592f3936",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1762502986.38685,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 5",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "22169fe9-f0a6-4947-943e-dbce2ee7645d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596294.566913,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL4Aky1Jzx1OCPP1grEtzbACuJjgZYZSuCyetE7elixiNRD8W2VLN4Mx6JRC8VXnzIyjXWPCeIUVTFeLot4jq_SqbL-VeyAQauqgAj4Fz8oxGFQhIhE50dJT7ugUeJ70Dh3m1krPQCvS8o6E1cMfaNG1j6UsChASpspz1vUn6aANS08g3CTrbgjrD_tyRftZVW7q7wtnVDec-brZZAdPZfJLvgEpe2uWPw5SEcqbIkWKIzf_lhT8vzuIiRBTSb2g5rtBlwpsOug8h1C0Co3jfYTGZppYXmdPH196r_5as99nFC73Imu3HdWdiX65AuIMN1vptGgOZlf_XVDYKL-teUINY7OKm-DxL3xOR1yvOyT5wxKNlLLu-M1NKmNsq8e6_sgLFPVJGuIqqbEeYyGvDEJK8FACZkSA4yWKYTS_Hm5jnOynOpy3skUnnhRcohcEa6l75-U__w87Bk9yTADiF3_GWfTjxL93cq3IT5XQCRsB_Dfeb4SUo_ARFYYBiIOCgxjXnfldT3o5ukatwU.%26pg%3DOVNQ5S7W3NHDTESL5VBZQWRCV4%26ch%3DAQEAEAABABSnS0-LoFgVfyY3VUQsphKedY8sAG6afw8.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045894.566667,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEITfwa169teMtSSh99ZeoFhgIT9A307WsyJYo0z4nscyJqse3R36NtfBQ7prwoetpKNuI9xn3EydxaVnvXTEoyNLAI3L70S7BZ3cOuCKftSTfnXhGxiNY0HP8_7N6vGhDCbfvVxXNzmkW832F-MMe6Jy",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1779787769.59297,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A58%3A15+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ee2e4ab6-057b-4969-bf08-b9cd54947e31&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045895,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTfYHIwW7bdUVLbBM-qA7OiG4Dn3hDNlT0.%26dt%3D1758509894388",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045894.566453,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 6",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "c1a3490a-7e20-4cef-a7c3-9b7dd9b44347",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596303.805073,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285903.804553,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285903.804304,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLxApyJS0KqXChyg5PMtGPHljtv6BUExJ_DuludVk8Srdphmi4_kqk_HO4hxlueoGh1H0_7ZSMSBK5QemPsdUaopNk8DEhbImPr3q0NsjyCdCR_PjYiJ6GIE23cUz6uBc7PkVEiadqxtVd0BgcarBV40WcmtNn9_EhQrnrs-sUQQfTMNympSkrsbQizsp-3KuaeoPie5Gcy8DU7thc40rsCIgUdazi1m8Due2txikrou66TOVbs9C2EMjD8f_mcFX80r3RzP1Ekf7T4L6dm06e03VQFZFgqDD9_3Q6HFS7YrjgXr4boJMldODxBPSKL9z5FVks-1TjGyb1784Rsix21XTdwSiYnRALXTPHOhIDGfG-sv6fV5yPi6frukt0Kye8Bhf65K0igk2I2Hz5_oSB7n0UUh7Hb98zpJeqGN3vpNgT52GtI_e3qfk0LoCFQopRyjiiBQpWMKBCGC1xfNse1AZYxzODvPzzmL_u-drKERlLEKBgGIg4KDDCSjhiEI3JqvsVe8A..%26pg%3DPDAB7VSJERDBRPHLGFO2TMPZWE%26ch%3DAQEAEAABABTIQe27clDHtzloG5KuvbzAWUcbYFvbOP8.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045903.804872,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEKHI8aPOwSVh6MGdVYY-YKFgXcqGBoa7szdESSMOnIMG_k2dFUjvVAebcF4jwOndn4cCKnpybUeF7h_N6H5aUE5VN-cPizwqoV4YZEfXS2vY8PklNe7TD6N_JC9deGbrUf12X9AIECjk9sMtSlwRvYTE",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788942687.057461,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A58%3A24+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a9e22a8-bafd-4cf4-bd30-b9062316a246&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045904,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABT5HFhQ0y-svxPUN8rfy9VDaxeWsHQuXfU.%26dt%3D1758509903626",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045903.804734,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138474c61787a6f33766a6843637753586c6559623246",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765182687.544719,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 7",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "a2d6e5dc-b8c2-4dc5-ae1f-735fc359140b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596312.333167,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285912.332434,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285912.332033,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1AiPhFGN6ET6bTTmUdBEjz8aJkErJHLVaYUSDtocBrZ1F6Dk6zLVM8LXDYTZ9NpKR6YFsoQVgGoDZl1xaI9grSY3U9gQDhFqE1925x7LWtuWL2atMJPafUSnCTlYTAYuwwRGbXh7_YSg7AOsJpvXpMJwf5z8uqFhFQC9VLNUUNIlYm57czQdByYeZdQtvlJscE7uBhmlheWK8KRTSY3IoZ7eUr6qjrwAzvxqyhsw1d70fF-My__otcMZlwjoLYYHUAObzrHeo0SICzKCsYCPbeMI9nbQ47BuKR0q7gBOwyBCA7RxHv22i5-mKgjWjtkLBVjdcNidPbMbccX-6f1IYWhGN53qa42izPhvSoA_gShcBQMPm-HQ12qQ7JYKnQqE0RFMcq0m2mOZkSIk2avAsDfkY_Az5WEsEDkwtO1ry39SJsNN54Zbhgr8GwsguQf305jwRsQKCn4LrzHpjzwUa6I2YPtQ8hQGtCjlCnuMNRNs4XvgVUkcYBiIOCgyFVaIWO0UQEPKp1Bk.%26pg%3DF5SSPNCSNVFW3B2QJEOOGNQ3JY%26ch%3DAQEAEAABABSgjzdlqAbjRDAAUHqUOUO2VEErQPQwjjY.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045912.332795,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEJz1J8ShHm1caDNSz-F2Bypg8vL_-23nWuBRj-s3uQ5K4303C6aRPhsPXbMdAx3eTr0n-4MT_DFElshZ9sp80Hi3cnmjb32REGccGS0Caw4HNN8ZoEvSFSo6NdtGwPFwjmP1eP1Bq0A-cJidU3lsc_WZ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784614511.924185,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A58%3A32+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f6545eb3-6273-45d9-8fb5-9319a9252ec8&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045912,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRQT0Z4-3prjgUbrjlA9gHg5BxMZjTh_DQ.%26dt%3D1758509912153",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045912.332644,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f657a68385538633875714b71486f413056416f4b6e",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1760854512.618099,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 8",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "834371af-60be-413f-8619-017206a33985",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596321.634354,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285921.634157,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285921.633908,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL8AmLftc0hXBv4y0qPKCeqJaV15YnFJ6kRN2yASs4HA5Kh1oLeCqN5E8Z3gfVeQtIgwcQ6Bc5th_FcXLcNvqVZO7Ru661YIuKoMi1I9etPOA6I9h1VWt-vtCLM83jDquZASn275cxQuhfFpL94hX5lEo49Af2262B8W9-xojmlgi7fKULHvpdqP4pXmkPUFtwrSfJE9e0kzbFzvxd3XNYY_GtwVsqHSRn3-VpQ3850cVa5m15_u45RPvXDPCguX2voLUtVnbwxb3pWpUIdm2lRlvzhqaot3T0G_-i2cHkqqrJi0ndfo9q3spo9Ga8foNGydVO7ZNVAZzuvTc_wGH3UhTGNlBzHu0qDEqihZ-36aPjy1nn0x4kbHnp3wN9O2stJEqy9BoSh0FUKwgL64w0VIbk9iwz6EbUcFNSX6Vyc2Y5zByry6pvn62aUibB9tekwwl79VGZqszJHJBSKYvfAFkeIQc99YzEGxvtkrJJgGZrqtjDGksFHd25ZZhXiGAYiDgoMhkvMZCFXMRRHaqux%26pg%3DBMSXNZPUVBCSNDA6KSMXZL7VTQ%26ch%3DAQEAEAABABSdsxXUYTK3ry5j7G0zzI_75Og5GFmmMTU.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045921.185238,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEPGgkYQ-qS32vwVtenwrvgdgdvwdBb3t8RDUvTKQrV7Buh4zk2i6fIgrLCiQAW0PaXm52Xd8jhg2PIBLC1KNVDUNHCuj-0eTJiGBPegrZd4uqP-fLcLDPzIB5Yj2mFQ9dcvQR0RBfq5mq_tHWmWn_uWH",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788681630.500682,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A58%3A42+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1e9d36eb-bd81-4a10-9d90-79b03a4c11fb&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045922,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQmjPPBkbqiWlOr0aNAgoeWhXFoheWuNwM.%26dt%3D1758509921040",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045921.184897,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961393054316b6755744f367a7167346c72384e746b5436",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764921631.04243,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 9",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "abc0ef5f-ee2e-4abc-aec9-b0f8bc4b6bac",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596330.447051,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285930.446493,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285930.44624,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLpAiOE3aCB9VBgG3sKxi5ZCjgQmPqKra5SypZmDJXCWk8T1qfSNxLMD_l0OSTbKB2psXgZ_V1uiQ2vmVRNLrD_D1XJfhWwP5rTT0TQbZPm8nqzaEpTLYqKGFh-3g0aRSN-O9PAHMwli2CuD-iI8v8kxEPPkTIkGkTpT2-EEHEwfnAvHY4zz-EWDBadLb2z8fmAh13E6v9OV3B2Ra5wdafzSorug9WJ6W6JQEC0_cAcbi9rqHRDjCjigVGfigng5H9RprB-FdUihLt5eE2lASpRJjcZQq4vxT29xqFOWr55sdBGlKbC4ddxvf16R0NOIDJNWcVFPVtvP0yb5ZLSEFkGERdL8kEclwZAR0-Sf2TthzVMWtmY3dRhXa5g8mIwJJxRFqT-dKQdmzWnt39VoofmnKkat0hX3Rzy7Ah4HAz_eAYMTyngGRKDOcDltU1IlgX26u8SbaVtKwveYhrrtyVUN0XZIv8W-3ME9aQYBiIOCgyVmHD0AJCO0ng8dnk.%26pg%3DMNR2O7TKGBHZRPCCTDVV4PEMIM%26ch%3DAQEAEAABABQ3S4BjUp3fwEkAvPrPXArtdpVZ-otXNuY.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045930.446811,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEM62nIBTYme0w-sbn7XHMRxg6PykVDqEnbYLlZHGGEnuuqG8soWoG_R3c-zbMLeZBUySblo4pSP9-QOQTmdQdINkD82t2w_2qDmVKsSx10mIpXfASuATK5Sia8P7DN8QxBD0wlaGxCX2_HDA96EgtIK_",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785002166.401676,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A58%3A54+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6860eaa5-ea17-411a-b0a4-9ebb6b0f9b98&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045934,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRBSK_6hzXfCAw0RPWmIhqTQHrpO4CLnw8.%26dt%3D1758509930268",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045930.446673,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139432b5046644e427634706f6276396c303535354751",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761242166.967199,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 10",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "877c7415-56d7-4d19-b00e-fe014fb701cb",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596342.988516,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285942.988339,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285942.988093,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1AgCTz3mkmWqDc3vyHp7zFbv5R45dAX0W_gYfhw7S9XxwMo3IlIqtlDU-9Y95LhGWoZ1zuoJT2QYI4KDVrQbDZqUe6nxdSRpnG6ZbBTKlNoOvQy2ULAbYXwRWCtH43qhY8VlaFnte17Ov-IBdxXj3sEKystZwonvfNWsBf1cI0zoGPQd46RqcpNlr98XJuL5qwzEakggDlYmi0qcW7p5qUq6tm-jHnknWNbF2cPLLRvZJI9wFwjPMT3kK5uub98W4YEvxaBsPHLySzFunJHPJhZvcZhLXLiX1VE4T-BhmSBAGcZ8pmSu-ZJucIZ5WlP0DYluPwf1LJEVK1dUPNIv_mkZX2raW0ed9GH_rjGHiTzjJYx3weMig68adZjj271KNP4q5vbVgVKw3Nu6ex_ubqB7mkqdm8SO2ffY22I9CqciPbZMMinHstHwq6600g0Y1wHTjXpIlv3Y7GiV8IoOx0B05QniSIjwMc8rdzfhQdeWnP9LS9kMYBiIOCgwIzuAOuplHEkGOsWI.%26pg%3DTKR5BWFDKZCGJGEPKMYTH7C5ZY%26ch%3DAQEAEAABABR_1wJc-CcgAQFQcwf3LSJfXEOd1LNeGHA.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045942.12818,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEBqDwPFv7YZ_ga6s1-qEKUVgCXw3AcW3e9IR6yepyK7QnEfXxOoO9wzeSAUCH0u4jiC38S-6BWUmQCyOzDDHIgEb_OM57wE4eS3jgmQz_Ac4TywqxPgpLZF9ShvFLh8aubFDAKbrwWjDPNazVowpMXHm",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784293439.986854,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A59%3A03+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9f672def-fb2b-41bc-8e69-e3ffba6d4a3b&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045943,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQ7Y-tNWIFI_ejplYbtTNMbeeY0uirg8iU.%26dt%3D1758509941985",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045942.127915,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961382f632f324a567537703644614f5171597954355539",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1762766501.587797,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 11",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "8b2d71c0-1e01-46c7-a451-96af944fb13f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596360.74898,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285960.748797,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285960.748528,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLuAloHMIn_F75u-tR8jxealbu4LnJvmK02bIi8sDRw5FLVKv_SXm8SFns9bQTO7S6lY_Nwqf62C_7s1snaOEZ-ow42rF96ZXJIhG2qkxxvPwYgKM19RXDkk9anqqEgfXi6P-WMTq2er8AaE4s-DNnJed9duAUMYSp-foAw3hDImKMFamIDtyUlXGhpaPXbZiS5ccCABf63a-I8jdXIC-cb8RYVNDhtv46cLUdUKUVh4mA3RvmNt0992tF1wrKkj8CghJVTAklJ-nhz9AM7hAc0N3t8hp_avDxvRlLnq1Zcj0-qQq5nVyYoT46oSEpbHWLgv1BKcUjjAVbAaNKKGyFfOYTxZ18wyaSfTggOVRCzvb1BAW9AJuGnN1bH26O5etYHU8MTjkwjrqpRQEx6CmchqXbjbhHLu3rAhkLbkAv3yAS5e62AmmSCojsqv__dc1jhquHQlYpJZCfmDBNQy1GI38QRU4XB7C6eHqpvq4qPuhgGIg4KDHfQlNQIESYQ6J-qMA..%26pg%3DDVE5W5MYLFHS7GU7AN6U65ZS5E%26ch%3DAQEAEAABABSgsR2kVXeovfacabqkZRmIkr3U2MzZ27I.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045960.201623,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEMgCXoX6XoDnOCnMbSczJrJg685lym0X-5zApiAafslmjoSEsHw9YyUpBTOepPwWc1rsVoQsRVoY9e8o-wNDcHO3EuuvVLjNWUCFuXFOCHPD-YnsqnBBIQUiro4o5XlH3yBKKXYwZ5A5lKyGuQs6NWyG",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788681261.957193,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A59%3A24+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=dbe797ef-ed4e-4260-832a-fb460880d2f5&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045964,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRLq5-Di1FzrqWrmruhX30uKTzTQW5luXM.%26dt%3D1758509960059",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045960.20135,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961384e31454863355268396f6f4b6b544b736372574872",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764921314.203854,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 12",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "6e0f0155-c1d2-41c0-9edb-76bb4aa317a3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596373.334448,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285973.334265,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285973.334019,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL2AubAfdloxE99kG8yG7L37LBk3vbXWWhT0AjhIE6m17ywWZzfcpqR_URQfixrMOVrEQdUqB_Oxksi-hm6w7uDZtxrXAe2_ueA06zMleX9RSTRTvkTEfFs71dIsW7Aq0_fp8P_Sx7dPi8gQ49mTfO79OAXpZsAOqJ77FRAj8e7eu5zVwpkBntGXvjsWTQslBIS0QejSk4wZWFM4aS36c9BivUeYkrz7SoQijpUpDSDsbYLpz34CppNr6z_ejsHEIUUImofUE6LyrPqo1WFbNONdyZgB3eQIFh6-N6V1eAFpCbvIQQuAbWb_idsd9accXsZ4C_NVqGlk1BrhfvzaZ3-fWfA31vvZ3Pgxa_vTlmUKGUgR6V3ugzZEFitoN_ooTyYbDv7VSgby0olZwsyk4Xc12hZkpftFHH7gW9O6Ghaivv2UQ1phFT9gRifDQFhZwTtqGvnPo5CohXeLzg8rjJDp6k916BBYJlZVIA0IirKYJiazKZFiQayGAYiDgoMnU_La08QRRtYBxNM%26pg%3DWEEXSGXH2BHLDIR3673TOCZRMM%26ch%3DAQEAEAABABTyzhYAQZwqzTTk7UQ9N7crJ-pPYunUAzo.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045972.785179,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEI6Cqq7Gjvv0lJFTEF03F_1g8ho4F8igG_nfMrUNt4l0XeFbOTOnyvev5qO4HaPitfTiSK3-4-k_l4jedHes2WlhOG5plg3sdc79xsv8U2ZgpqhhRhXbOWOGPxF2XngYGYQOoadqKXdhTb3vko2EBdKV",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789882230.23151,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A59%3A33+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8dcfa8fd-d998-480c-94cf-97228af13ede&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045973,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABS4cevCK4gIv8WEU_S9-HMRuy042MPZ7GI.%26dt%3D1758509972641",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045972.784868,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961396573425676506445434a6958713957626846374a34",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766122253.113695,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 13",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "38c8cf9b-44c1-4649-94bd-146cbc2270e2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596382.56824,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285982.568064,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285982.567788,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLqAka7EyREwwwB3uxGhWP3vT4A9b79pQlVxQvdL1uHraBL4So_vVeVXnJ3tIHCnjNzyQ9sM0RiBkdGno_Z59Ln5YwH0ym1JWj5_czLlt0ZHUX76q6-98RXzVfpoNnvdQilZDE14QD3LpaPY_WUjFTpQKIHw_mlBQVKul49JgeqZSop7lcDcHkZuQmSxjH1lNJd2qAx2GJaffx6nal8-DDSrdQfc7HapKQn_nUNIwLZms0Jd-BCMjjUExTaRLugmMdJae3C9gXRDN7F9EbYQhr6GOsMWb3Y4Tpoqph6KOhE3VL0ERDuAED5YocF4BiJKxrskjboRLrSwisGeVClq17LRgmwRPDSzyOedJffotaa_KAiSWPV36PCMexSdHeOrF3CF2krqWe3NUU0Hfa_xkngUXxEyR2kh1i_um1DafgtnfTp8uLweeQPRhOSi0lmhn3PhA7ZYGVz9FmYyC1YR-P-yPznNlBj19yzBNTqGAYiDgoMSb3qRfEINRT2TmTs%26pg%3DKMSIEDKDB5HZND5KGBHKTCCYF4%26ch%3DAQEAEAABABRGHlQfzh4oC4_rzqjaUPRMKST7DVklHPA.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045981.798591,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBENzg57w-nEclRDnau-4I-TxgN0meRNwF3jhaRYgAP80bcIWBdXkD_hxB5Vh3wtJs_3qFrpTRsQ-PIsmNnP6bLF3fZTl2EuJ5ZGoYWh8k6wOK5MCDwdrZkfOCFW5AWjXOWRzspkF-yC7Rp1Rx9MrgJ95l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1786981930.671084,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A59%3A45+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f527cc1d-64bf-4458-8f8e-e6c139b3f33c&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045985,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRTfz5xpIjC9fZ-Dlss6Md5VgHRCdKrrJI.%26dt%3D1758509981655",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045981.798277,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f2b433938714a504e4373644e4c5168565530497868",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763302405.603112,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 14",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "eb7b4cb1-a437-4b9f-98af-2d76bd03db8b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596403.47048,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286003.470302,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286003.470044,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLxAnU6YRpCtWbzhXuE_jXokwim5GR8OxERPnGXyZH2glFgU_D_YdH9LDHLk96QVj7nG9R2qo69z7DeC3e0SkEZmxfstIHLuQEpaKFnOeMQSERgY0MM5ANFkZMmVK84qh9-SxiWN9Rf9no0eS-c6c3TIyZYxMffiUNA5tkS-RqcbZG1XGdY7GsV-xKNBhTC7RNOEECmhq5s5LPgAXmgAC48xJxo8Ol_UPmrMLDxkK0per5lTuY0-yBf5ZlQhekF0Ca6rIGzGaIukzvTtpGV8qTS4EiddSuXQA7aefgqmSKpmfol7QW_Ng3qhR5pcEIDXWF3JRuSzo6AIMHQQeAVbF39P-8eaZAPlJ8P54QS2f2SJxgCHijFYHk-uJnk1O_C0XnzsYxXjazbIaupP_7sdxyghkl2j7QD2RwzoWxBLOdytBm7nBHzVjhNZFSSio9IuRKp0JhbeE3LUd-2K31_PZDEP2w0xW7SsGrP-G5JtcXtCa_5khgGIg4KDNxFHAO5o1AdeECnDA..%26pg%3DE6VFMGDBEZFVRPN6SLZJGGYL2Y%26ch%3DAQEAEAABABTAcC2EohIbUrTu-5eVb-JXWq5SWBR_JfM.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046002.928284,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBENVNlJ0qx2QRao_7MSVKSOhg-bJkDOreFg27wAyOlG7RSA9Z6z9rGsI6GBcIYNoXIPo3nV_UkYXNq-ntXC6SB0u-CjCXDI7wQeYT-FtbCHHC23DNu9tbNSf0lKqgrczocmXjovMe_qLmd0fXXPx7n8Ab",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789580065.656859,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Wed+Sep+17+2025+00%3A34%3A26+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=35c7b21e-df7f-4eba-9d50-e6ef0f50121a&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789580066,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABT-bR9n9P56kEjyAO3yIEmVTcMc2ZlzGoU.%26dt%3D1758510002785",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046002.928018,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613966736a775a72796b6e7656752b657a6d6868625974",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765820066.311152,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 15",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "b879592f-1e8b-4346-94d1-569d3ba8d9fb",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596412.409982,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286012.409776,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286012.409523,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL4Aqa8-zthfn4UnKMgGKSAcBJfYoCHGPcOQTWosFvqU061NUSGRYcFVowYRlXGh-rt2kzoU18x4I4W5QSfL3hrn-C7TlScnlWZFVoEFSbz4MGwt0x6fvzjPcXrQf9G31oZSpwTOO7O-cwqu4yBBkoWhEyLDbAjR47u0VmPsw3B1dGDv1qPb9bqaAaTkrpRUKbJGe4QHpT5Jcp2KYMLbnTAqhJdTvD5b09zzQ_warwh_sXC3NCWrSeGvJhbBuJO_-h1kx4eMVhghwh547PniU5YfaWq6pCAnHh5ixYR4CyT-e2V0Cn8o0GFA8zDn_8E4tEQoG_9Jn6YUJ4dVL9tcuGoXu4Y8dsD70Exo82VTv0XbGU9E3X4bnB3sVShBdzL2Bl6hp-RxtfxmAURZHSGbofNQPmwokUGwjoQt089tC69xto2hEgXvQnPnUNmuGiwFHIDJkrRb8xNVk3vAoEc6tDRcrgRGXxx_Vv5QJ6pr4Z6nl-J4pZtIct1DnoYBiIOCgzfaJpQTcJ4QezCm44.%26pg%3DX4BIDMUMMNFAZGT3GC6I336XJM%26ch%3DAQEAEAABABSuxDWSJCXbXFhn-iskzW54ustJD6k9xs4.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046011.724097,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEIjBFKV3V6V2gGGxH36YGRxgpA2uScZLxqB3VHKjndkyxVEioKfCen7gLNNcMScV5t6otupVskghrgl2yY2g3Uftiop1dwkt602QSbjRSCzG24_mf1PLMDdu-Rkeue3L-hXHnNS8ao5simUASZdFfni7",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789645257.066174,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A00%3A12+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=362d8f85-92b2-4952-b9cc-81cf427f7dec&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046012,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTlpnN6tj9nCIlYCrTu0AQ2TFDfIpTxrFI.%26dt%3D1758510011580",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046011.723823,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f4c4e493872525038543642665a62507a664133426c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765885257.570077,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 16",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "2feb4cf1-35f1-4a14-84b3-de3fcf0dc1bc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596424.406606,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286024.406435,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286024.406181,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL4Aibkl_cpSCS0wlTzsFK6B9Hlsht7IZvzP-C7Nlh8cUKebuPXeG2v5-aA3Nx5tnbX2qO1OmlcGHcBl4qLHab0ksDz0gdSlNZPFm1OQKI_dQpgPy5RQ5tyOckmrKs6ZiJKzhpv8xPVhq5miSKl8wqrcFYf8Tm9oBlmlFukvQb40Ka0C72sBNS66Vh6t2c7uajbjgiNOjsoVsgCmCVBuZFspw3K9d2BMF8vOd8n5U-3Lf81DaYtvbmvhgjXC9h582RyiazXsBmPt4kKkUf024p0VqsOv3kfJRiNnAOBAM2p5qom-h6bUcOJV7eFevdeG30us-smJGNpkLOji5lZWSeQPt4ktYaEYo1VfZbe7J-ckUF3yNh_p1FFADiAINHJBA6EMCnIZIZ6Gw5jWlFt-WiEfRPaBChwukcEel3BKIvqljEGwFbggtw0CX4bmsdSPR4i8cowqxlJeePkfP0NM0wrLZLcyO41O-lWJI53S4s9BWn8YjUeuUd9yrgYBiIOCgzhpoxY7LJ7lrFlej8.%26pg%3DATVRB3QFSZF4XNQR54EZ6UMMRA%26ch%3DAQEAEAABABTSy5MAQwUw0O-HpAyLqvWMmrmKunkhl5Y.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046023.726547,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEL1-EDEN35soYBil9H0t_y1gICQN9NGTKhGono6omKgEUI0VCag3l-F0O6KaDXmp7y_wimP4O6eY09Z7XZcjDGCeVhwNJg9RgDerhsvn8hRlVnxPU3EPUOnTLHXAbkWV-RlxMBWb5zQ4E-OQUIQj5qW1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788542822.191639,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A00%3A27+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ad1906b4-c147-46b4-b031-4d6c2405b7d8&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046027,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABS7dVFq4W5JAAEgkgv85-rUuDeQ3A00IFc.%26dt%3D1758510023583",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046023.726266,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139345355645867584b3072524a486d4e4e4d784f5850",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764782822.724819,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 17",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "fdb203e5-51e8-4908-bf76-dc3c0714cd7d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596435.341821,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286035.341643,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286035.341317,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL9Anl2aRxm3iO0ahHOrOnbuAgg0hllXJ65TzFRQMOI_AhMsQhNeh2HxHpAXdclrta2f8E7gfeJyBkp50STnrVF-JubIFljWQ_2Sit49moeIrmjqcyKxjCwcEKPEz9d2WyMigbcUujFSysCPgiCD2lUn9A_HXDh09c2nzEDVijZe14uyK5pIJlEDFm8NLBMLrFC32sz4ntwcPlp7KK2-HTQt2fpp8N8YJkY7iVdefkQjMFDA97rMQKYKTX1JolFo0ha-DQGoOSueBNEYyUAEjoW-1Z6nZ94qe7br0-6Vf1cB9vTteRD7s18X0gV2LsjDS62oEPFcN7dA-uQrYRISfiZQg25iQUiIo93xdhHu8CqKEGAENpCmH8iC6kDOewX4r-lfNWbzsWzBWzLRfgBbe8cIMJFXyouy3cZLjxAGacYFPXJyxmTL1Eo4TwREXoY6CAYpkIPGWW8fYZPrq81UpifS_Z3IN40jjHoQnhuOKbBZ_IgStCacEaJUZHk5pUvMRgGIg4KDMQ1SyIpdLv4NWk4ZQ..%26pg%3DJBXBY353VREPXK6EGSFJQVVBL4%26ch%3DAQEAEAABABS9lstP0aoa0qiT_Q7ZIb263ca81ef7Kag.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046034.651156,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBECgkcIrn2KjqVpx0yLrj8TJgGE624Gtil-GV2hfwVxH-HyuWmlxzRKi-J1YNiaPESoH1pxhITqm9n9VXGw8NIrqaS3EoWRAfbJ5KwehChAsInwShCTwjzJSCDdyz8bX8l-Q7yFYP6trtYzIzvuhOsNnL",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1778949934.95418,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A00%3A35+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=bfd21c42-413a-4472-8484-196c3ee19854&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046035,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTSAWw6VPxM8c69Tj-FDUdCyElQJWSE3UY.%26dt%3D1758510034506",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046034.650842,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961394c2f7a756d51496c5674457274554b6b4c756f4274",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758534079.098117,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 18",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "90474b15-74af-487e-89d4-727a8cc1f9e5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596445.917592,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286045.917392,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286045.917139,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLxAtnIEc8D5GAJdNEb3onClCxcW7ik5srBASyPv7OI6HFO-d4oqjunKs_2EDW8PqPdHJ7ZLIYOUVxzlzqHs0zUfULR2KDe71fbSemiQejdhLTQoaZaCHgsu4aR1vM8N50vfC2qs82P8HI3oSnDr7Hhzguqz8fbUQIBmpDKtCJ8vf8gWV96qyKgHFrabt05GIDZcIan_80p8Wb5uGpebi5quByiM_NXV2I02N4sEdjBiHOkvqLSTaDdTwTpUeLMEBJf8-YTGyt7Mk5SOd6-OxvkBfEhZqW5rTxNq4tf68P2R2F_rhjiBFjW4Nr3dqmIhDAy-MgTpuWaHk4bD164G4XLrClTaEAglNu-6UTmKF8IrOpib9NjUVDF1WolkxMq64_MfpCqBAylBDtEGZUodVe5dp3AITHGVNGnkbyp_6A5aDhc5ShR4dYdRvVisQtV2niz1K1jDwBt5vzqlLVUhvsDDUraLW0CidYaWqGXEFNRBErBxxgGIg4KDHKfFUD5tq3HLD84Bg..%26pg%3DCOQXCBV3HJCM7PRKKKF2MZVYOY%26ch%3DAQEAEAABABQIBQC_odudN3guSPAbe7kRkAEN5Y7ulzg.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046045.350123,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEPzu3AmF73YMexpISt_biY9gIgpW5dAnHQdIWW4bzfBfX2H-5o0djoRJVvGurLS7w6RJHPeiEiYcY-paCKLrPTRlB3kaAkqVYtOZ4456KXb8EhGUgIdsJ04M8qwakoKuatKStFjZZp4yHzw9FCaJYSvr",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789280496.741952,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A00%3A46+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4705888f-0d20-425b-ba73-03b5117a9943&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046046,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQsot45c5EHV4k733ty9O8ZKwXzDBZkrPk.%26dt%3D1758510045205",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046045.34985,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b5869696743336d72332b49626b6f2b4549734b7974",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765520497.390318,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 19",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "903549f1-3f69-4ff6-89fe-81cd8c503289",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758550895.330065,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286059.804715,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286059.804443,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL2ApJd8MAJKyLiZjR8mI_AZUWYnyUo_Y4BJYqITUHz7D-fMkXXjaVckC97t9eD64jmXxvfoh6nJJH1_tqVk0vQrqi1DKvdmVA1VDfge6-Oh0yfSHjBdWfNKOhzJ-bafAOo1GjEmWsqXJ-ha5A-wYBH4OZvOxM9J_ydx3QUymniKsiM7lmb6ACzcZQngL1KrfitsjZflPV84fxzFm9rPs8VnOjAEHlD2rEu8TxcP4zD5zSI1cf9y9lzDCiMTgVh4Q6GRCS3zryFgB6xwY08Mpe9EQpzeZCs5sfIjc0hiG93i4ly04sc8Mmn5teGHp5kaGc6Xz3t2X6fI_ByFPQUPVS6CmrmELFoSwmuNnUHX-mUSghn1G_SRSy3HAnIw3RgB7DJSJrCvdUFkvUbKrBCyDoKXcGmeK0G97PBymPH-6HhV9GSLkVO6UvlPg6mTys2tGud-LqvZ0YLUs9c3Ec4zs2e7CUO_brOv6-f25nN0LlYM68HQPrd7vKGGAYiDgoMwe5ULp_HQz_zlRyc%26pg%3D6Q2THPS6QJE3LGOBBFMM2M7HDE%26ch%3DAQEAEAABABRiFQ9yoo7iQRTuxWTpjohgH-m2Y01E7oE.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046059.094232,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEIs4leWthSqPsSIeNTd1175gasKOf3M9JmF-iqnnoi3YxuvpbK4KKVmDXBRULA9Z_dhsa_fye7SGa9T_4d28NcDew2cR2VLILGVmyITn8ap04PEyvIG-pKV1H-9w0inQ8wcwRZSRa1CtW64jl_AG2atH",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784614552.833107,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A01%3A00+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=cadc1410-531b-423f-a6df-a9011970dece&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046060,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSbLUjWTHtJ9_ZbKl6RUdFb7XV8M4Jku90.%26dt%3D1758510058949",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046059.093849,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961394e637a4f37344c7033612b58586b6250666c427148",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766240502.676572,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 20",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "4b3b1223-d9e2-4639-8cb6-5239347b7ecb",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596472.289489,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286072.289313,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286072.289053,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKbA0YZRBePPALImLYVEBREK8T8z6Ws2XOS5W-47DJSyjF4KuIx_SOHcdAlRZ_u1uBLGVWyYQ9CSXd5zlWPEt1EDzR9UKOrt9V8RY9VkY1IIjdnl0JShbmbj0Y1sG-AyPMJkVIAx9Mrt7VHlGaukm2Du1GA_fSzffnBFDJpT6CVPZJ4xUIQUrcvCTSRN772JKBqi7i0iV27aD-Kzu6Dw9H3BGum5QdNwTp5bEFcejH0d2DWBRYyLQeMK8UTZaNWJfKgwG6b5CSq5TfUt9-vFynaOXfyvDo4P0XkL_SPDyu2sYsMvHi2e7gozBzgx1A0_SFMdQQVcW9b5ADnB1M2XuuqSsWAgOk_XMFTVnqQKFuEWlhblIsQW_FwYSlCx7u5O6NthO1-GRxoHtQCxICGB5NC2CkQ14TshwMRNwzEYvbgnS00DGZDNyROxc_U2zL4lc0ONzni7extyla2f3f1UZC44kcLzh-WkhK74xuqPf_kYNmg8UBW99hBKvyfwQVmjsw7UU5vky22OEJnGhZUa7Z5f7ZOyY42I94f_KDbDxgGIg4KDMGRhsJbWiPFRCivRg..%26pg%3DH53X442LLNBURJG3KCFHM3XDIE%26ch%3DAQEAEAABABSyo4t81k8dZWbxpTpSIXMs2opoqAHWiKI.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046071.081614,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEC3_0zloofLZDLCoZqkpmPRgC4LGI92kwobXMbB9FP8vxsLRZTEfypucZpHXdtgiFY8umRHCNwhx_bc_ipzBsMdWbUFNtKsoCRGHrd0Rm-RTghKORg3Auq8U7lhkQhGsvGq6FTdrQz3_OLTGnO0rulXn",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788600665.269798,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A01%3A12+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f227c18a-d170-4800-9e3a-363107e11ec8&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046072,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSKiA7f1WcVU6WY6spAF0DCdbjuTYaZ5AA.%26dt%3D1758510070933",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046071.080752,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139665a6d495a54556f5265656979632b4f2b4a307658",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765091778.137659,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 21",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "c45dae64-04e3-42ad-9c71-f89bc09ac8a2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596488.745228,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286088.744986,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286088.743356,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLvAs2_fFKmuNybRz_WPj_lgYLG7XKqXOoAmiOIMPY0lij0icwwwErU2Q039ifcYuQARdhpVNWJyienNS4IuXcPwhg8PTQsMxd5HUW83AnmnN3TbtrbnuLa0rkAWGRzyBcAi0SnIIWOaOw3vY9RGgYGYJUUbbGeM7zpMd-TrOCmxqqiL-VxtaBFeNM4wIr8XfDBuAGLZNdDFjkT3I3ni_NY8duHTCGB0cifs3kxcu4ixu_HnabdppPg3gFD5zr51kPue_dRRTWcwn2uas6Lvs4LwwgR_KdbYavrXXTGbkMQ7yDdbmlDvHla-HfVpdqYJyj4Glajq84SInC3ULOv7NBakwTdAdR9MzHYMHWS9vVtv8f4aT_r-vYD-PUD8f6I3XG9tbMZZtEV2Bbay4nHgrR6FYSfhAPSSUEEEj7V4IVCT_gTz1a010ONgRV4nOdncgWNtAW8gzzlfiOwdhcOhmk7pVJmaxberdH3nyeA_LJMDW8YBiIOCgzEIbvEwlE9pRhZyNY.%26pg%3DBCTQ2LEXTJD45DPKVR7JRIFZPU%26ch%3DAQEAEAABABRSlkdR0oe3MfFWzYpmeImew1pTiDRvr8g.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046088.18634,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBELSLZxx5Y3MEid425gNqz41gely6aVLSyA_uG2jGLQY3GYwc2Xej1LdALU6DydUYynL4lxME6z_xXQAxQTr3fOvarZF0Q6IysTMLHwX4c_SwEOvkqzGI8s7WiCkZYyzXqRpnGQPzcZ696OvZpy7qca-p",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787993931.867316,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A01%3A29+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0dd0c652-8106-47f4-8d25-82c2f50a2aff&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046089,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRB4jfsnFHRLABHqi5qBQ2XMu1mqrmf6nc.%26dt%3D1758510088043",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046088.185835,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386b35386566706d634c54494435494d496f54436f2b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764233932.842617,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 22",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "ad4e2a2e-6adf-4093-8d5e-ffd8ee7dc1b7",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758551000.846027,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286097.956702,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286097.956449,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1AgfAKZcK0IHtb3xeYNPkwgR3Vw4QN3nWNh4wOrpsqsgEXjVJzRp4UVH5m0kdipmKRDOnvsibnn3WoC2HQfeDMGJ_-N86mLIUVqdHJfg1izdHeSjnDHmvcN3v9xQ1U-BA0Oo1t8UO8-fVBPJS8dQ8twhIJuFKwlHnKVBSAoEAxXfDFLusZZJ1ca55aHmGpMOHI0cHmxIsWn2J4o44jVnz7HNWk4YZIoGgIMAx5X2b-XIqXXDjpvuxkNG1y9fJTmmqNS8D5EDk_fxAtOGk2bwbFAYRIhfCGmT27rWCD2nmnmGFGPVR9K3bPMfsqcmkN_CVSQvoxzUhtNubX6sfzOb5aAd29d4MVFLzgyJl0HycSZg4DAjo408ra4G_Xl053FTZScNbfp1Nyj1cj0UmhLO8mfxSJvWzgXaBA5Vk_dGo9b8Lr-pIJm9NysS3YneglwE3KDOsdy82AF74zzi9nFgEreNdYoYZCySk-TinJsViyq2TryhfLmkYBiIOCgygmxKETXZsQm9oBjg.%26pg%3D7AQ7TO2ETRFPVEYFAIHAV754FI%26ch%3DAQEAEAABABQX-hDLxx2lDuF1khAJZBC_hU9q8xuWmFI.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046097.43837,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEDu2TnSx6AB0-dhA-IrCIo5g4lLgNvkEQD-buYWz_EpiYLfCdXBMad0cM7IKHfXH9dZSogOgjzplwz7vJXUCjyB1dvKbOOyXLmovzIn9jDhHt0jPljz3DQRcy1oDwxfo_sAQnsnqan24f1JkofFcMS90",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790000605.810666,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A01%3A38+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=482abc8a-5b57-4589-b93a-2738fb26c59e&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046098,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSYUJPexLMPP2ypdiKLSQyLWPfwmlXoDwM.%26dt%3D1758510097295",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046097.438104,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961393041335a4a5844742b66596b3730516e456c637441",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766240606.331039,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 23",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "3712e62e-bdb2-449f-87cf-481ca8d5baa1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596507.229305,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1AoACa-X0V3WBoX-XGbZQNvyh9M7k_gVZDJlX8E0ESJeSssphzZyBje_jU17r2xWaHy79Z6zWtG756ZYUWxXJAizKCKdHZ2TYKjD8eVHIO9K2Ib9ev9C-IqM-sK4ieZ1BJibLfZdi2uFylrKv0FFXYKz9xoW2nMX9gPM17LgJRpv-r7nZkF8YPO8dUef9V6rAtoCR4qsnBnkijvK6dgMbsH7t7f-VhlJlwnat9_lJ-M9T78PVppfksqr6YKQ9JNkSXjyEXyu-i-evfvzMFEJ1xiSVxAzssx1FJItcOtPkgIuWaAXFOZVNUv7cXRAl1vel3n7g-zPglv8XosVbnwCqInjNikQMaYEBjqhrBMuEO34YExfMFnhGuGmULn3qDYZf0Du1JVxHpaaG7XYYUyFbrwYDQC82U0z19AS6NtNG4r-iQWcq5_pjGVIpTl7DkrgFI62D0pFqoTyiapBOiBgtBmnfmsa-jpefDIbg7gx50cXOSTiDLDwYBiIOCgwD_yVsYItQc7dGeUM.%26pg%3DSVKR5M6NXVAUZII53EKEWHI5O4%26ch%3DAQEAEAABABS04SH5uf4gmrwsgA8x0q4rn0738lGaQus.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046106.618301,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEA23k0JMfmgAp691I3bSqQRgaUMeSWktHfufBdpq8dGuOK1f69JP0z4Sx4-kXkk2k8GEuwEQSLw-k6zetTZ8SXX8HMKqeL5D-8mPN1FeWJTISvLQzQUC60nc4AP-f_EFs9VZGKMx4EeopyUYx-_CTR2h",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1781750255.406433,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A01%3A47+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b6c164d0-f0f7-4e1e-b839-bb51d10cfa69&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046107,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQUuPZO5j_3_hxa4aZjGuU66CHTAPJiEJ8.%26dt%3D1758510106474",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046106.618044,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 24",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "0cad05a5-fe91-4627-bfea-5909f1e4a0be",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596517.827213,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286117.826698,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286117.82646,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLxAvKk6psGE4vv7ixAfEn1OHjvZAeCJTj8q5qnxpkKigTbp09ZWem7fSbqFghEnakjigL_FeWtTj3X9hrC_cvu2-9-EWiyKs6VxjryxTzFx7b2eo_0QRlL7Gi2Cnynf4WIjyID0jgBki2QOr3q7NSZXaYsWAi7chbt8o28c-fRfy6iydiCfcQxANL696fqhUNceoJPJ9FeWXganFDcYcKBJ_Ufltm94V4aNWCv6D9Gx94o9TmmKZkrMG2vbbZytIJBjRE1TDhkOQuoRewfVCwL1ZZPKzYsUYoSbLhXYFt4NDcgv6cMXxRH3EtotMAb_gxbbuybdGWAZaWC14iceQ86SKbR0L5jdoKDkRwEHl50PTo9cSbrQAOMZeaDXars37OqiMuzzhlfnjdLw0aW3JQA4t25MsGXuwC_alnEeyoIi13A4_JC4e5jgGZ6fjvluKEEfflV3xlH_4bm8P8CYDQHbHR00ihi9GdQbggBPBmW-a-L9RgGIg4KDCyE43-KrhBOSdiltw..%26pg%3DAJEK7IRC2BHIJOEYCZDJMHJUVY%26ch%3DAQEAEAABABTIwMMm41jHt7wUjaoXtZh3bO96bbVexco.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046117.061432,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBENPYqT_SXr4Su9NNSNyPS7JgJMawyvB3bZbgnzTM64hvKHCBzR0pKm-hyKX2vvOw7kOI8EdYoUCb4PC1C-QrZ8GbIVxQbZ1Oi9gaHh1MR20jZVgekU5PQVlFovGw5-Cehv1GgjmQgfw0k2KYr3s7w0Gg",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789882516.097564,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A01%3A58+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=d678f407-b261-4ac7-a7fe-775bd404f1e9&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046118,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSNfRkcNiJuaQQAofZNwZ1n7PZeTkEF7dU.%26dt%3D1758510116917",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046117.061162,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139585435774a6b34654b2f7647687974656770736d6b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766122517.08177,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 25",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "2b30c0b2-353d-4d5c-9a45-bb48a0ba0f06",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596527.069013,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286127.068806,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286127.06856,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1AvYdOYKi8VPouC9buO-xl3aX7ayr8ztmaASd3as_eNjdGIM47cffl9bqv7S2x2zzrPb0snBPEQx-L7djHjcAmFz2Jb4Bps_tmkq0mieu5oZy7pueExDzZhyD9jBaWkFkf2mdWvxJg3vDVQ4wZPybRQJmIdLpBth9aYfvNlsevYGI9hzu7QBnJhEbQ0Wg-607M1iaEakbW2wvMH5B3DxkSMU8Ls-ZiMUuMTZHdXh5lgrZ64M04F1osJ2PiK8WkzU-PACWtCZCTAcyNeH9U_4BTBapomKdMCJwHSd-Eg59VsolyMgXaE4ej9RCI9NaKAmANUYd8BjKKkbTR1buvJaAL_MEO5-y_X_L-mxmoLCp8rxjXBhhrImC5bCJL9EjuUcb2Z3elnMRGWU96IA77h4UezmiPft2amUGSYHpYNCJ1zSPoH8xKFlwi7etGpBlkxgG6K-8VBYGNhQDYBYC6BVd8g1FuO76EIRseG5lODrjZ_w6qsx0qtoYBiIOCgwbC_T4lqdgORDomA4.%26pg%3DTO3XDSADN5DWPDNQFLWIDIYPTQ%26ch%3DAQEAEAABABTKKDwuP9lnheENd2W9cRXozvJxVLe9UdU.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046126.406327,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEOStCoSMDKlH_DUpRkWqdW1gwIYhv1gCnaOiZtUzWC9nMHpHeE-0rj5van2qxRsW3olyIsyLNkBoM21T9jMWLxXu-0C3KM0x_B64keQrq7muwYTY2YDg5US_cUOKZc4kaizu3AkTD-xAXMCPuw0V3xCL",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789710930.708775,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A02%3A07+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=537eae33-2ad5-453f-967d-70e82626976e&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046127,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABS9m-VqaXKpbQDtlu5mAT8CO5LIuFifI9g.%26dt%3D1758510126262",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046126.406005,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961396f4b614e3756645137774e3630616e533552675a75",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765950931.363979,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 26",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "59ff9aee-cf14-40d5-80af-ad609c481eac",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758551024.513623,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286136.563605,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286136.563352,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLyAjBatTrbCFBSu4lcp9_TekywpTC-gFfPZ9zSc6zNWrv27iDulBk36EktlRhPvrBLFdEWXX9SjCeQIEOSFiJlVNiVy_rbt-4FTHJBg1_rr1FOjRX515xEzItHqHsHT7xEkYuIsPUWjaEmXXZ9HNGNMIaFysjIbKdluHfrpSmuIXhd-i86bhDvYtO1MbHG_5S-T47zOpomH-bli6xBt3MUIXjFt9-iscTUxUq5bCmQ9plE1Jg7LlTzi88iSOexA_IG-UsNwB3mnTCgeTaSNeecQ4ltTmnq2IL9I_dZMAgw23u12dinj33PaEkAypRjFf9AlpaH3UlRKLmtdI3321iTxcOZ2uZmYW_cPGNq4S8sPeDa-6dY6kIihx4muQIEBT5BTES8OPiT4A7DJ4hsvV4P51MAT5NmkGIhMQmczK-RQ3PVPBzgT1S-ogs_sK_O1rbGJs4GRhgjYZhoc3FZ4hhSiJq5CvjWyFVgBhv45WhVJ-gyH40YBiIOCgw7GppceHexdy9wyzc.%26pg%3DW7ETYNBJKFFU7JJ3DTTIGJ4WUA%26ch%3DAQEAEAABABRPjwHVTqY7gVHVjwax0iOhHm0Qi7-2JeE.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046135.998437,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEBzAgP24p4rtf5eZOiI_XYVgss_NmOrQqZF0E-4K3LnzeJoNwthDXK-gpWvoc7CEXBUQLwL7XVAGFxyPoJEAkA1deUXAydb-JvI2FdsaYSCrPah-VIJN4ct0YBT0kpXIyB7TN0mm9Obz-JmVDjan3FPX",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790000629.679506,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A02%3A17+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=538d1f6c-fd8c-47d7-b64a-8025af99d2bf&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046137,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSsot-Z5LygGn7jINPpgodL6SGQxyWJRsY.%26dt%3D1758510135855",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046135.99817,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139387a454247306a566274376d303564304c4c6a5535",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766240630.238857,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 27",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "979cf9cc-eae7-4c77-ba25-11a2cb53b573",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758551058.813638,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286157.023524,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286157.023273,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLxAqMPhkpIwBWveni0D7TGEFViRCkQC2Gq9vX_HYiFk9AxmZX8wfgxy6_0KpVK2_ADzjsPDgsNlfE6x6mGQPFnJug5VC-3HRu1wlc33sS0GoK0bbfw7iXcyuul8DWnCQaefOoGakfgTGHEiv8A3wEesayyj_Oyf1DhcwHscq201YILTI4LRbxhV5JWIjgdjVXg04auYcvtQtIMale4mXrQ6t5hxKurJ123rseTBcASloWY35T4FgkeA6B_0qbCvsv11KlHoHT1hedqrc6UhHcs0H6vFMz7wDrVgmjCRoYBFjDlCjY8gjMBWt7Ii1DhrORJFslS4DWxe7rTJazjcGNpKPq1y0TsnYw32ERfEKdIkUNcet5YcywIemsiCxhV7Y-ap2OGSKYu-r_nyYs-_rqqdzokERBgAjLI8NBVCoKjKO4QMLNThv7WDkS9qZet2hmnQsiW0IU5D01LAoTtK7uNSpVf_jLk9mfGoFfuf7kUvEkcfhgGIg4KDOZKGo7uJL3oNjnOFg..%26pg%3DGMTM565PMNGWXGJAX26N4VCW4U%26ch%3DAQEAEAABABTf6umq8T3pCg2dITgjWa13Ih9vNy4whT0.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046156.519292,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEDpT4Y-MK83UyLl7iHS6ZVZglxlE5Vjkpi6lZ-aaI4DJZcRVOXrBDANvXt72WuWThYZ3-ssbheIh0miQEz_RJfY4ZaN5icefghrFcyLN_AQhvRA5DCAUqUtJOYRHJ0d0jhFF7fOEAFYPLM98b2PevFUT",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790000665.726605,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A02%3A37+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=3de644b8-384a-44ab-a96f-477bf0f6d94b&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046157,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTFzt-oOC-XE37IUO7V9RkCRcc3clOHjmk.%26dt%3D1758510156376",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046156.519008,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796139573076414547684f5430414551337932456d56374f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766240666.248995,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 28",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "de38ddea-75aa-4905-a616-edb669ad5d14",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596582.356358,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286182.355802,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286182.355532,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLzAvy_7lgpSCp1Im56zXt_WssOudTu67zR7AwMOeRrfs1x6HwFaZle3QnbNJkTYyzk4J5nVLZNWaPYhtanAKQmX0bELTZRXCr2yTfS9T8r0yMYAadnm7xNgqw7O7ElpY1j0e_TCEiDmUVNLhT0lmRqc5AU7bp2_lgW1esX71DEkTsZLW-tKx6kANAb8_ib88MunAVG-zdbDH9CybgwVj7nJ5UMgRTy9yLcXMJjWWTKv8Uw4BeiVhtiLvWkRFT9Kd0Iezj43IwEZJm3RV0yS_jc7oLHlav9y4TdKlSpG0-7a8Yp-q8I3x8rQFPqa3EqOqLUMFtm5LjswL6-STE8V8TasBxjL8Ti6paQEJvfMOnbeNhFyZoKdx5l5j50-MgN4-sN798BLQIv9QDfej-KGILPattGtmH9YCtLN3rNcFPg5D4nOnpooDGgrn0c5nnSO0Z8Vyx-jYLU9DNQVe9Ih5_2Vh4-ZkjY3t_FknlaI-FTXcsXdHEUGAYiDgoMzwfyj2C8NgTdrfKC%26pg%3DEKN6J4KTOBBWBMF323RTVQV5WE%26ch%3DAQEAEAABABQqwm2Uc6vVHDl7-zFxeXMOPL0j9U7RbYs.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046182.356164,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEMcNq1950swMmss2Fi7vX25gyukSTQLcd4rCoQ_583M1yInvbXXjO2XpTho1WCEWFe4C2CeIu7MCN_S_-pXlYUKsP-hEXWYubbEvWQd2fPiFoj_w-3IXEu3LQcji1k7a7twh0b3jFu02oCqqvi-zINcO",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789710953.288327,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A03%3A02+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=5eff405d-48e0-40ab-af6c-16ed46e84679&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046182,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRUQhOArMVsmhwcDUZ9NCCXDAhTz4qjbnE.%26dt%3D1758510182194",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046182.356005,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613962474c4d76514b4370335637536a66757447366572",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765950953.954049,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 29",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "5247a5ca-2bfe-4e7b-9e48-6d9a6bc73a4b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596599.614681,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286199.614074,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286199.613796,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL3Au8AH18oG3HG3VHNbxIa12BJTMi185CxIGlWKBkU5L0fIf9JZ1ZWHcA-P8vRtFGSNZl-6wZNmTmYVF6jBLM-8oQgnaS3b4dznfm7_XjWZh2b0Poc6ibN4QLIqE1B0IpBtiXycsOHt_TA6mNVjTJKvtf5jFvawhK53KteEfJv-PHF1Zczpo0lLu_hbWSNM5QBsTxQdQaqsc9WXh0UQ3IqOSl_J6o4Ln2WxaaaPN57F4zOB1qYWBG0KBqJrcuJx_USgmgIKYVmf5SU3RzH3OWGnv6418_lyV4BUHF1WcH3I3U7DpsAuBXoanHfDa391HTRq2lGTvqj-dlZn3n_Fa4he-iO8yrk89ObuWNQ02ooLaxsU2CgTJ7mYslrdneDyiJQS3sxhHvfFnACPa8BCk6euI0mL52Sy-b1KuS49jOF3bXCfcTv31hCFAWKI0n-a_NYZWUE47_aiiM_HCAOWKMc9vgUKfZx02GS0RAoRe8BVjufs5QrbX6b5BgGIg4KDDLNGA0rRblZn7NBIQ..%26pg%3DAGW46HPNQJEWPCNRSO3F5X5BXM%26ch%3DAQEAEAABABTrBS7FS7frKvolVLplmDvvu8w0HNK_yXI.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046199.614424,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEGzzKd6m4emlRb6F_d87tetgQxUBW4iBwRKuZY8-ZKLywWklnlFgrA6whWRE3Kb-15b87lZ55X18IYjumrX8m2CV_tP2dDDQ9tBzlq9NxNwQyqwIjGgmjbL4f-UcjYaeV95C2sY7rd562mL110O3QWJZ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789366259.479015,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A03%3A20+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f9087b8c-201e-413f-ac96-df07dfaef557&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046200,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSM9jKZtRuT12VP8mJw1bfIu1wrXpEKPzI.%26dt%3D1758510199450",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046199.614273,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4138336143774466323744752f3737384e39707a75",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765606259.930237,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 30",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "4e6e1b2d-5b6f-41be-ae3c-6c19624418bd",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596608.171869,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286208.171353,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286208.171091,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLqAlDiIDJvt5S2niICzwoijt8ob4ROMYAlpvjImNu1n016gd821-3M-7EY85ikyGIz3jH38Yr-cCZyld6EXB9G1wt5V_0wUijs2p0-O3CWJQ6_byFIqoZPwU8UszSSZtjrOV8wl_yqlIjkMp-tXlLRXYsDATexxPtg8_tQYxrlFegG26wfg5PexfJXyMPpUj5UneKn8C6ydxpK82pQ1evC_YaKd3Sw589eXnoOEulMm8DZSEuno7PYhCudaYJ34KAXW7OLc7jDf9ciuP1knY7DRJtQaXnQbHF3isH1MdLrvC5iNYgELHnh5IeuQ5e69lwapZcjKZzcNt5UGAv0znohXuPow21MpdY_lgdZqAphiOwF8q8nMp5lRirWz3tPzVrI0-6p5H15JZpsqnr9GFX0JMMd5IFixZR8GpYXkNYwBJUKZUaokum1RAdsgVH4OQjufMqQNGfwQoe1oY0H3Lj6vki-pGwTz-RFRwVrGAYiDgoMMNp-_7-efgrkTKRy%26pg%3DYBXMORODCBD5XLWIGEFGNVVX2I%26ch%3DAQEAEAABABTETOLll1Y2RtUPDXxKxsbLTl7_HsewKv4.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046209.171661,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEO2BRckaeYUR_3S2Hs9BiOtgab9o9A2kd5ubxQZJwpEzDuKcwMCgdjOyr-UyDfbJYoaLhcpZMO2E86JtPMW52MD3Rc78NuQejkrIGDn4hmeSccHDppyb8UgWMUV_HtImfIyWZgjBlBNMjFfdGYScwSPM",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1786426575.01929,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A03%3A28+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=78768fd4-9e1c-4ff6-9270-eb68ee53bcf3&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046208,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTUojNJU4IKdMrIdnbmHpzZAtQLnOwhprg.%26dt%3D1758510208004",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046209.171522,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386664706c47516c75686d703057636244784232504b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1786426574.523062,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 31",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "4e6e1b2d-5b6f-41be-ae3c-6c19624418bd",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596608.171869,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286221.540769,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286221.540523,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLpArS9WUyS4baxHucqUZya30GtWoPaPV0PuPahLmfhgJ7olU7wVG_ECMAlOw7hVwsXczh2NHmnNv-0n3LYEFiuL3SSG07BJleog08YD-yIBOzeE7hQQyhi2M76J-J48Dg-7QTFGzzJ3APvU334DXrU6LCPRGTD2zLc3IyDoBiN6q1WtesoDsV210E9X_Um6p7cRgEQTe-xhQQEERdiK0LJlX11l2ZRN8CkL-UbyR4k3zVfhr2ZqQp7yP2vdg7YUVG4X8d6U8v90QZPUm8B2kv9o4QwPZFQir-7oeOpYKcY67uaUZd5GdCCExnFAD5opQoCl4jvu9I4q23XjoytmF8qWkjvMzRpybpnpCzM8rMlzfLUfGu_gD4nhnXvRnd6GmbAJIQXc9YH-7yI3o-wpoNwrmMdd-Qn6ODTAMCxqjgqX3TNZS0b3hLVtXTiaBi8d4CY140ZrpVQUoz_xM8r_FQW1BwfGQwmFYAM4cMYBiIOCgzE7-bPMv3ZBz7K4l8.%26pg%3DTJJ5I3UASNCFNHG53UBJJPICL4%26ch%3DAQEAEAABABSj5ytvCtRrIkSoW8zNp5k9TT5yBiofkUs.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046221.541087,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEIXVRpcjxOobSpEqu9tBcKlgHp1OhqYfadred8-HYcmL5QAxbz3rkVy8znIRvgvp_zDDZOuTKcM9Ngs3rBxtRXekos0-6bCw9sAvh8Vi29d8ba26k6QlCDArKPNgpgeen_z6GUd8thXNPP5sQmVg3I_k",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770055258,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A03%3A42+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1d63c594-2df2-401d-8ffc-ef0ec774f59f&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046222,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRtmNFlIrtlaPepmPLVShbmYomV9lFO_2c.%26dt%3D1758510221379",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046221.540946,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f372b3059573131746e3075734f512f624578506568",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770055258,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 32",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "c5118a8b-bf2d-468b-8634-704705b96f25",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596633.118073,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286233.117358,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286233.117064,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLzAgQun8rAJUBlTeOrn_nSKTB1ps6kaHd3SuYNPpi4MlKhwbSzWEsZCguGwe7JX1PZBXK9XxhjuxY3b2lh9Ksc1nFSkXkcFaDrJmMLwUUuRn_2Sw1aR09UXOEW0uy8g1ABRMclPg7JnKKpm7TWUrcMrdf-w88QF-daR7z5RfCl8wmC3Mj4wVVJnvH57GEi5ecStNnTv9WOZvGcKVJYhDXzyl7dZ4ni7FBVRdm-YJ1xK9EC93f0MUW_jX7LbX8zkn0iWk_qvYr9d5Nlo2SCih1eCyUNpoYhpb1XjCeYQ0QrIH32q-6lLAMzZiCthYFiFaOBaT_I6EvChwvkZ4IyZnipUbcGmiUGYMPpLWj6RV2WRO0Kd4Ja-OFshl1l3GvpTJ56qjeVLvyk6Mad0RpWl4fPQsMXmnpiJIARHWYPQetYFG-BtBwrl9UPNpsMSl9_thHvdTJTeGv4QwtJnYvo-TjdAS-b94wIuMYJuEAJuhuMRmWM6nGUGAYiDgoMpGbfP8yAsr0HNPzT%26pg%3DZUSFUGLF7FBNVA2UGJBDUXA3QI%26ch%3DAQEAEAABABRxa-hxy_zHL7G5yQ_xxqrXGlLwj1YX2jI.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046233.117814,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEGgesmeUg63uOsmpcOASQrZgkThuPwPpxlrlNbvD9ahmgLB6r8BpV1ZejX1AB17R8aztAcG9ijIFmSoso-BoJfAjiutu4EhKKlDqbXnFaug0UGt9IKcjUR96j4JcybHcHkNGS_LDi3Wo0AKzMt8N2xdc",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788763128.32748,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A03%3A53+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7acdf191-4af6-4e6a-99b6-941d0f56c32e&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046233,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758512036.572197,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABThQ8wyLl1855Azxfyb5qwR2RvUmwaxbaE.%26dt%3D1758510232954",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046233.117656,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386a4243455a70696e43474c6253435177742b326e55",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765003130.260944,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 33",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "48d61086-1d5f-4a1c-8d6a-d724f97ccf01",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596650.550418,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286250.54952,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286250.548551,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1Agq_lfRx9fjiZh2VKpz3dY31Nn-zqNoYveRSVqt0WzTQgjuT9PW4vWjcdMca38z34IoM1WJtnOAUZhDtOoso_Ubpegp-WOE5OjxTRx76E7m8QysvEXlp_WRydBW0QUy9Q1gJEBECN3bPzltcXcqPe-t8YUuOeA8qvV38Thgz06pXsf4nBSBSUWeei7QznpWZB-wBEUXm6zovSqLX9MdxghgFn4Dpr28RXQcac3s0CHaxtAL_M2BuHuY3cJbcCvwg2I85Kz8gmwyDKPEzxDbBbCXXzIlkfviM-UMrq9cTW1bEBrcdh4QBNqywn6-CehIuxI2JwkJgskUBn6wfXhlPs14kjYRPE7_Uhc1smstm4-8JGgu5BcLfHYNiFL_s6k8YLKlZqxPt3dimFFZEpUCxj1kAK2J4oDDwDIO7hdlr9yuAL1-bINg4Y0qlnDji1-3CQehme0dGZ7XO7pXHYXxWPVEFpRydb1o7AOVWTn2M7uywiUlbPvIYBiIOCgwtqofMuiNCUdiIYfc.%26pg%3DIAETPYA5PBB6BJYYCLQOMQPTNQ%26ch%3DAQEAEAABABSztTbyXLA9SdXPXrfho4tK4VjEUjd7dyI.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046250.550218,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEBiNcGaZQ2qjsUayqP6qj49gVvPDmhc0Noipvj8UmGJ4FGyvmLDMi1zi8--2VnuYpPinKlTDIG7oq5FTyHhD_o3_IJZRr63cznfL0i4Ka-gCOzA0uLZFSuzmtDp0-Vds1flDT16jNVUvFPFgka7zF1fy",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788762295.925952,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A04%3A11+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f35a181-bd63-42e3-950e-60a158bf99cc&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046251,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758512055.268047,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTqDlJbYFUvhpiSnlPi6k8GXN3c9kLqCtU.%26dt%3D1758510250357",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046250.550058,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f4b6d6f3058363566494b444e7669734436744f534d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765002296.520719,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 34",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "3bf9c3ad-9b55-4b62-a265-2ad3c723b998",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596663.776223,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286270.606689,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286270.606443,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1Ahlyxmu0W0AvuHG30zbBMjF5RDy36lmPBQVC7K6uWpkCkXcK-3PxiO89k0LzmaG7y-lwHnOUTygZIzlmVxQUNDfBKhgXsF7e64zRHg-H57nhxr2qwndvN_WMv-3FXQPq-f0D7hvgQh-vnmfJfrPUQSuFOFGq2SJVX9ebh3ucTj1eB9NVRGtPy-jXcKIUEadmoIwrd2EcFnFpIEU7dc1Fq6f4Zn7NEn6MIOiFycLKmB3MpSH8kUxTcaotaB_9cfmriA60igxP6jWJ9Zc6pyLW5BwyFweIOMVGqL2iIl7Fn9iEo3OihWix0Ii7AOsq4zEpGxeqsyUT2XRdnz2BvEfeehPP7UEQjMu8Zy2ipCg8Tqq_yLhOFQQ9ffY-C0MXQ219MjRRwj0-rGad5ajF5qkKisBhArg6Tsf2L_98-Lilfd4zJNHHBLpNekvGexpYv3P7H3D6NWP8yFa9dGCbAiLnv173cbZi7cHfdoDyYn-AUk-OplDJrh0YBiIOCgxZ9S6nc_cfP4WARwE.%26pg%3DULP7HQWAMBBY7MEXTNBD6IYBHI%26ch%3DAQEAEAABABReAXHe74sDNHkSkuhCoCh6tOPjCSbrplg.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046263.775967,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEJm5hzfluoqc6PZAT0olIQxgg3Ddkki0o8A9f5Hp9v_y3BTu0pGlQCHx0STaEwDdoXFgouhx2K2pinIj3m3fZ1Wtzwr3yuezNmj9kLTyx0no4Zj4ssFZYwCaJ_7MGSmpTnFsYG1wZxRHITUl3W4R3vxj",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788942790.115901,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A04%3A24+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=3c2b7525-0249-4759-a68c-e799fe688018&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046264,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758512068.525205,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABT4XOQLCEnmokTjudB4CX9H-nIThlCG8_o.%26dt%3D1758510263582",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046263.775786,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961387155357a39456b52486b5a5176495a2b784e412f48",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765182790.76941,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 35",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "c52199fd-f141-4b26-80d0-ae4c126f1817",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596681.287042,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286288.443344,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286288.443047,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLzAhU96NhIWP5yHNJC-00rCu5_198TKU03rbEpu0QGeh9cXkNbOcUohmrwVKFFeqB5IfmgV7hOi7GeYvhKGCatF8JSEayMZ6n1rXLwNntlN6gepULhzDueS3BcArFFcYPOmZDOlx2W508khWB3gmvk7AA7OEcQKiZeJ2zZ6INszCOecT6BHfz_J2y1HP71GTh8rfOxdGKFYVGrcZmMMNI_7kstcUvUEt-XtzC5yAzeF9WhfvNgVaObrXxMzmFa08ShsXJaJUhqdnC6YIGJkUTYUY9uWM7PLTIeFfO3jqa8o75vfb0eQkrjYVaRLa2ONZi5e9tOkmdnlNbgDDBPmUVLIhV5nR5qOGy9h0s-K5l04Md9eLm0c8YbJTAfmPCj9YBMJ2bQse-v5yw0i1iKKyhJ3LYn_tbmlOQcWXD8ujubtrMBecWpFw__aU_iaeB4XZh8KjQBxTGPbgYW6vJh0hyMrp0rQtC5pRwLr-d8D91tuwXV5rngGAYiDgoMCeSzFIop_ZE9mPjg%26pg%3DRACVZMMQQ5C4RNGP3FE6KO3LYM%26ch%3DAQEAEAABABQdHyOJWyWnwFIjmfCwbVHRZvaujAXXAe0.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046281.28683,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEFCU9qq4Ticq2zzKjLfisatgrkAd5lMMS6jLk9iDZN21HD8bTEkD5Q8YC1tzd2oG70QHAGTkFrRCMDks1J1xtEN6yfl56lLcyArrJwByODLhywxJUuGVdygsqlUjFjwnALt5fMdSNqYCNdtENROGS5mL",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1786596739.353434,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A04%3A41+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=95bce123-912e-4308-a782-c7d10104bd55&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046281,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758512086.585602,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSHozDFvVbpdH3B3v8SMjkBNONLGJ43b_Y.%26dt%3D1758510281095",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046281.286681,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613831782b47436455306c6b7043583834514f31384a32",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1762836773.98452,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 36",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "baef41cf-f2e5-4be3-8817-38d8b20c7e4f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758551096.406193,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286300.273343,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766286300.273084,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1Aom784fo4dNJhUvI6pqfEICcedkQmjOOSFghbfSKIQunXJiStI5uwwCaTSNJeQzD7Nuaec9HRafbaJyAOmADAnSf7nBOhmFiQjc-8EoW8bI_NYPD2fhPrgmOq1oYkgN4ePvzY3SHwE1zjFCdFmTKR8WACO7KwWGKjIqbrolqi_V_U5kFr1UUFfC-aC8Er72XWQu3GKOlE8C9EGPkUM_vZNmVenf4YlTLPOqNu4QQdGJhuWylNPQFUYHubwaV8ey3FVg4o-ZCIVewanRslT59HFmLFqqN4zQR9_OF-csiuQwRY1bJ81kHtyiS0RIxvO2cgBugN_91bhPt7wic-f-c3-li3QlTPmIEdgbupagE-zaEprB5QBJoBOBk5fa71ibCHNs04WvgWIxVhnILdo7DfUC9t2c1qDgq7EaQFkyWZqqxyJQGKweiN4E-OxGYitrt4_kHVE6M6c9p2EOQrGKtDK7nlHOyThL91ok2kp_CMRuH4k7ZPSQYBiIOCgwuzaQAwExvVOhTHps.%26pg%3DRRZ3U6KFDFHGTNTQA4GZ2UWXJU%26ch%3DAQEAEAABABT9Gz1eV9Um_yNGa-25kMSTmKNb-XkPqdg.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046300.276205,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEFQ_bTu7TDFLqaERPvKSX-RgffdL-9gPNzQXORdrcPShw5yxJ7aUCfVftIUdnVCAfGuv8Bi4AHBh4cdx-QP5v0CExsID49cQHmU8MQZi8r3knKwz_fZoPx6Gn2M9T4JbiXMgSgnoaGofJzDPn5PwHmso",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790000714.055004,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+10%3A05%3A00+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1cf1d504-4bbd-40d4-80f8-50fe67c62505&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046300,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758512104.956204,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABR6XxAngTPKyWk44pkAJR_PsdnbLk54P-A.%26dt%3D1758510300082",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790046300.274612,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4a4b44384d7474526a76425655706d775a70396f67",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766240714.684227,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Netflix 37",
+        "cookies": [
+          {
+            "name": "gsid",
+            "value": "6b4bad54-a923-43f9-9400-135f02dab00c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758596239.07232,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285839.07212,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1766285839.071872,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1AoqwtWSDIAFaMRfBpR4VgpHfoP2bKih7I20yj-ozdt0klZCJfi2lUaGOUyy95sjBEhIifuVIRXkJ3n8dIsb3KZO3stj3LUsQ0xQyLkmy9F_homqur_LFzZ5pPNei0ud4hw0Lksyaah0eK-3dzSrV8LODxO2UrU9aOq_zalovGZ4v40lL1SxYw90BAOMO-g477137a_xLPSM-Bbco9oVwKgWphwgy4QtvSq_ZVjrl3moHfuHwM3_bg_UejxURXOGL0ZP2w01KdK15gFxKZwlvn8WF4g4nNUlIKShQSOsUJ-hZ79nLR2sFi1Fd7ptyvXSfWXiyrCJ4NQ56GF4XXl_QC-ZGbl_Y2y9ra9Ib3JsC8v3TGX8bmd1wt_hjPiVi9Tr5sG4lhAKwNwfCdpzQ1eJCsKR4EhLgYS8sMtHJgBLCp93MPlHGcvNDWrQuc29tlDXG0OU5UsewgTyUmcjJxmrw63hMUWD5oJP99zZ8MmAIjBHdjcU8upAYBiIOCgzuDTmDIaQK4BBWjMs.%26pg%3DBU2MRFRTPBGLLCTDJBA3Q4NBNA%26ch%3DAQEAEAABABT5PssaJ_NwXBy1bTFEmKODwki1GNFFv88.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045838.0404,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBECeuWjy3cHqCs6MZWcSgvKBg7C0U5J8tUAThEUZDE3SGgXW4i4HiPjvfRr87aRc0xuXgWUJ5VKh6w6szjgNSIY0_PC8fSx_zd1Xy9Gu2Z3KFdhnrXStrnQXoOkreqJnFzBFGnvHh-bvwsVV2A2DJhTC2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788143743.304136,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "consentId=5132b568-730f-43f4-ad33-13825358350f&datestamp=Mon+Sep+22+2025+09%3A57%3A20+GMT%2B0700+(Western+Indonesia+Time)&version=202508.1.0&interactionCount=1&isAnonUser=1&isGpcEnabled=0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045840,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQ87hlhyFkPimOeE1OkvvolDUIeM6ApF-s.%26dt%3D1758509837896",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790045838.040134,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613856375359412f4f38634e5475546238375571714a72",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765182502.966994,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "notegpt-1019",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -23660,7 +34628,7 @@
   },
   {
     "meta": {
-      "id": "notion-1043",
+      "id": "notion-1051",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/495a4d586ce44fd58751f1739687af57",
@@ -23880,7 +34848,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1044",
+      "id": "pacdora-1052",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -25206,7 +36174,4089 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1045",
+      "id": "prime-video-group-id",
+      "name": "Prime Video",
+      "icon": "https://groupy.id/assets/images/services/primevideo.png",
+      "url": "https://www.primevideo.com/region/eu/",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Prime Video 1",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBINKro5J0X_by3OSeHS3-6v3Jv-XU1pKZHvnKFeFgomXeCPPy-qdDJipQ5sqRC-sz1FtHN1gQyrCrsYLWdO-Jh_YVPftq1FFkkOFcPc-8pCENb_sS5z3gH0BKtLwur0TMbFoDSeLKwn5CR5ojlMmSArbZJn-zq4J1T-vdvqdK387ceFuyeHVpHkLbFlNtCHDn69i6Q3ah38Q_XEcjPoPiyS2scs7ZvZ52h3B5nMeVgsKH9O1mDT0Lpl5M3z9IGDxOcWs",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274570,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTMzUzhEUEZVM1A1SDMmdGltZXN0YW1wPTE3NTg1MTAzNDQxMTYmdmVyc2lvbj12MQ.gxANtnA4LsACWjJBkrg5fATN6cWGib7oM573OzWbeGt0AAAAAQAAAABo0L0IcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102343.280911,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046336,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274571,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274571,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"6vbiFgHRbMGDBD+Wk6iZI9Wc2vycQL+3YzLFb2TngAw=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274570,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-7746885-9797645",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070348.083626,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274571,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"u6NACO8jTogAa6div9V/vzgbhAPuZZIOtaFEvuFXOFpEivf2dCjiwn4FM0c3yY2YaSyQHLfbu9LNd+skk7HSoQ4zfLwZIfcBSBh3Gds7Ttg+l17oRsaWSZt4k5lZCOaN/q1XS/zS/GfuqRnE777tdXQH/ZjzaNkEvmQMCHY21pH9T7IzYajK2wh4ThhaRd5PYETH6akO/iTQs2EDfF/CLVvlGQk28v1UYiNPRs6ryqeYQsGNBvSVPy4e5PrlDYHrJfgVtKpBTIwOjNvbtD3drJ7UAVKq2jkGL8paljaM/tBqDtCZvASw79w8LkyOEHPtjAnPS0fl8LgQ3i/LLLnhFdMSJseOoh/+8q+oL87vHRIrteMdeHm9fuHIHthyOaejJkx6FoPuC+k=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046343.97259,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b58492f5a2b35766d4436335135584555313541745a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274571,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-0985987-3461766",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274571,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"e@zduJcy3jwtoqm5Tv7sMdw1witw7d01dZJQFyZxM@4LXUlw382LAneHD1b4Cmae\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046343.972921,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-3K4NTDK2BR0C9PMEJPGC|1758510344603&t:1758510345888&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750345,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 2",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIC-1kDNMO_KZBLnDKQivMrH4RjH4-pI8rf1iI8b5vPdcXwzAen_SVdwtXlY6xs5UYQMbiGpsWpgNebxHcdJhnnOiMcxYHmmA0vBNx1Yo7NEepFt2V3-1yBiaTzNf7kmSZ55IU8Nd0FpCkCiiHz7owpB5Z1WI8hRm9UJWv6mAMsE8qyUm90YrtGBZJIBdk1za9bT4jpmaEis6GSKnQAt3Lnd0Ua4xvBBbjyFCQxqz-Ds2b5e0E5Z5W8rRy5l4iOGWSo8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274573,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNEVzNZSDNYQTJMRVkmdGltZXN0YW1wPTE3NTg1MTAzNTcxOTkmdmVyc2lvbj12MQ.g9ax7UrxsWeRfS8RTXeJV3q1gHeeoRziICdGYi7xCRItAAAAAQAAAABo0L0VcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102356.358186,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046352,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274574,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274574,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"tnrnXvYuMWY5e0Wu0SOGqcvPn9AHl/L5RPfhLLiGB/c=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274573,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-6845341-3898323",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070361.571152,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274574,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"wAMPyl8FiM2UH1uETiWnFfjSRRiD3NgckNZG4c9RHjwRMMpdZ6vawjrn84enC9PPRltwNGKP+ppjHN2KwgAqL3J6kjDs1lX3RYYLv2SzYgeUv1FQmK31i3q38/4zHPq7Pto6IS6XsnmocsfAkYM4Fs/46UBzvHGQejtxUZhJt6zLu9yjQ4AA6VaWL7wZ6pv0cHD+ZzXJXUiIj/KLQpkws6hannNrp2LVkyQ4CayZjnjYBZ5rG+40Kr9WvgL/AmilfuZ6VIii9S23PWUGO8m2pf2Od0XLoSdgdXsYdov4zEUe8Q99oUh0Bil52HVd36O9YINRlkvnpRqnOrJHuaD+GVen9Ua7w+3Ed2/aGnRUeQugTxYqczA8QYFvrrMTlbd1CCuCsVH8t/4=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046357.059016,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b734a584b784965752f447267324d755048634a7168",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274574,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "355-1279475-6363434",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274574,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"XXn4V56y7szrFIYeBlrXG??7HKAbtjfM4S0niv9x2Hgz0??UounqfmscQi56Qxro\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046357.059314,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-PB39SM10CV93NSBAJ3W3|1758510357630&t:1758510359070&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750359,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 3",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIJTDQz6pkKrcoDGZ39HSzIGNTI_LYpZEfeuV06-eyQRJK0JW43Lmr0HUAH04Xd2aHlgk7qJn_7EIs2_fIZGewiY0XVhTqW9S1ArS-9qxFM6WbL7YLB8w_-9phKF4q5F9k-TTIbzASQkJGMW1Wspd2AwvORmPFxmo5LiQjkGiEfQjOTLMEm26E5EdSoQBEKblOi1gxrdHvM1a9iIYcOgiPps2KyoWXSXTqcu1UiAcBHapCAljnPuINZUrju58pbuf-6w",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274576,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFSTUkySVI4RTFOR1omdGltZXN0YW1wPTE3NTg1MTAzNjk0MTkmdmVyc2lvbj12MQ.g5Q1KDgcHcXPHBoAHWQZHmya6qlYsI6sk4j4OfExLWyAAAAAAQAAAABo0L0hcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102368.579242,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046365,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274577,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274577,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"B+cG+fM0Ko2gKoownaJgraY3DuBKSug9lqe/hQSnimc=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274576,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "358-1952040-0242954",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070373.184751,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274577,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"yaCma0GgCUSde7IObEQ29QTWGYpLOZVq27Q11wHv3u0s+625KsQ5VVEJPGuvg/EVa78OBDYxyZd8SJ3dPsJuXgEWq3VKi5Yi5odbyFIzbfRpuxb0UNfUvVXcQjKLNIzmN4DdEzbtkgWzs2lTfp5gZ/WLH3ZQwVlB4K+i7NgQkYwatJsnxtHIGjwhYe/5ezIJx1nXO6dSBRu0ztkw2aFVuAiPyIXpe5FlhmE+VfX9PIvlmPS3qmbGOEezB7Lwt5SCoUzbthIp+DAMjTKixMA066ytMVROTtJVbFgC5I6/xajewVrlBpECjTi+lTO6eAfthOF6u/pHX9AHwASACxjn5ZvXZ5Kbw2hJGmkf3eV6XaDEZPQ6FsIWDMdW8PkZEHTRKbkrfq42i1I=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046369.257638,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f31744d55505a70456448304c4d72786267326b3542",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274577,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "355-4650311-8001953",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274577,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"86wxr2y@@4EdZjapgPyyWQHoGWXaPOkgJtB02X9rLEMhR7TN14vYUzuOt3Q02YIW\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046369.257964,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-DWYXG6DX0VM692TYZNS3|1758510369852&t:1758510371180&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750371,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 4",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIKgLq58582ammfP2eqe1823kKSWzIkl6rwzC3jaJhk7ASKoeEc9dJ2_ayMDWfqNcLXwmR50uJODI2nKagQ2Ik9lJAzSEk7GFd78gMAJEvqi9bpipXOZ8MblhaBR7rsv3-mfHtoD8dUkfaXX3Qk-0rtdJwKfBRhWhzaw8SPiOCs4Q_MI09udwW0JMGAntycTd9NeDSSIBcy0XYiEcT_KY6fSC8FTJMWwsPj_usfwKRuMurQJozZKhZ5GGl-VKlnOrl78",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274580,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTM2SlNJUUJCN1E2RSZ0aW1lc3RhbXA9MTc1ODUxMDM4MzQ0MyZ2ZXJzaW9uPXYx.gxq_Lb18XPj2cnJiqiPbfFnHerw3uhdAEho827c3wRnnAAAAAQAAAABo0L0vcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102382.601743,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046375,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274580,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274580,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"0FCDa6M1jGlIFvPWvAHIxjlNggK8An5uPaMxT/pji1w=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274580,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "358-8639882-2443254",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070386.88801,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274580,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"WGZ9Z6uX2JLr+GZAUMU6+F12dAaP45XdjzOrfou5o2GZwKgtpP8OZlL+Z2hA4ql/xur/ABU12mOzCCRqwjnYEf+z6tEBIsJ0bp7I8pf9svJBkUTp6v3bQ0zcB5Y7+u/B3kkM3VYbf55SoOQxA3VQGBGCs3ueWCOPel6dpdPnVMrWGajiLqCAUXWLvhLH6Kgkr5Udlf4xFynQNfBs2VdSX43TMn5jSVy2pJbhBbBUYqR7aJcm4jWj47iFsbSi15ZO/E45tYeCIzTLeMpX3FVo/yHC0rsxX+qyclTxFfj0GAGZ1COPmYl9bF+YZm0P9RIPwhqfFsiIc4hdElclIDvNg5etof3kGse4bKPW3ygvz9aKqTGCF6rtZHZnZmPbkBZD4oW+KOvOouY=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046383.304707,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961384d466379332f2f7453362f424c6332766342353846",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274580,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-3996646-8012703",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274580,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"C5ud1nb?gok?p6GOiO0JvDNKHccwHiZDs23iGyPHS5@tUjXYUt0AEc90b3GSvBeS\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046383.304989,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-JPWJS45GAS1GGX375BKS|1758510383857&t:1758510385165&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750385,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 5",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIK83EVt69T-_1ZcB7Gzf4uDE6FGKHgOEqzEF4-_rykorqDO7dv6AsCRZ6xOQZCW3dMPOicfx_cEohl6UYLZuM08kujH1t9RhKtE6ftwKqMMGQOJ9y-3ITaaHFtSGXJHk1G5THfRBUhM3Kp368KELZ8inDN67ATup7LApVEfBZw9J9FvpZkEdZUwUxrZlMhQ-XymNjwBBKfy6n0T6TMgjxBbBK0ujF6M4-P3ZdMjvUn1pfm1zOzPru1uU9-AweVLYuuw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274599,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFNNDhBWTNVWkpWMkYmdGltZXN0YW1wPTE3NTg1MTAzOTgzOTgmdmVyc2lvbj12MQ.g2lB6BPIulYZFBNjs2oQ3GTYQRiflU_Kpgwy0adFrPSsAAAAAQAAAABo0L0-cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102397.555454,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046393,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274600,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274600,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"YOFb95vFmya1zlUw8quK6VTZePiawybmn6dymUyrQpg=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274599,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-0074285-0519909",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070402.219477,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274600,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"Qd16H0O723Q+RoeVz1CgH/X8qDlJWG43J/xJ4qM6R2ajaWum8RJ0UtEgL8dAkKEhBNv8l5nxjRbSUS4JyQxKKrD8+pG3U+quex2yPpMhffJQTHnBJoZ51ZYJrhdcsLdFUrpd7pRBzHMQbhtj+2R4QrvIIWDSVDh8/goI98le88NhtsrRkliLwu2WnCZKZTg39qn4hblK//5PbU6U0KLvhkvd0FCEsRS6I9YhCyw2bM4M0TzeDmmOnTSzQBJeHFeP+L/qDd18f+o6B1P3CDDI64d0NeWvon+6Uv0fneePaqwi2GQJHC1y5laGddUoXu1VF562QGoup+/HoR4tVaQ7Jmo2+pLIY6lIMeZ6kHQSXAAArTnPTvWMrpi1H+GSDJn9Gv95aWyRE0U=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046398.252013,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613856527a452f6c55786a4c544f706b7a686a442b4166",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274600,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-8371195-8230749",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274600,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"yZiBy@dzP8WCpULn4HDbighpgejLxphhWE@tskQw0e3o3PfYF4f9m3eyuPGTglez\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046398.252334,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-DYD21GH9XG65W8AEZWED|1758510398830&t:1758510400149&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750400,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 6",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIAhjAPEGzplCyiNmLe3h7Syr2zyI1VD891yD2ePkSWx8-Awf-NCFkfPdi6_w5K5f9t1HXL4sGK3aMtlusvg583ckRGl8xJM-vAMhDYQwtBdlunQXwPTfIfhNGuvJSwt9gucmWX1ceMJ9OQDebY_N5YdnJPmnwLiQvJVfHEszooAl-lschUE7Uu1RgrcTb9H4iY8vodgHprG7OdWxfYZWon9q_R2jmy8l0vIRAo982tLQdnoVji-tvKmyiEprvJpU8K8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274601,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNGNlU4NkhIR0tZOFgmdGltZXN0YW1wPTE3NTg1MTA0MDg4NTkmdmVyc2lvbj12MQ.g6QuDHtjcDMFoXpAiassSfkC_Y6TwZ2jJjohNw43bF7hAAAAAQAAAABo0L1IcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102408.018569,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046404,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274601,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274601,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"s2Fyv5JiFqM5W745bysxmYMxcpxQtRgT5buJiGnbEp0=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274601,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-9247125-4931701",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070412.283221,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274601,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"gKSHTdXdGzJrU2nLheXuWi+V6z7iSzDqo9kBJudSBkC7u/0SWVqqaiZy2DXBLDcN6BHQhGAdDgCYXfHeZgYeKx2MbrGmRyDStJT5/kPVkSOUERSvX2XfDozwEavfP4zrkLy0MNwcQBmvSUeyCWEn4PgwnXj4VYdxikTUg8g67pLD+zZT3LR/gWEedpcL7HmD6ZBcnArTu2gIirRhx17qoSjVw6Ez0rQSjpbX4O+g7Nqxep/m9LdI+ZCHJ28yhd88dtDR1qj8Cw2QrDOp1lYSL125irKHnenodmoJ/ql7aXLtGgUuCmRZWDwlUcDSC2OK6t8qB1ir/RPnzY4TmaH9K4595IJzye3Hh7Vz5tHvrPw2R0Cc1csWj0DNLKB/HQdSg5GOBwparZ4=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046408.712477,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961394841635432355445777a6f73417275783659594b38",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274601,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-7848125-6590923",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274601,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"G4pyeIZ@Twz8acl77U4vWs0Q3eOoZOMvNXGfOC8hkbYqTLtNIo9D6nM4cURkviVd\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046408.713258,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-8PF99N12KA6BKQSCDT24|1758510409319&t:1758510410542&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750410,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 7",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBINP2bPAnE6FC4B493dwolBSOhCU-oMqjzRTigXhjLy9DVdeqpO5Tr0wNnnC_pCzLzMQR5NEn0IUt_JbHaITTA5mNUtrr1gF2kzDOJHow7sJl_n-AzTt1B_MA68306maRRu4N5RvBs0MXTar_wGOWobrQwtOKWxv6t3UM7wyCo4aIsPPNJuaUkG_1lV2xN-3Q4azeJRewV68ysBKHmvOAaATITD4j-syuLjbUzqA5ZwoEDvEQuts88PTAGq5AtDvIjfg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274603,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTI4VTc4WjJMSlU0WlUmdGltZXN0YW1wPTE3NTg1MTA0MTk2OTcmdmVyc2lvbj12MQ.g7-4khZ-KQDtxL5KrcaVYrKSK-etpSasF7kdLhWyb-AGAAAAAQAAAABo0L1TcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102418.858719,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046415,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274604,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274604,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"fEFB1ieFIya5I435CY4IhNQyc4Piv3K91H/FOiaHls4=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274603,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-9840004-0215245",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070423.430861,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274604,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"FXeA59WHR57QNXrzb2p5nwka+oBMnZcOkh3Jzp2Vz4afixgOYhMY3d7XyhKQRypCygdHpH+pjg1EP7JcWPVDk2vmJ851sReKR8S1sEaWpJ2Vy1BWUcZW7vEOO0BTvYwpjI3qJ+Ko5bCviVaQXm+5v/apy3yl3oejEZXicZHo2mK/AuF/cnFtKDAhcZqYj7dbo04I4+BZsDEN59BhpXAhsdPV3CvC6spjuZp75s2KTrdR2/+uVcDMaqlKSF8THnljOG9Va2Rk+vwA/Oep3kNBpjnG1arHG/rugudTiTo8+e6ZjVf8ctBgF80mZWz3VT4NN0rS6GiTggL8PpjF/knBaMc/gQ0GhHnAghe+TJOC+KauVuZ+EyQ35sEQX5NMhPFxw36fVqgIhII=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046419.557379,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613878314d546450417a317775525a7677786675556575",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274604,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-5208537-2166847",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274604,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"@pJru05BPFxyxUs?t3aFb9WAnD8JVY4B@mUVcEze2kdFC3hk6FAikoWm1RvJUzcu\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046419.557681,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-5EKNDHXVX4A9AT4DZCY7|1758510420155&t:1758510421336&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750421,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 8",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIBuyRfrmu0544ZW_DnwCC4Xmlcbzvk77Ix2VD-Jm9HuWjplXOyoA2LEyrIWV6wEQdNfTkG7BA4-z9RKqwuCji-gyy9AWkv-PKp3FLCp2ucq0hb3crHJcBfO6f-_B7MF5LiEoxAL8m4F1a6QCNlFFPjuFyr2wLejFmT3_kSKdP96MDL8QrGghVwujy14_0ClKoxZcVS8-hfFgZpY9E49piiK4GzgHEFbdctGzamzWSch6ACV6EqmEr5_GF0T4NXFxfIw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274605,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQU9LWjI0NUtDSFI3JnRpbWVzdGFtcD0xNzU4NTEwNDMwNjIzJnZlcnNpb249djE.g1B-eXrdgdNX28m0cP7Hm1AOh2DHYh985VN_8JIxoNY2AAAAAQAAAABo0L1ecmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102429.773787,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046425,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274605,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274605,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"COcYggsb7bHcsC1CkM7AjvCFAF61cY18X42MW3ztIZ4=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274605,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "358-8483407-6352508",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070433.344583,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274605,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"rdAaunASV0/ngpob+bzF/Y7QxSRZJx1IIXKhPFmp7B5tiRgKlPKG9WftiDTUxHG1IqtQqsKHTH8GJhZgdu2oU7pcjZLErwo5HHx2nVpq5pqxgBmT+DceB+tLgSdeEsciTK1J40Azygag2uKColoUbIks+o4gGvQ53QFsOHiWb0OMCaFYhpVKNAfcT/IJaSQTKjuKLjVaWnB9E2uhWF8cyimRebjb8kgeZFUa5+gMsPhoQDLxmYOuJ/Bp+AT6svBeZv+Fz6fzyroLDdqBuql6W/4c0R6lgM8NLRj/wCg+K/nWhmq77p79E2jfOP86GvCJLy6dxf1+cOiKfPDNi7D6ca1eTru8URVWuZMH0Nu5js5S8AaVhQ5Y/Lv6bi0XjxeSlJjMzquOdSE=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046430.480728,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613831393765674b48454c776872366777413833417873",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274605,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-7066084-2771515",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274605,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"BlRFObkl5vSIsZZqyiFo1liZwZiD0eSVdhklULOg@u0hma4rqyAiJi2tGzOQkHWa\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046430.481033,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-QCWQ5M2FCH2CZY21DA7Y|1758510431041&t:1758510432354&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750432,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 9",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIIQ6BKuex2KGNdAyUKo4qoAWj2oRdMtqIyAATzamf2xtf3R2m8NsgIizzMF3goyteeqOhMOQ2OAf238m69lK6FIPVVXyLmH9nSX4_txVX9dPxF-cvzvpZtDpSOsWXpXTm4suXOLUN9qi8EH7y3LH4mBv2JxNhTO5EKA4Oab-3WEuOLGZhLzfcKt3EWQnyEFG1FdWDScyIRrqa5HG1iVpOQaGdFJk3m62lmpwiWkTC1ZlRVGFDWWB_7yBwkxSMgzf7KI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274607,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTdGRElZUzNBOFpPTiZ0aW1lc3RhbXA9MTc1ODUxMDQzOTkxNCZ2ZXJzaW9uPXYx.g6OrvapPss1muG6HTnSUH_8vxuQ1QwD_UrnU1Y0x8NClAAAAAQAAAABo0L1ncmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102439.078457,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046435,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274608,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274608,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"RcyF+V8snz2FpqPF0VU+SuLCHRwDLJGnb3wo/zdMlt4=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274607,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "357-7871013-4892107",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070443.352338,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274608,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"JIC6dZR6eB4VDjEMWAQLE4W1NBiNwOGBKhZF7jGB/gBTOtZUefexVVcvZGHw5TngZN2WNTXJnO66D8rcFBYXb9Ku8jvdP5JmYIEKz5K7/OF534rabO2+CPHtBbswkrjxMGU1v5QDIpPJei3FmDITD9Dhq7ZQSf/YDyEa/qDLGUZt8UW74yX0GEn4Z7pRLh7cpJHUgPKPP9IGaX5UM2yqlbJ8uQ9zWNH/iRkrVqS7LKdq/nLrAeh7py611HYpdsM/NkGF3/cUIZ6C35UQMLsyM2bVxJ0qfiWMvKU5yDnjERgN4kGyh5bzS/3SC+aA4jLrPoMku+AvXE+NNTiJhxCZfgWrZn+dZFaohhxuXKbznjDwH+yrJMUnL8aU2819znCJtehLukHaJXo=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046439.763179,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4b794a682f39334a4563784d3770716a4478716170",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274608,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "355-8332019-1972628",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274608,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"P3Af18KbmFhDj4L@bjWqPcE1Dc3OCj1dTZ3dVjSf4JUqKjPj9n6pwvs?mF1IZplL\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046439.763514,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-T8HH3NSMTNBR8BAK126J|1758510440314&t:1758510441455&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750441,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 10",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIMfchHfjDa48FDuWybqhTy7_8NdgTMHekfFDzlC0P4QbCQpH9Q8HenvHo5KCM16jZCw6C96V3JzQanNXlY5kQ237zsDLubo51wiMinrFXE5Rc5WTyu0oK98coQrmHOBujE605-6y73s_7-9emwcwyVQC3tC-pVCyRhkadOjvf3qPEYF6wfIBY8H6GMhxIBfsYQ3jAo8lgEDZsXqk4beQ_ZvicY2Olfq8-zcs3uAnJ59BsQBszh2kfUhi6-R0KCEqliM",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274625,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNPREhGOFdJRTZMVE8mdGltZXN0YW1wPTE3NTg1MTA0NTc0NTImdmVyc2lvbj12MQ.g2vKWQQVPf8F2Itmz3GJDnvMPgqtXzoUAfkYvXMi2aN9AAAAAQAAAABo0L15cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102456.600661,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046451,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274626,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274626,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"O6bGZ6LZtNxednln2lioFzIIyAVTHVWQWLHuRJzzacE=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274625,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-5258297-1077160",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070460.821035,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274626,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"NDZQigAk63xO2RN5QWcr/Iuk7G52jujhKhD/0lupT6CtBjuychtE2hora+fqJS5GXNyrYaWw1g4Fn5+PiT+HWWTt5/TGTWV9HlYoI8IoDGrGO2Gud0ELY5eGL2Fx/g9TEUQXRq8tNwnCFyS5fiItm80GE4wgciGpeAXgTmQ1O5qNn4HQ63I6FPYXfCXWaZM247nfDahyUNAFozpfLMJjz3uSjY81z+ghn2iBwElXidLwq4PATlGs4VoQ+gEFd7AdYZnuEhlC2kbGBnd4E/X7y3+JunSCOy9Vup+ErtKQEPp6vqZGPs83mrxOV9ET3zoq4gHpdaqIdPjfPAgq6fk08WUV8ATAVAxOMd4kr1tg90KREMVvp2odyUmJuAshRv5zUyecBVwIPVU=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046457.311265,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138764b5149726557346474467a6842617968346f436c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274626,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "356-9749648-9137063",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274626,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"nepEJCKOqrdFi81Y9uJbfGZ9mTyF9FUaDjVuoN5KtCQaSUgTCR1J@1pUuaz11jMG\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046457.311756,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-VS4B58DBH8JQY7Q5ZSMA|1758510457897&t:1758510459132&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750459,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 11",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIFyxy-xWhirofzH0ECfF0eqOu76H2BdR3W7gpyRiu9N5IRJXu22zanInyB9JfGoQIaSvVph9HofzYx7cDEbgv3olMCVrQHt3Qdh1s-Umm8P8AtJzceBYXbpYxN8fo30otezG13NI_2gRby1Glm_9e3ow_QeNRV2MrzKzgaJJJCFkE8H6jXIpNu0Dxc-T_DBoGDSOHdjTcN-CtLOI0n_44d06loDWUAdtVMy4DXqYwAIMCx2WjgW0Gz7LmD4LJ1zJyT4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274627,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNBMTdGS0RFS05BQjkmdGltZXN0YW1wPTE3NTg1MTA0Njg2MjImdmVyc2lvbj12MQ.g0ef_nPyn8YAOm55DjRNY1rUA-7NQGNw-a3r29qYptILAAAAAQAAAABo0L2EcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102467.770435,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046463,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274627,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274627,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"SQ19pYDIxuybBLsbvtyTQ3iWIlYn4XWs4URVhoZ65Fw=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274627,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-6827410-6784221",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070472.240067,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274627,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"j1+mWX4nwGpLCZc2ij4bmndpeNozxFWWC1oDSPV2lser/xW3HtevgcAGUObkt28etHEsspVJS2cJnTtJPSTqoDo8uMypLihZgTL7o6PfYqt/0ScCyXQMEysSZ5A9HnHAT5IKp3QjP3MTjWJRd11LhOPNwo3RC01JXaR5/089YXfWy0N02epzuXoYysw40aLn7R4UUXq8IKWnLO/INm/StA8AdjuAnpYzIU2sMQucoiJTXSOJ7/l9KXe4NrvQg2UfB1ilHYAYnsPJ6qXa+tgqOb2micWcM6gHRXEu/HfJdKprUFw8V8Chm4W/Pg7mAYG5WJ34Kw3tWJcp+GRQhxxGyRhhV9FhzJybesSkkjbDgUtFcU52BUe6wq4QDjcryNs2mwHdT1F7hm8=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046468.484096,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613955753551796738364f6d316b76454b6f436531746f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274627,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-5981936-1203565",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274627,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"gJJ7aFYhkrtWdDuRwPl9bVtSxQFbG9BiBvJSDG@ABCZIraxTnih8NHEwixEXICvb\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046468.484487,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-6W96ZZTDFHX3AEPHRG2P|1758510469036&t:1758510470316&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750470,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 12",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIPEUKKfuvE2kl0_RRpKt33bs2WkC5qjU4X5b_ecZkaUX1vgCUBYfA6dQYZguBUNN_I-k__EzAIBux4QsU3XEhsT5I-IXvBAy92rf0OnZrzkUfRI1jrOuHLROOW4ue3fGcMLG7d3Ey1ohNMHqGPZ7y0I5U3XW-6qjUF_p8L_Z2CKf1P1CpZgsD8lg9EijnqaL9lGo9BDx7zAJyyhXR7MdLbn0QFXP5YpWc7bn043KE5EFg8h_mvKPe38iI5z0p5xoOT4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274628,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTE4MlFGVUU1SDVaNEcmdGltZXN0YW1wPTE3NTg1MTA0NzkyMDEmdmVyc2lvbj12MQ.g9yEQw47XPmPJcnBQ-GMzOTZbCsR-mM2KDBNSyWqIB7WAAAAAQAAAABo0L2PcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102478.352095,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046474,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"DbqhqwxQJRY+NwjKtn5Sk0vypcDWpXNo2pljd975Jkk=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274628,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "357-7328452-1866520",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070482.689345,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"PvKRiKTGQOJNKZNuyP9GOGDqR5D8tiigqqHF1YQhFM+AToMWHpoQhqw4dJHFy4XAoRPiQ7dRwoXmNvtMI/1i2+l5d86JcrOvE98ufEExWrWp6vqJVaZF9N8d7Vahl67pPjKHu7Gvx+x1BlUG7nVAj+cSeienu/05Nprp2B/7rMUB4vo6vwYxPqc7HHHLa8IYrqHfZ0ZhhY/TH8tNMzisVb+wbjk1zg4N/iU7eYOR7QbfIa0sWTxDVHTSblr+aJnrZkWmF2CtKIZoxIlvlHVx7f/mtLNqbeo2ub8O6+cxYJLNh8TnMe81D1SJOMJKIq7EjeiXKWzihG6vwCYyRZnGR8HUDhoqxyj5pl1RbI5mKgnoViI4L+u9BgrspsMeCi5Bgn8ml5QBJGg=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046479.062491,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f79667a2b4357306c416851524d724151676a42696d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "356-5724154-8590753",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"5ViQwB6aatgb6paVgDzs?mh96IYnB0fZPVI2Y@JMijH7jHeO2u2yDHKtGhbCjTgi\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046479.064124,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-QAF3RE48C5FVX3MAJXN8|1758510479637&t:1758510480898&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750480,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 13",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBILobTVXosiSINXOSkDs6AHpaMYJm9248AsgpdNBSpxdOwi2ZgHveUCtHAZQWDxc2vHST04muXm9fHaO0KdpLqeaCZO3T5YFeJiEWKeDC35sYYxa-de0OrLlGEfd0VPGWlsimgFYjclOU3AYtaH0FjmUIF8YBtyGEAAx3EGhwDW2U6WrwlQiHtcxFlMBBrsRigJ_ZN7IQxFOq-qPwEDqAR8fafm5mB93f63fMZquVgPcyg_WC_Zm4WCvwYyFl0NhooaY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQVFJNjNIU05EUTRWUyZ0aW1lc3RhbXA9MTc1ODUxMDQ4OTYyNiZ2ZXJzaW9uPXYx.g7FBkIvGvBM1uxBSvjWm13-zSvdAx62wYPpRPHpxpfMEAAAAAQAAAABo0L2ZcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102488.778238,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046484,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274630,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274630,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"aNydcoWrVil93q1Q8ZPa3jh9EbVsvmH/oL6QO+42b94=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "358-8516584-5205125",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070493.780475,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274630,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"7E1rX3fvIR+oFDjqUOHEi6EPlyFT3JkBKTuLkaom6zGgCPRrgNGR2uWbxDzya/msmmaphJkqZcMOWfnEfn+puR0a0YHEW9dTxSuVIYRTnQAZO3Os3qL/ZFaLIN7FWVOMRDyRFF3RSleBkHsDBEbKsjae9Qnfk7YZy31VIhmVQ84xiGVZo7m354+WPJXr/uUkWU9XgghrRAnDMukaQuzWPa+bU95Cnlyllha1F2S4DGfn6dvYmoo2IMdgh78yEdMKqwrxVS6y96OGrHR27nIXBwjHHpaZraeCkVDm5fbu29k0T2WpoO/Xv5yeS0wmUF/oZ7DIW//cpXQtCHCKdfAD4nof3Vwm4zsGJ9dSszOzXfr2HatuNpG0t0m7JIflQwoZwvkLapxBITA=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046489.482552,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b6a336e5154514545326331426f7276694b52525031",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274630,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "356-9736801-9346958",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274630,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"00ZyF@pLYHa3@FNuBOh40Im5nCEQzL@4AlRki68YgEdk4Qgn@PnoJWOhkvMSN1a0\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046489.482839,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-K30XVN0CQ6PCGQXXS2QF|1758510490047&t:1758510491718&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750491,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 14",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIMUlmmhbqmdcylucx24R6bP2KpsE9-NYY89z6Xi_9kd4vN_4Um5wrxC6ovbZGBo2aZrbW11peoOBn0VVWqR7LphGJIv0JkMe-7c7B7zv0t3anzJCIJjJQsrdOdKw0YQU81GwZBz7iGuxv6k5mJTjMU1n1XbI-NXLQBzAwHfV9-Ma8RfiHI-HrF3qYl8fau_oDiHTGJ7HJGI5HVdsGjYMisPbvqpgsg4oHAIaw9PL9kIx8yHR9oqOwLvoPuYwYYEImIk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNEMzM2SlpZU1NHWEYmdGltZXN0YW1wPTE3NTg1MTA1MDM3MzcmdmVyc2lvbj12MQ.gzmYnwYtKxjrsY5nxtX0nRP473VOFArzEUVm2nc_NwpxAAAAAQAAAABo0L2ncmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102502.887944,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046499,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"2NtMK9cw4PK8+B+/Guxpg2Z1hPimJf2iaXYJPeVoe3k=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-3903120-9553201",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070507.121022,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"fFJeWUIRXbPFut0c1xvSG/bdS6qKIERoUpTrrnALxZEnGDhumvcQzqKCAW/Z6EYKidjtL4ayx5Rhx8DtpiVTOyC9kLEazsEKsQkKbfvIqWo2r9xuShSf1GxEQZEHcpL26K1yEfb9JwxIrK71AamE0QQRqmNg16vOg7hKUHfri7bayZzQGDLYLQeoBWlQSPOR28C2zuSd+C/QK2Une7BRlzHWTeCVMgchCVYts+lunFrOJakyl2ejB8um+cOsWlx0KZI/0jRDAxUtmVtnfG9cSB5R+pcwdaMapUMXF9Pz+FPKVGQLEuXnPFaKpXw77rETyXJ8lRa4zFqX8NO5Vf4EtzB95snyzFFVkGUWLc/gxcpPhtTRgvl0qSBlWiVGP5BX5GzVYkMkpxg=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046503.601376,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138722b686f6a77754f656549347a6d4a475256646a54",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "356-2730374-4401338",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"@JF9Dz0r2dHVIalCKrRyLwiwj4Fne@dLc9gEqylo0unmZ2Ku9ew4EtaQYv235xWB\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046503.601737,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-S8MJCWDZXKS0BYAHZV1E|1758510504163&t:1758510505499&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750505,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 15",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBICaUZz2ODHyMcBTi7P90hsGEjt824Y5R89EW5l11JJPP5onzQM_lw9qQ8lP6r10MOzHFFbV1Llc5VoWA3gNxeoIsACD3BxWC1cHfo_BgSwjLPyggGGSUOYAEqeVzvJWuOLDQdLcBuhv2XdcuPF_M0h2N43iXYJJAoaqEfaAc_hiyIHuzBB5rYu-Da9dH_ARO7UhBUbbHgXDCbvxmAMdzcwXJJk1JF120iVI01GarfgwlsdtD7JJM8U82hXNblPksvH4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274673,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNEWkVWT1FZWFlZUEUmdGltZXN0YW1wPTE3NTg1MTA1MTQxNTgmdmVyc2lvbj12MQ.g-MmlzaoU54g8JsNsQLsOVjZFFZjXiBcuwXiA95V_DtkAAAAAQAAAABo0L2ycmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102513.310924,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046509,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274674,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274674,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"u9miuiT+foBaXFLh+gUjQFpTDoPsHDMiDs07H3J27Lo=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274673,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "358-2154169-9388636",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070517.716792,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274674,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"AAQOza5deFtMFQklRl7c0bvL6QM3/N9I77sTktkEfYU65ULlZtoxB5B7UDonciJaYsZIgXgqwqxildXcbvU07FFKn09VihuKLPtodVZW8pUc9SvcepxO5H8BJuzVAoW5dETyUFvY1oy7kGr6UojorUfnxz9YnLbjVl41FESsig2zRO6dnjCXex8NlSJVxxRbdH5Y2K6tbjbYQwhUlUNzW/QR7FJ6py6B65WaUY66xg/PMwxdwrW4bwe5LaLqIzSHBCMFt/N26zPQtWo03YwIWvo4MlRTsvH2RgZ4GpzaTzU7hE/kfIuFp2cio4CofLLN1plHhyn7/kxD2EHcufHGXoO9NBkHNBxuWcuFHEfbrayseLw7M2CZhzCaevLs8SRIbLCHtg3mL0k=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046514.0111,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961396c465a376f553044745355444a4c735041376e4773",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274674,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "356-6924398-4934825",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274674,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"aGQJhP1FHpj54Gz2ULTUBi0tRE4kwZRvNhio642Sv76ZYJV5jIMuDLnA5ODb6?nm\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046514.011388,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-HZ0JKSGB6NWZMHZRM28J|1758510514594&t:1758510515860&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750515,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 16",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIPFWjvWEFx6pAi2gdsBeTmbhQzLTkCPQhwm7totMy1sUBfBLrMkklPnT5TzNWVJITE_snSF74pjOx5c0G-Xz_vI7aROhA1rAFiZqJdaVLgjZQ-9lIZ9ejic3qCifQzMCcFBn5a7pOm__UZU0MMGO7_LN-Vm_CQ6mwzueebZo91nvLz1DuTS_oMaTgrlh9W2tC82wTezgdbYzbfnX6OG651UPLqKRizh5CtTBVTuT1IB379iJ9LlZ0vcyMl1YIGYFt_o",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274675,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJTOEdTWURWSUI1SDQmdGltZXN0YW1wPTE3NTg1MTA1MjY0NjMmdmVyc2lvbj12MQ.g6yQTm1xt7SogV7u-wjNjfMc0glusk8hhpYrWb8o6_wXAAAAAQAAAABo0L2-cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102525.632586,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046521,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274675,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274675,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"9SFtzKdcvOGu4gQBtMYvPlufWzGtg4x6sulwcNbA1ow=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274675,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-5379181-9877628",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070530.188415,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274675,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"nrq1akxGthZl8r4YI8rXCCQS0WRyyL2KtXFYseyUFdSkxBIuIbPWFnYHL/J4AbFuR9wOJZrarHRa6b7qiUoaBqkGNv/lW3juYTstXej0f/jqBbFz2tOrHcomWyk0MlUHdF7+4O6u6mlUBIrYbTpljx2UHYb49QJNtM59Pmv9n4YC4Q9WDCMmgqleyMdZ9uNpzBFO8MEc2VtrYuvzDLwYbA9Mptz/H2kLYp3UoLpWaDcSzJZriPJDh3/hZlhYkR9BvCDcw+mG67HkOs3hmG//I1GT5wXGt5GVbIIR4eRCAba6M2sMYlPY51tsv1TwRjZxE4Csta31HsUERjKQVG8GRu5iUgyY5FhGNc27wfiqUS76Lwopvgd/0bojnl8dxWQNkgqFEXkYMnQ=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046526.332475,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f733438794550635a734777696f3175357352523539",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274675,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-8242276-4720617",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274675,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "CVycOohYVQZrGgEWTXHRi8hXUyUGvkN6wHrMyZZOQFUBaJT6QLQSCamdXRtf7H7m",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046526.33276,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-HWG37FD20SVHVNCM60R9|1758510526890&t:1758510528211&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750528,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 17",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIHU2ioE_T2IZJnk4kfKDez2pDscfORNLO-YcuPp7M8LZbNn7VwI57O8hdnPMRHFJ-EmwYIL2L92sGXxEVHZEENbyB6EYR8srTVSC0XQUw8j3BoTqCrEya93DefLyO1Ta8ugTWoTBe05Fi0tuaZxmg0Q7sP5aTAif1TjtLqz6ZDAogYu5Qb37oSNowxijIujlNArsCMTK_BtabkkPhAEr3EnSoOYmtEjr4w5EQR7lO1qHNlZUQ58OS0PlUbcXvRAmluk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274678,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJNOUJGSDE1T1NZRk4mdGltZXN0YW1wPTE3NTg1MTA1NDAzNzYmdmVyc2lvbj12MQ.g-WqHLM7SJCS-l6U-2Mc6bd93tlq_OeKq3-rk16c36X6AAAAAQAAAABo0L3McmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102539.528227,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046535,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274678,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274678,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"D91MEf7jPdf7AwOkDoHk33/KKoHHgUSmtIHmdG/nyOk=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274678,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-0919470-8911263",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070543.666309,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274678,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"RvidER8W8A9pNoHUtOtLASaXPpFER3hMiFdONoTyP+lU39EiSWed/OUlNecRBYWoN+5XZUzkiBtiaBcg2I2zvy2fKl4IqKBo6EiLxBz4NJQCFJDqm2T3fRkh8tU1+YMjUD0V/FS314Gs8E8E/e5xq0v5/7Q3/8N3OYZOGC50kWxiQPm3/jmdCTCNv0hxNXaeDtE8JscwHDEtXrnsboVhsHSMOSaQS5HgXjzh+6PxsYSE0g3kSjvTAS37+1tPMK7zqQiPN9bI7UJvguDIIet58ezCepFi4PLq9oWxiEPvBxldn2GWKQHNR/+iV1bSua1BWv4xCWqbc9+nQGTHB93Z8q3NDPhTEHkFP8S6jGxtNDz/h9rwWDJw7A2gZntZb1BKkYzKbK2chV8=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046540.230773,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613939797834576a5633334472777176693730594e396f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274678,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-4051497-9925242",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274678,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"6ZIo?iGIPrC31n4fKkh7KWInew5vhBesDSEsoE?HrLTVmHstcc4bZEQ3i1GtDKn4\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046540.231087,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-RMHSMR8EV0BQZKKKECHT|1758510540799&t:1758510542228&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750542,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 18",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBICBzXmAwoYV7-iBPUXK4g7SpAbYnoq3llPbEAMJ5II5QnU4Uw0-vcZv4Hq-GZv3qqlcc5DFkowPNN3ngAz8IXDqZ7zi7ntP8H2jhAwAoiHNS5UrxfjSKTd5g5hVnAEprt28wTVw2bcR2160Je4pQHvxP6v-1kelEjWk_j1weLDYC5c-zQHCcIhBZKHBEXD44AZBY5dBHuyH5SoT8dRrCdW1gvC6PuCMw4jCaMJXEXaV-B1nOhV6pfI-gccJit_awvAs",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274679,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTM0TDhJQkNKQkZERDkmdGltZXN0YW1wPTE3NTg1MTA1NTQxNTQmdmVyc2lvbj12MQ.gyptycbanKJpkPOaWWTX6ZTOaCqNzCOS2Bbhth1eluVpAAAAAQAAAABo0L3acmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102553.314833,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046548,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274679,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274679,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"62HhkS6GZIZmK1XZ0gQG4boPabqv2OI39e6lCEfC7EE=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274679,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-1456352-8765627",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070557.759764,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274679,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"acFPo6i57K3kcqPO/6eAdAcP6ZTspQebAo0y31tPLcQyuKxJ6j3JEtC1unqq7r5LkpS8tEd3JmChbcHyN1YHD1xvpZwvBDsOAXo21JmuVYly0v+bkq8/3DvoAPPyBlzTJyYPbKP2to945vguA6rYCX+cda74riDIb4vkYB4aYXKqCOyXirXDoaMehltoG07LHfDU+yQSPYWuF4DDhiqVE5NePnZo/+nlxXoMbnM97m9hpaOc9MLa2meY94ONc479XEG2JooIimOJEjuf1pbx4tosD1tnssoCXTVIPplH8QRCb7BjH/uj/0TLERKnF4rOuzOcsGjoEbjz4bQjPgHrxeuxW0vPNcUb9sitli00QQtz/FeMz6a7wSZpSrNy8ZqYTTqb/6V49kc=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046554.000059,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b44316e3846532f47614d546c3435513876546e6438",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274679,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-1378026-7570515",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274679,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"erYcNnAPwPKHF5K9a?mKubggZj62T2dGF@1L?Ew4YNqh64EICLo9j0x37n6ePvxL\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046554.000352,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-YWQ1KAX718MKDTRY8BAA|1758510554584&t:1758510556146&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750556,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 19",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBID3oVfUrOh7esGbBaZO2dFWtexg9VsW9LnJIVT8-q7xzaSo6Yl4E62r0wNam-QCAbDMC1jeW-ckof423BHpYpwkwzMn73YhbJiyl_Cdo42np8uKes7G6p9tlgy3qrFQ7tLZwuW5D2cZrZetJnU5cWwirabDoN2OlQ_Z9-JrHy7__eVSsU4Z-OH_CkDaZDsaPZt4zemkNLr5KoH5J4B1H50fOLqAZaQ-nEVnozwugNvmBd9faMF3kijJk1AcVkXoBzus",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274700,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNPV0hJQlBQWks2STAmdGltZXN0YW1wPTE3NTg1MTA1NjUxMzQmdmVyc2lvbj12MQ.g3qq6wWNhy3XZAay9tuEhnvaf_z7gMeaSBU8rkMtDmcaAAAAAQAAAABo0L3lcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102564.285731,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046560,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274700,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274700,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"04oHPu4WHEqklRpxITmCKUNJe5Gju85KZRvxlmzhzBk=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274700,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-1269198-6236658",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070568.861064,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274700,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"KwNWD6yxrUvaRPuZ3EGv5GD8tmpOf+BzVT/a3WeFzzoKy0Hq0HNx1zFrsHzRjNwNVC4Kx6OmRRB0mV2Al1YtiCi0qKHIncu6CVm+wIEWNumF5bW3t6fqT4uDS3SaHjsTUQcfRqE4rEpYgzFEMnOQkeyBfKPMn/shYfOJsrBEJ7R3jlXh7ksRtvCxuewz9HjN4vda3FW7JKTlZbDY7UXozx9W2eJpzYcyb8FAGH6iS6g+fc8rWZKLM589Ufrt+bZ75gYAKn/LgWdHOjR/zo0L5aHdBDepYyhvndEUYoiDc6QDJ2fxqqlkHrlLxJlKMuhHkWnqx3TPCoql82W/OG16By3uqihT0gTydcm9laZbtPutt09FKitLJKug8ZexSR7p+5/G3Yw6oYg=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046564.988045,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f50635730726b42386e3756675355597242424e612f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274700,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "355-2205470-1522247",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274700,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"TwjtGbljVurgEXT5Hv8Wa5dR9E0sOQNq3t8IHSZoltFglku@9@z5WOBrGf2pfamF\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046564.988364,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-PZF5PE2GY0G3BENSD94G|1758510565558&t:1758510566884&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750566,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 20",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIM90nTJanXS01vE_-TB3bH7snSs_nI5ut1fXpZ5urJWwmvDnTA1BXv0Nq7MPhvRV7v1A5kA5IWUaLgwl8gn-gwpIFSkJN2mRErarrOef5W92wdCVCEabK0xX12wba9fS_mXsjpQbSfswkiiW0l2UNRlRM5sUHtMDP0F6WiBfN0T_ea_TbIb4nAtv2uPKx7EWsHjExgzV4-1RPmbQ_l9CnTzfqtPM--fZlja3ZXxedMxe58a7EzkHN-PnSSyZHi6bj6w",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274786,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFDVTU5WUhVOUhEVU8mdGltZXN0YW1wPTE3NTg1MTA1NzU4ODYmdmVyc2lvbj12MQ.gx4u6tVfC-ebYxHEiHC5EnOF6DdYVvo0C_NkofzgTeqvAAAAAQAAAABo0L3vcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102575.039711,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046570,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274786,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274786,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"lf3ejlQ0fiIA4SB53/DonHPo4yFiNt0fgjvs+FomeIU=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274786,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "357-1093384-1335261",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070579.622197,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274786,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"+yhV0kNVKNjyzsygg3eqlKOAI946r/n9zxXRbt0bOu6mxPxYzAkTlKalK0g5F+QJgG4P7kd9g1gOumQQNNkI2AQ3yFefP82h7HLfmGBP7PUpQCIsnJEakPSvnXA3V3NkJIaw72kKK2qmCPeWmrcSz6Cbm8s+DxT4NvSINgILe0kf/MoQmPIsIodXHdX9JKFQeDSSIOiZecRDt83auaDX5SFX9yWixQRKGZqaXoVhBQhz6jbUkhfpGTT4srz275ankwhXDS1UnPH2ngwwy9nIzimy2K7bxgsb2wiRWblp5NHm2fbSg3BdIz4HzfWHU8jDFphy3LKQ2qy0Xk2u07Agg3Kk3m2CSC8Cvl8lyxXCFBPPk1tFrKuDpepmBX07CMV2uFsonSADIP8=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046575.733748,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f4a7532524d70334b6f5171565254506d6762452b63",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274786,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-8986758-3388723",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274786,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"z4cc?g?oUjpAHmkSSvHjherwAvyMkhrd7yLFDpeM3pvtWbArbhur?1QKex8pdA4c\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046575.735044,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-92V25HWZQAVW1J01F19Q|1758510576325&t:1758510577668&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750577,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 21",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIJwH-e42iQB1aJxbn1MaZgxbCy8Siq-RkTDDbYgUqXZs9QQvz8PsFmoDBE1dHWDXdTgMEszpiB9R7pGYE7pNpim6Tatw3jbBovwktRkRk4yTHluf9Zz8ISfbW9_HAeNQuxAO2qaRIxRGgEC11fgh1EOVn-fw1h0G5P1pRD5IZIr4yB9Af6JAUqY_aKVOIKERtsvGSopBnLkZAjxdmYJUEHs88YtPj_xGO5PkZzqAGoG9Rp-azYNbAHvIfl-rtDbgPS4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274721,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTVIQTM0QUVXUkpHWSZ0aW1lc3RhbXA9MTc1ODUxMDU4NzU3NiZ2ZXJzaW9uPXYx.g-Sl3wyl7yWu3xUyOOug5pG3qBa3yZ6FaQupW2xZC5nRAAAAAQAAAABo0L37cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102586.731476,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046582,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274721,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274721,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"kZ7jzvQbdErA28aweUBybF1m98Q+lF4VkRzlAOQuS8o=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274721,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-1887484-1456648",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070590.936711,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274721,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"UTWGnlR/JgDvlmXChEHY3FNvr+g5i4XU9n24OtAm4iwRpFd3YAfWDmp9XcdCT+s42OKZjS9B0SSaLbxWlc8oxVdCXK65vUamn8ZWheSU8mVDtYX9ZL1Dz1v79rLCgZhiThVy8TPrBPyJOv/rEffpYfBJWxCZMP+DlJDYbmZY8UK+gEOiskS5kUwUny8uqolICE8COLSWT1UN/JbUSmrxcRN2oRFJYX3LJu8Pt7edWnMnvOVJIDIw6mzNoesctcoYHP4x3VwQuCaGEb+P1GvXmIE6NjSq70kAhkT8DaWwMOMGwoLS/qzvVEMsfWnFl/RFsJYOFk7kd6DDxwtpXqVjhGVWqu8sLKmhrilJR9X6r+J++7jgfDqjGpqVFwOLoCm6C4SdZa0qbmg=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046587.424307,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138517541716e394c4b33795a7730644a594e61705657",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274721,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "355-4663672-5175509",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274721,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"TgLoUlmvUg6YCTSPDUDtqQV5XB4GspWE5h9zmt2kW2SxvHgHq29Jm9Q11e9@942R\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046587.424596,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-0A4CSMNJ4EZK5S5SCRRH|1758510587992&t:1758510589239&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750589,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 22",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIJ4-7BQWzQoEaV6EWuZ1V1Ty90ePLB9aaXZH13ryxt3dMFB-S8dQc5HutpyFKIvn-gVEvfSeRS3GLQJTyAjsgEUcSJu5knHPFqwhdIxTdeJmii67yYuYgqy0A0ONslqI-XkRs1uegx7q-XNaElUrA9ceJpi_P_36NlrhhBDshoZOfWyf13IiI_TXoz29nWse_YugwmzievAzzi76TPFh87vPkj5kxQlx3zbbic7DkS2RFL6MMgbp7CP6uJpnMUn8cMg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274722,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJUTFJVUVJMUkNLSDMmdGltZXN0YW1wPTE3NTg1MTA1OTg3ODUmdmVyc2lvbj12MQ.g73B6RDxVTFIj0RjvlJSFmBXKNqswSEt4LDAlyTtTcVAAAAAAQAAAABo0L4GcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102597.93443,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046593,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274723,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274723,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"VkoskbOdfifOQQ3hIid+OPON51vBfAH6/A4Pwb/B+pU=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274722,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-6078566-4034817",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070602.687116,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274723,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"4xAqhEt4UDW0PfHroW4EzjypDX5mw1ycWKoEJftJs6FI3gqBGyJbEnhvXjgg1txdZbqFhiMBGrM3eKJXY15ozAfVHeQVVm21zarlC/RXeLUYQDEg2f+70BXR2EFZ+0S2bnSbi0nPJdX6txLP8wnYHI7pmG63b1iaylCMRGlmJN+RhjoRGJLDBrgibWTZocDy0PZnD70yeqlGr0/x0Qvp3eyYfMYIRrhO5cCMbRiQb5w3bUvJtOs7q950+QDJzgF6XQYKUzYUs8IuxC9tkakbc+F5as0c5jTyqo9sR1DDl5d4Do6NrSq3w9SYRvEwP2ObUXT8l5SbIveglB3KEckJhgcVtxPKuA2WLELcAhlcDkpfUgI4XHnSxVVWUJy6Mhi6PEX9wkVxrJs=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046598.638595,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138534c3232774436424f652b35495a526e64345a567a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274723,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-4125156-5519755",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274723,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"1?Rf?qr1WeC3dAjVJYtgfYSwVyFFuv6HY8mIIWTHEdyHVcdAOXpQzZBmswHzmAfK\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046598.6389,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-NBPTZSBBQH1Y9BKHRXE2|1758510599227&t:1758510600554&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750600,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 23",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIG7DD5a67ZQ3p9w8mM3QfQmjoXObo5XY5U6j9z98NU_91M15ImopAD_ou4S9HTo1OWcnASTiWW-X1B1Dw3ygKg1NIHZfVbe6hlXMt5e5pnGHnFZgbAp2aBbZNK_eMXJHPTM-cnNc7J0kDwSk8C467cNhKNzmzkrPdkikXQ6j3isFYiLajgQL0Nyo5ocMStOfwIUYKpyYOkms7SpaOTml7698eFHibUKmbtKweG5QXi7aClev0u_hxy1hdi2PatmXXgk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274788,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQThFOTc5QjFIVlhORCZ0aW1lc3RhbXA9MTc1ODUxMDYxMjk3NCZ2ZXJzaW9uPXYx.g1kR3Mz86qqAR4LrS9THs_OQL6Aeqa8qAOGo_bQAxEWEAAAAAQAAAABo0L4UcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102611.152315,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046607,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274790,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274790,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"6WcntWavwzsAvBr2gPQLYa1q/GZKGN10eR6RtHkz5cE=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274789,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-1276668-4511248",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070616.691069,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274790,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"gOD1rsPf2XtdQThmjaYTxaKrGYBPY4AZc0uR3k39qpG7nG4ubtg15GB2nzp74RbxzEJLGDIVSl7Wgurn1kfecNw4eANQ9VxbSjVzl3UlWVdmYN5VvA3XyHjoXYnXv66JnDfIKO9m+zO6/mh1ynMM4q9i4dShtNcvnpL81HmM1sn5piPA3Y4IIGo1SHKSlu1gp4OAENLmVPm7AjqhAPLTzq5+/jloUslpoM6HePlQoqbgqhbkBnHhKA4q3Qy+1gfQ5MCUW+sXSaErzAtGqbbbP6UGhs5RKd4cKh4YNxq3todH2VAMqRILZ3NMGpTfYAGnHdfNMyNh3a7fzJhVa7ncYLT9NaI9A08ofeZnmzxNYbVaaEV+A3I2AHylLKZowSVoob4vmO9FwKw=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046612.830709,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4468324f55304d356d692b48676f734e516d33534b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274790,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-9954884-4257110",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274790,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"uShLoPyWBUH9bhkgaAToHni5098miuSQcu2zKIysaBdyFGukz4t6F@Ddz420XHUB\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046612.831079,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-4B2R8Z2FV2W5EZ03D7K8|1758510613466&t:1758510614749&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750614,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 24",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIO84l8b9__9bjPG-66FkIaXrxNqQAkEMpE55LL-tWEP8dWh8_vEvAxyFMa7F0IGOpxkNX_v98tnqHfECoisoGW2pZyFYW1hxiCQjouo-B-R6ZStlXbf1Fr7pHSJ-6l07dbtvV3ULEN8B9S7N43GVg8mo0pHRdZC9O6M4ViaLugTVhGmNQEPGtTJ7mvMw6jfPpp-dxa3rmUFaguv1-YgVmQFjwkYPnpC65xXgSr3KkZ7AEeBRyKyRYl1uWEow3rAph68",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274726,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTE3SlhBT0ZGMEZCUzAmdGltZXN0YW1wPTE3NTg1MTA2MjM5NDAmdmVyc2lvbj12MQ.g-wfRqLCJyNu61L8_NmgPy2fElvtdveD_XiDg1ThKVE_AAAAAQAAAABo0L4fcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102623.094652,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046619,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274726,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274726,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"/wTbuBhKjjRsCKDCj0qppkj0ju3v0h7srwiBNFJgdbE=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274726,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-4770330-7628651",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070627.473498,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274726,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"xGX8E0EX5Gw5xQC3wMoJKByFfbShSr8eIbMCQ4AWJwD9ViJcK0FHjZVPIKbktIuq+Gg9vXYagRSEKTBDq6J+dIcoHUrep8tj47Jjb2Kh0hyu1xzvn8Nbhkj/OvtAAFCQ6hOCHopipYyKXFk7AL7mT6Jb9PY3rgh3c1FMbJEICBno9Es6PwWXKPHIev4OAoxeCusCDpETlh+EPDwsoJ6MyMdDPxzdmxsw58jV9gX8dTnaiZjZoAwK0vBNsb9EB9iRWSzmNTkgiIGj8+QWP23jlt/QOfmq73bCKFkRDId0Smklcy7Sw1428Zyq+Lv5w9vwnZXc6oUjMvVVQdzszmUKrb3cyEhq2AXigKOU65kXJjYe/jp0nXkV66FCSlreEkZ2TEIgdKUD6Fo=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046623.803555,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b4b376e776d6458774c45724a374d724d374433774a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274726,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-9881327-9254841",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274726,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"F@4w9oK6CE9f8AEjNG?4e3FgRgXqi4T3UPJA5UjFFXO8uRl8urCWp5S8DKZSBTZU\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046623.803893,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-X9BTP6R425T0EDRGS9M8|1758510624366&t:1758510625479&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750625,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 25",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIA8VNNzAK_hQY9yAJ95we6gqO95R5_cg_yS2oR2dF688zV8qKtu1vRHjvegdiZUuVk7bKWVG-9L-0OU-FvfOlQrnrpnoaMEv8gMRnsF_VTzyCVqE7BhajMbR3Z6nO_37KrnS-bpPkwjcfzDT9QXhfA_HEnGbR6RrUJwhYT4pipEybrfL4mRn45U_X-zNH8tOOhnpJDyWrvgj2KYjxdjJ-afqDzEStmv-V19Zv9fpAGtpMptnDPOq-N1YhZ_I3RQd6mM",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280549,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQUkwSjRYWUpNWDNXQSZ0aW1lc3RhbXA9MTc1ODUxMDYzNDQ1OCZ2ZXJzaW9uPXYx.g5a8tceKg5xicM11YuVHKzDAn38rg5dXoGwJXU8THJzFAAAAAQAAAABo0L4qcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102633.619454,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046629,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280550,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280550,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"cBembP9wgtemttr6V+S1GmYRqbwj/4/WFQuJBUwAJ9s=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280549,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-0261018-3390134",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070638.027218,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280550,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"Ur8SBZB7GQtZngqYDfNVocYajrSqkK6CSZ2D3VZ+Y+KEvOVHfVQUTLN2tXH8ULHFOPFNizuTocWZ/POGAJCXh0JEUasVMEgkRbVep+4TkNZ2cluzaYQbHUgGO0JZXIgtv2rAdnVKssXKDgmUEhvRMUTpV4pMbyZTTXH5ypxn/8FvCeJi1JIJ4aC8kaRYQ/iQxDg/5TqQwxeYpj+6v/xUuxlOIvAsREKUnLhBsY5KtV8/OGqaif8IkWx3CeUqXFf6gZ6f9+4g8LMrmNJOKU7rp2FMMULwnJ3cMQJ3q+w0b3zAYV219wB8HNU46bIQjv/9HzfGvZXNYCX7q2iqof1/YFqNvOTC3aambW57IEuJ0Rj6x3VDrErEBqVzIX22viyHyOakPsT0jkk=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046634.314126,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138617469715964746c6158766234447132505a502f58",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280550,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-4743103-0325915",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280550,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"L0Durs95RjnWV7qiwwnDtVvt1rbt2hXLHcofS?kCH356fZ566QL3BoQwOISKd4YD\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046634.314457,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-9VSGCCBSKKGF0YQ9TEZF|1758510634886&t:1758510636290&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750636,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 26",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIB9fvSwa8m5dbG3xD2HymkYT3bPJh6NtgLVeu-rG2UHFKQytqrqxvzwrm1wl7Gib6nn7bkqAQIlCELBc8cJkuJGpN4Rudhb56VdaSns7P3oFd7jnUfgdvt4jaLQ3UEMmRNf4BaTPa0FMD8DtTIN5dE45kmJue1uFm3POnmOWLIDNzP5kTy7MBrz4c_elp7ND99_GGqXnpwtZELMt_kaWpGJpNxdlkUtzix_0wykmJsOrzPR1biDGj3hrKkTYSNeuNY8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280520,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQUkyT1ZCTk0xNUEwQSZ0aW1lc3RhbXA9MTc1ODUxMDY0NjQzOCZ2ZXJzaW9uPXYx.gzT3w3HpQ54apnwpCcLu5vAJ-D8bDhotuAsV90e_vjmSAAAAAQAAAABo0L42cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102645.602611,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046640,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280520,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280520,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"YCZCJ0m7YwT1mdUi+rM6nvPGEstfoaLSrMh54iXSOnQ=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280520,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-3936389-1203630",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070650.0817,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280520,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"vfxEcI3oAmq6zzaBht96KkLGcbSJqsQyKAEXyePto1/HC9OhzgD5CEjpObtjX4ArBIc/uW0iQNE/iLG4JhYtSszkG1ixtQIzv0loQiAeB+jRxnHy1cT6Ss9yDqseEMEyGiX2d96ffUpCC7h+UKg7XL7aK83fp5MqJHy5ATDuZbmRdHCI/lS5gLdyH0TmhjOpagYBSqSV8OLdExmjIplSlNxVfIj9deI+7oGR8C2cygZXzaZNT3K0R85kDGHcscXS6Y0FnF1+r2jDymoqQcImJexLP2HhdZiQz9eh9GSXazl7XByFe9Sk0/Fwd0sSZMea0bd2w6/QZxHS7MCt3UnIgaLHX4uvRtpXn38wd3rPC5BroHxdZZ3qCgPDhsQHKUNs9kTvNaRWD4w=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046646.280174,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f6e3736484235304b76795258716177734454566743",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280520,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-1465619-4207142",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280520,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"ViNoEbk6LvyfM?@l2bnsCxceSoKVb80oVvHW@yv@IxJz9q08Yr?tL17WRtIe6gFN\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046646.280431,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-YH4TCP8GJ13ZZG7NCQMA|1758510646911&t:1758510648186&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750648,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 27",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIAh0qxGIkfXFgp_9-yLUtGrCtweVCtstJyNZEmRibOFz53sQCc3ABOJr1KmRKAwYXQ3fRR_5SBGfAph9ObqA5trV7JLpVQKpXiwxjtnGQb3tyudgH2BZRexIQtPmmMFQ1sFPx_Qx1wgJz46r-pbAlDxNPniXROBOrtSlQ1DnDNveWf-UaRiv4JkiAQUNHNeVU1UZfktIUBQXD-VQrSiivblq421OqU3HOCcuQlZQU8hEz1yxhFKgAqEAOO1j2A2aKXE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280522,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJWNEJRMDBPQ09SMlkmdGltZXN0YW1wPTE3NTg1MTA2NTkyMjAmdmVyc2lvbj12MQ.gxbArD3wO-5QQTBxBLWRe864bb0VkwCrmJGC4LJ1ApJAAAAAAQAAAABo0L5DcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102658.382694,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046654,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280523,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280523,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"eoTHCZBsT4pjnqZyOueo00SSLfhHqFmmrWrt7YPQLN8=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280522,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-8254194-0938228",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070662.507648,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280523,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"UDwy4aibTSK3b9YO3gXSUCKn2kw4TCRwOTElkzHU9/RBk3yzGjU58Hrfh3dPnIyElAO7lqB4KAggHZd8gIYaizBzaZ3Wc73Fs0easqRU7mSrlXWjtgYjZGQTC00uG/2/Qz3KoSFfxRHeLL5H1Vsfe/ASbijvSPlYe6MtMNHLx52v/GWenMMo4mll7EY6eBVoziXwfL8hv2A160xAU4n62G+xzwMM+P6zs7Kyhf7fmv+v7oN0WyrUUdnfT1nS51MP+WgoOQ+SPrWq0FCj+RwzIYlWvXOlA+nJVtpjrIwPBTFZdCYFSSuG0ibXgOqdUMIZbqcp3MXxHOF/F0iaYeriz4t6ZUXeT+JRNHPOMUf+aV08U2D1N6fIUIbLr+LA2Z+3lU+5kqEgqXA=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046659.075993,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b766d48713941426c737a544e52682b504e6a59506c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280523,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-0131755-9959233",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280523,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"yyCQlHld2vgzTdW@ppoQivHJ6RsC4NeO@VvHMwmQ36a7N7IOXM7S?xttoEwpok9k\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046659.076281,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-YXJ52KDHTM1959DJE1BG|1758510659696&t:1758510660785&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750660,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 28",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIDsRgTzsAhOlmeyPYIHsWMwssDb9RxnoG4MwFAhzFHI6_DoZ2TOjfFnUDJspiEUZPeIuFiSYpvhdbh0eBlbsggcn6y56RZO_4O1MzHDu0xMNsUd-QgY5mUWTkN8X3Nba2-GegwdAxzo3rOrEBijjpxGqQHk6gEk-HNX7n-FBQbL6m1kIKptixR_ON1O21V13PiGNzDsV4qcszJ91U0OIEb3jkGgOuvOXb5mbtMWPJBHiRWIAYFL45cJBXex4ZUTSVpc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280525,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTZQU0FZVkFEUlNDNSZ0aW1lc3RhbXA9MTc1ODUxMDY3MDA4OCZ2ZXJzaW9uPXYx.g1H6pnXigl7hQyeC7Q8I8Kp_KsWUfTOKJ5b9cxj3iueRAAAAAQAAAABo0L5OcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102669.244802,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046664,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280526,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280526,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"dDkgwNV4D3Qa0SXJkcgRzFNTWcVL3VIkpq4HVVBx08U=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280525,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "356-2654934-9035838",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070673.566213,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280526,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"zxO98aKh/7+rW+udUQweYVf2FDTcDCLmbScACkrn3Tt6vEvuzMatd8Zbk3INo5G7GFyr2ePPX3s7o0a7dCg8l8sU+OmeETcc3CpFx34ZN7Iie3NR4TdovR+ApyoRGRiz4Q/h1Rfuqv25UHwouKNW4uZKKIMVnCYstnfXrzOH5qmWpVSg5rCjeBoI53aLXVD1H4O1aRDeOMHivUJKn1Q7sk2YQdwotKU4bbSuAURKvxdJiqs+uDOGzA44LZw1fe6PxM/8yN5rDr5azKe8i41OiaiGOSQ7wwxR/ZeFk/63BFkA6pHJrYAcCTwqi0T/wsHo6EjFHntLcfyWuSeTNKOOFSGP3yn38yFTcO9OqurwFmmyu4f8vFDYKf7sAjnzHRp92wm1VEnbxy4=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046669.94817,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961394e3174724869774c6d6633684c457956724678576c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280526,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-6368004-3905642",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280526,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "CN2NEryVWs480yNPyS2TkG5C9QWEMQTKLLuuGJXNMHDnkabqWCXrwGKYyuyEfuPh",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046669.948433,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-KQ8HFSN6K61YPE63RBRH|1758510670559&t:1758510671858&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750671,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 29",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIPp54mPYx6V5GB5bDrn4aPyDu762X-dDNPV_XoPKSGriq3FMfg-ecLP754fjReHp4GLToXAbbpl_jrcLb1vdxe06P7DNkgIUE-OuXXYQL_qLMG5v1cQ02o4UCIHZTchWhhytl8lNZaimNvdLtS6Eutir15gF-UcJ9BHkZDqb9e8t10Jm4wBkfpZpE6LwkDdoRoqMFXAABEFcovxde8byl1QGU4Nw2gMpcbnMtbPgIbjLMoTrG75FN87Ybd3zi1ZBWaQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280528,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJBVldBWTE4WEZaODImdGltZXN0YW1wPTE3NTg1MTA2ODEzMTkmdmVyc2lvbj12MQ.g4s9dhvL6jtSPRu1-jbKkYIl-sT-cOmGp5rHJQSTA9jFAAAAAQAAAABo0L5ZcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102680.482512,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-timezone",
+            "value": "Asia/Jakarta",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046676,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280528,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280528,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"SSc7JijoromoU0lEjmvGwruJHRXOzIyOEjCJ10H/pyg=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788280528,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "355-6461887-7105826",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070684.80983,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280528,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"1EfBVhskiO00yVYX++2drPo0hsxznlnCBIftUztKh1AOnhABQM7G83MmDRyjWeJjv42FcTE8wuJsy9IT3CFEO0Vw1XS5F37IgRYXkr3WhKdHBWWTxQ6RbeRWGyuivShUCYbAGT7Rre6OjRke37XAlPpKn9nFCk7YoWA7tJcYKx5SzRvlbRNuP9jxhMUhXogjf8QPu+X2EqwZ2N7CHKCVvS/FGrQiSOTv/HZIUJtDMEqyD+lVdi7oVv7kFK24Dn6unByKCE9ToLh8kvXgA9XguhfouGA/jKrTuneygCLXzhYSXhtH5V8umN5IWDNZPG1jF9ZAalhCaWm1nihB5uvgqea41F83AzrTzr6E8bShG6A2Dkiy6c9TZSHVJH9smIz7c/+yE2iVAc4=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046681.183031,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b356f4948674d66572f3544434c595a55394747416c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280528,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "358-0196040-2658456",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788280528,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "\"Qn7g1mgVlKRpYECvrY2VOsUxt2RnyXpRbJLcXrfxNORRouUS?3rC2Ht??7a7GKrp\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046681.183336,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-J1TJ5MZFE05NJ2QE5YFH|1758510681760&t:1758510683112&adb:adblk_no",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750683,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      },
+      {
+        "name": "Prime Video 30",
+        "cookies": [
+          {
+            "name": "at-main-av",
+            "value": "Atza|IwEBIH44jXrE_O6aM7tPpYFFSz-Um8wxXYdqh-02J3TB490MxqoLDY8qqwUBknzdvDC2SrWo4Q6nD59MRVHBrHuhPjlPbtZV-Tr76T27XeB5_3JUHHB2F5tA6JcOP163co9fvU-hT7xpzYLfAI_0F15sTQzT3FXoiscIEckJhDEiySoc9CrBfPBVVolpmp_OpgvP4Te672hPTUw56waiIHGGjHMbJHB4aH8Jwq48Siyv0f93LXz-GqAfS_VN0b5D4-s8L74",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274568,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "av-profile",
+            "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFMREpNRVJWNUFCQSZ0aW1lc3RhbXA9MTc1ODUxMDMyNjQ2OSZ2ZXJzaW9uPXYx.g_x4LUbr3HJKRNx6e8diwyDImh7tS_zYGmCQ7vceKxxeAAAAAQAAAABo0Lz2cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1761102325.620663,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274569,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "lc-main-av",
+            "value": "en_US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274569,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sess-at-main-av",
+            "value": "\"FrSNWxfbEjBuyWN48yqnxP4KIhncfMI/pb8AAw6s1x4=\"",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788274568,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id",
+            "value": "357-6692649-6242457",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793070330.741242,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274569,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "session-token",
+            "value": "\"z35mdg9TVdrK9fxYpaTiWsyLaX1Y2yNk5sHY/f4OCqsMtJPZVddJWLFIK+33Mv+2LN6/hWKaqyrcg4SgwM5svXrp6+AtaCNQgjKUzGqZLlkhU28wj8RvT8Eh/yVQ0bpA+SSyoXt5b7pdilyTWnOkTlt9NzML8rvBdyZuWPeWc+K1o6kANU56AR+xTmSmos5qzdktWEGEjK9ahFNtMVnLDluUfo0xklzLRJios0CqyPO2dmIzDapaASxfXMZaNiZWjqJ8Frt1HQ/xQfAcIAdmjjeCoiWNrCdImlbtCWwHAjClgcOUjfk1pCf+SiM7LS08w5u89gVGcmVaSx09S8E61HpurqNvFDKVy3i1kUXM5vdGZUU/VBTF3uzFhhnOiH10XxgA95xy2Jw=\"",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046326.316963,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612f654e6b636433756256396b456464544f3877705541",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274569,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "ubid-main-av",
+            "value": "357-6155392-9118151",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788274569,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "x-main-av",
+            "value": "rBp46izV2BhEwk82ffZwMm45tEyp7Vn70tKIuwvWBHc7sDSdjEnsqYFeAi9JsoS4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790046326.317266,
+            "sameSite": "no_restriction",
+            "domain": ".primevideo.com"
+          },
+          {
+            "name": "csm-hit",
+            "value": "tb:s-S2D77PAZYXE7A8G0WPY3|1758510327024&t:1758510328374&adb:adblk_yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788750328,
+            "sameSite": "no_restriction",
+            "domain": "www.primevideo.com"
+          }
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "productioncrate-1053",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
       "url": "https://www.productioncrate.com/",
@@ -25308,7 +40358,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1018",
+      "id": "quizlet-1020",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -25521,7 +40571,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1046",
+      "id": "rawpixel-1054",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -25593,7 +40643,7 @@
   },
   {
     "meta": {
-      "id": "relume-1047",
+      "id": "relume-1055",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -25724,7 +40774,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1012",
+      "id": "scholarcy-1014",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -25846,7 +40896,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1048",
+      "id": "scribd-1056",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -26891,7 +41941,7 @@
   },
   {
     "meta": {
-      "id": "sider-ai-1019",
+      "id": "sider-ai-1021",
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/id/chat",
@@ -27061,7 +42111,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1049",
+      "id": "skillshare-1057",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -27424,7 +42474,579 @@
   },
   {
     "meta": {
-      "id": "slideshare-1050",
+      "id": "slidesgo-1022",
+      "name": "Slidesgo",
+      "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
+      "url": "https://slidesgo.com/profile/downloads",
+      "category": "design",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Slidesgo 1",
+        "cookies": [
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1350483374.1753716738",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761492738,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "_hjHasCachedUserAttributes",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "_hjSessionUser_1330819",
+            "value": "eyJpZCI6ImE0ODk2YjBhLTM1NjEtNTMyOC04MDMzLTE5ZjQ4NDMyZWQzNSIsImNyZWF0ZWQiOjE3NTM3MTY3MzgxMTIsImV4aXN0aW5nIjp0cnVlfQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252746,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.deviceId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A45af9892-a7da-d620-d509-846eb1699787%7Ce%3Aundefined%7Cc%3A1753716126238%7Cl%3A1753716738572",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276764,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.sessionId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A637a8b96-058c-7b11-856f-97c7aefefe5c%7Ce%3A1753752738570%7Cc%3A1753716738570%7Cl%3A1753716738570",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276764,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.userId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A209226677%7Ce%3Aundefined%7Cc%3A1753716738567%7Cl%3A1753716738576",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276764,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga",
+            "value": "GA1.1.433463320.1753716738",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276763.829298,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga_TKX201X3BN",
+            "value": "GS2.1.s1753716738$o1$g1$t1753716763$j35$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276763.797405,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2025-07-28T15:32:21.947Z",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252741,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Jul+28+2025+22%3A32%3A33+GMT%2B0700+(Western+Indonesia+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=bbee4f1c-25cd-4d33-a039-993871fe1d82&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1&geolocation=ID%3BJI&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252753,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ph_phc_5DOEyS4AghYbrWdp3TpOFFCdAcFOWZbqrFUvhkGqgmz_posthog",
+            "value": "%7B%22distinct_id%22%3A%2275281715%22%2C%22%24sesid%22%3A%5B1753716763905%2C%22019851a5-2330-7fce-b506-8f2a3d75a1a6%22%2C1753716433711%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fslidesgo.com%2F%3Flogout%3DezbFNY8WLdwy79tU%22%2C%22u%22%3A%22https%3A%2F%2Fslidesgo.com%2F%3Flogout%3DezbFNY8WLdwy79tU%22%7D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252764,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+            "value": "75281715%7ChcfF0NRd7FOzDktJ0FijOVvCYwm6VPpxOy3i2SRgda98JhDh5gkp3BO853el%7C%242y%2405%245FlRIyjM8D1fJV4CQ91qtOpwR4%2FezBIzCCZyWjEoY.apGnbfEPXcK",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788276736.92854,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "slidesgo_session",
+            "value": "f6onxqaru1tSIQyMtLzxwKhAdDfEozNc9fHHNbar",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758516903.672841,
+            "sameSite": "lax",
+            "domain": "slidesgo.com"
+          }
+        ],
+        "sourceUrl": "https://slidesgo.com/profile/downloads"
+      },
+      {
+        "name": "Slidesgo 2",
+        "cookies": [
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1786944815.1753716648",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761492648,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "_hjHasCachedUserAttributes",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "_hjSessionUser_1330819",
+            "value": "eyJpZCI6IjMwNWI5NTI4LWNlY2MtNThmYy05MTc4LTBkNzRiMWUxOTYzYiIsImNyZWF0ZWQiOjE3NTM3MTY2NTAzOTUsImV4aXN0aW5nIjp0cnVlfQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252680,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.deviceId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A45af9892-a7da-d620-d509-846eb1699787%7Ce%3Aundefined%7Cc%3A1753716126238%7Cl%3A1753716652185",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276697,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.sessionId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A45ddb499-1739-c934-fa09-8351fd581420%7Ce%3A1753752652155%7Cc%3A1753716652155%7Cl%3A1753716652155",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276697,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.userId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A209227029%7Ce%3Aundefined%7Cc%3A1753716652126%7Cl%3A1753716652216",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276697,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga",
+            "value": "GA1.1.646749916.1753716652",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276696.808176,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga_TKX201X3BN",
+            "value": "GS2.1.s1753716651$o1$g1$t1753716696$j15$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276696.776598,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2025-07-28T15:31:26.073Z",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252686,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Jul+28+2025+22%3A31%3A33+GMT%2B0700+(Western+Indonesia+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f134c8a3-ec69-4ee3-8c14-75e8187cab72&interactionCount=2&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&intType=1&geolocation=ID%3BJI",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252693,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ph_phc_5DOEyS4AghYbrWdp3TpOFFCdAcFOWZbqrFUvhkGqgmz_posthog",
+            "value": "%7B%22distinct_id%22%3A%2275281817%22%2C%22%24sesid%22%3A%5B1753716696886%2C%22019851a5-2330-7fce-b506-8f2a3d75a1a6%22%2C1753716433711%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fslidesgo.com%2F%3Flogout%3DezbFNY8WLdwy79tU%22%2C%22u%22%3A%22https%3A%2F%2Fslidesgo.com%2F%3Flogout%3DezbFNY8WLdwy79tU%22%7D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252697,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+            "value": "75281817%7Cwpw2omcSJnVE5Y3cA19fXIKQyG8iLkzFUmvl2n9kzcdngiMvbv5ynRh5D0Fo%7C%242y%2405%24dkfSCVCaQ49SXEfPw4x9pO1Pgnw2NtRHqzZ7.E97P5xgtCKb2s9La",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788276647.286832,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "slidesgo_session",
+            "value": "UgwrF00BirJMTt42dkrpN815vURwSswnJahrMYYJ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758516913.484597,
+            "sameSite": "lax",
+            "domain": "slidesgo.com"
+          }
+        ],
+        "sourceUrl": "https://slidesgo.com/profile/downloads"
+      },
+      {
+        "name": "Slidesgo 3",
+        "cookies": [
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1365106663.1757225095",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1765001095,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "_hjHasCachedUserAttributes",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "_hjSessionUser_1330819",
+            "value": "eyJpZCI6IjMwYThlMTJiLWFjZDQtNTlhMi1iZmJmLTJiNjY3N2JmY2U2ZiIsImNyZWF0ZWQiOjE3NTcyMjUwOTUxMDIsImV4aXN0aW5nIjp0cnVlfQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788761108,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.deviceId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A45af9892-a7da-d620-d509-846eb1699787%7Ce%3Aundefined%7Cc%3A1753716126238%7Cl%3A1757225108973",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791785108,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.sessionId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3Ada347e52-1e26-8b2e-480f-d91815a09887%7Ce%3A1757261108972%7Cc%3A1757225108972%7Cl%3A1757225108972",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791785108,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.userId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A209227371%7Ce%3Aundefined%7Cc%3A1757225108971%7Cl%3A1757225108973",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791785108,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga",
+            "value": "GA1.1.2053606410.1757225095",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791785108.957328,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga_TKX201X3BN",
+            "value": "GS2.1.s1757225095$o1$g1$t1757225108$j47$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791785108.95697,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "GR_REFRESH",
+            "value": "AMf-vBzQg6S9lp9fHrToBRczoHeVfYabTcJnqswHM27-_x3VfYK2CGk9qlotHfg1AA6KuoF4p2RdD0hoSCZB8Qg0rXQ--Tdya9NHwSUjAp-RszE5Jbosw86-3w36KqY4NPfrToTbSRwYRe8IyUWR-AV-NwISBqjetd0kUcYIjlqNobuSlYIIXzCV2DRhq4a6C2sxfUaonPL1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1759903507.205395,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2025-09-07T06:05:12.133Z",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788761112,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Sun+Sep+07+2025+13%3A05%3A12+GMT%2B0700+(Western+Indonesia+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f2527a88-307f-4eb4-965d-d25c3fa313e0&interactionCount=2&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&intType=1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788761112,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ph_phc_5DOEyS4AghYbrWdp3TpOFFCdAcFOWZbqrFUvhkGqgmz_posthog",
+            "value": "%7B%22distinct_id%22%3A%2275281915%22%2C%22%24sesid%22%3A%5B1757225108960%2C%22019922c5-161c-75a2-8f3e-6ca2a4223fb8%22%2C1757224965659%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fslidesgo.com%2Fpricing%22%2C%22u%22%3A%22https%3A%2F%2Fslidesgo.com%2Fprofile%2Fedit%22%7D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788761109,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+            "value": "75281915%7Ckig0ZGOhKhF9dbMJDEffuYHntjfNEeWo8Giq0M5795A6w8WR52qymsh39VNh%7C%242y%2405%24qYAQu8xY6v0ZaNEoWUB12u7u.tKfZiHWfB9kY.dPsipKe6yv7IGg.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1791785107.205432,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679613979632b38727269616c51563847494f4e2b73386e45",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "slidesgo_ff",
+            "value": "6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759853107.196729,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "slidesgo_session",
+            "value": "qIEwobrGLWrivrj7NSV6IaTj9sXtbFbv8gjY1C2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758516922.548526,
+            "sameSite": "lax",
+            "domain": "slidesgo.com"
+          }
+        ],
+        "sourceUrl": "https://slidesgo.com/profile/downloads"
+      },
+      {
+        "name": "Slidesgo 4",
+        "cookies": [
+          {
+            "name": "_gcl_au",
+            "value": "1.1.933154664.1753716788",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761492788,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "_hjSessionUser_1330819",
+            "value": "eyJpZCI6IjY4YzI4YzUzLTBhNzktNTk5Zi05NWEzLTFjYWU1YzdmNzhkNyIsImNyZWF0ZWQiOjE3NTM3MTY3ODgyODQsImV4aXN0aW5nIjpmYWxzZX0=",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252788,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.deviceId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A45af9892-a7da-d620-d509-846eb1699787%7Ce%3Aundefined%7Cc%3A1753716126238%7Cl%3A1753716789164",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276795,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.sessionId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A9c1a13f5-edb8-d807-b326-df85b7c779d2%7Ce%3A1753752789160%7Cc%3A1753716789160%7Cl%3A1753716789160",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276795,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ab.storage.userId.a2d072d7-2602-4600-b75d-0ec0c57e425d",
+            "value": "g%3A209226220%7Ce%3Aundefined%7Cc%3A1753716789157%7Cl%3A1753716789167",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276795,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga",
+            "value": "GA1.1.649814466.1753716789",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276795.24527,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "fp_ga_TKX201X3BN",
+            "value": "GS2.1.s1753716788$o1$g1$t1753716795$j53$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788276795.214359,
+            "sameSite": "no_restriction",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Mon+Sep+22+2025+09%3A53%3A46+GMT%2B0700+(Western+Indonesia+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=87855f51-c09a-4f70-bee2-6896cb4b9de9&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fslidesgo.com%2Fprofile%2Fdownloads&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790045626,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "ph_phc_5DOEyS4AghYbrWdp3TpOFFCdAcFOWZbqrFUvhkGqgmz_posthog",
+            "value": "%7B%22distinct_id%22%3A%2275281594%22%2C%22%24sesid%22%3A%5B1753716795321%2C%22019851a5-2330-7fce-b506-8f2a3d75a1a6%22%2C1753716433711%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fslidesgo.com%2F%3Flogout%3DezbFNY8WLdwy79tU%22%2C%22u%22%3A%22https%3A%2F%2Fslidesgo.com%2F%3Flogout%3DezbFNY8WLdwy79tU%22%7D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785252795,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+            "value": "75281594%7C1bz46AusmAAN9ijNg9YauJbkHy9BMJcaK2BX2xisr9yrbO6Z81LvoLz7ghcX%7C%242y%2405%240yzNFT9UIFeX%2FjMwaOyWzOQzH580YhWQ4tDgomcZHrhT3VmB4xwAS",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1788276787.037665,
+            "sameSite": "lax",
+            "domain": ".slidesgo.com"
+          },
+          {
+            "name": "slidesgo_ff",
+            "value": "71",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761137633.41167,
+            "sameSite": "lax",
+            "domain": "slidesgo.com"
+          },
+          {
+            "name": "slidesgo_session",
+            "value": "tvl366rCGSdPovQgdaxuGPjn6SKwtSsTCUYJmwzH",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1758516834.411897,
+            "sameSite": "lax",
+            "domain": "slidesgo.com"
+          }
+        ],
+        "sourceUrl": "https://slidesgo.com/profile/downloads"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "slideshare-1058",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -27883,7 +43505,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1051",
+      "id": "studocu-1059",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -28336,7 +43958,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1052",
+      "id": "symbolab-1060",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -28520,7 +44142,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1053",
+      "id": "udemy-1061",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -29527,7 +45149,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1020",
+      "id": "vectorizer-ai-1024",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -29579,7 +45201,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1021",
+      "id": "wetv-1025",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -29636,17 +45258,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039293,
+            "expirationDate": 1790045765,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
           {
             "name": "_qimei_i_1",
-            "value": "5ce77bd4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc84b1afd0",
+            "value": "60ca56d4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc84f4e2e0",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039293,
+            "expirationDate": 1790045765,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -29721,6 +45343,16 @@
             "domain": ".wetv.vip"
           },
           {
+            "name": "country_code",
+            "value": "153513",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1758596167.082881,
+            "sameSite": "no_restriction",
+            "domain": ".wetv.vip"
+          },
+          {
             "name": "G_ENABLED_IDPS",
             "value": "google",
             "path": "/",
@@ -29736,7 +45368,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039294,
+            "expirationDate": 1790045765,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -29755,7 +45387,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1760928650.397223,
+            "expirationDate": 1761101767.083082,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -29894,7 +45526,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1760928650.397356,
+            "expirationDate": 1761101767.083246,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -29960,17 +45592,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039305,
+            "expirationDate": 1790045774,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
           {
             "name": "_qimei_i_1",
-            "value": "44b344d4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc848eef84",
+            "value": "50e924d4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc8490ffc1",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039305,
+            "expirationDate": 1790045774,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30045,16 +45677,6 @@
             "domain": ".wetv.vip"
           },
           {
-            "name": "country_code",
-            "value": "153513",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1758589707.730444,
-            "sameSite": "no_restriction",
-            "domain": ".wetv.vip"
-          },
-          {
             "name": "G_ENABLED_IDPS",
             "value": "google",
             "path": "/",
@@ -30070,7 +45692,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039306,
+            "expirationDate": 1790045774,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30089,7 +45711,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095307.730656,
+            "expirationDate": 1760928681.355001,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30228,7 +45850,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095307.731985,
+            "expirationDate": 1760928681.355128,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30294,17 +45916,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039318,
+            "expirationDate": 1790045784,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
           {
             "name": "_qimei_i_1",
-            "value": "47f22cd4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc848bece4",
+            "value": "41d271d4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc84fcda80",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039318,
+            "expirationDate": 1790045784,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30384,7 +46006,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758589720.473066,
+            "expirationDate": 1758596185.952599,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30404,7 +46026,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039319,
+            "expirationDate": 1790045784,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30423,7 +46045,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095320.473246,
+            "expirationDate": 1761101785.952882,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30562,7 +46184,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095320.473446,
+            "expirationDate": 1761101785.953035,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30628,17 +46250,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039329,
+            "expirationDate": 1790045793,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
           {
             "name": "_qimei_i_1",
-            "value": "42ea7dd4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc84b6c482",
+            "value": "47fc4cd4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc84a2ccc6",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039329,
+            "expirationDate": 1790045793,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30713,16 +46335,6 @@
             "domain": ".wetv.vip"
           },
           {
-            "name": "country_code",
-            "value": "153513",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1758589730.975539,
-            "sameSite": "no_restriction",
-            "domain": ".wetv.vip"
-          },
-          {
             "name": "G_ENABLED_IDPS",
             "value": "google",
             "path": "/",
@@ -30738,7 +46350,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039329,
+            "expirationDate": 1790045794,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30757,7 +46369,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095330.975758,
+            "expirationDate": 1760928750.890989,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30896,7 +46508,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095330.975926,
+            "expirationDate": 1760928750.89118,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30962,17 +46574,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039280,
+            "expirationDate": 1790045755,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
           {
             "name": "_qimei_i_1",
-            "value": "50c856d4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc84f3f4dc",
+            "value": "56e477d4c10f04db9091fa305ad627b2a4bca2f11559078ae08e7c582493206c616363943980e1dc84aac6c4",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039280,
+            "expirationDate": 1790045755,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -30998,31 +46610,31 @@
           },
           {
             "name": "ad_refresh_key",
-            "value": "wia5bym5PcdBt1AydnzwJaGUhHQLkKiD6hDa3S2GseE=",
+            "value": "1aX3bvktwXAyM3tp3BuipfGvffgeha0XTpSXa+QWuSE=",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095280.334706,
+            "expirationDate": 1760928582.889453,
             "sameSite": "strict",
             "domain": ".wetv.vip"
           },
           {
             "name": "ad_refresh_token",
-            "value": "AAAAF+AVcdStBegNUFKc26vQR6Vk1dYFPlTG5A0wtViyAsaG4zw0v09s4e8FZF/yFtAdNO0+7CAr+RmjIJYboEv8zS1AjLD4jODW+X70X8FTSVjq7UP1ThNEPiqHLEB0WXcqd8UWpGforkXvbPqBRx3yJ4muwdjeNsrjTkRzqdbyrBNAhiKSKhmIAaBW+nPieFM5pebqWhWmTfClvDIJT3Mcv6PqGPeVDI0LqbeW2dVyIQuzZbThl4cvUI0GDc5oDNSiyhubFzKYvfF5jwc4u+LuXqDFKZYC5P9MAB2OyWErAblZKoKz0RNHXx5wbbZ9nNeFvJ98BXHx7tUo1f3iU7w6cHYas2kT2Wiqv/JGWUzoBdbRH4hS9UVFqRUOy2azJ5I5",
+            "value": "AAAAF9gHbjbiJ7/0CuhblBUqVQFOc3zHjVRpcr7EWNsv3GfBmPeyPo9AUrgKvYBz74NhT2DBaJE68PMqtqZZfgdX+qsGz3mAl6914KK45DI+tpgXEkOBUy1C5+/fSWeI2otXYRukwAacR/rl3xbFGLkR4UqltybnWqplixQ69lo69jzAkCmObO6x4h2fxiM6yL+rb5Rrh0BLlFE8+sHqnp3fIYg+sne24qydZHJ46b38AfJUzLfi43YNFhwI65DRRmtm2AKgFGDcPq23i622igj8D9c/uUVTl00vTMGnVBWJQLnfA8ArLDSvXObx9uAionw/C6R84LXUG7eJIXkS9KKuy4j/1hE3m5eCnKJBvkVLMkUfOgXTjaDtf5ncNLETD6qd",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095280.335041,
+            "expirationDate": 1760928582.889538,
             "sameSite": "strict",
             "domain": ".wetv.vip"
           },
           {
             "name": "advertising_token",
-            "value": "B4AAABffpIygYEg_Z3iRTxlSe9Gpj3ecxVbjlxEAn-YopSosgUfSKLnagKuEfeItVoU5GJDhD1TC053ivCwmF-obp82uk1MncWPG-2fbxw-8uaVcIXl2rwPCDamW4gllZEd8B39YsQ6teugTiZEdz9CZE8cSaZTlYOoBtZAaBvzu-5o_H0YdBgj554cidVegRIkP58wIX1z_IeV-b10xZWDhGw",
+            "value": "B4AAABfXopHFGwMtKU2keY0VMF3vdO4z03BNJy7PUGNxsKmkQrsd_IfT-xJn37HRaTLM1xJsNCmKGBSOLLfFxgpLDfCB_ZO-Wasb_f6ycKL5z6HT5uwaKp1QfZ30h60dUrT9InHlVhR_FN9l1CCcpaTg0U6DztCorfzUjxT-ypceWmLu9qE1i7gSS3SkYhGxeVnucqrYT0IzAaUSw4TheJkBZw",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758762480.335214,
+            "expirationDate": 1758595782.889709,
             "sameSite": "strict",
             "domain": ".wetv.vip"
           },
@@ -31052,7 +46664,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1758589678.00689,
+            "expirationDate": 1758596157.77184,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -31072,7 +46684,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1790039281,
+            "expirationDate": 1790045756,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -31091,7 +46703,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095278.007155,
+            "expirationDate": 1761101757.772039,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -31102,16 +46714,6 @@
             "httpOnly": false,
             "secure": true,
             "expirationDate": 1773888583.889408,
-            "sameSite": "strict",
-            "domain": ".wetv.vip"
-          },
-          {
-            "name": "next_refresh_token",
-            "value": "6599",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1758509880.334423,
             "sameSite": "strict",
             "domain": ".wetv.vip"
           },
@@ -31225,16 +46827,6 @@
             "domain": ".wetv.vip"
           },
           {
-            "name": "vusession",
-            "value": "vussKTiGZxzkQFhYNV4FDuI6Ig.M",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1758509880.334186,
-            "sameSite": "strict",
-            "domain": ".wetv.vip"
-          },
-          {
             "name": "vutoken",
             "value": "vustnNGYhmHYxHQisqQTOFJvlg.M",
             "path": "/",
@@ -31250,7 +46842,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1761095278.007349,
+            "expirationDate": 1761101757.772198,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
