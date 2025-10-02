@@ -151,7 +151,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1037",
+      "id": "apple-music-1038",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -16063,7 +16063,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759326281.455347,
         "sameSite": "no_restriction",
         "domain": "www.codecademy.com"
       }
@@ -16369,276 +16368,545 @@
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
-      "category": "education"
+      "category": "education",
+      "isGroup": true
     },
-    "cookies": [
+    "accounts": [
       {
-        "name": "__204u",
-        "value": "9392085811-1753720956376",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1785256957.952813,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
+        "name": "Coursera 1",
+        "cookies": [
+          {
+            "name": "__204u",
+            "value": "9392085811-1753720956376",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785256957.952813,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "__400v",
+            "value": "822bb53e-409d-4301-bc4a-b20e9f65fba4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "__400vt",
+            "value": "1759319128659",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1753720985989.262253655224542",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763538715,
+            "sameSite": "lax",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.896171100.1753720984",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790322715.637626,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_ga_7GZ59JSFWQ",
+            "value": "GS2.1.s1755762699$o2$g1$t1755762715$j44$l0$h688517341",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790322715.624831,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_ga_ZCE2Q9YZ3F",
+            "value": "GS2.1.s1755762699$o2$g1$t1755762717$j42$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790322717.99068,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.642154687.1753720984",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761496984,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1753720985494.0acb7ae2-d2c3-4c8c-b132-43d0b67a3208",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1763538715,
+            "sameSite": "strict",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789458716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_ttp",
+            "value": "01K18YN7BWNQ8MC613YFS304NS_.tt.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789458716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_uetvid",
+            "value": "efac30e06bd111f0bc9d915af74df700|1u2auep|1755762716726|3|1|bat.bing.com/p/conversions/c/q",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789458716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ab.storage.deviceId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+            "value": "g%3A9e45c783-6017-3a6d-7405-1f14d61f6384%7Ce%3Aundefined%7Cc%3A1755762716119%7Cl%3A1755762716457",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790322716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ab.storage.sessionId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+            "value": "g%3A6015163c-9b89-a70c-76a2-f51a139a85fd%7Ce%3A1755764517977%7Cc%3A1755762716457%7Cl%3A1755762717977",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790322717,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ab.storage.userId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+            "value": "g%3A184002934%7Ce%3Aundefined%7Cc%3A1755762716456%7Cl%3A1755762716457",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790322716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "CAUTH",
+            "value": "P63VXeRWSPHiPxQOajohdFiPI5Jo_tfRFTfSZZFLtlyMEsLgLy20NVf7NL9WMLB9mwfreY_z1xEVDUZDHhggwA.k8cDyBY6UbXKxc7-2L838w.XacfbHvKVqeBczsMko82abbWBT9lU-KTUyEwfpP7Ax0LqSQzVxlzjSzwSrAnWUNYgVhRdVIY9GhQA0NZjGvQPhpr0BzKgbOqWHogGN0JfBl7GFYA9FwKWNli2mrLUEd2z-yyuW0DKjddfSEl6YGNwgbgfPuWjmBARY86Gpa4O7fLNRXqDGuy7XcuXCFeCG5aSoJ5L4JMCh-kqc1-ywEtm5lNADQOgM-mP9MlEDlUujVLCmIUeKMsB2Dhc1vQPDYzJblJ_VKDqSY4uuB_Q811cSAG-pjBF1nJDGT7se5sQ4k56y4IKjX4_U68YICqXbndF6FUtxFuiLx29Xtcy5TitYvm1T_8pcr1rX4mFDkPB2cUQTXrlmysGqajwCJ6UmVD-SafsaHll5uxZkEnfPdlXGKJIHoBQvlohwuyVUwwG9D2Cz2vd_iZ81Omih5KIf619lnmYBRyASpNFLDeIhu9Q_nLV8VNTY-RqmBC0hDTuYs",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1760082708.382658,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "CSRF3-Token",
+            "value": "1760183101.hVPLF7ekfZBkW7Mt",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1760183107.873845,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.R6p1u9OKGG6lppEG%2BnT7%2B9bjyEkJtHuPo%2Fw9%2BncN1tA%3D.1753720984",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1790322716.110256,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "IR_14726",
+            "value": "1755762715652%7C0%7C1755762715652%7C%7C",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "IR_gbd",
+            "value": "coursera.org",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Thu+Aug+21+2025+14%3A51%3A56+GMT%2B0700+(Western+Indonesia+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=19156274-b68b-48fc-b583-b381ccf12baa&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fwww.coursera.org%2F&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787298716,
+            "sameSite": "lax",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "profileconsent",
+            "value": "eyIxODQwMDI5MzQiOnsiY2NwYVJlcXVpcmVkIjpmYWxzZSwiZ2RwclJlcXVpcmVkIjpmYWxzZX19",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "sign",
+            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138467344376634795a61504d4a647a49504d45646438",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789458716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ttcsid",
+            "value": "1755762698721::4fuPqlQkp2QA6TYMab4G.2.1755762716133",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789458716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ttcsid_CTIORPRC77UDE4D3R2FG",
+            "value": "1755762698720::Z93_GKMtCFKh86icQgLn.2.1755762716346",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789458716,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1785256985,
+            "sameSite": "lax",
+            "domain": ".www.coursera.org"
+          },
+          {
+            "name": "usprivacy",
+            "value": "1---",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1787298716,
+            "sameSite": "lax",
+            "domain": ".www.coursera.org"
+          }
+        ],
+        "sourceUrl": "https://www.coursera.org/"
       },
       {
-        "name": "__400v",
-        "value": "822bb53e-409d-4301-bc4a-b20e9f65fba4",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "__400vt",
-        "value": "1759319128659",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_fbp",
-        "value": "fb.1.1753720985989.262253655224542",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1763538715,
-        "sameSite": "lax",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.896171100.1753720984",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1790322715.637626,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_ga_7GZ59JSFWQ",
-        "value": "GS2.1.s1755762699$o2$g1$t1755762715$j44$l0$h688517341",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1790322715.624831,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_ga_ZCE2Q9YZ3F",
-        "value": "GS2.1.s1755762699$o2$g1$t1755762717$j42$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1790322717.99068,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.642154687.1753720984",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1761496984,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_rdt_uuid",
-        "value": "1753720985494.0acb7ae2-d2c3-4c8c-b132-43d0b67a3208",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1763538715,
-        "sameSite": "strict",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_tt_enable_cookie",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1789458716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_ttp",
-        "value": "01K18YN7BWNQ8MC613YFS304NS_.tt.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1789458716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "_uetvid",
-        "value": "efac30e06bd111f0bc9d915af74df700|1u2auep|1755762716726|3|1|bat.bing.com/p/conversions/c/q",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1789458716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "ab.storage.deviceId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-        "value": "g%3A9e45c783-6017-3a6d-7405-1f14d61f6384%7Ce%3Aundefined%7Cc%3A1755762716119%7Cl%3A1755762716457",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1790322716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "ab.storage.sessionId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-        "value": "g%3A6015163c-9b89-a70c-76a2-f51a139a85fd%7Ce%3A1755764517977%7Cc%3A1755762716457%7Cl%3A1755762717977",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1790322717,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "ab.storage.userId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-        "value": "g%3A184002934%7Ce%3Aundefined%7Cc%3A1755762716456%7Cl%3A1755762716457",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1790322716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "CAUTH",
-        "value": "P63VXeRWSPHiPxQOajohdFiPI5Jo_tfRFTfSZZFLtlyMEsLgLy20NVf7NL9WMLB9mwfreY_z1xEVDUZDHhggwA.k8cDyBY6UbXKxc7-2L838w.XacfbHvKVqeBczsMko82abbWBT9lU-KTUyEwfpP7Ax0LqSQzVxlzjSzwSrAnWUNYgVhRdVIY9GhQA0NZjGvQPhpr0BzKgbOqWHogGN0JfBl7GFYA9FwKWNli2mrLUEd2z-yyuW0DKjddfSEl6YGNwgbgfPuWjmBARY86Gpa4O7fLNRXqDGuy7XcuXCFeCG5aSoJ5L4JMCh-kqc1-ywEtm5lNADQOgM-mP9MlEDlUujVLCmIUeKMsB2Dhc1vQPDYzJblJ_VKDqSY4uuB_Q811cSAG-pjBF1nJDGT7se5sQ4k56y4IKjX4_U68YICqXbndF6FUtxFuiLx29Xtcy5TitYvm1T_8pcr1rX4mFDkPB2cUQTXrlmysGqajwCJ6UmVD-SafsaHll5uxZkEnfPdlXGKJIHoBQvlohwuyVUwwG9D2Cz2vd_iZ81Omih5KIf619lnmYBRyASpNFLDeIhu9Q_nLV8VNTY-RqmBC0hDTuYs",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1760082708.382658,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "CSRF3-Token",
-        "value": "1760183101.hVPLF7ekfZBkW7Mt",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1760183107.873845,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "FPID",
-        "value": "FPID2.2.R6p1u9OKGG6lppEG%2BnT7%2B9bjyEkJtHuPo%2Fw9%2BncN1tA%3D.1753720984",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1790322716.110256,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "IR_14726",
-        "value": "1755762715652%7C0%7C1755762715652%7C%7C",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "IR_gbd",
-        "value": "coursera.org",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "OptanonConsent",
-        "value": "isGpcEnabled=0&datestamp=Thu+Aug+21+2025+14%3A51%3A56+GMT%2B0700+(Western+Indonesia+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=19156274-b68b-48fc-b583-b381ccf12baa&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fwww.coursera.org%2F&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1787298716,
-        "sameSite": "lax",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "profileconsent",
-        "value": "eyIxODQwMDI5MzQiOnsiY2NwYVJlcXVpcmVkIjpmYWxzZSwiZ2RwclJlcXVpcmVkIjpmYWxzZX19",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "sign",
-        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f36796138467344376634795a61504d4a647a49504d45646438",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1789458716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "ttcsid",
-        "value": "1755762698721::4fuPqlQkp2QA6TYMab4G.2.1755762716133",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1789458716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "ttcsid_CTIORPRC77UDE4D3R2FG",
-        "value": "1755762698720::Z93_GKMtCFKh86icQgLn.2.1755762716346",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1789458716,
-        "sameSite": "no_restriction",
-        "domain": ".coursera.org"
-      },
-      {
-        "name": "OneTrustWPCCPAGoogleOptOut",
-        "value": "false",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1785256985,
-        "sameSite": "lax",
-        "domain": ".www.coursera.org"
-      },
-      {
-        "name": "usprivacy",
-        "value": "1---",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1787298716,
-        "sameSite": "lax",
-        "domain": ".www.coursera.org"
+        "name": "Coursera 2",
+        "cookies": [
+          {
+            "name": "__204u",
+            "value": "5998016884-1757061316650",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1788597316.01728,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "__400r",
+            "value": "https%3A%2F%2Fwww.oxaam.com%2F",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759369343,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "__400v",
+            "value": "264e83df-c03c-478f-9a4e-8e6a1f4e92f4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759369343,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "__400vt",
+            "value": "1759367547792",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759369347,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1757061348607.177512062425128519",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767091084,
+            "sameSite": "lax",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1231366779.1757061348",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793898109.071973,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_ga_7GZ59JSFWQ",
+            "value": "GS2.1.s1759338071$o369$g1$t1759338108$j23$l0$h173167848",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793898108.86559,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_ga_ZCE2Q9YZ3F",
+            "value": "GS2.1.s1759338071$o369$g1$t1759338109$j22$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793898109.070531,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.664747213.1757061347.944655606.1759312639.1759312639",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1764837347,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1757061349518.91d7a421-65d2-4e2b-9a53-2afaa0bd13bf",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767114109,
+            "sameSite": "strict",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_uetsid",
+            "value": "531d7d908a3311f0bffac33f1fc45557|1t7dflf|2|fzs|0|2074",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759424510,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "_uetvid",
+            "value": "531dd3808a3311f0b048f3c41a3ff9d7|1vcgws9|1759338112270|3|1|bat.bing.com/p/conversions/c/k",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793034112,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ab.storage.deviceId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+            "value": "g%3A831edfb7-8f02-d1c3-4d70-189c8c5ffa11%7Ce%3Aundefined%7Cc%3A1759312634958%7Cl%3A1759338080205",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793898110,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ab.storage.sessionId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+            "value": "g%3A3df964d8-54e3-266d-d6b2-f77f4ddd8b9f%7Ce%3A1759339910711%7Cc%3A1759338080202%7Cl%3A1759338110711",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793898110,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "ab.storage.userId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+            "value": "g%3A193651306%7Ce%3Aundefined%7Cc%3A1759312648856%7Cl%3A1759338080207",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793898110,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "CAUTH",
+            "value": "-Otj0tMoHwNhFkE8sgWEan7V7ngG5mxyZKRq-JCOMisEnr4_23bxJONrHL8rlk4Px8kDZUH6H2-_vQ-LLC3cDA.zPChZzvZ_SHovFPABT6wzA.Sg-XIGJXRsmhbK2O3GqZpOhhoeNTR23NIAfkOMlbft0Okl4bHrAt-p5iZ1Mc6ML-8CMk6J3DZg9dUkWc66Pk3ESPa9NvRU56-dVUnfRo3n3B_-m3kbSjcd_UTnA_A2YyiOMwZlB-a2310ex4gnS3zbRNT4eNqose20z_a8fEpdFN68FBg2hQadBBdiHmAOBw0Bck1OuVm3pWRe9Xf19gS8oBTmhUMv9xQaYl3uoM0Tc-Ri86DATA9U6_l4zitxLinhUEEtWid_2PP5S1Ry4Q1KDapKoqyqyyzKTlcEUfAkFR2zYj0XuwxYWdKJu4H3Qxiqazq-u-i1aRJtsaWfeznlu2A7XMJexGqJImmfoBJelzN6C32Pq0ogKTJKSVAOO6c1aASDWMmAROJ_Uv9WpvSbbDg7BHx1PgrlZu0wdUM2rneydtISwXl12MsZjIM5wpT5wKoh-HRxc3SH1jwevk9yrPSuVjwf5YFsgwRZ2ka9c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1763632640.974532,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "CSRF3-Token",
+            "value": "1759642703.rIzIN6F9QVPWAD6f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759642702.908305,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.Xp0df%2BqOdsu9epW7fBUI2IVLaKaDoG9JANZbL%2F7w3%2Fo%3D.1757061348",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1793898109.319907,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "IR_14726",
+            "value": "1759338109120%7C0%7C1759338109120%7C%7C",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "IR_gbd",
+            "value": "coursera.org",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2025-10-01T17:01:50.494Z",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790874110,
+            "sameSite": "lax",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Wed+Oct+01+2025+22%3A31%3A50+GMT%2B0530+(India+Standard+Time)&version=202508.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=da2c85f2-f6cc-46bb-913c-9763601ad66a&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1&AwaitingReconsent=false&geolocation=IN%3BMP",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790874110,
+            "sameSite": "lax",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "profileconsent",
+            "value": "eyIxOTM2NTEzMDYiOnsiY2NwYVJlcXVpcmVkIjpmYWxzZSwiZ2RwclJlcXVpcmVkIjpmYWxzZX19",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".coursera.org"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "6994d4e1-3b50-4a12-b768-85ffdc2645542bb6bd",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1789538374,
+            "sameSite": "strict",
+            "domain": ".www.coursera.org"
+          },
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790874110,
+            "sameSite": "lax",
+            "domain": "www.coursera.org"
+          },
+          {
+            "name": "usprivacy",
+            "value": "1---",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790874078,
+            "sameSite": "lax",
+            "domain": "www.coursera.org"
+          }
+        ],
+        "sourceUrl": "https://www.coursera.org/"
       }
-    ],
-    "sourceUrl": "https://www.coursera.org/"
+    ]
   },
   {
     "meta": {
@@ -17168,7 +17436,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325324,
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           },
@@ -17758,7 +18025,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325296,
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           },
@@ -18226,7 +18492,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759360094.643047,
         "sameSite": "no_restriction",
         "domain": ".datacamp.com"
       },
@@ -21298,7 +21563,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759325085.537544,
             "sameSite": "no_restriction",
             "domain": ".flaticon.com"
           },
@@ -21445,7 +21709,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759328745.537443,
             "sameSite": "strict",
             "domain": "www.flaticon.com"
           }
@@ -21567,7 +21830,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759325073.698078,
             "sameSite": "no_restriction",
             "domain": ".flaticon.com"
           },
@@ -21714,7 +21976,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759328733.698,
             "sameSite": "strict",
             "domain": "www.flaticon.com"
           }
@@ -21802,7 +22063,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325116.896305,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -21812,7 +22072,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325117.541105,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -21842,7 +22101,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759325117.611826,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -21910,7 +22168,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325118.010418,
             "sameSite": "no_restriction",
             "domain": "www.freepik.com"
           },
@@ -21996,7 +22253,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325106.279705,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -22006,7 +22262,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325108.502663,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -22036,7 +22291,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759325109.325173,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -22104,7 +22358,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759325108.825217,
             "sameSite": "no_restriction",
             "domain": "www.freepik.com"
           },
@@ -23012,7 +23265,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324913.756988,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -23130,7 +23382,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324913.75687,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -23356,7 +23607,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324887.006306,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -23474,7 +23724,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324887.006156,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -24131,7 +24380,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1029",
+      "id": "iflix-1030",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -24313,7 +24562,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759325881.450034,
         "sameSite": "strict",
         "domain": ".iflix.com"
       },
@@ -24392,7 +24640,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759325881.449957,
         "sameSite": "strict",
         "domain": ".iflix.com"
       },
@@ -24441,7 +24688,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1030",
+      "id": "iloveimg-1031",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -24603,7 +24850,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1031",
+      "id": "ilovepdf-1032",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -24756,7 +25003,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1033",
+      "id": "linkedin-learning-1034",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -25048,7 +25295,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1034",
+      "id": "marvel-unlimited-1035",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -25307,7 +25554,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759333693.703004,
         "sameSite": "no_restriction",
         "domain": ".www.marvel.com"
       },
@@ -25325,7 +25571,7 @@
   },
   {
     "meta": {
-      "id": "medium-1035",
+      "id": "medium-1036",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -25405,7 +25651,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1036",
+      "id": "motion-array-1037",
       "name": "Motion Array",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
       "url": "https://motionarray.com/account/downloads/",
@@ -25939,7 +26185,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1038",
+      "id": "musicbed-1039",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -26106,7 +26352,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1039",
+      "id": "netflix-1040",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -26421,7 +26667,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759333661.549106,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -26901,7 +27146,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759333694.041833,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -26997,7 +27241,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759333719.550574,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -27649,7 +27892,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759333737.369385,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28503,7 +28745,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759334402.361497,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29570,7 +29811,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1040",
+      "id": "notegpt-1041",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -29690,7 +29931,7 @@
   },
   {
     "meta": {
-      "id": "notion-1041",
+      "id": "notion-1042",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/495a4d586ce44fd58751f1739687af57",
@@ -29929,7 +30170,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1042",
+      "id": "pacdora-1043",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -31465,7 +31706,7 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1043",
+      "id": "prezi-ai-1044",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -34548,7 +34789,7 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1044",
+      "id": "productioncrate-1045",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
       "url": "https://www.productioncrate.com/",
@@ -34650,7 +34891,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1045",
+      "id": "quizlet-1046",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -34863,7 +35104,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1046",
+      "id": "rawpixel-1047",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -34935,7 +35176,7 @@
   },
   {
     "meta": {
-      "id": "relume-1047",
+      "id": "relume-1048",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -35105,7 +35346,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1032",
+      "id": "scholarcy-1033",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -35349,16 +35590,356 @@
   },
   {
     "meta": {
-      "id": "scribd-1048",
+      "id": "scribd-1029",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
-      "url": "https://www.scribd.com/home",
+      "url": "https://id.scribd.com/home",
       "category": "utilities",
       "isGroup": true
     },
     "accounts": [
       {
         "name": "Scribd 1",
+        "cookies": [
+          {
+            "name": "__stripe_mid",
+            "value": "2c880859-28ff-48d0-a3e3-d88e6414e2839647ec",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790903845,
+            "sameSite": "strict",
+            "domain": ".id.scribd.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "5f502828-2d6c-44ca-86b2-0a77075299fce96667",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759369645,
+            "sameSite": "strict",
+            "domain": ".id.scribd.com"
+          },
+          {
+            "name": "__ssid",
+            "value": "c367064625837b12ca5cc5f78836cb9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927841.620926,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1759367788223.25488874118615677",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767143841,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.2.847268157.1759367787",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927841.302654,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ga_8KZ8BV0P5W",
+            "value": "GS2.1.s1759367787$o1$g1$t1759367840$j20$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927840.934036,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ga_Z4ZC50DED6",
+            "value": "GS2.1.s1759367787$o1$g1$t1759367840$j20$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927840.555263,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1527794860.1759367787",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767143787,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_gid",
+            "value": "GA1.2.1554582592.1759367787",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759454241,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_lc2_fpi",
+            "value": "4b59e25de34b--01jyzavgb9d3rxtxtrbt2sfs5c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927786.937777,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_lc2_fpi_js",
+            "value": "4b59e25de34b--01jyzavgb9d3rxtxtrbt2sfs5c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_li_dcdm_c",
+            "value": ".scribd.com",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_li_ss",
+            "value": "Cn8KBgj5ARDvGwoGCPcBEO8bCgUIChDvGwoGCN0BEO8bCgYIgQEQ7xsKBQgMEOwbCgYI9QEQ7xsKBQgLEO8bCgYIgAIQ8RsKBgjhARDvGwoGCKIBEO8bCgYI_wEQ7xsKCQj_____BxDsGwoGCIcCEO8bCgYI0gEQ7xsKBQh-EO8b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927841.806624,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1759367787453.d894e273-2661-4cb7-8e93-7bc6fd17777b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767143841,
+            "sameSite": "strict",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_scribd_session",
+            "value": "WkQzYmJBeS81enBCblpBQ2JVRXFrOU5hSFR2R1poR3NURG4wWXExekk0S05TQjhVNDluZHNydU9za0Z2cWNFdU5wZ2tQdCtURDJKaDEra2RUSG56eXVaKzB5TFlJV3NjbGkzQTJhSldGZU9RNXZJTUR5OFBIQVo5NTdUdFIrMWF3MFY5blBRbjFEaXF1d1lMcjFzU1JjUGZsZUdMZDdCWUYxRHg3K2IyWCt4cUF1QzJReWt4d1lDTDB1cFZTaEVJb3BmaVFiR1ZQREJCSTkrT1VZeGJLQUFkVE03bTdyNGhpSHhrZFZQUk9xNnZBS3VOME9pM2t0NXhtNjRuZDFwazVlRkpQS3NLSUc2RThwbjh2aGFBcUFQd1lSSi9YOTVKUFc1UE1KNURzc05lZGw5bVY3Qk5saWVxQlFPb09hVWN3RURFM0EwMGwrQ3Q5MkxqVnlQMDRUU2lWNmp0OENRUk11c0ZZa2lRcUZvL3VvVkFPcFJzVUZFMzdMSlFuRTVZVUZBRmlseVZodm9wWHJJZUliWVNNc1Fid0VuTVJiWWJsaEt4RkZKcDM0cUIzdytUdmJNSUx3MFB5RjhaNkZ4MUs5cDVjT2JweHJIVTZ0c1MzQmxCdHc9PS0temFJNXF5ZGx4TEQreU4xd1dVSFRldz09--896219ba51fa2a7d1f55534ab05f077a88c6c242",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1793927840.247769,
+            "sameSite": "no_restriction",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_scribd_user_id",
+            "value": "ODgwMDIxNTU0--e47d1c4b3b50f5d3289844b8466792c26fdba251",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1793927831.253287,
+            "sameSite": "no_restriction",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793063842,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ttp",
+            "value": "01K6H7VXK5XN8KZ2Y21882X1JY_.tt.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793063842,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "6c420f809f2d11f08dd9b540e4702606",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759454241,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "77016270555a11f08fab8d913165dff8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793063841,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "IR_14808",
+            "value": "1759367841073%7C0%7C1759367841073%7C%7C",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "IR_gbd",
+            "value": "scribd.com",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "osano_consentmanager",
+            "value": "2Luqm8S10Q3AW6ZQ9a8r0hTQzku9Gy84vkc3WJFDHpGxDM-QYSqAhGVUJEJvnh6ZivX9ibux-oiH6hYsr9VIz5J89RwHK74zQcOW7P-5lxNpWF6TDlHZ4bipv-3pTgtuH7hUeeoNGi7Ovd9GnbtmCKfbRnGIXjEB-5IVbqS9N3wBVt5t_dLcipWlpxHIJJ5_-VDEFzg_cpyyQMGXk41fGs1yHyw47QM0sYUzoqgIDHGje4-ysgsIhfnRmneM-oF3p6IY4Z8yzd1nJ0DuivjffFsU-3w6tnM3oP404GIfViTk5QJ4OaCi5Q65tDkcMpQHmLkBmSMNa_eEc5EJ82VBbklgoSg07tc3xVXulJY1Zragpo7earyn3XvxHy4NKXvcUbO3g8xGX74pxUlE3PaB9DaH2H0wi0I6q0spe2C7FqueR04KgeCiqTO8O7CClmArAOnYBqjZOp1OAM_7-Y_husUA-rm2nRY_C4y-DfORdenUaXMb9ow1JVW54jZjLQ8skwkhdhzbVL29q8Rr2dujcK5HP0fHQjOzvXMXrD-MKi1q6lhWyg7FiLeeqqqmBs0OarllHGeP3ZiJ5CNbcY1vrj1wBcpNMdx5_vfAnqbEu2dVvyQqezBCVT7o2z5WG71qhid-DD_fjAA67vt11JHPtf5T--xnA1ksCtE9U3CwxMPq2MyQmgg6joeA7KRP976KUrrNipqoUca8T_wd01Q71PMTX9N6kV_tYRaIIXvv9QGfOUeuEQUp8s3AUSIIQAjgGYL3-3l7QJ1SU1Juknbb_LxAGtVTOO4b4GU-gxEFqd26pzf4Ix25Uxs_rL7xMTLHfNez-7JWxgtlKzdu1YQECiayTCHjjM9N6fvsOQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790903837.000153,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "osano_consentmanager_uuid",
+            "value": "8891b3fa-9dcc-4e1d-b93c-248d69f97185",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790903836.992406,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "scribd_ubtc",
+            "value": "u%3D45ba9dc8-f103-45e9-97cb-5585e2ff1b80%26h%3DzppltI%2BXiOdx255PNfqbh5wyj7cbnONIkkIYWwsbFoo%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927784.732355,
+            "sameSite": "no_restriction",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "t-ip",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "tatari-session-cookie",
+            "value": "ab6c5a1e-b1f5-4169-ceaa-9cd2e341ee4a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927841.617238,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "ttcsid",
+            "value": "1759367788155::6MbfNdciCV_Gu58BSbFL.1.1759367842605.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793063842,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "ttcsid_C8LT3611P6OF1JAH7LT0",
+            "value": "1759367788151::J1T-JmWMD_U9VXirLwaA.1.1759367842608.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793063842,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "ttcsid_D1TBI8JC77U5JFO89BR0",
+            "value": "1759367788158::J_J6OtaSIGyhs7H-NzX4.1.1759367842611.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793063842,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "__pdst",
+            "value": "641f048abc484ecf956dd98b248e47a4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790903787,
+            "sameSite": "strict",
+            "domain": "id.scribd.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=0&expire=1759368771649",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "id.scribd.com"
+          },
+          {
+            "name": "_fs_sample_user",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1761959786,
+            "sameSite": "lax",
+            "domain": "id.scribd.com"
+          },
+          {
+            "name": "tatari-cookie-test",
+            "value": "61514735",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793927841.450928,
+            "sameSite": "lax",
+            "domain": "id.scribd.com"
+          }
+        ],
+        "sourceUrl": "https://id.scribd.com/home"
+      },
+      {
+        "name": "Scribd 2",
         "cookies": [
           {
             "name": "__CJ_DAY_ZERO_ENTRY_POINT",
@@ -35705,7 +36286,7 @@
         "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd 2",
+        "name": "Scribd 3",
         "cookies": [
           {
             "name": "__CJ_DAY_ZERO_ENTRY_POINT",
@@ -36138,7 +36719,7 @@
         "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd 3",
+        "name": "Scribd 4",
         "cookies": [
           {
             "name": "__CJ_DAY_ZERO_ENTRY_POINT",
@@ -37684,7 +38265,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759328848.729138,
             "sameSite": "lax",
             "domain": "slidesgo.com"
           }
@@ -37848,7 +38428,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759328865.279528,
             "sameSite": "lax",
             "domain": "slidesgo.com"
           }
@@ -37983,7 +38562,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759328838.455417,
             "sameSite": "lax",
             "domain": "slidesgo.com"
           }
@@ -38209,7 +38787,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324411.670239,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -38429,7 +39006,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324411.047551,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -38448,7 +39024,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324411.047601,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -38491,7 +39066,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324436.514858,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -38711,7 +39285,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324435.897296,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -38730,7 +39303,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324435.897338,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -38773,7 +39345,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324452.971795,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -38993,7 +39564,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324452.202854,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -39012,7 +39582,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324452.202897,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -39055,7 +39624,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324467.031468,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -39295,7 +39863,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324474.121688,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -39314,7 +39881,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324474.12176,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -39357,7 +39923,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324484.224104,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -39577,7 +40142,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324483.154936,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -39596,7 +40160,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324483.154979,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -39639,7 +40202,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324503.964377,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -39859,7 +40421,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324503.269495,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -39878,7 +40439,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324503.269539,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -39921,7 +40481,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324518.806119,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -40141,7 +40700,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324518.250861,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -40160,7 +40718,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324518.250905,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -40188,7 +40745,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323626,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -40204,7 +40760,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324536.189966,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -40424,7 +40979,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324535.638505,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -40443,7 +40997,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324535.638548,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -40471,7 +41024,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323640,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -40487,7 +41039,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324548.275521,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -40707,7 +41258,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324547.741532,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -40726,7 +41276,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324547.741578,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -40754,7 +41303,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323653,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -40770,7 +41318,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324562.288776,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -40990,7 +41537,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324561.667676,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -41009,7 +41555,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324561.667719,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -41037,7 +41582,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323670,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -41053,7 +41597,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324675.824333,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -41273,7 +41816,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324675.237312,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -41292,7 +41834,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324675.237358,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -41320,7 +41861,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323781,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -41336,7 +41876,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324690.729109,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -41556,7 +42095,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324690.126043,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -41575,7 +42113,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324690.126087,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -41603,7 +42140,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323793,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -41619,7 +42155,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324709.014839,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -41839,7 +42374,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324708.405379,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -41858,7 +42392,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324708.405422,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -41886,7 +42419,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323812,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -41902,7 +42434,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324722.201763,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42122,7 +42653,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324721.566761,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -42141,7 +42671,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324721.566805,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -42169,7 +42698,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323826,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -42185,7 +42713,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324736.570351,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42405,7 +42932,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324735.90273,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -42424,7 +42950,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324735.902774,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -42452,7 +42977,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323840,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -42468,7 +42992,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324749.905099,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42688,7 +43211,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324748.547095,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -42707,7 +43229,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324748.547138,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -42735,7 +43256,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323856,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -42751,7 +43271,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324766.478984,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42971,7 +43490,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324765.911775,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -42990,7 +43508,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324765.91182,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43018,7 +43535,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323869,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -43034,7 +43550,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324780.258263,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43254,7 +43769,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324779.6984,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -43273,7 +43787,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324779.698443,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43301,7 +43814,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323886,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -43317,7 +43829,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324884.397622,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43537,7 +44048,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324883.815051,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -43556,7 +44066,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324883.815097,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43584,7 +44093,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759323986,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -43600,7 +44108,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324902.4186,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43820,7 +44327,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324901.770684,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -43839,7 +44345,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324901.77073,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43867,7 +44372,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324005,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -43883,7 +44387,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324913.796499,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44103,7 +44606,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324913.203812,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44122,7 +44624,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324913.203856,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44150,7 +44651,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324019,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -44166,7 +44666,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324935.775843,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44386,7 +44885,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324935.220207,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44405,7 +44903,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324935.220253,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44433,7 +44930,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324040,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -44449,7 +44945,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324948.475029,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44669,7 +45164,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324947.795645,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44688,7 +45182,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324947.79569,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44716,7 +45209,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324051,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -44732,7 +45224,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324966.877278,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44952,7 +45443,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324966.149898,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44971,7 +45461,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324966.149969,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44999,7 +45488,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324069,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -45015,7 +45503,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324984.097143,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45235,7 +45722,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324983.552975,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45254,7 +45740,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324983.55304,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45282,7 +45767,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324088,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -45298,7 +45782,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759325014.892758,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45518,7 +46001,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759325014.344373,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45537,7 +46019,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759325014.344417,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45565,7 +46046,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759324118,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -45581,7 +46061,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324136.264098,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45801,7 +46280,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324135.556388,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45820,7 +46298,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759324135.556432,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46723,7 +47200,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759362818.296701,
         "sameSite": "no_restriction",
         "domain": "www.studocu.com"
       }
@@ -47585,7 +48061,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759328816.014793,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -48103,7 +48578,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759328804.602044,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -50194,7 +50668,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759328292.995423,
             "sameSite": "strict",
             "domain": ".wetv.vip"
           },
@@ -50323,7 +50796,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759328292.995347,
             "sameSite": "strict",
             "domain": ".wetv.vip"
           },
