@@ -560,7 +560,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577693.793589,
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
@@ -16673,7 +16672,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577417.313015,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -16935,7 +16933,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577432.206418,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -17197,7 +17194,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577444.788261,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -17459,7 +17455,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577455.599276,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -17721,7 +17716,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577467.053405,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -38076,434 +38070,222 @@
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
-      "category": "education",
-      "isGroup": true
+      "category": "education"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Quizlet 1",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "N.ciiyMz7IgjUdNx84VIAdAlpfU_vwcmqQEVhlW0Ekg-1759319357-1.0.1.1-rYGV9Im3tS8H39iiKuCBrMldCQMFtQ80Z04mKPYC5TGIAY3KeR9XxN1eXpT0WMrMhp9zvUexktEKu8DeQiW90UeSnVkozTgAvB_.MipgSdY",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_cfuvid",
-            "value": "4rt1uIGcDyO3pt..ZuDpqvc.5U2uTiHpOFUnF4L8rvM-1759319357378-0.0.1.1-604800000",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_pxhd",
-            "value": "84b43a1e44d74756239820289b568a60d723322f3c13d4ae44676bf5dd9d5890:e791b253-758d-11f0-863b-2a8307d34061",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_pxvid",
-            "value": "e791b253-758d-11f0-863b-2a8307d34061",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1786327280,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_sp_id.424b",
-            "value": "b1430679-1906-45d2-a511-a53c675442f2.1754791280.2.1759319391.1754791404.5f8d9dad-3b4a-4c22-97d0-bf9fb838ddb2.95e50eee-892d-41b7-aeee-fe4dbc0c0a79.686f46df-8dc9-4301-b067-9c803218189b.1759319358707.6",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793879392.182514,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_sp_ses.424b",
-            "value": "*",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "ab.storage.deviceId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
-            "value": "%7B%22g%22%3A%22accff868-4960-c2d2-0a5b-a7df25c134cd%22%2C%22c%22%3A1754791307907%2C%22l%22%3A1759319360592%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793879360,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "ab.storage.sessionId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
-            "value": "%7B%22g%22%3A%22177aa308-e705-70a2-64ad-6929ceeab49a%22%2C%22e%22%3A1759321160829%2C%22c%22%3A1759319360592%2C%22l%22%3A1759319360829%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793879360,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "ab.storage.userId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
-            "value": "%7B%22g%22%3A%22364075527%22%2C%22c%22%3A1754791307815%2C%22l%22%3A1759319360593%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793879360,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "fs",
-            "value": "t0r9m5",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1789351279.674009,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "pxcts",
-            "value": "e791c4a4-758d-11f0-863b-ddb4954a8002",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qi5",
-            "value": "aaxiy1oudw4l%3A7LuZbBwpLhzjRjlbBWug",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1789351279.673856,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qltj",
-            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzM4NCJ9.eyJ2cmYiOjAsInUxMyI6MCwic3ViIjoiMzY0MDc1NTI3Iiwic2lwIjoiMTI1LjE2NC4yMzIuMjM0IiwiaXNzIjoicXVpemxldC5jb20iLCJlbSI6InF1aXpAdG9raXRvLnh5eiIsImN0cyI6MTcyNTY5ODQzMiwiYXVkIjoidjQiLCJhY2MiOjJ9.cCnnzzJ6JzX8YAlgXbjho2C714uNx6FjpEodSO_CtcAg-GFPgqUduoy6CvYbbS8x",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1793879361.59829,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qlts",
-            "value": "1_mVNI2l-72p3WfbGCTHuskcbnxS11BzPA4cATewhCW62twgTb2ZYTsHbI5eIT-KLJ7rY15Ym4gyKc9A",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1789351404.265038,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qtkn",
-            "value": "kqcMRfFSw4tMgkyxPfkGRC",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "session_landing_page",
-            "value": "Login%2Findex",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "sp",
-            "value": "fdb7c869-eb39-46ae-b9d2-a2b93f96e4d6",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1790855391.696462,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_pxhd",
-            "value": "84b43a1e44d74756239820289b568a60d723322f3c13d4ae44676bf5dd9d5890:e791b253-758d-11f0-863b-2a8307d34061",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": "quizlet.com"
-          },
-          {
-            "name": "app_session_id",
-            "value": "ef292469-fc2b-4a21-8b7b-b3a4a01c0ee0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "quizlet.com"
-          },
-          {
-            "name": "has_seen_logged_in_home_page_timestamp",
-            "value": "1759319360177",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "quizlet.com"
-          },
-          {
-            "name": "qlts",
-            "value": "1_mVNI2l-72p3WfbGCTHuskcbnxS11BzPA4cATewhCW62twgTb2ZYTsHbI5eIT-KLJ7rY15Ym4gyKc9A",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1793879361.598212,
-            "sameSite": "no_restriction",
-            "domain": "quizlet.com"
-          }
-        ],
-        "sourceUrl": "https://quizlet.com/latest"
+        "name": "__cf_bm",
+        "value": "SsvTIvsxvZiSp_UZ.IzgXM3uD69IiG7d.CX4For0h74-1759573809-1.0.1.1-SeUdJQ8BQ.Pp1qBilxKytynHKYdhh8sWVPYlV41_Sxfkb5Iivrp0RoKXPhCtf2w8BXl8pAjKsmGfELUGu2YD8k1Z1PUIE67rXLxo8SZgv8o",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
       },
       {
-        "name": "Quizlet 2",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "SsvTIvsxvZiSp_UZ.IzgXM3uD69IiG7d.CX4For0h74-1759573809-1.0.1.1-SeUdJQ8BQ.Pp1qBilxKytynHKYdhh8sWVPYlV41_Sxfkb5Iivrp0RoKXPhCtf2w8BXl8pAjKsmGfELUGu2YD8k1Z1PUIE67rXLxo8SZgv8o",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_cfuvid",
-            "value": "YfyFMvh9G5LyPp656e3wD82LsHZSU3pYoKwNzPkxrFo-1759573809404-0.0.1.1-604800000",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_pxhd",
-            "value": "84b43a1e44d74756239820289b568a60d723322f3c13d4ae44676bf5dd9d5890:e791b253-758d-11f0-863b-2a8307d34061",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_pxvid",
-            "value": "e791b253-758d-11f0-863b-2a8307d34061",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1786327280,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_sp_id.424b",
-            "value": "b1430679-1906-45d2-a511-a53c675442f2.1754791280.2.1759573815.1754791404.0829ff97-4861-472e-adde-43c97ac2aa87.95e50eee-892d-41b7-aeee-fe4dbc0c0a79.e24dbcea-7cce-4d02-b85e-fd06b16f3574.1759573811417.4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794133816.173028,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_sp_ses.424b",
-            "value": "*",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "ab.storage.deviceId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
-            "value": "%7B%22g%22%3A%22accff868-4960-c2d2-0a5b-a7df25c134cd%22%2C%22c%22%3A1754791307907%2C%22l%22%3A1759573813410%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794133813,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "ab.storage.sessionId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
-            "value": "%7B%22g%22%3A%22bb9f8b82-25ef-f19b-4e1f-87a024ea049e%22%2C%22e%22%3A1759575614176%2C%22c%22%3A1759573813410%2C%22l%22%3A1759573814176%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794133814,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "ab.storage.userId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
-            "value": "%7B%22g%22%3A%22364075527%22%2C%22c%22%3A1754791307815%2C%22l%22%3A1759573813410%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794133813,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "fs",
-            "value": "t0r9m5",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1789351279.674009,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "pxcts",
-            "value": "e791c4a4-758d-11f0-863b-ddb4954a8002",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qi5",
-            "value": "aaxiy1oudw4l%3A7LuZbBwpLhzjRjlbBWug",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1789351279.673856,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qltj",
-            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzM4NCJ9.eyJ2cmYiOjAsInUxMyI6MCwic3ViIjoiMzY0MDc1NTI3Iiwic2lwIjoiMTI1LjE2NC4yMzIuMjM0IiwiaXNzIjoicXVpemxldC5jb20iLCJlbSI6InF1aXpAdG9raXRvLnh5eiIsImN0cyI6MTcyNTY5ODQzMiwiYXVkIjoidjQiLCJhY2MiOjJ9.cCnnzzJ6JzX8YAlgXbjho2C714uNx6FjpEodSO_CtcAg-GFPgqUduoy6CvYbbS8x",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1794133814.228802,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qlts",
-            "value": "1_mVNI2l-72p3WfbGCTHuskcbnxS11BzPA4cATewhCW62twgTb2ZYTsHbI5eIT-KLJ7rY15Ym4gyKc9A",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1789351404.265038,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "qtkn",
-            "value": "kqcMRfFSw4tMgkyxPfkGRC",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "session_landing_page",
-            "value": "Login%2Findex",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "sp",
-            "value": "fdb7c869-eb39-46ae-b9d2-a2b93f96e4d6",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1791109815.443214,
-            "sameSite": "lax",
-            "domain": ".quizlet.com"
-          },
-          {
-            "name": "_pxhd",
-            "value": "84b43a1e44d74756239820289b568a60d723322f3c13d4ae44676bf5dd9d5890:e791b253-758d-11f0-863b-2a8307d34061",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": "quizlet.com"
-          },
-          {
-            "name": "app_session_id",
-            "value": "ba7a3b41-e643-4e34-a4c2-fbf89fadf6c0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "quizlet.com"
-          },
-          {
-            "name": "days_since_last_visit",
-            "value": "1",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1759660210.73527,
-            "sameSite": "no_restriction",
-            "domain": "quizlet.com"
-          },
-          {
-            "name": "has_seen_logged_in_home_page_timestamp",
-            "value": "1759573812810",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1759660212,
-            "sameSite": "no_restriction",
-            "domain": "quizlet.com"
-          },
-          {
-            "name": "qlts",
-            "value": "1_mVNI2l-72p3WfbGCTHuskcbnxS11BzPA4cATewhCW62twgTb2ZYTsHbI5eIT-KLJ7rY15Ym4gyKc9A",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1794133814.228729,
-            "sameSite": "no_restriction",
-            "domain": "quizlet.com"
-          }
-        ],
-        "sourceUrl": "https://quizlet.com/latest"
+        "name": "_cfuvid",
+        "value": "YfyFMvh9G5LyPp656e3wD82LsHZSU3pYoKwNzPkxrFo-1759573809404-0.0.1.1-604800000",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "_pxhd",
+        "value": "84b43a1e44d74756239820289b568a60d723322f3c13d4ae44676bf5dd9d5890:e791b253-758d-11f0-863b-2a8307d34061",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "_pxvid",
+        "value": "e791b253-758d-11f0-863b-2a8307d34061",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1786327280,
+        "sameSite": "lax",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "_sp_id.424b",
+        "value": "b1430679-1906-45d2-a511-a53c675442f2.1754791280.2.1759573815.1754791404.0829ff97-4861-472e-adde-43c97ac2aa87.95e50eee-892d-41b7-aeee-fe4dbc0c0a79.e24dbcea-7cce-4d02-b85e-fd06b16f3574.1759573811417.4",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794133816.173028,
+        "sameSite": "lax",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "_sp_ses.424b",
+        "value": "*",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "ab.storage.deviceId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
+        "value": "%7B%22g%22%3A%22accff868-4960-c2d2-0a5b-a7df25c134cd%22%2C%22c%22%3A1754791307907%2C%22l%22%3A1759573813410%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794133813,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "ab.storage.sessionId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
+        "value": "%7B%22g%22%3A%22bb9f8b82-25ef-f19b-4e1f-87a024ea049e%22%2C%22e%22%3A1759575614176%2C%22c%22%3A1759573813410%2C%22l%22%3A1759573814176%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794133814,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "ab.storage.userId.6f8c2b67-8bd5-42f6-9c5f-571d9701f693",
+        "value": "%7B%22g%22%3A%22364075527%22%2C%22c%22%3A1754791307815%2C%22l%22%3A1759573813410%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794133813,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "fs",
+        "value": "t0r9m5",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1789351279.674009,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "pxcts",
+        "value": "e791c4a4-758d-11f0-863b-ddb4954a8002",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "qi5",
+        "value": "aaxiy1oudw4l%3A7LuZbBwpLhzjRjlbBWug",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1789351279.673856,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "qltj",
+        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzM4NCJ9.eyJ2cmYiOjAsInUxMyI6MCwic3ViIjoiMzY0MDc1NTI3Iiwic2lwIjoiMTI1LjE2NC4yMzIuMjM0IiwiaXNzIjoicXVpemxldC5jb20iLCJlbSI6InF1aXpAdG9raXRvLnh5eiIsImN0cyI6MTcyNTY5ODQzMiwiYXVkIjoidjQiLCJhY2MiOjJ9.cCnnzzJ6JzX8YAlgXbjho2C714uNx6FjpEodSO_CtcAg-GFPgqUduoy6CvYbbS8x",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1794133814.228802,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "qlts",
+        "value": "1_mVNI2l-72p3WfbGCTHuskcbnxS11BzPA4cATewhCW62twgTb2ZYTsHbI5eIT-KLJ7rY15Ym4gyKc9A",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1789351404.265038,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "qtkn",
+        "value": "kqcMRfFSw4tMgkyxPfkGRC",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "session_landing_page",
+        "value": "Login%2Findex",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "sp",
+        "value": "fdb7c869-eb39-46ae-b9d2-a2b93f96e4d6",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1791109815.443214,
+        "sameSite": "lax",
+        "domain": ".quizlet.com"
+      },
+      {
+        "name": "_pxhd",
+        "value": "84b43a1e44d74756239820289b568a60d723322f3c13d4ae44676bf5dd9d5890:e791b253-758d-11f0-863b-2a8307d34061",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": "quizlet.com"
+      },
+      {
+        "name": "app_session_id",
+        "value": "ba7a3b41-e643-4e34-a4c2-fbf89fadf6c0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "quizlet.com"
+      },
+      {
+        "name": "days_since_last_visit",
+        "value": "1",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1759660210.73527,
+        "sameSite": "no_restriction",
+        "domain": "quizlet.com"
+      },
+      {
+        "name": "has_seen_logged_in_home_page_timestamp",
+        "value": "1759573812810",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759660212,
+        "sameSite": "no_restriction",
+        "domain": "quizlet.com"
+      },
+      {
+        "name": "qlts",
+        "value": "1_mVNI2l-72p3WfbGCTHuskcbnxS11BzPA4cATewhCW62twgTb2ZYTsHbI5eIT-KLJ7rY15Ym4gyKc9A",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1794133814.228729,
+        "sameSite": "no_restriction",
+        "domain": "quizlet.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://quizlet.com/latest"
   },
   {
     "meta": {
@@ -39389,7 +39171,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577659,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           },
@@ -39824,7 +39605,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577671,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           },
@@ -40095,7 +39875,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577489,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -40574,7 +40353,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577644,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           },
@@ -42076,7 +41854,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577595.795552,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42266,7 +42043,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577595.2894,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -42285,7 +42061,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577595.289448,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -42328,7 +42103,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577605.758577,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42518,7 +42292,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577605.231849,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -42537,7 +42310,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577605.231917,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -42580,7 +42352,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577619.825901,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42770,7 +42541,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577619.223373,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -42789,7 +42559,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577619.223422,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -42832,7 +42601,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577636.550381,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43022,7 +42790,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577636.026272,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -43041,7 +42808,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577636.026318,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43084,7 +42850,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577650.178348,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43274,7 +43039,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577649.654987,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -43293,7 +43057,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577649.655033,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43336,7 +43099,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577664.383534,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43526,7 +43288,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577663.863431,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -43545,7 +43306,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577663.86348,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43588,7 +43348,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577676.19785,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43778,7 +43537,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577674.768464,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -43797,7 +43555,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577674.768508,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -43840,7 +43597,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577688.675524,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44030,7 +43786,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577688.137701,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44049,7 +43804,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577688.137763,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44092,7 +43846,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577699.555752,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44282,7 +44035,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577699.018859,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44301,7 +44053,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577699.018902,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44344,7 +44095,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577709.302249,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44534,7 +44284,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577708.724874,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44553,7 +44302,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577708.724919,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44596,7 +44344,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577723.387947,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44786,7 +44533,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577722.806414,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -44805,7 +44551,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577722.806459,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -44848,7 +44593,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577734.506558,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45038,7 +44782,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577733.992148,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45057,7 +44800,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577733.992193,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45100,7 +44842,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577747.779763,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45290,7 +45031,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577747.255927,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45309,7 +45049,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577747.255972,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45352,7 +45091,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577761.462098,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45542,7 +45280,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577760.875105,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45561,7 +45298,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577760.875149,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45604,7 +45340,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577775.116755,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45794,7 +45529,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577774.536436,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45813,7 +45547,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577774.53648,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45856,7 +45589,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577787.706823,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46046,7 +45778,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577787.155375,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46065,7 +45796,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577787.155418,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -51168,7 +50898,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577573.141261,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -51358,7 +51087,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577572.580475,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -51377,7 +51105,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577572.580525,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -51671,531 +51398,270 @@
       "name": "Speechify",
       "icon": "https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx",
       "url": "https://app.speechify.com/",
-      "category": "productivity",
-      "isGroup": true
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Speechify 1",
-        "cookies": [
-          {
-            "name": "__stripe_mid",
-            "value": "517690cf-e855-41f2-a6af-046eb49302e959e68f",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791109801,
-            "sameSite": "strict",
-            "domain": ".app.speechify.com"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "55a057a8-4759-4b88-adce-1a39a5455925aded44",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".app.speechify.com"
-          },
-          {
-            "name": "_axidd",
-            "value": "true",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791041989,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_axwrt",
-            "value": "fc7f287c-57e9-4d89-be0c-5a5f30665990",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791041989,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_clck",
-            "value": "12dnuzu%5E2%5Efzu%5E0%5E2102",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791041992,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "pjcu4j%5E1759506006407%5E2%5E0%5Ek.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1759592406,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1759505989125.4801823513092698",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767282002,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.109094530.1759505991",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794065991.450815,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_ga_R78Q712T8R",
-            "value": "GS2.1.s1759505991$o1$g1$t1759505991$j60$l0$h1821588705",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794065991.538888,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.21570673.1759505991",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767281991,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_hjSessionUser_3321475",
-            "value": "eyJpZCI6IjU1MWE1MjJiLWVjY2ItNTFmNS05NDFhLTgyNGMxOTg4ZmIwNyIsImNyZWF0ZWQiOjE3NTk1MDYwMDQ2MzgsImV4aXN0aW5nIjpmYWxzZX0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791042004,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793201992,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K6NBNJHP3M6C9PAE6NZM4MJA_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793201992,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ajs_anonymous_id",
-            "value": "30de3c1b-33da-498e-bfac-1f59f1b92a90",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791109815,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ajs_user_id",
-            "value": "p56kDUCRgCbiyyhcZWmpldeagTE3",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791109815,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "analytics_session_id",
-            "value": "1759573795246",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791109815,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "analytics_session_id.last_access",
-            "value": "1759573815194",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791109815,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ax_visitor",
-            "value": "%7B%22firstVisitTs%22%3A1759505989370%2C%22lastVisitTs%22%3Anull%2C%22currentVisitStartTs%22%3A1759505989370%2C%22ts%22%3A1759506004025%2C%22visitCount%22%3A1%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791042004,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "FPAU",
-            "value": "1.1.21570673.1759505991",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767281991.748464,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "intercom-device-id-fix72gk8",
-            "value": "aee84aab-ac7a-4735-9c25-649c70b6fba1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1782903918,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "intercom-id-fix72gk8",
-            "value": "9717077b-4502-47a4-bd30-bd3d2c85e5ed",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1782835992,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "intercom-session-fix72gk8",
-            "value": "ekNnRnNNRFQyRzRuaUg4aWF4WmxrMUFKcTcvM3M1MzlOMzVnRHZvYlN0ZjhYenh5c1dYekV4ZnNKNG5INENYSFJMWjJzYjkxelNjL3Zld0x1NGxYaDJIbmp6blJXTGlHV2sxQldtSDcvQW89LS1XaHFSR0V4OGJBUkQrdjRlVUhDeC9BPT0=--7c97373cbccbb8c9fce7aa6491da16da4239ecb3",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1760178716,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "session",
-            "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImtJTVNPdyJ9.eyJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9zcGVlY2hpZnltb2JpbGUiLCJuYW1lIjoiR3JvdXB5IFBybyIsInBpY3R1cmUiOiJodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vc3BlZWNoaWZ5bW9iaWxlLmFwcHNwb3QuY29tL3dlYi91c2VySW1hZ2VzL3A1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMvYXZhdGFyXzE3NTM1NDIwODkwNDkucG5nIiwiYXVkIjoic3BlZWNoaWZ5bW9iaWxlIiwiYXV0aF90aW1lIjoxNzU5NTczNzkwLCJ1c2VyX2lkIjoicDU2a0RVQ1JnQ2JpeXloY1pXbXBsZGVhZ1RFMyIsInN1YiI6InA1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMiLCJpYXQiOjE3NTk1NzM4MTIsImV4cCI6MTc2MDc4MzQxMiwiZW1haWwiOiJzcGVlQGJlbGFqYWFyLmlkIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInNwZWVAYmVsYWphYXIuaWQiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.tspPq-zi_kKdtXLb93nV1SMDYJb9dS_7SIjJjBxDGqBdVMp8L2CQUISq6WcwNK_vM-Wqdkk3dNAlslaEdtZv5XzqFRdqzhrLRpwQ0D9Voev5aznYm-7PA7GC50unSqQcLZNMODomL8uTXbIaemWn8kW3_sCShYg2t_mG2QutOzWNvvdZG5sfveEEYt0BPiwyfDdv0GpV2X3F3yXyZvtFd0GDCyiPTQPRob7xOx9LrGyxjh3KC3RgUUcW3Zdgc97BLImA75EAxJR7mYiYbcifZuSoQYJhMpgWO-X8mcfkb7MePFRAbHmXsndAbONhAmVi7D8FZ32J5w0UjyTk0EzmpQ",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1760783416.885185,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "sign",
-            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386d7849566e58583164567261344a2b446366464632",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791042007,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1759505992250::dTDpFkXdXUQS7LrdIFB2.1.1759505999287.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793201999,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ttcsid_CBOJNQRC77U1OJP16JHG",
-            "value": "1759505992249::tSaEEzMqjkDkMMCUv-sp.1.1759505999287.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793201999,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          }
-        ],
-        "sourceUrl": "https://app.speechify.com/"
+        "name": "__stripe_mid",
+        "value": "517690cf-e855-41f2-a6af-046eb49302e959e68f",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791109801,
+        "sameSite": "strict",
+        "domain": ".app.speechify.com"
       },
       {
-        "name": "Speechify 2",
-        "cookies": [
-          {
-            "name": "__stripe_mid",
-            "value": "517690cf-e855-41f2-a6af-046eb49302e959e68f",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1790855631,
-            "sameSite": "strict",
-            "domain": ".app.speechify.com"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "a6c5fbec-f229-44e3-b3e6-e63d91b872836c562f",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".app.speechify.com"
-          },
-          {
-            "name": "_axidd",
-            "value": "true",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1789805024,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_axwrt",
-            "value": "fc7f287c-57e9-4d89-be0c-5a5f30665990",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1789805024,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_clck",
-            "value": "bcw7wr%5E2%5Efzg%5E0%5E2088",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1789805027,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1758269021965.5627804841805275",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766045037,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.791516859.1758269027",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792829026.884693,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_ga_R78Q712T8R",
-            "value": "GS2.1.s1758269026$o1$g1$t1758269040$j46$l0$h1622388699",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792829040.399538,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.1462826413.1758269027.407988068.1758269033.1758269034",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766045027,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_hjSessionUser_3321475",
-            "value": "eyJpZCI6ImI0NDAxNzk3LWRjY2ItNTgyNC1hMmQ5LTU2ZmQ3OTViMTBlYyIsImNyZWF0ZWQiOjE3NTgyNjkwNDE5ODIsImV4aXN0aW5nIjpmYWxzZX0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1789805041,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791965027,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K5GG0DH94A0RZDED2PXT62JQ_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791965027,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ajs_anonymous_id",
-            "value": "30de3c1b-33da-498e-bfac-1f59f1b92a90",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1790855642,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ajs_user_id",
-            "value": "p56kDUCRgCbiyyhcZWmpldeagTE3",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1790855642,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "analytics_session_id",
-            "value": "1759319619975",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1790855642,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "analytics_session_id.last_access",
-            "value": "1759319642930",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1790855642,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ax_visitor",
-            "value": "%7B%22firstVisitTs%22%3A1758269024876%2C%22lastVisitTs%22%3Anull%2C%22currentVisitStartTs%22%3A1758269024876%2C%22ts%22%3A1758269039857%2C%22visitCount%22%3A1%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1789805039,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "FPAU",
-            "value": "1.1.1462826413.1758269027",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766045030.376257,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "intercom-device-id-fix72gk8",
-            "value": "bb2414b0-e8de-42f8-a99c-a10cb64701b7",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1782649745,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "intercom-id-fix72gk8",
-            "value": "8f4e9128-c3de-4ff2-896c-0254675f1458",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1781599028,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "intercom-session-fix72gk8",
-            "value": "eWZTbjJoL1dNYkdUbGV3eXJwWDJSaCszckcvZjRsWVR6YkIvNzlWcGUxNnlOWHkzTFBnVlRlRTVuekRnMmlMYXkrTzhxRGhHUUFHM3krOWtPcjl3U2RYempVaDFLY2hYaGxOVlh0SHhtbVE9LS00UnlNZlNoemowUlltMTRwYTNDd0hBPT0=--e8993822ebfeec6401eaaa901947a6e3b6fc2fda",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1759924543,
-            "sameSite": "lax",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "session",
-            "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImtJTVNPdyJ9.eyJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9zcGVlY2hpZnltb2JpbGUiLCJuYW1lIjoiR3JvdXB5IFBybyIsInBpY3R1cmUiOiJodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vc3BlZWNoaWZ5bW9iaWxlLmFwcHNwb3QuY29tL3dlYi91c2VySW1hZ2VzL3A1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMvYXZhdGFyXzE3NTM1NDIwODkwNDkucG5nIiwiYXVkIjoic3BlZWNoaWZ5bW9iaWxlIiwiYXV0aF90aW1lIjoxNzU5MzE5NjE4LCJ1c2VyX2lkIjoicDU2a0RVQ1JnQ2JpeXloY1pXbXBsZGVhZ1RFMyIsInN1YiI6InA1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMiLCJpYXQiOjE3NTkzMTk2MzEsImV4cCI6MTc2MDUyOTIzMSwiZW1haWwiOiJzcGVlQGJlbGFqYWFyLmlkIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInNwZWVAYmVsYWphYXIuaWQiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.MjsLeraMpLSYHUPdABexOn7E9bL39H-Jfm0QVKTlkEnZHdwtHDq20EcMVt1YWZCGDKn8TNbwEEZ5HyBc12gLBQI9EUZt9df_EBVht3qJ5tWyHYuzRDR0N5bVirjRChIBUes17LnqUixjNZSGD9ieMVwhlgYcS8OyUitJhDWhPkXKBicbtWF6vsSbVZ1LHntcFQ0inMPh0lXMPW4sD4F69qDUwZT1gw6-ICKGpoFkrQcvJQ-HXbhyQQjSzgU0mrm22hRlTbM7YPmiwLT28kfRDI4nibSd9Gk6IuXLflb6HKyMbtBfDQ3fv5OHmvoXahwpqOdtyHNGlt3LvPL8JFtNSw",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1760529237.334679,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "sign",
-            "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386d7849566e58583164567261344a2b446366464632",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1789805054,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1758269027884::uvsm0d-Ki69p_X64eTUF.1.1758269034592.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791965034,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          },
-          {
-            "name": "ttcsid_CBOJNQRC77U1OJP16JHG",
-            "value": "1758269027883::fAq5Nm2jjYc0oQCuNGhO.1.1758269034664.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791965034,
-            "sameSite": "no_restriction",
-            "domain": ".speechify.com"
-          }
-        ],
-        "sourceUrl": "https://app.speechify.com/"
+        "name": "__stripe_sid",
+        "value": "55a057a8-4759-4b88-adce-1a39a5455925aded44",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".app.speechify.com"
+      },
+      {
+        "name": "_axidd",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791041989,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_axwrt",
+        "value": "fc7f287c-57e9-4d89-be0c-5a5f30665990",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791041989,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_clck",
+        "value": "12dnuzu%5E2%5Efzu%5E0%5E2102",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791041992,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_clsk",
+        "value": "pjcu4j%5E1759506006407%5E2%5E0%5Ek.clarity.ms%2Fcollect",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759592406,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1759505989125.4801823513092698",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767282002,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.109094530.1759505991",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794065991.450815,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_ga_R78Q712T8R",
+        "value": "GS2.1.s1759505991$o1$g1$t1759505991$j60$l0$h1821588705",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794065991.538888,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.21570673.1759505991",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767281991,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_hjSessionUser_3321475",
+        "value": "eyJpZCI6IjU1MWE1MjJiLWVjY2ItNTFmNS05NDFhLTgyNGMxOTg4ZmIwNyIsImNyZWF0ZWQiOjE3NTk1MDYwMDQ2MzgsImV4aXN0aW5nIjpmYWxzZX0=",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791042004,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793201992,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K6NBNJHP3M6C9PAE6NZM4MJA_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793201992,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "30de3c1b-33da-498e-bfac-1f59f1b92a90",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791109815,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "p56kDUCRgCbiyyhcZWmpldeagTE3",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791109815,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "analytics_session_id",
+        "value": "1759573795246",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791109815,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "analytics_session_id.last_access",
+        "value": "1759573815194",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791109815,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "ax_visitor",
+        "value": "%7B%22firstVisitTs%22%3A1759505989370%2C%22lastVisitTs%22%3Anull%2C%22currentVisitStartTs%22%3A1759505989370%2C%22ts%22%3A1759506004025%2C%22visitCount%22%3A1%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791042004,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "FPAU",
+        "value": "1.1.21570673.1759505991",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767281991.748464,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "intercom-device-id-fix72gk8",
+        "value": "aee84aab-ac7a-4735-9c25-649c70b6fba1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1782903918,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "intercom-id-fix72gk8",
+        "value": "9717077b-4502-47a4-bd30-bd3d2c85e5ed",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1782835992,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "intercom-session-fix72gk8",
+        "value": "ekNnRnNNRFQyRzRuaUg4aWF4WmxrMUFKcTcvM3M1MzlOMzVnRHZvYlN0ZjhYenh5c1dYekV4ZnNKNG5INENYSFJMWjJzYjkxelNjL3Zld0x1NGxYaDJIbmp6blJXTGlHV2sxQldtSDcvQW89LS1XaHFSR0V4OGJBUkQrdjRlVUhDeC9BPT0=--7c97373cbccbb8c9fce7aa6491da16da4239ecb3",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1760178716,
+        "sameSite": "lax",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "session",
+        "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImtJTVNPdyJ9.eyJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9zcGVlY2hpZnltb2JpbGUiLCJuYW1lIjoiR3JvdXB5IFBybyIsInBpY3R1cmUiOiJodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vc3BlZWNoaWZ5bW9iaWxlLmFwcHNwb3QuY29tL3dlYi91c2VySW1hZ2VzL3A1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMvYXZhdGFyXzE3NTM1NDIwODkwNDkucG5nIiwiYXVkIjoic3BlZWNoaWZ5bW9iaWxlIiwiYXV0aF90aW1lIjoxNzU5NTczNzkwLCJ1c2VyX2lkIjoicDU2a0RVQ1JnQ2JpeXloY1pXbXBsZGVhZ1RFMyIsInN1YiI6InA1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMiLCJpYXQiOjE3NTk1NzM4MTIsImV4cCI6MTc2MDc4MzQxMiwiZW1haWwiOiJzcGVlQGJlbGFqYWFyLmlkIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInNwZWVAYmVsYWphYXIuaWQiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.tspPq-zi_kKdtXLb93nV1SMDYJb9dS_7SIjJjBxDGqBdVMp8L2CQUISq6WcwNK_vM-Wqdkk3dNAlslaEdtZv5XzqFRdqzhrLRpwQ0D9Voev5aznYm-7PA7GC50unSqQcLZNMODomL8uTXbIaemWn8kW3_sCShYg2t_mG2QutOzWNvvdZG5sfveEEYt0BPiwyfDdv0GpV2X3F3yXyZvtFd0GDCyiPTQPRob7xOx9LrGyxjh3KC3RgUUcW3Zdgc97BLImA75EAxJR7mYiYbcifZuSoQYJhMpgWO-X8mcfkb7MePFRAbHmXsndAbONhAmVi7D8FZ32J5w0UjyTk0EzmpQ",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1760783416.885185,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "sign",
+        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f367961386d7849566e58583164567261344a2b446366464632",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791042007,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1759505992250::dTDpFkXdXUQS7LrdIFB2.1.1759505999287.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793201999,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
+      },
+      {
+        "name": "ttcsid_CBOJNQRC77U1OJP16JHG",
+        "value": "1759505992249::tSaEEzMqjkDkMMCUv-sp.1.1759505999287.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793201999,
+        "sameSite": "no_restriction",
+        "domain": ".speechify.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://app.speechify.com/"
   },
   {
     "meta": {
