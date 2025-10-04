@@ -390,13 +390,185 @@
       "id": "apple-tv--1061",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
-      "url": "https://tv.apple.com/ca",
+      "url": "https://tv.apple.com/",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
         "name": "Apple TV+ 1",
+        "cookies": [
+          {
+            "name": "dslang",
+            "value": "US-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "33",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137108.409814,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "in",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775129105,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "AlBDoV3clzrzqBwiNUW4EL5TTNvkNprrNfAUizz58FJQoZl5DVDAV7ZMikq0vKnj1CkplYDLcx4i+DL9zAky5TvOViON7BPEKyYCZo/6EKEHhn5heCW5WqFOdTtIr23YhXNUPL5G4RNarf3YlPtXEdDb6ppDoVzhNqdPMPt0kPstRtvE4Xq6X/uqpUSTXVJ6eZ3dECTxVGftWlpk1iKH/HaeegEzXDTyzipEICvHK6EFM45Dqw==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775129105.841681,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d3c9adce90e2e6b5c7e2d33385f530d4875b02a9fa8b6e724047bca9d01877cbb26315175b8e3ea60cdb0dc628ec2abe2ae41d4871a9a43dd1d89820ebec48558cd52d52b7739315868ce1551fb5f0081a23dc2c01b66e526a863cf936b88d05d2bc5013eb5f440fcfeaadc6df6066f9a6e6e167b681249cb7fcff5f6604905f5d843acd70a47413187342bf98e31181a5c8e99b2b1a3547caf17d35162001cce02a438ce6281d28f35d04178984b291b49ddf5b6ecaa293353b42c858f1cc18a9a60089faf4d99ea5c5935955bd68a38c0b3ef1f7e4683dae91d9147514ddc2a2ece4329ecf2651bc6d16e9a6e3a7f90a2f0565c9a8f0071a758bd079ed75cfa06194edf3cd789b65efabf81a8fa853b9000098c835e2f22f833ac9d0207935a15339e7eccd0e7e2e6cf48e79ffa6fab1399ea3badbd47f15b2d0935f6c9db8568985c020f0bfefb4e2d7571d278a5dd27d873b29c40ae2a13bd29b7bf63fa2203d10facca5cdfc9398acebf87ad4020eaec949c25d7812ca44aca94bd5036ff233c79782fd9dde02968c2b44d39080303cd514b55af1883d04e155d586aff06f0f56808840a3132ebdf2ad2510b9a60aa8f874a87c6e93e34eac3d8a898689680e07c2a9f1c9c35d060737680bebc90d9aec4e9f9391dc4ec8290b4f232ecf88585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "b01448b8f07540228a3d8181394a00c4033",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775129105,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "102d57338ab54842a55b9cc66d669911033",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775129105,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "site",
+            "value": "USA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CMHloqBUEgQIDBAAEgQIDRAAEgQIBRAAEgQIChAAEgQIERAAEgQIEBAAEgQICBAAEgQIDhAAEgQIARAAEgQIBBAAEgUIBhCFARIECBIQABIECA8QABIJCAsQ0fKL1JozEgQIAxAAEgQICRAAEgQIBxAAEgQIExAAEgQIAhAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1762169081.268949,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "commerce-authorization-token",
+            "value": "AAAAAAAAAALhNLrBpaBg096tBmR9xB5sh0e6LkRwVSZOu9FozdKqzPfdmOqd+qbStA/+9gEMLnd2ua5wB1RZC/q4zLvwR+ufovjFoJ2qYUo8fZLB0A34l9KPTxq4LPgJEcEtB031Pk2OoGB+YzkOyMa1z3jCQpofOwiZ/YUu8wK7JajUNHv+4ewC8oYScK8GXcG7zdYYvPv59pSiCs6SNysFyTd1tB5Wx2s2d/VS2PCrq3fdEWHKjcNzCbKd+uj54ts7HuoHfOb0EQhrhhCQdchi7nmsKEAPkDrwF1BTrXSYe+KiHODpMg==",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1759578305.840571,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "IN",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791113081.962897,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "AlBDoV3clzrzqBwiNUW4EL5TTNvkNprrNfAUizz58FJQoZl5DVDAV7ZMikq0vKnj1CkplYDLcx4i+DL9zAky5TvOViON7BPEKyYCZo/6EKEHhn5heCW5WqFOdTtIr23YhXNUPL5G4RNarf3YlPtXEdDb6ppDoVzhNqdPMPt0kPstRtvE4Xq6X/uqpUSTXVJ6eZ3dECTxVGftWlpk1iKH/HaeegEzXDTyzipEICvHK6EFM45Dqw==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775129081.962803,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767353081.963011,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "b01448b8f07540228a3d8181394a00c4033",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775345081.962975,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "102d57338ab54842a55b9cc66d669911033",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775345081.962939,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          },
+          {
+            "name": "wosid-replay",
+            "value": "oI7JrwMwZ3iQUi8IOzQC2g",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1759577693.793589,
+            "sameSite": "no_restriction",
+            "domain": ".tv.apple.com"
+          }
+        ],
+        "sourceUrl": "https://tv.apple.com/"
+      },
+      {
+        "name": "Apple TV+ 2",
         "cookies": [
           {
             "name": "dslang",
@@ -508,7 +680,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 2",
+        "name": "Apple TV+ 3",
         "cookies": [
           {
             "name": "dslang",
@@ -620,7 +792,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 3",
+        "name": "Apple TV+ 4",
         "cookies": [
           {
             "name": "dslang",
@@ -732,7 +904,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 4",
+        "name": "Apple TV+ 5",
         "cookies": [
           {
             "name": "dslang",
@@ -844,7 +1016,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 5",
+        "name": "Apple TV+ 6",
         "cookies": [
           {
             "name": "dslang",
@@ -956,7 +1128,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 6",
+        "name": "Apple TV+ 7",
         "cookies": [
           {
             "name": "dslang",
@@ -1068,7 +1240,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 7",
+        "name": "Apple TV+ 8",
         "cookies": [
           {
             "name": "dslang",
@@ -1180,7 +1352,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 8",
+        "name": "Apple TV+ 9",
         "cookies": [
           {
             "name": "dslang",
@@ -8829,7 +9001,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576900.08806,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9081,7 +9252,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576911.482996,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9333,7 +9503,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576922.820317,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9585,7 +9754,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576933.639017,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9837,7 +10005,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576943.815613,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10089,7 +10256,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576954.209083,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10341,7 +10507,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576967.886971,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10593,7 +10758,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576977.807103,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10845,7 +11009,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759576989.130275,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11097,7 +11260,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577000.113927,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11349,7 +11511,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577012.755546,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11601,7 +11762,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577023.984391,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11853,7 +12013,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577035.851378,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12105,7 +12264,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577046.764989,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12357,7 +12515,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577060.188879,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12609,7 +12766,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577071.905544,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12861,7 +13017,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577080.408332,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13115,7 +13270,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577142.703121,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13377,7 +13531,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577159.202191,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13639,7 +13792,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577172.659688,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13901,7 +14053,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577184.715188,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14163,7 +14314,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577197.840184,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14435,7 +14585,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577209.214979,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14697,7 +14846,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577221.357919,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14959,7 +15107,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577234.15907,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15221,7 +15368,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577247.531966,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15483,7 +15629,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577259.719841,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15745,7 +15890,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577380.655207,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -16007,7 +16151,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577391.935258,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -16269,7 +16412,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759577404.284664,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -19204,6 +19346,141 @@
       },
       {
         "name": "Crunchyroll 3",
+        "cookies": [
+          {
+            "name": "__cf_bm",
+            "value": "smbsgA2y4ZtlEf9h9bwKi5p8rbGT0Q0.n6rbeHodM0w-1759576943-1.0.1.1-XY6ezYR2eNDiHk6KMFykmecYllKkl1GVc5V1Cs92r17uCHcTwKqg310F5BpmHRd.mKcLt5CHl.PLgNRuVftqeDBktI611yWP0aTVX9cbwGhOclW7TRuVRie26PlLejnC",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1759578744.518054,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%22762924af-49fb-fa2e-5bec-5ec839d26a57%22%2C%22c%22%3A1759576969265%2C%22l%22%3A1759576969265%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794136969,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%22a1fc1fce-58d9-dfac-0971-fbe028fd9cf2%22%2C%22e%22%3A1759578769267%2C%22c%22%3A1759576969264%2C%22l%22%3A1759576969267%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794136969,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436",
+            "value": "%7B%22g%22%3A%2282f4d5de-56b1-5a12-a8f1-228f8728ef38%22%2C%22c%22%3A1759576969264%2C%22l%22%3A1759576969265%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794136969,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_anonymous_id",
+            "value": "fdc442ab-f3cc-44c9-80d5-5a9709eecdee",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791112969,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "ajs_user_id",
+            "value": "82f4d5de-56b1-5a12-a8f1-228f8728ef38",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791112969,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "c_locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791112967,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "cr_exp",
+            "value": "82f4d5de-56b1-5a12-a8f1-228f8728ef3882f4d5de-56b1-5a12-a8f1-228f8728ef38",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "device_id",
+            "value": "f4ac0d75-809c-4409-bb70-d29392e6ecd4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794136967,
+            "sameSite": "lax",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "etp_rt",
+            "value": "ca721143-f695-4c81-aa1e-11f7990d187b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1794136967.02599,
+            "sameSite": "no_restriction",
+            "domain": ".crunchyroll.com"
+          },
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2025-10-04T11:22:27.626Z",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791112947,
+            "sameSite": "lax",
+            "domain": ".www.crunchyroll.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Sat+Oct+04+2025+18%3A22%3A47+GMT%2B0700+(Indochina+Time)&version=202311.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0818d126-fd00-4ba1-8a96-6aa68ebbf641&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&geolocation=ID%3BSU&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791112967,
+            "sameSite": "lax",
+            "domain": ".www.crunchyroll.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=69612bf3-dc60-4489-9188-fe99b7528b96&rum=0&expire=1759577868097",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791112968,
+            "sameSite": "strict",
+            "domain": "www.crunchyroll.com"
+          }
+        ],
+        "sourceUrl": "https://www.crunchyroll.com/discover"
+      },
+      {
+        "name": "Crunchyroll 4",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -39013,7 +39290,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577056,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -39459,7 +39735,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577069,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -39578,6 +39853,357 @@
       },
       {
         "name": "Scribd 3",
+        "cookies": [
+          {
+            "name": "__ssid",
+            "value": "d21b3278636f2ee3861c1395dcfce9c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137250.080662,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_dc_gtm_UA-443684-29",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1759577189434.755616447168491114",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767353250,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1266597162.1759577189",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137250.052575,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ga_8KZ8BV0P5W",
+            "value": "GS2.1.s1759577189$o1$g1$t1759577249$j7$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137249.927995,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ga_Z4ZC50DED6",
+            "value": "GS2.1.s1759577189$o1$g1$t1759577250$j6$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137250.051601,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.132937253.1759577189",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767353189,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_gid",
+            "value": "GA1.2.879882625.1759577189",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759663649,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_lc2_fpi",
+            "value": "4b59e25de34b--01jyzavgb9d3rxtxtrbt2sfs5c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137189.415354,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_lc2_fpi_js",
+            "value": "4b59e25de34b--01jyzavgb9d3rxtxtrbt2sfs5c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_li_dcdm_c",
+            "value": ".scribd.com",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_li_ss",
+            "value": "CokBCgYI-QEQ8RsKBQgKEPEbCgYI3QEQ8RsKBgiBARDxGwoJCP____8HEPsbCgYI4wEQ8RsKBgikARDxGwoGCLMBEPEbCgYIiQEQ8RsKBgilARDxGwoGCIACEO4bCgYI4QEQ8RsKBgiiARDxGwoGCP8BEPEbCgYI0gEQ8RsKBQh-EPEbCgYIiAEQ8Rs",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137250.329242,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1759577189391.1bc623d8-e141-41bf-9224-6c7a33e20971",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1767353250,
+            "sameSite": "strict",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_scribd_session",
+            "value": "alhlWUlaQTNsTXU4ampzbzBhT0lvT1ZHaWxUZzFmMnhSbmRFQTRlU0ZjUEpqaG0vMTN6L3h2ejJURUtySnNrMkhQRi9ULy92aDZXbHBzaXNZVTZpK01lN3NiZU1JVzNNcktsZ0ovM3h2MEJ1UU03aDAvck1ZdXBwalhjWUx3Sk5PNEllUHpqR3FhVWl6MVhWV0UybGszZ0w2cTBIZWdFMTJFeHlHS0taVzFpRW5JN0J1bU5TZTZJZDNDYzlXajV0U1dPbDg0eGIwRXJhSnZrSGxpZ3JYL0hBckxIZzNVRHFLeVRtb0hoTEZOWVl5ZW9FdnBsMFd3czU4dlZpcDkydHFRa0syMlQranR4eDc1c0drYk1OSmwrdmNLQnNoNzY3MEIwVk5QL2VoOWhlM2RTR1dwRlc0bWZ1UFEvSDhpVkM5S2VkaDZlbXVERW55bXp0bDhCTkNZMEZuVStpQWNWR2p4dFVRQTc4QnBLcFNWSmFGTlljejZCM3UySFNreVpJdmIrZ2tLNy9nbnFRMXp0NURXREhSb0tKSEVkbGhmcXQ3RGdaYWU3cEFZL2lkcXVCeWVZeTVFZ09xazRBK3RsK1h3dkl2T0xDZVhTZDBlcG5CeEhRYVE9PS0ta0pFZnk5bytZODhHR2x2cTgyRkNKQT09--bad4e811468d96e4d5dda470656041aeeef6cf97",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1794137249.789956,
+            "sameSite": "no_restriction",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_scribd_user_id",
+            "value": "ODgwMDIxNTU0--e47d1c4b3b50f5d3289844b8466792c26fdba251",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1794137242.585078,
+            "sameSite": "no_restriction",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793273250,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_ttp",
+            "value": "01K6QFJCHVPET5AHP1M8ERH35D_.tt.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793273250,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "ec56c390a11311f08ffab5e7b0174bad",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759663650,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "77016270555a11f08fab8d913165dff8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793273250,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "IR_14808",
+            "value": "1759577249882%7C0%7C1759577249882%7C%7C",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "IR_gbd",
+            "value": "scribd.com",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "osano_consentmanager",
+            "value": "2YGW6pzXr6RXAG_unzhjuQ6wPqV5H2cL5_gNTOgaddcxakGQG17WP17n8FY2uo_yizxO6eo-tUahk70zYvsFjaUejbGL-RqMzq9nr4gsxPk4MDRI3libnThJIz7HbjQNk64MDoNPPPru2W1G-qHGz3XN4TtBu8SkQVHV3yfwvZz04ccDxKy7b9MgKSqaodx48W4ikD3R4MY9o1qjVRa_v4Jae3-ZaxFCoaQEt1GHE4te-TfJTr3A_TdnRNml_hEEQnm7MrD3bixvaYCIS3dYce36rX1IYl4d7UBvhZyg5T81xvIZ9_4-lUVkulQTdmTdLbM3bamhEU7wn_zA0F9oz1lIhECf3UZimAZ4r7ZRl02eRMc1miHf6kG2V5xv2_L9DCOND90m69BqYbeHMK6j6N53fgM8FS7HE58oZBNNQe8fe1MWcNV96wBVA20LywbasSL8YoBQx8S8NZxHjisiv3ITp6ieX_fWDMn3FEE6ttB1ePKoxbFbSIzIHPsOuUQlaBIJItQ5B16KxmuWizeg-NwbmTvwrzfW_nH5hVODhBwNTfeqXGGDTqaPWpgJEORRpW4RXefpFEFFUFbPqg0USyTaR0wIT4Iaj1gMqAOmN4TxkJzWFNfpsBskOdw5W_zS4tvZmAGrbbjCd6N2xfja5Sim1THE-Fcx2Y7v8MJE3IzYgkESr9uqIIQyb0_3E6NzHomH0dUAA_Qf3irQQv1zmdtTU8-Wd3Byow0kZw4Yq6F-bzTgTkEU84XH6F1gGuUyE_Cd4I2v-k87u7snYz7NIF_f4a4C7dsLNwIkMwHoSTndGI7M6yU5H5BLq_KEhdycR7dN9D7BncGgPYymuPFAFiyGEepx90tfRyhM1Q==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791113248.341635,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "osano_consentmanager_uuid",
+            "value": "aba6fb36-37af-44d6-851e-58b1b46b4fa3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791113248.341116,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "scribd_ubtc",
+            "value": "u%3Dfd63dbac-685f-4bfa-9ab0-465ec94d1cce%26h%3DD2OdMjH%2FBrGfLRM2iFkH2EFaaU2KasyuFWwhDmPb%2Ffo%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137189.140708,
+            "sameSite": "no_restriction",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "t-ip",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759577489,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "tatari-session-cookie",
+            "value": "84cb186c-4c98-a07a-1e20-281a38a8bd49",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137250.153886,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "ttcsid",
+            "value": "1759577190976::7fUq45QPCn8xM5U0Ybik.1.1759577250554.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793273250,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "ttcsid_C8LT3611P6OF1JAH7LT0",
+            "value": "1759577191000::xLe4aZs-sPE1YbLmxsgv.1.1759577250555.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793273250,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "ttcsid_D1TBI8JC77U5JFO89BR0",
+            "value": "1759577190975::7APBaJHt8d8pIQ2vLViQ.1.1759577250555.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793273250,
+            "sameSite": "lax",
+            "domain": ".scribd.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "0f89a95d-975f-434b-8259-4baa527dfea84700b8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791113251,
+            "sameSite": "strict",
+            "domain": ".www.scribd.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "6bb744df-627a-4659-a83b-2d14b440d7aeb8be7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759579051,
+            "sameSite": "strict",
+            "domain": ".www.scribd.com"
+          },
+          {
+            "name": "__pdst",
+            "value": "dd0eb30e0a024e839000f34237417dbd",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1791113189,
+            "sameSite": "strict",
+            "domain": "www.scribd.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=0&expire=1759578149204",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1759578159,
+            "sameSite": "strict",
+            "domain": "www.scribd.com"
+          },
+          {
+            "name": "_fs_sample_user",
+            "value": "false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1762169189,
+            "sameSite": "lax",
+            "domain": "www.scribd.com"
+          },
+          {
+            "name": "tatari-cookie-test",
+            "value": "52890074",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794137250.1394,
+            "sameSite": "lax",
+            "domain": "www.scribd.com"
+          }
+        ],
+        "sourceUrl": "https://www.scribd.com/home"
+      },
+      {
+        "name": "Scribd 4",
         "cookies": [
           {
             "name": "__ssid",
@@ -39859,7 +40485,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577039,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -45468,7 +46093,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576893,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -45721,7 +46345,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576905,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -45974,7 +46597,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576917,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46227,7 +46849,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576928,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46480,7 +47101,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576949,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46733,7 +47353,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576958,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46986,7 +47605,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576968,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -47239,7 +47857,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576978,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -47512,7 +48129,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759576988,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -47765,7 +48381,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577000,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48018,7 +48633,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577018,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48271,7 +48885,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577030,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48524,7 +49137,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577050,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48777,7 +49389,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577060,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -49030,7 +49641,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577071,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -49283,7 +49893,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577080,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -49536,7 +50145,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577093,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -49789,7 +50397,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577108,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -50042,7 +50649,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577119,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -50295,7 +50901,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577129,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -50548,7 +51153,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577140,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -51053,7 +51657,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1759577041,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -51863,7 +52466,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759577387.435388,
         "sameSite": "lax",
         "domain": "www.studocu.com"
       },
@@ -55073,7 +55675,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1759577369.457289,
         "sameSite": "lax",
         "domain": ".wolframalpha.com"
       },
