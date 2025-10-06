@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akun Alight Motion Gratis</title>
+    <!-- Memuat Tailwind CSS untuk styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Memuat Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen p-4">
+
+    <!-- Kontainer utama dengan efek bayangan dan sudut membulat -->
+    <div class="bg-gray-800 p-8 rounded-2xl shadow-2xl w-full max-w-lg transform hover:scale-105 transition-transform duration-300">
+        
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-cyan-400">Alight Motion</h1>
+            <p class="text-gray-400 mt-2">Daftar Akun Premium</p>
+        </header>
+
+        <!-- Daftar Akun -->
+        <div class="space-y-4">
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 1:</strong> <span class="font-mono">xjdatotd@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 2:</strong> <span class="font-mono">xfxanzuz@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 3:</strong> <span class="font-mono">fiiwlhgi@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 4:</strong> <span class="font-mono">vgqqompu@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 5:</strong> <span class="font-mono">zkymfpgn@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 6:</strong> <span class="font-mono">mgbypniqii@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 7:</strong> <span class="font-mono">mrdofgkoqy@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 8:</strong> <span class="font-mono">odozjjqhcg@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 9:</strong> <span class="font-mono">vpmcvhqzuh@alightmotion.id</span></p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <p class="text-gray-300"><strong class="font-semibold text-white">Account 10:</strong> <span class="font-mono">aozvvunzec@alightmotion.id</span></p>
+            </div>
+        </div>
+
+        <!-- Tombol Akses & Footer -->
+        <footer class="text-center mt-8">
+            <p class="mb-4 text-gray-400">Akses kode melalui:</p>
+            <!-- Tombol dengan link dan efek hover -->
+            <a href="http://generator.email/@alightmotion.id" target="_blank" rel="noopener noreferrer" 
+               class="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300 shadow-lg">
+               Buka Generator Email
+            </a>
+            <p class="text-xs text-gray-500 mt-6">Terakhir Diperbarui: 28 Juni 2025</p>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
