@@ -154,7 +154,7 @@
       "id": "alight-motion-1001",
       "name": "Alight Motion",
       "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com",
+      "url": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html",
       "category": "design"
     },
     "cookies": [
@@ -167,7 +167,7 @@
         "domain": "alightmotion.com"
       }
     ],
-    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html"
   },
   {
     "meta": {
