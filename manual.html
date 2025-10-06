@@ -74,25 +74,24 @@
             if (name) {
                 const lowerCaseName = name.toLowerCase();
                 
-                // Daftar semua nama layanan yang diizinkan secara spesifik
+                // Hapus spasi dan angka di akhir nama untuk mendapatkan nama dasar layanan
+                const baseName = lowerCaseName.replace(/\s*\d+$/, '').trim();
+
                 const knownServices = [
                     'canva', 'blush design', 'viu', 'hbo max', 'picsart', 'jenni ai', 'consensus',
                     'turnitin', 'gamma', 'codedex', 'humata ai', 'mimo', 'quillbot',
-                    'the wall street journal', 'scite', 'virtual threads',
-                    // Nama spesifik baru yang ditambahkan
-                    'viu 2',
-                    'canva 3',
-                    'canva 4'
+                    'the wall street journal', 'scite', 'virtual threads'
                 ];
                 
-                // Cek apakah nama dari URL ada di dalam daftar di atas
-                if (knownServices.includes(lowerCaseName)) {
+                // Periksa apakah nama dasar layanan ada di dalam daftar
+                if (knownServices.includes(baseName)) {
                     const login = params.get('login');
                     const password = params.get('password');
                     const loginUrl = params.get('url');
                     
                     document.getElementById('login-layout').style.display = 'block';
                     
+                    // Gunakan nama asli dari URL (misal: "Viu 2") sebagai judul
                     document.title = `${name} | Groupy`;
                     document.getElementById('login-title').textContent = name;
                     
@@ -100,6 +99,7 @@
                     document.getElementById('passwordInput').value = password || '';
                     document.getElementById('manualLoginLink').href = loginUrl || '#';
                 } else {
+                    // Jika tidak dikenali, tampilkan pesan error
                     document.getElementById('default-message').style.display = 'block';
                     document.querySelector('#default-message p').textContent = `The name '${name}' is not recognized.`;
                 }
