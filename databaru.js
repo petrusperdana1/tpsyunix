@@ -4,8 +4,8 @@
       "id": "academia-1000",
       "name": "Academia",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-      "category": "education",
-      "url": "https://www.academia.edu/"
+      "url": "https://www.academia.edu/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -146,15 +146,16 @@
         "sameSite": "no_restriction",
         "domain": "www.academia.edu"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.academia.edu/"
   },
   {
     "meta": {
       "id": "alight-motion-1001",
       "name": "Alight Motion",
       "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
-      "category": "design",
-      "url": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html"
+      "url": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html",
+      "category": "design"
     },
     "cookies": [
       {
@@ -165,21 +166,21 @@
         "secure": true,
         "domain": "alightmotion.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html"
   },
   {
     "meta": {
       "id": "apple-music-1048",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
+      "url": "https://music.apple.com/ca/home",
       "category": "music",
-      "isGroup": true,
-      "url": "https://music.apple.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "music.apple.com ca home 2025-10-06 (1)",
-        "url": "https://music.apple.com/ca/home",
+        "name": "Apple Music 1",
         "cookies": [
           {
             "name": "dslang",
@@ -297,11 +298,11 @@
             "sameSite": "no_restriction",
             "domain": ".music.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://music.apple.com/ca/home"
       },
       {
-        "name": "music.apple.com ca home 2025-10-06 (2)",
-        "url": "https://music.apple.com/ca/home",
+        "name": "Apple Music 2",
         "cookies": [
           {
             "name": "dslang",
@@ -419,11 +420,11 @@
             "sameSite": "no_restriction",
             "domain": ".music.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://music.apple.com/ca/home"
       },
       {
-        "name": "music.apple.com ca home 2025-10-06",
-        "url": "https://music.apple.com/ca/home",
+        "name": "Apple Music 3",
         "cookies": [
           {
             "name": "dslang",
@@ -541,7 +542,8 @@
             "sameSite": "no_restriction",
             "domain": ".music.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://music.apple.com/ca/home"
       }
     ]
   },
@@ -550,14 +552,13 @@
       "id": "apple-tv--1072",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
+      "url": "https://tv.apple.com/ca",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://tv.apple.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "tv.apple.com ca 2025-10-06 (1)",
-        "url": "https://tv.apple.com/ca",
+        "name": "Apple TV+ 1",
         "cookies": [
           {
             "name": "dslang",
@@ -665,11 +666,11 @@
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "tv.apple.com ca 2025-10-06 (2)",
-        "url": "https://tv.apple.com/ca",
+        "name": "Apple TV+ 2",
         "cookies": [
           {
             "name": "dslang",
@@ -777,11 +778,11 @@
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "tv.apple.com ca 2025-10-06 (3)",
-        "url": "https://tv.apple.com/ca",
+        "name": "Apple TV+ 3",
         "cookies": [
           {
             "name": "dslang",
@@ -889,11 +890,11 @@
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "tv.apple.com ca 2025-10-06 (4)",
-        "url": "https://tv.apple.com/ca",
+        "name": "Apple TV+ 4",
         "cookies": [
           {
             "name": "dslang",
@@ -1001,11 +1002,11 @@
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "tv.apple.com ca 2025-10-06 (5)",
-        "url": "https://tv.apple.com/ca",
+        "name": "Apple TV+ 5",
         "cookies": [
           {
             "name": "dslang",
@@ -1113,11 +1114,11 @@
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "tv.apple.com ca 2025-10-06 (6)",
-        "url": "https://tv.apple.com/ca",
+        "name": "Apple TV+ 6",
         "cookies": [
           {
             "name": "dslang",
@@ -1225,11 +1226,11 @@
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "tv.apple.com ca 2025-10-06",
-        "url": "https://tv.apple.com/ca",
+        "name": "Apple TV+ 7",
         "cookies": [
           {
             "name": "dslang",
@@ -1337,7 +1338,8 @@
             "sameSite": "no_restriction",
             "domain": ".tv.apple.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://tv.apple.com/ca"
       }
     ]
   },
@@ -1346,8 +1348,8 @@
       "id": "askyourpdf-1006",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
-      "category": "productivity",
-      "url": "https://askyourpdf.com/conversations"
+      "url": "https://askyourpdf.com/conversations",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -1490,21 +1492,21 @@
         "sameSite": "no_restriction",
         "domain": ".askyourpdf.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://askyourpdf.com/conversations"
   },
   {
     "meta": {
       "id": "bein-sports-1017",
       "name": "Bein Sports",
       "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
+      "url": "https://connect-id.beinsports.com/id",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://www.beinsports.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "connect-id.beinsports.com id 2025-10-06 (1)",
-        "url": "https://connect-id.beinsports.com/id",
+        "name": "Bein Sports 1",
         "cookies": [
           {
             "name": "_fbp",
@@ -1714,11 +1716,11 @@
             "sameSite": "no_restriction",
             "domain": "connect-id.beinsports.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "connect-id.beinsports.com id 2025-10-06 (2)",
-        "url": "https://connect-id.beinsports.com/id",
+        "name": "Bein Sports 2",
         "cookies": [
           {
             "name": "_fbp",
@@ -1928,11 +1930,11 @@
             "sameSite": "no_restriction",
             "domain": "connect-id.beinsports.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "connect-id.beinsports.com id 2025-10-06 (3)",
-        "url": "https://connect-id.beinsports.com/id",
+        "name": "Bein Sports 3",
         "cookies": [
           {
             "name": "_fbp",
@@ -2142,11 +2144,11 @@
             "sameSite": "no_restriction",
             "domain": "connect-id.beinsports.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "connect-id.beinsports.com id 2025-10-06 (4)",
-        "url": "https://connect-id.beinsports.com/id",
+        "name": "Bein Sports 4",
         "cookies": [
           {
             "name": "_fbp",
@@ -2356,11 +2358,11 @@
             "sameSite": "no_restriction",
             "domain": "connect-id.beinsports.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "connect-id.beinsports.com id 2025-10-06 (5)",
-        "url": "https://connect-id.beinsports.com/id",
+        "name": "Bein Sports 5",
         "cookies": [
           {
             "name": "_fbp",
@@ -2570,11 +2572,11 @@
             "sameSite": "no_restriction",
             "domain": "connect-id.beinsports.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "connect-id.beinsports.com id 2025-10-06",
-        "url": "https://connect-id.beinsports.com/id",
+        "name": "Bein Sports 6",
         "cookies": [
           {
             "name": "_fbp",
@@ -2784,7 +2786,8 @@
             "sameSite": "no_restriction",
             "domain": "connect-id.beinsports.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://connect-id.beinsports.com/id"
       }
     ]
   },
@@ -2793,8 +2796,8 @@
       "id": "brain-fm-1050",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
-      "category": "music",
-      "url": "https://my.brain.fm/"
+      "url": "https://my.brain.fm/",
+      "category": "music"
     },
     "cookies": [
       {
@@ -3021,15 +3024,16 @@
         "sameSite": "strict",
         "domain": ".my.brain.fm"
       }
-    ]
+    ],
+    "sourceUrl": "https://my.brain.fm/"
   },
   {
     "meta": {
       "id": "brilliant-1008",
       "name": "Brilliant",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
-      "category": "education",
-      "url": "https://brilliant.org/home/"
+      "url": "https://brilliant.org/home/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -3158,21 +3162,21 @@
         "sameSite": "lax",
         "domain": "brilliant.org"
       }
-    ]
+    ],
+    "sourceUrl": "https://brilliant.org/home/"
   },
   {
     "meta": {
       "id": "bstation-1007",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
+      "url": "https://www.bilibili.tv/en/anime",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://www.bilibili.tv"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "bilibili.tv en anime 2025-10-06 (1)",
-        "url": "https://www.bilibili.tv/en/anime",
+        "name": "Bstation 1",
         "cookies": [
           {
             "name": "_ga",
@@ -3294,11 +3298,11 @@
             "sameSite": "no_restriction",
             "domain": ".bilibili.tv"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.bilibili.tv/en/anime"
       },
       {
-        "name": "bilibili.tv en anime 2025-10-06",
-        "url": "https://www.bilibili.tv/en/anime",
+        "name": "Bstation 2",
         "cookies": [
           {
             "name": "_ga",
@@ -3420,7 +3424,8 @@
             "sameSite": "no_restriction",
             "domain": ".bilibili.tv"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.bilibili.tv/en/anime"
       }
     ]
   },
@@ -3429,8 +3434,8 @@
       "id": "busuu-1009",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
-      "category": "education",
-      "url": "https://www.busuu.com/dashboard/timeline/a1"
+      "url": "https://www.busuu.com/dashboard/timeline/a1",
+      "category": "education"
     },
     "cookies": [
       {
@@ -3701,15 +3706,255 @@
         "sameSite": "no_restriction",
         "domain": "www.busuu.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.busuu.com/dashboard/timeline/a1"
+  },
+  {
+    "meta": {
+      "id": "bypass---hix-ai-1036",
+      "name": "Bypass | HIX AI",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
+      "url": "https://hix.ai/app/bypass-ai-detection",
+      "category": "productivity"
+    },
+    "cookies": [
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..ttp5cO0jeZg-68-4.5CHNDF8gAlXmiwWtSdTfZuaEhSjzyJq5h24ZDSHRDoyp6CWOWI-JONYU9sB9bMrrDWxj9zDdk8dww8umUOX-roMuv5SORVPLYLsmeAH74fnHE1lZ2zwRv7HBsRicngCx3RJQnHHBL5q7w6G5_Fx9O36b97dqscu85y4OXUMSwdVqnVxKwYKa17BiMNVTb72UnZmOuNlR3tPdTR8D1zLIno4ZcRl3Y4pi7VI4DyBmSQ8XqRY9EKPXPsmTzziSE4TX0vpnfNz1JDG5tPUNrswP7fqzEYBFAvXku5pQkwqxsrXPyo8N6QiDK7xyEJoh7TTfSqQQSfcCMmwTZnzHmuTDdvwzznjpNFvcdHoh1E1decKc_17DCvp_tnmbEJfYyLgdSuDZfXk40-0.bbsiq1N1vw4nCfMjOd-9zA",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767526015.241367,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_clck",
+        "value": "vrye7c%5E2%5Efzx%5E0%5E2085",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791285954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_clsk",
+        "value": "1yck35n%5E1759749955464%5E1%5E1%5Ee.clarity.ms%2Fcollect",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759836355,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1758001561678.433072511371420926",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767525954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.824288062.1758001561",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309953.650334,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_JS0YXNKF22",
+        "value": "GS2.1.s1759749953$o2$g0$t1759749953$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309953.695944,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_NSMTS5QKXE",
+        "value": "GS2.1.s1759749953$o4$g0$t1759749953$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309953.722501,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_uetsid",
+        "value": "33c1bdf0a2a711f0a7e1a18b130bdf3e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759836353,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_uetvid",
+        "value": "03f741a06b4c11f0a2a78756b89e0a10",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445953,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "device-id",
+        "value": "90aa7d721f7d313c6c9f0f368832cc37",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "first-visit-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "FPID",
+        "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1794309954.632935,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "FPLC",
+        "value": "vr3PSuhl4G1jqVrKwlTpUz0d%2BY1KeD7XGtY7lHmxfVhrJ6aWvfls0abfnBYj0tL%2Bd8Vv2g0qGoTM32nrXDdH67hPz%2FzNSeI%2BPAM2HrTkt1xfTDx1CKo3nSNF3iTTMQ%3D%3D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759821954.63307,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "sign",
+        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b566d3855794562456172636a6854374668506d514d",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777650,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1759749954666::4l4CmMQ-tQjZQrzh6n8g.2.1759749955179.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445955,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid_CVDREMRC77U6RTOFKU10",
+        "value": "1759749954665::eRsYrKG87-D8TEDs9NXt.2.1759749955179.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445955,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user-info",
+        "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767525954.489879,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user_group",
+        "value": "120",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309954.061168,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
+      }
+    ],
+    "sourceUrl": "https://hix.ai/app/bypass-ai-detection"
   },
   {
     "meta": {
       "id": "bypassgpt-1010",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
-      "category": "productivity",
-      "url": "https://www.bypassgpt.ai/"
+      "url": "https://www.bypassgpt.ai/",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -3898,21 +4143,21 @@
         "sameSite": "lax",
         "domain": "www.bypassgpt.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.bypassgpt.ai/#groupy"
   },
   {
     "meta": {
       "id": "canva-1011",
       "name": "Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva&login=subutomo@kanvaa.site&password=Premium121@&url=https://canva.com/",
       "category": "design",
-      "isGroup": true,
-      "url": "https://www.canva.com"
+      "isGroup": true
     },
     "accounts": [
       {
         "name": "Canva 1",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva&login=subutomo@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -3922,11 +4167,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva&login=subutomo@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 2",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%202&login=lunutidu@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -3936,11 +4181,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%202&login=lunutidu@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 3",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%203&login=nuketopo@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -3950,11 +4195,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%203&login=nuketopo@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 4",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%204&login=maperaku@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -3964,11 +4209,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%204&login=maperaku@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 5",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%205&login=radotisu@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -3978,11 +4223,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%205&login=radotisu@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 6",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%206&login=bepineko@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -3992,11 +4237,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%206&login=bepineko@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 7",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%207&login=rinumiti@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -4006,11 +4251,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%207&login=rinumiti@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 8",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%208&login=nobapusi@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -4020,11 +4265,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%208&login=nobapusi@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 9",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%209&login=paporosa@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -4034,11 +4279,11 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%209&login=paporosa@kanvaa.site&password=Premium121@&url=https://canva.com/"
       },
       {
         "name": "Canva 10",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%2010&login=dedarine@kanvaa.site&password=Premium121@&url=https://canva.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -4048,7 +4293,8 @@
             "secure": true,
             "domain": "canva.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva%2010&login=dedarine@kanvaa.site&password=Premium121@&url=https://canva.com/"
       }
     ]
   },
@@ -4057,14 +4303,13 @@
       "id": "capcut-1012",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
+      "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
       "category": "design",
-      "isGroup": true,
-      "url": "https://www.capcut.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 1",
         "cookies": [
           {
             "name": "_clck",
@@ -4460,11 +4705,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 2",
         "cookies": [
           {
             "name": "_clck",
@@ -4860,11 +5105,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 3",
         "cookies": [
           {
             "name": "_clck",
@@ -5260,11 +5505,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 4",
         "cookies": [
           {
             "name": "_clck",
@@ -5660,11 +5905,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 5",
         "cookies": [
           {
             "name": "_clck",
@@ -6060,11 +6305,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 6",
         "cookies": [
           {
             "name": "_clck",
@@ -6460,11 +6705,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 7",
         "cookies": [
           {
             "name": "_clck",
@@ -6860,11 +7105,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 8",
         "cookies": [
           {
             "name": "_clck",
@@ -7260,11 +7505,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 9",
         "cookies": [
           {
             "name": "_clck",
@@ -7660,11 +7905,11 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut",
-        "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+        "name": "CapCut 10",
         "cookies": [
           {
             "name": "_clck",
@@ -8060,23 +8305,262 @@
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       }
     ]
+  },
+  {
+    "meta": {
+      "id": "chat---hix-ai-1037",
+      "name": "Chat | HIX AI",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
+      "url": "https://hix.ai/id/home",
+      "category": "productivity"
+    },
+    "cookies": [
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..DZDEEwpNtRzHvPad.iUqQYAgiYdZQHwXyYq-DaudH1i1ujKybl99j-u5Oc6kuP_HiiGARUJPNwJYLNgopxUE6LBezLUDbdarsX7oaUBBWUoHa_DOVWuckBZcp7FxVJWuudvpw6_uj58FwybrewDsMv7EgneQ71N9Cb9YAmV-jzC28L2hTEsMfLriHOdHpwHLiFL8CVfnE3l_OK-9BnSNWGEwCq-O6NkgzyYLYalypeTme94rsVXgrPHhXyUxjW7OFnIXQP-JXIRBxM6A92DExP621GO8bu-J9BSZZybtpfhm2tQkomr7PzUReOKsq9I0xeamhgZaX8u4Nye0RoDvSREh3kyCluUQT0vDsEr9-X8ujBNhm94NdulMVuTB49muvaHaTHABjTiOHuQ3mVbGCLd1NAjU.kFUt0TkFFR8uL_qWWjYByw",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767525954.873295,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_clck",
+        "value": "vrye7c%5E2%5Efzx%5E0%5E2085",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791285954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_clsk",
+        "value": "1yck35n%5E1759749955464%5E1%5E1%5Ee.clarity.ms%2Fcollect",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759836355,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1758001561678.433072511371420926",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767525954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.824288062.1758001561",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309953.650334,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_JS0YXNKF22",
+        "value": "GS2.1.s1759749953$o2$g0$t1759749953$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309953.695944,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_NSMTS5QKXE",
+        "value": "GS2.1.s1759749953$o4$g0$t1759749953$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309953.722501,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445954,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_uetsid",
+        "value": "33c1bdf0a2a711f0a7e1a18b130bdf3e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759836353,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_uetvid",
+        "value": "03f741a06b4c11f0a2a78756b89e0a10",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445953,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "device-id",
+        "value": "90aa7d721f7d313c6c9f0f368832cc37",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "first-visit-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "FPID",
+        "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1794309954.632935,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "FPLC",
+        "value": "vr3PSuhl4G1jqVrKwlTpUz0d%2BY1KeD7XGtY7lHmxfVhrJ6aWvfls0abfnBYj0tL%2Bd8Vv2g0qGoTM32nrXDdH67hPz%2FzNSeI%2BPAM2HrTkt1xfTDx1CKo3nSNF3iTTMQ%3D%3D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1759821954.63307,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "sign",
+        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b566d3855794562456172636a6854374668506d514d",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777650,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1759749954666::4l4CmMQ-tQjZQrzh6n8g.2.1759749955179.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445955,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid_CVDREMRC77U6RTOFKU10",
+        "value": "1759749954665::eRsYrKG87-D8TEDs9NXt.2.1759749955179.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793445955,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user-info",
+        "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767525954.489879,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user_group",
+        "value": "120",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794309954.061168,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
+      }
+    ],
+    "sourceUrl": "https://hix.ai/id/home"
   },
   {
     "meta": {
       "id": "chatgpt-group-id",
       "name": "ChatGPT",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
+      "url": "https://chatgpt.com/",
       "category": "productivity",
-      "isGroup": true,
-      "url": "https://chatgpt.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 1",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -8332,11 +8816,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#i-love-groupy"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 2",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -8592,11 +9076,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 3",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -8852,11 +9336,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 4",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9112,11 +9596,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#killua"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 5",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9372,11 +9856,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 6",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9632,11 +10116,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 7",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9892,11 +10376,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 8",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10152,11 +10636,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 9",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10412,11 +10896,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 10",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10672,11 +11156,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 11",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10932,11 +11416,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 12",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -11192,11 +11676,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#fourteen"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 13",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -11452,11 +11936,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#fiveteen"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 14",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -11712,11 +12196,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#16"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 15",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -11972,11 +12456,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 16",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -12232,11 +12716,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 17",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -12492,11 +12976,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 18",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -12752,11 +13236,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 19",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -13012,11 +13496,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 20",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -13264,11 +13748,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 21",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -13524,11 +14008,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 22",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -13784,11 +14268,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 23",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14044,11 +14528,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 24",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14314,11 +14798,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 25",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14574,11 +15058,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 26",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14834,11 +15318,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 27",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15094,11 +15578,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 28",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15354,11 +15838,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 29",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15614,11 +16098,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 30",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15874,11 +16358,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 31",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -16134,11 +16618,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 32",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -16394,11 +16878,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 33",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -16654,11 +17138,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 34",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -16914,11 +17398,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 35",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17174,11 +17658,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 36",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17434,11 +17918,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 37",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17694,11 +18178,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 38",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17946,11 +18430,11 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT",
-        "url": "https://chatgpt.com/",
+        "name": "ChatGPT 39",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -18206,7 +18690,8 @@
             "sameSite": "lax",
             "domain": "chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://chatgpt.com/#groupy"
       }
     ]
   },
@@ -18215,8 +18700,8 @@
       "id": "chutes-1014",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
-      "category": "productivity",
-      "url": "https://chutes.ai/app"
+      "url": "https://chutes.ai/app",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -18327,15 +18812,16 @@
         "sameSite": "lax",
         "domain": "chutes.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://chutes.ai/app"
   },
   {
     "meta": {
       "id": "codecademy-1015",
       "name": "Codecademy",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
-      "category": "education",
-      "url": "https://www.codecademy.com/learn"
+      "url": "https://www.codecademy.com/learn",
+      "category": "education"
     },
     "cookies": [
       {
@@ -18555,15 +19041,16 @@
         "sameSite": "no_restriction",
         "domain": "www.codecademy.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.codecademy.com/learn"
   },
   {
     "meta": {
       "id": "codedex-1016",
       "name": "Codedex",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
-      "category": "productivity",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -18574,15 +19061,16 @@
         "secure": true,
         "domain": "codedex.io"
       }
-    ]
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
   },
   {
     "meta": {
       "id": "consensus-1018",
       "name": "Consensus",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
-      "category": "education",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account/"
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -18593,15 +19081,16 @@
         "secure": true,
         "domain": "consensus.app"
       }
-    ]
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account/"
   },
   {
     "meta": {
       "id": "coohom-1019",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
-      "category": "design",
-      "url": "https://www.coohom.com/pub/saas/workbench"
+      "url": "https://www.coohom.com/pub/saas/workbench",
+      "category": "design"
     },
     "cookies": [
       {
@@ -18813,15 +19302,16 @@
         "sameSite": "no_restriction",
         "domain": "www.coohom.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.coohom.com/pub/saas/workbench"
   },
   {
     "meta": {
       "id": "cospacegpt-1013",
       "name": "CoSpaceGPT",
       "icon": "https://pbs.twimg.com/profile_images/1951162772206788609/jW762Zzd_400x400.png",
-      "category": "productivity",
-      "url": "https://chat.cospacegpt.ai/?thread=6da22462-5629-47fa-919d-253e7c24bce5"
+      "url": "https://chat.cospacegpt.ai/?thread=6da22462-5629-47fa-919d-253e7c24bce5",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -18884,15 +19374,16 @@
         "sameSite": "no_restriction",
         "domain": ".cospacegpt.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://chat.cospacegpt.ai/?thread=6da22462-5629-47fa-919d-253e7c24bce5"
   },
   {
     "meta": {
       "id": "course-hero-1020",
-      "name": "coursehero.com dashboard 2025-10-06",
+      "name": "Course Hero",
       "icon": "https://play-lh.googleusercontent.com/FGtdclS6wXoOO9lA-9DkK9Skis0T-tY2SCFAl7wLX4ZDFSNO3RBADCEcnCMInsZCKlc",
-      "category": "education",
-      "url": "https://www.coursehero.com/dashboard/"
+      "url": "https://www.coursehero.com/dashboard/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -19177,15 +19668,16 @@
         "sameSite": "lax",
         "domain": "www.coursehero.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.coursehero.com/dashboard/"
   },
   {
     "meta": {
       "id": "coursera-1021",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
-      "category": "education",
-      "url": "https://www.coursera.org/"
+      "url": "https://www.coursera.org/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -19473,21 +19965,21 @@
         "sameSite": "lax",
         "domain": ".www.coursera.org"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.coursera.org/"
   },
   {
     "meta": {
       "id": "crunchyroll-1022",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
+      "url": "https://www.crunchyroll.com/discover",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://www.crunchyroll.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/discover",
+        "name": "Crunchyroll 1",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -19627,11 +20119,11 @@
             "sameSite": "strict",
             "domain": "www.crunchyroll.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.crunchyroll.com/discover"
       },
       {
-        "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/discover",
+        "name": "Crunchyroll 2",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -19771,11 +20263,11 @@
             "sameSite": "strict",
             "domain": "www.crunchyroll.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.crunchyroll.com/discover"
       },
       {
-        "name": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/discover",
+        "name": "Crunchyroll 3",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -19915,7 +20407,8 @@
             "sameSite": "strict",
             "domain": "www.crunchyroll.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.crunchyroll.com/discover"
       }
     ]
   },
@@ -19924,8 +20417,8 @@
       "id": "cryptoquant-1023",
       "name": "CryptoQuant",
       "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
-      "category": "productivity",
-      "url": "https://cryptoquant.com/asset/btc/summary"
+      "url": "https://cryptoquant.com/asset/btc/summary",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -20074,21 +20567,21 @@
         "sameSite": "strict",
         "domain": "cryptoquant.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://cryptoquant.com/asset/btc/summary"
   },
   {
     "meta": {
       "id": "curiosity-stream-1024",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
+      "url": "https://curiositystream.com/",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://curiositystream.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "curiositystream.com 2025-10-06 (1)",
-        "url": "https://curiositystream.com/",
+        "name": "Curiosity Stream 1",
         "cookies": [
           {
             "name": "__zlcmid",
@@ -20653,11 +21146,11 @@
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://curiositystream.com/"
       },
       {
-        "name": "curiositystream.com 2025-10-06",
-        "url": "https://curiositystream.com/",
+        "name": "Curiosity Stream 2",
         "cookies": [
           {
             "name": "__zlcmid",
@@ -21222,7 +21715,8 @@
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://curiositystream.com/"
       }
     ]
   },
@@ -21231,14 +21725,13 @@
       "id": "cursor-1025",
       "name": "Cursor",
       "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
+      "url": "https://cursor.com/dashboard",
       "category": "productivity",
-      "isGroup": true,
-      "url": "https://cursor.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Cursor",
-        "url": "https://cursor.com/dashboard",
+        "name": "Cursor 1",
         "cookies": [
           {
             "name": "generaltranslation.locale-routing-enabled",
@@ -21296,11 +21789,11 @@
             "sameSite": "no_restriction",
             "domain": "cursor.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
       },
       {
-        "name": "Cursor",
-        "url": "https://cursor.com/dashboard",
+        "name": "Cursor 2",
         "cookies": [
           {
             "name": "generaltranslation.locale-routing-enabled",
@@ -21358,11 +21851,11 @@
             "sameSite": "no_restriction",
             "domain": "cursor.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
       },
       {
-        "name": "Cursor",
-        "url": "https://cursor.com/dashboard",
+        "name": "Cursor 3",
         "cookies": [
           {
             "name": "generaltranslation.locale-routing-enabled",
@@ -21420,11 +21913,11 @@
             "sameSite": "no_restriction",
             "domain": "cursor.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
       },
       {
-        "name": "Cursor",
-        "url": "https://cursor.com/dashboard",
+        "name": "Cursor 4",
         "cookies": [
           {
             "name": "generaltranslation.locale-routing-enabled",
@@ -21482,7 +21975,8 @@
             "sameSite": "no_restriction",
             "domain": "cursor.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
       }
     ]
   },
@@ -21491,8 +21985,8 @@
       "id": "datacamp-1002",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
-      "category": "education",
-      "url": "https://app.datacamp.com/"
+      "url": "https://app.datacamp.com/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -21831,21 +22325,21 @@
         "sameSite": "no_restriction",
         "domain": "app.datacamp.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://app.datacamp.com/"
   },
   {
     "meta": {
       "id": "deepl-1026",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
+      "url": "https://www.deepl.com/en/translator/files",
       "category": "utilities",
-      "isGroup": true,
-      "url": "https://www.deepl.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "DeepL",
-        "url": "https://www.deepl.com/en/translator/files",
+        "name": "DeepL 1",
         "cookies": [
           {
             "name": "_fwb",
@@ -22123,11 +22617,11 @@
             "sameSite": "no_restriction",
             "domain": ".www.deepl.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
       },
       {
-        "name": "DeepL",
-        "url": "https://www.deepl.com/en/translator/files",
+        "name": "DeepL 2",
         "cookies": [
           {
             "name": "_fwb",
@@ -22405,11 +22899,11 @@
             "sameSite": "no_restriction",
             "domain": ".www.deepl.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
       },
       {
-        "name": "DeepL",
-        "url": "https://www.deepl.com/en/translator/files",
+        "name": "DeepL 3",
         "cookies": [
           {
             "name": "_fwb",
@@ -22687,7 +23181,8 @@
             "sameSite": "no_restriction",
             "domain": ".www.deepl.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.deepl.com/en/translator/files"
       }
     ]
   },
@@ -22696,8 +23191,8 @@
       "id": "duolingo-1027",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
-      "category": "education",
-      "url": "https://www.duolingo.com/learn"
+      "url": "https://www.duolingo.com/learn",
+      "category": "education"
     },
     "cookies": [
       {
@@ -22869,15 +23364,16 @@
         "sameSite": "no_restriction",
         "domain": "www.duolingo.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.duolingo.com/learn"
   },
   {
     "meta": {
       "id": "elicit-1028",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
-      "category": "productivity",
-      "url": "https://elicit.com/library"
+      "url": "https://elicit.com/library",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -22979,21 +23475,21 @@
         "sameSite": "strict",
         "domain": "elicit.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://elicit.com/library"
   },
   {
     "meta": {
       "id": "epidemic-sound-1029",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
+      "url": "https://www.epidemicsound.com/music/featured/",
       "category": "music",
-      "isGroup": true,
-      "url": "https://www.epidemicsound.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "epidemicsound.com music featured 2025-10-06 (1)",
-        "url": "https://www.epidemicsound.com/music/featured/",
+        "name": "Epidemic Sound 1",
         "cookies": [
           {
             "name": "_fbp",
@@ -23478,11 +23974,11 @@
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       },
       {
-        "name": "epidemicsound.com music featured 2025-10-06 (2)",
-        "url": "https://www.epidemicsound.com/music/featured/",
+        "name": "Epidemic Sound 2",
         "cookies": [
           {
             "name": "_fbp",
@@ -23957,11 +24453,11 @@
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       },
       {
-        "name": "epidemicsound.com music featured 2025-10-06 (3)",
-        "url": "https://www.epidemicsound.com/music/featured/",
+        "name": "Epidemic Sound 3",
         "cookies": [
           {
             "name": "_fbp",
@@ -24436,11 +24932,11 @@
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       },
       {
-        "name": "epidemicsound.com music featured 2025-10-06",
-        "url": "https://www.epidemicsound.com/music/featured/",
+        "name": "Epidemic Sound 4",
         "cookies": [
           {
             "name": "_fbp",
@@ -24925,7 +25421,8 @@
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       }
     ]
   },
@@ -24934,8 +25431,8 @@
       "id": "everand-1030",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
-      "category": "music",
-      "url": "https://www.everand.com/home"
+      "url": "https://www.everand.com/home",
+      "category": "music"
     },
     "cookies": [
       {
@@ -25172,21 +25669,21 @@
         "sameSite": "lax",
         "domain": "www.everand.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.everand.com/home"
   },
   {
     "meta": {
       "id": "flaticon-1031",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
+      "url": "https://www.flaticon.com/profile/me",
       "category": "design",
-      "isGroup": true,
-      "url": "https://www.flaticon.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Flaticon",
-        "url": "https://www.flaticon.com/profile/me",
+        "name": "Flaticon 1",
         "cookies": [
           {
             "name": "_ga",
@@ -25449,11 +25946,11 @@
             "sameSite": "strict",
             "domain": "www.flaticon.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.flaticon.com/profile/me"
       },
       {
-        "name": "Flaticon",
-        "url": "https://www.flaticon.com/profile/me",
+        "name": "Flaticon 2",
         "cookies": [
           {
             "name": "_ga",
@@ -25716,7 +26213,8 @@
             "sameSite": "strict",
             "domain": "www.flaticon.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.flaticon.com/profile/me"
       }
     ]
   },
@@ -25725,14 +26223,13 @@
       "id": "freepik-group-id",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
+      "url": "https://www.freepik.com/user/my-subscriptions",
       "category": "design",
-      "isGroup": true,
-      "url": "https://www.freepik.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Freepik",
-        "url": "https://www.freepik.com/user/my-subscriptions",
+        "name": "Freepik 1",
         "cookies": [
           {
             "name": "_ga",
@@ -25908,11 +26405,11 @@
             "sameSite": "no_restriction",
             "domain": "www.freepik.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.freepik.com/user/my-subscriptions#from-element=dropdown_menu"
       },
       {
-        "name": "Freepik",
-        "url": "https://www.freepik.com/user/my-subscriptions",
+        "name": "Freepik 2",
         "cookies": [
           {
             "name": "_ga",
@@ -26088,7 +26585,8 @@
             "sameSite": "no_restriction",
             "domain": "www.freepik.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.freepik.com/user/my-subscriptions#from-element=dropdown_menu"
       }
     ]
   },
@@ -26097,8 +26595,8 @@
       "id": "gamma-1032",
       "name": "Gamma",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRM9dtIK5wd1yJAH0qg6ytSsgMzrNx-cvlK78QZqzzTejsr0qtC9Kgj_i1&s=10",
-      "category": "productivity",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Gamma&login=milikgpy@belajaar.id&password=JanganLupPerpanjangGroupy2025!&url=https://gamma.app/signin"
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Gamma&login=milikgpy@belajaar.id&password=JanganLupPerpanjangGroupy2025!&url=https://gamma.app/signin",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -26109,21 +26607,21 @@
         "secure": true,
         "domain": "gamma.app"
       }
-    ]
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Gamma&login=milikgpy@belajaar.id&password=JanganLupPerpanjangGroupy2025!&url=https://gamma.app/signin"
   },
   {
     "meta": {
       "id": "grammarly-1003",
       "name": "Grammarly",
       "icon": "https://groupy.id/assets/images/services/grammarly.png",
+      "url": "https://app.grammarly.com/",
       "category": "productivity",
-      "isGroup": true,
-      "url": "https://www.grammarly.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Grammarly",
-        "url": "https://app.grammarly.com/",
+        "name": "Grammarly 1",
         "cookies": [
           {
             "name": "__podscribe_did",
@@ -26461,11 +26959,11 @@
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://app.grammarly.com/"
       },
       {
-        "name": "Grammarly",
-        "url": "https://app.grammarly.com/",
+        "name": "Grammarly 2",
         "cookies": [
           {
             "name": "__podscribe_did",
@@ -26803,17 +27301,18 @@
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://app.grammarly.com/"
       }
     ]
   },
   {
     "meta": {
       "id": "ground-news-1033",
-      "name": "ground.news 2025-10-06",
+      "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
-      "category": "productivity",
-      "url": "https://ground.news/"
+      "url": "https://ground.news/",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -27073,15 +27572,16 @@
         "sameSite": "lax",
         "domain": "ground.news"
       }
-    ]
+    ],
+    "sourceUrl": "https://ground.news/"
   },
   {
     "meta": {
       "id": "guitartricks-1034",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
-      "category": "productivity",
-      "url": "https://www.guitartricks.com/home"
+      "url": "https://www.guitartricks.com/home",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -27438,21 +27938,21 @@
         "sameSite": "lax",
         "domain": "www.guitartricks.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.guitartricks.com/home"
   },
   {
     "meta": {
       "id": "hbo-max-1035",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max&login=maxmilikgroupy2@tokito.xyz&password=gpyt}89.6P`ENF0;^,qNQ-21hH5MXX!&url=https://play.max.com/",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://www.hbo.com"
+      "isGroup": true
     },
     "accounts": [
       {
         "name": "HBO Max 1",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max&login=maxmilikgroupy2@tokito.xyz&password=gpyt}89.6P`ENF0;^,qNQ-21hH5MXX!&url=https://play.max.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -27462,11 +27962,11 @@
             "secure": true,
             "domain": "hbo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max&login=maxmilikgroupy2@tokito.xyz&password=gpyt}89.6P`ENF0;^,qNQ-21hH5MXX!&url=https://play.max.com/"
       },
       {
         "name": "HBO Max 2",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=gpyXAXAQD2bRnMSRco43HCDf6F!!&url=https://play.max.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -27476,483 +27976,8 @@
             "secure": true,
             "domain": "hbo.com"
           }
-        ]
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "bypass---hix-ai-1036",
-      "name": "hix.ai app bypass-ai-detection 2025-10-06",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
-      "category": "productivity",
-      "url": "https://hix.ai/app/bypass-ai-detection"
-    },
-    "cookies": [
-      {
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "__Secure-next-auth.session-token",
-        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..ttp5cO0jeZg-68-4.5CHNDF8gAlXmiwWtSdTfZuaEhSjzyJq5h24ZDSHRDoyp6CWOWI-JONYU9sB9bMrrDWxj9zDdk8dww8umUOX-roMuv5SORVPLYLsmeAH74fnHE1lZ2zwRv7HBsRicngCx3RJQnHHBL5q7w6G5_Fx9O36b97dqscu85y4OXUMSwdVqnVxKwYKa17BiMNVTb72UnZmOuNlR3tPdTR8D1zLIno4ZcRl3Y4pi7VI4DyBmSQ8XqRY9EKPXPsmTzziSE4TX0vpnfNz1JDG5tPUNrswP7fqzEYBFAvXku5pQkwqxsrXPyo8N6QiDK7xyEJoh7TTfSqQQSfcCMmwTZnzHmuTDdvwzznjpNFvcdHoh1E1decKc_17DCvp_tnmbEJfYyLgdSuDZfXk40-0.bbsiq1N1vw4nCfMjOd-9zA",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1767526015.241367,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_clck",
-        "value": "vrye7c%5E2%5Efzx%5E0%5E2085",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791285954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_clsk",
-        "value": "1yck35n%5E1759749955464%5E1%5E1%5Ee.clarity.ms%2Fcollect",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1759836355,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_fbp",
-        "value": "fb.1.1758001561678.433072511371420926",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1767525954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.824288062.1758001561",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309953.650334,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga_JS0YXNKF22",
-        "value": "GS2.1.s1759749953$o2$g0$t1759749953$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309953.695944,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga_NSMTS5QKXE",
-        "value": "GS2.1.s1759749953$o4$g0$t1759749953$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309953.722501,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1765777561,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_tt_enable_cookie",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ttp",
-        "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_uetsid",
-        "value": "33c1bdf0a2a711f0a7e1a18b130bdf3e",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1759836353,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_uetvid",
-        "value": "03f741a06b4c11f0a2a78756b89e0a10",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445953,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "device-id",
-        "value": "90aa7d721f7d313c6c9f0f368832cc37",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1766641561,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "first-visit-url",
-        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1766641561,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "FPID",
-        "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1794309954.632935,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "FPLC",
-        "value": "vr3PSuhl4G1jqVrKwlTpUz0d%2BY1KeD7XGtY7lHmxfVhrJ6aWvfls0abfnBYj0tL%2Bd8Vv2g0qGoTM32nrXDdH67hPz%2FzNSeI%2BPAM2HrTkt1xfTDx1CKo3nSNF3iTTMQ%3D%3D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1759821954.63307,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "sign",
-        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b566d3855794562456172636a6854374668506d514d",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1765777650,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "ttcsid",
-        "value": "1759749954666::4l4CmMQ-tQjZQrzh6n8g.2.1759749955179.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445955,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "ttcsid_CVDREMRC77U6RTOFKU10",
-        "value": "1759749954665::eRsYrKG87-D8TEDs9NXt.2.1759749955179.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445955,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "user-info",
-        "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1767525954.489879,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "user_group",
-        "value": "120",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309954.061168,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "__Host-next-auth.csrf-token",
-        "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "chat---hix-ai-1037",
-      "name": "hix.ai id home 2025-10-06",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
-      "category": "productivity",
-      "url": "https://hix.ai/id/home"
-    },
-    "cookies": [
-      {
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "__Secure-next-auth.session-token",
-        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..DZDEEwpNtRzHvPad.iUqQYAgiYdZQHwXyYq-DaudH1i1ujKybl99j-u5Oc6kuP_HiiGARUJPNwJYLNgopxUE6LBezLUDbdarsX7oaUBBWUoHa_DOVWuckBZcp7FxVJWuudvpw6_uj58FwybrewDsMv7EgneQ71N9Cb9YAmV-jzC28L2hTEsMfLriHOdHpwHLiFL8CVfnE3l_OK-9BnSNWGEwCq-O6NkgzyYLYalypeTme94rsVXgrPHhXyUxjW7OFnIXQP-JXIRBxM6A92DExP621GO8bu-J9BSZZybtpfhm2tQkomr7PzUReOKsq9I0xeamhgZaX8u4Nye0RoDvSREh3kyCluUQT0vDsEr9-X8ujBNhm94NdulMVuTB49muvaHaTHABjTiOHuQ3mVbGCLd1NAjU.kFUt0TkFFR8uL_qWWjYByw",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1767525954.873295,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_clck",
-        "value": "vrye7c%5E2%5Efzx%5E0%5E2085",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791285954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_clsk",
-        "value": "1yck35n%5E1759749955464%5E1%5E1%5Ee.clarity.ms%2Fcollect",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1759836355,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_fbp",
-        "value": "fb.1.1758001561678.433072511371420926",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1767525954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.824288062.1758001561",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309953.650334,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga_JS0YXNKF22",
-        "value": "GS2.1.s1759749953$o2$g0$t1759749953$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309953.695944,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga_NSMTS5QKXE",
-        "value": "GS2.1.s1759749953$o4$g0$t1759749953$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309953.722501,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1765777561,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_tt_enable_cookie",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ttp",
-        "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445954,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_uetsid",
-        "value": "33c1bdf0a2a711f0a7e1a18b130bdf3e",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1759836353,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_uetvid",
-        "value": "03f741a06b4c11f0a2a78756b89e0a10",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445953,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "device-id",
-        "value": "90aa7d721f7d313c6c9f0f368832cc37",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1766641561,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "first-visit-url",
-        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1766641561,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "FPID",
-        "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1794309954.632935,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "FPLC",
-        "value": "vr3PSuhl4G1jqVrKwlTpUz0d%2BY1KeD7XGtY7lHmxfVhrJ6aWvfls0abfnBYj0tL%2Bd8Vv2g0qGoTM32nrXDdH67hPz%2FzNSeI%2BPAM2HrTkt1xfTDx1CKo3nSNF3iTTMQ%3D%3D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1759821954.63307,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "sign",
-        "value": "467175344e3563633238667a614d72676b2f383073432b387966696754577266562f5164374f2f3679612b566d3855794562456172636a6854374668506d514d",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1765777650,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "ttcsid",
-        "value": "1759749954666::4l4CmMQ-tQjZQrzh6n8g.2.1759749955179.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445955,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "ttcsid_CVDREMRC77U6RTOFKU10",
-        "value": "1759749954665::eRsYrKG87-D8TEDs9NXt.2.1759749955179.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1793445955,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "user-info",
-        "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1767525954.489879,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "user_group",
-        "value": "120",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1794309954.061168,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "__Host-next-auth.csrf-token",
-        "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax"
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=gpyXAXAQD2bRnMSRco43HCDf6F!!&url=https://play.max.com/"
       }
     ]
   },
@@ -27961,8 +27986,8 @@
       "id": "iflix-1038",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
-      "category": "streaming",
-      "url": "https://www.iflix.com/en"
+      "url": "https://www.iflix.com/en",
+      "category": "streaming"
     },
     "cookies": [
       {
@@ -28261,15 +28286,16 @@
         "sameSite": "no_restriction",
         "domain": ".www.iflix.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.iflix.com/en"
   },
   {
     "meta": {
       "id": "iloveimg-1039",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
-      "category": "utilities",
-      "url": "https://www.iloveimg.com/"
+      "url": "https://www.iloveimg.com/",
+      "category": "utilities"
     },
     "cookies": [
       {
@@ -28422,15 +28448,16 @@
         "sameSite": "no_restriction",
         "domain": "www.iloveimg.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.iloveimg.com/"
   },
   {
     "meta": {
       "id": "ilovepdf-1040",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
-      "category": "utilities",
-      "url": "https://www.ilovepdf.com/"
+      "url": "https://www.ilovepdf.com/",
+      "category": "utilities"
     },
     "cookies": [
       {
@@ -28574,15 +28601,16 @@
         "sameSite": "no_restriction",
         "domain": "www.ilovepdf.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.ilovepdf.com/"
   },
   {
     "meta": {
       "id": "iqiyi-1041",
-      "name": "iq.com 2025-10-06",
+      "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
-      "category": "streaming",
-      "url": "https://www.iq.com/"
+      "url": "https://www.iq.com/",
+      "category": "streaming"
     },
     "cookies": [
       {
@@ -28897,15 +28925,16 @@
         "sameSite": "no_restriction",
         "domain": ".iq.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.iq.com/"
   },
   {
     "meta": {
       "id": "linkedin-learning-1042",
-      "name": "linkedin.com learning 2025-10-06",
+      "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
-      "category": "education",
-      "url": "https://www.linkedin.com/learning/?u=73723940"
+      "url": "https://www.linkedin.com/learning/?u=73723940",
+      "category": "education"
     },
     "cookies": [
       {
@@ -29168,15 +29197,16 @@
         "sameSite": "no_restriction",
         "domain": "www.linkedin.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.linkedin.com/learning/?u=73723940"
   },
   {
     "meta": {
       "id": "marvel-unlimited-1043",
-      "name": "marvel.com comics unlimited home 2025-10-06",
+      "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
-      "category": "utilities",
-      "url": "https://www.marvel.com/comics/unlimited/home"
+      "url": "https://www.marvel.com/comics/unlimited/home",
+      "category": "utilities"
     },
     "cookies": [
       {
@@ -29443,15 +29473,16 @@
         "sameSite": "no_restriction",
         "domain": "www.marvel.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.marvel.com/comics/unlimited/home"
   },
   {
     "meta": {
       "id": "masterclass-1044",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
-      "category": "education",
-      "url": "https://www.masterclass.com/profiles"
+      "url": "https://www.masterclass.com/profiles",
+      "category": "education"
     },
     "cookies": [
       {
@@ -29822,15 +29853,16 @@
         "sameSite": "no_restriction",
         "domain": "www.masterclass.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.masterclass.com/profiles"
   },
   {
     "meta": {
       "id": "medium-1045",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
-      "category": "education",
-      "url": "https://medium.com/"
+      "url": "https://medium.com/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -29901,15 +29933,16 @@
         "sameSite": "no_restriction",
         "domain": "medium.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://medium.com/"
   },
   {
     "meta": {
       "id": "mimo-1046",
       "name": "Mimo",
       "icon": "https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q",
-      "category": "productivity",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Mimo&login=mimo@bahrudin.xyz&password=OnlyGroupy888~&url=https://mimo.org/web/login"
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Mimo&login=mimo@bahrudin.xyz&password=OnlyGroupy888~&url=https://mimo.org/web/login",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -29920,34 +29953,16 @@
         "secure": true,
         "domain": "mimo.org"
       }
-    ]
-  },
-  {
-    "meta": {
-      "id": "sololearn-1067",
-      "name": "Mimo",
-      "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
-      "category": "education",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "sololearn.com"
-      }
-    ]
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Mimo&login=mimo@bahrudin.xyz&password=OnlyGroupy888~&url=https://mimo.org/web/login"
   },
   {
     "meta": {
       "id": "motion-array-1047",
-      "name": "motionarray.com account downloads 2025-10-06",
+      "name": "Motion Array",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
-      "category": "design",
-      "url": "https://motionarray.com/account/downloads/"
+      "url": "https://motionarray.com/account/downloads/",
+      "category": "design"
     },
     "cookies": [
       {
@@ -30206,15 +30221,16 @@
         "sameSite": "lax",
         "domain": "motionarray.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://motionarray.com/account/downloads/"
   },
   {
     "meta": {
       "id": "musicbed-1049",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
-      "category": "music",
-      "url": "https://www.musicbed.com/songs"
+      "url": "https://www.musicbed.com/songs",
+      "category": "music"
     },
     "cookies": [
       {
@@ -30372,21 +30388,21 @@
         "sameSite": "strict",
         "domain": "www.musicbed.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.musicbed.com/songs"
   },
   {
     "meta": {
       "id": "netflix-1051",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
+      "url": "https://www.netflix.com/browse",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://www.netflix.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 1",
         "cookies": [
           {
             "name": "dsca",
@@ -30478,11 +30494,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 2",
         "cookies": [
           {
             "name": "dsca",
@@ -30574,11 +30590,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 3",
         "cookies": [
           {
             "name": "dsca",
@@ -30670,11 +30686,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 4",
         "cookies": [
           {
             "name": "dsca",
@@ -30766,11 +30782,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 5",
         "cookies": [
           {
             "name": "dsca",
@@ -30862,11 +30878,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 6",
         "cookies": [
           {
             "name": "dsca",
@@ -30958,11 +30974,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 7",
         "cookies": [
           {
             "name": "dsca",
@@ -31054,11 +31070,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 8",
         "cookies": [
           {
             "name": "dsca",
@@ -31150,11 +31166,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 9",
         "cookies": [
           {
             "name": "dsca",
@@ -31246,11 +31262,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 10",
         "cookies": [
           {
             "name": "dsca",
@@ -31342,11 +31358,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 11",
         "cookies": [
           {
             "name": "dsca",
@@ -31438,11 +31454,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 12",
         "cookies": [
           {
             "name": "dsca",
@@ -31534,11 +31550,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 13",
         "cookies": [
           {
             "name": "dsca",
@@ -31630,11 +31646,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 14",
         "cookies": [
           {
             "name": "dsca",
@@ -31726,11 +31742,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 15",
         "cookies": [
           {
             "name": "dsca",
@@ -31822,11 +31838,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 16",
         "cookies": [
           {
             "name": "dsca",
@@ -31918,11 +31934,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 17",
         "cookies": [
           {
             "name": "dsca",
@@ -32004,11 +32020,11 @@
             "sameSite": "strict",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 18",
         "cookies": [
           {
             "name": "dsca",
@@ -32100,11 +32116,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 19",
         "cookies": [
           {
             "name": "dsca",
@@ -32196,11 +32212,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 20",
         "cookies": [
           {
             "name": "dsca",
@@ -32292,11 +32308,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 21",
         "cookies": [
           {
             "name": "dsca",
@@ -32388,11 +32404,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 22",
         "cookies": [
           {
             "name": "dsca",
@@ -32484,11 +32500,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 23",
         "cookies": [
           {
             "name": "dsca",
@@ -32580,11 +32596,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 24",
         "cookies": [
           {
             "name": "dsca",
@@ -32666,11 +32682,11 @@
             "sameSite": "strict",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 25",
         "cookies": [
           {
             "name": "dsca",
@@ -32762,11 +32778,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 26",
         "cookies": [
           {
             "name": "dsca",
@@ -32858,11 +32874,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 27",
         "cookies": [
           {
             "name": "dsca",
@@ -32954,11 +32970,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 28",
         "cookies": [
           {
             "name": "dsca",
@@ -33050,11 +33066,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 29",
         "cookies": [
           {
             "name": "dsca",
@@ -33146,11 +33162,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 30",
         "cookies": [
           {
             "name": "dsca",
@@ -33242,11 +33258,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 31",
         "cookies": [
           {
             "name": "dsca",
@@ -33338,11 +33354,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 32",
         "cookies": [
           {
             "name": "dsca",
@@ -33434,11 +33450,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 33",
         "cookies": [
           {
             "name": "dsca",
@@ -33530,11 +33546,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 34",
         "cookies": [
           {
             "name": "dsca",
@@ -33626,11 +33642,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 35",
         "cookies": [
           {
             "name": "dsca",
@@ -33722,11 +33738,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 36",
         "cookies": [
           {
             "name": "dsca",
@@ -33818,11 +33834,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 37",
         "cookies": [
           {
             "name": "dsca",
@@ -33914,11 +33930,11 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix",
-        "url": "https://www.netflix.com/browse",
+        "name": "Netflix 38",
         "cookies": [
           {
             "name": "gsid",
@@ -34000,7 +34016,8 @@
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
       }
     ]
   },
@@ -34009,8 +34026,8 @@
       "id": "notegpt-1052",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
-      "category": "productivity",
-      "url": "https://notegpt.io/workspace/home"
+      "url": "https://notegpt.io/workspace/home",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -34139,15 +34156,16 @@
         "sameSite": "lax",
         "domain": "notegpt.io"
       }
-    ]
+    ],
+    "sourceUrl": "https://notegpt.io/workspace/home"
   },
   {
     "meta": {
       "id": "notion-1053",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
-      "category": "productivity",
-      "url": "https://www.notion.so/495a4d586ce44fd58751f1739687af57"
+      "url": "https://www.notion.so/495a4d586ce44fd58751f1739687af57",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -34348,15 +34366,16 @@
         "sameSite": "no_restriction",
         "domain": ".www.notion.so"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.notion.so/495a4d586ce44fd58751f1739687af57"
   },
   {
     "meta": {
       "id": "pacdora-1054",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
-      "category": "design",
-      "url": "https://www.pacdora.com/my-design"
+      "url": "https://www.pacdora.com/my-design",
+      "category": "design"
     },
     "cookies": [
       {
@@ -34509,21 +34528,21 @@
         "sameSite": "no_restriction",
         "domain": "www.pacdora.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.pacdora.com/my-design"
   },
   {
     "meta": {
       "id": "perplexity-group-id",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
+      "url": "https://www.perplexity.ai/",
       "category": "productivity",
-      "isGroup": true,
-      "url": "https://www.perplexity.ai"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Perplexity",
-        "url": "https://www.perplexity.ai/",
+        "name": "Perplexity 1",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -34810,11 +34829,11 @@
             "sameSite": "no_restriction",
             "domain": "www.perplexity.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.perplexity.ai/"
       },
       {
-        "name": "Perplexity",
-        "url": "https://www.perplexity.ai/",
+        "name": "Perplexity 2",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -35101,11 +35120,11 @@
             "sameSite": "no_restriction",
             "domain": "www.perplexity.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.perplexity.ai/"
       },
       {
-        "name": "Perplexity",
-        "url": "https://www.perplexity.ai/",
+        "name": "Perplexity 3",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -35382,11 +35401,11 @@
             "sameSite": "no_restriction",
             "domain": "www.perplexity.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.perplexity.ai/"
       },
       {
-        "name": "Perplexity",
-        "url": "https://www.perplexity.ai/",
+        "name": "Perplexity 4",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -35673,7 +35692,8 @@
             "sameSite": "no_restriction",
             "domain": "www.perplexity.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.perplexity.ai/"
       }
     ]
   },
@@ -35682,14 +35702,13 @@
       "id": "picsart-1055",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart&login=btsyt@wareyk.com&password=Premium@123&url=https://picsart.com/",
       "category": "design",
-      "isGroup": true,
-      "url": "https://picsart.com"
+      "isGroup": true
     },
     "accounts": [
       {
         "name": "Picsart 1",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart&login=btsyt@wareyk.com&password=Premium@123&url=https://picsart.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -35699,11 +35718,11 @@
             "secure": true,
             "domain": "picsart.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart&login=btsyt@wareyk.com&password=Premium@123&url=https://picsart.com/"
       },
       {
         "name": "Picsart 2",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart%202&login=novow@wareyk.com&password=Premium@123&url=https://picsart.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -35713,11 +35732,11 @@
             "secure": true,
             "domain": "picsart.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart%202&login=novow@wareyk.com&password=Premium@123&url=https://picsart.com/"
       },
       {
         "name": "Picsart 3",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart%203&login=hxpwp@wareyk.com&password=Premium@123&url=https://picsart.com/",
         "cookies": [
           {
             "name": "dummy",
@@ -35727,17 +35746,18 @@
             "secure": true,
             "domain": "picsart.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart%203&login=hxpwp@wareyk.com&password=Premium@123&url=https://picsart.com/"
       }
     ]
   },
   {
     "meta": {
       "id": "prezi-ai-1056",
-      "name": "prezi.com dashboard next 2025-10-06",
+      "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
-      "category": "productivity",
-      "url": "https://prezi.com/dashboard/next/"
+      "url": "https://prezi.com/dashboard/next/",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -36083,21 +36103,21 @@
         "sameSite": "no_restriction",
         "domain": "prezi.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://prezi.com/dashboard/next/#/all"
   },
   {
     "meta": {
       "id": "prime-video-group-id",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
+      "url": "https://www.primevideo.com/region/eu/",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://www.primevideo.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "primevideo.com region eu 2025-10-06 (1)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 1",
         "cookies": [
           {
             "name": "at-main-av",
@@ -36219,11 +36239,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (2)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 2",
         "cookies": [
           {
             "name": "at-main-av",
@@ -36345,11 +36365,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (3)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 3",
         "cookies": [
           {
             "name": "at-main-av",
@@ -36471,11 +36491,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (4)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 4",
         "cookies": [
           {
             "name": "at-main-av",
@@ -36597,11 +36617,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (5)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 5",
         "cookies": [
           {
             "name": "at-main-av",
@@ -36723,11 +36743,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (6)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 6",
         "cookies": [
           {
             "name": "at-main-av",
@@ -36849,11 +36869,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (7)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 7",
         "cookies": [
           {
             "name": "at-main-av",
@@ -36975,11 +36995,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (8)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 8",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37101,11 +37121,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (9)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 9",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37227,11 +37247,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (10)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 10",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37363,11 +37383,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (11)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 11",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37499,11 +37519,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (12)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 12",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37635,11 +37655,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (13)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 13",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37771,11 +37791,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (14)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 14",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37907,11 +37927,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (15)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 15",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38043,11 +38063,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (16)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 16",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38179,11 +38199,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (17)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 17",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38315,11 +38335,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (18)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 18",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38451,11 +38471,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (19)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 19",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38587,11 +38607,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (20)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 20",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38723,11 +38743,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (21)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 21",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38859,11 +38879,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (22)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 22",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38995,11 +39015,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (23)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 23",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39131,11 +39151,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (24)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 24",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39267,11 +39287,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (25)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 25",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39403,11 +39423,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (26)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 26",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39539,11 +39559,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (27)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 27",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39675,11 +39695,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (28)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 28",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39811,11 +39831,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06 (29)",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 29",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39947,11 +39967,11 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "primevideo.com region eu 2025-10-06",
-        "url": "https://www.primevideo.com/region/eu/",
+        "name": "Prime Video 30",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40073,7 +40093,8 @@
             "sameSite": "no_restriction",
             "domain": "www.primevideo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.primevideo.com/region/eu/"
       }
     ]
   },
@@ -40082,8 +40103,8 @@
       "id": "productioncrate-1057",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
-      "category": "design",
-      "url": "https://www.productioncrate.com/"
+      "url": "https://www.productioncrate.com/",
+      "category": "design"
     },
     "cookies": [
       {
@@ -40176,15 +40197,16 @@
         "sameSite": "no_restriction",
         "domain": ".productioncrate.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.productioncrate.com/"
   },
   {
     "meta": {
       "id": "quizlet-1058",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
-      "category": "education",
-      "url": "https://quizlet.com/latest"
+      "url": "https://quizlet.com/latest",
+      "category": "education"
     },
     "cookies": [
       {
@@ -40388,15 +40410,16 @@
         "sameSite": "no_restriction",
         "domain": "quizlet.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://quizlet.com/latest"
   },
   {
     "meta": {
       "id": "rawpixel-1059",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
-      "category": "design",
-      "url": "https://www.rawpixel.com/"
+      "url": "https://www.rawpixel.com/",
+      "category": "design"
     },
     "cookies": [
       {
@@ -40459,15 +40482,16 @@
         "sameSite": "strict",
         "domain": "www.rawpixel.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.rawpixel.com/"
   },
   {
     "meta": {
       "id": "relume-1060",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
-      "category": "design",
-      "url": "https://www.relume.io/"
+      "url": "https://www.relume.io/",
+      "category": "design"
     },
     "cookies": [
       {
@@ -40628,21 +40652,21 @@
         "sameSite": "no_restriction",
         "domain": "www.relume.io"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.relume.io/"
   },
   {
     "meta": {
       "id": "scite-1061",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
       "category": "productivity",
-      "isGroup": true,
-      "url": "https://scite.ai"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Scite 1 ",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
+        "name": "Scite 1",
         "cookies": [
           {
             "name": "dummy",
@@ -40652,11 +40676,11 @@
             "secure": true,
             "domain": "scite.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant"
       },
       {
         "name": "Scite 2",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%202&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant",
         "cookies": [
           {
             "name": "dummy",
@@ -40666,11 +40690,11 @@
             "secure": true,
             "domain": "scite.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%202&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant"
       },
       {
         "name": "Scite 3",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%203&login=gpyscite@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant",
         "cookies": [
           {
             "name": "dummy",
@@ -40680,11 +40704,11 @@
             "secure": true,
             "domain": "scite.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%203&login=gpyscite@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant"
       },
       {
         "name": "Scite 4",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%204&login=grou@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant",
         "cookies": [
           {
             "name": "dummy",
@@ -40694,7 +40718,8 @@
             "secure": true,
             "domain": "scite.ai"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%204&login=grou@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant"
       }
     ]
   },
@@ -40703,14 +40728,13 @@
       "id": "scribd-1062",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
+      "url": "https://www.scribd.com/home",
       "category": "utilities",
-      "isGroup": true,
-      "url": "https://www.scribd.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Scribd",
-        "url": "https://www.scribd.com/home",
+        "name": "Scribd 1",
         "cookies": [
           {
             "name": "__ssid",
@@ -41112,11 +41136,11 @@
             "sameSite": "lax",
             "domain": "www.scribd.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd",
-        "url": "https://www.scribd.com/home",
+        "name": "Scribd 2",
         "cookies": [
           {
             "name": "__CJ_LEARN_MORE_FLASH_SHOWN",
@@ -41527,11 +41551,11 @@
             "sameSite": "lax",
             "domain": "www.scribd.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd",
-        "url": "https://www.scribd.com/home",
+        "name": "Scribd 3",
         "cookies": [
           {
             "name": "__CJ_LEARN_MORE_FLASH_SHOWN",
@@ -41942,11 +41966,11 @@
             "sameSite": "lax",
             "domain": "www.scribd.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd",
-        "url": "https://www.scribd.com/home",
+        "name": "Scribd 4",
         "cookies": [
           {
             "name": "__ssid",
@@ -42339,17 +42363,18 @@
             "sameSite": "lax",
             "domain": "www.scribd.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://www.scribd.com/home"
       }
     ]
   },
   {
     "meta": {
       "id": "sider-ai-1063",
-      "name": "sider.ai chat 2025-10-06",
+      "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
-      "category": "productivity",
-      "url": "https://sider.ai/chat"
+      "url": "https://sider.ai/chat",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -42619,15 +42644,16 @@
         "sameSite": "no_restriction",
         "domain": "sider.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://sider.ai/chat"
   },
   {
     "meta": {
       "id": "skillshare-1064",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
-      "category": "education",
-      "url": "https://www.skillshare.com/en/home"
+      "url": "https://www.skillshare.com/en/home",
+      "category": "education"
     },
     "cookies": [
       {
@@ -42981,21 +43007,21 @@
         "sameSite": "lax",
         "domain": "www.skillshare.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.skillshare.com/en/home"
   },
   {
     "meta": {
       "id": "slidesgo-1065",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
+      "url": "https://slidesgo.com/profile/downloads",
       "category": "design",
-      "isGroup": true,
-      "url": "https://slidesgo.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Slidesgo",
-        "url": "https://slidesgo.com/profile/downloads",
+        "name": "Slidesgo 1",
         "cookies": [
           {
             "name": "_gcl_au",
@@ -43154,11 +43180,11 @@
             "sameSite": "lax",
             "domain": "slidesgo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://slidesgo.com/profile/downloads"
       },
       {
-        "name": "Slidesgo",
-        "url": "https://slidesgo.com/profile/downloads",
+        "name": "Slidesgo 2",
         "cookies": [
           {
             "name": "_gcl_au",
@@ -43288,7 +43314,8 @@
             "sameSite": "lax",
             "domain": "slidesgo.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://slidesgo.com/profile/downloads"
       }
     ]
   },
@@ -43297,8 +43324,8 @@
       "id": "slideshare-1066",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
-      "category": "productivity",
-      "url": "https://www.slideshare.net/"
+      "url": "https://www.slideshare.net/",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -43487,21 +43514,41 @@
         "sameSite": "lax",
         "domain": "www.slideshare.net"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.slideshare.net/"
+  },
+  {
+    "meta": {
+      "id": "sololearn-1067",
+      "name": "Sololearn",
+      "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
+      "category": "education"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "sololearn.com"
+      }
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login"
   },
   {
     "meta": {
       "id": "sora-1068",
       "name": "Sora",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
+      "url": "https://sora.chatgpt.com/explore",
       "category": "productivity",
-      "isGroup": true,
-      "url": "https://sora.chatgpt.com"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 1",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -43746,11 +43793,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 2",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -43995,11 +44042,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 3",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -44244,11 +44291,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 4",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -44493,11 +44540,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 5",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -44742,11 +44789,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 6",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -44991,11 +45038,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 7",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -45240,11 +45287,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 8",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -45489,11 +45536,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 9",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -45738,11 +45785,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 10",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -45987,11 +46034,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 11",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -46236,11 +46283,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 12",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -46485,11 +46532,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 13",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -46734,11 +46781,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 14",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -46983,11 +47030,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 15",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47232,11 +47279,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 16",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47481,11 +47528,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 17",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47730,11 +47777,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 18",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47979,11 +48026,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 19",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48228,11 +48275,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 20",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48477,11 +48524,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 21",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48726,11 +48773,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 22",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48983,11 +49030,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 23",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -49232,11 +49279,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 24",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -49501,11 +49548,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 25",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -49750,11 +49797,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 26",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -49999,11 +50046,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 27",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50248,11 +50295,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 28",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50497,11 +50544,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 29",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50746,11 +50793,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 30",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50995,11 +51042,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 31",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51244,11 +51291,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 32",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51493,11 +51540,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 33",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51742,11 +51789,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 34",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51991,11 +52038,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 35",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -52240,11 +52287,11 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora",
-        "url": "https://sora.chatgpt.com/explore",
+        "name": "Sora 36",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -52489,7 +52536,8 @@
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
       }
     ]
   },
@@ -52498,8 +52546,8 @@
       "id": "speechify-1004",
       "name": "Speechify",
       "icon": "https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx",
-      "category": "productivity",
-      "url": "https://app.speechify.com/"
+      "url": "https://app.speechify.com/",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -52751,15 +52799,16 @@
         "sameSite": "no_restriction",
         "domain": ".speechify.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://app.speechify.com/"
   },
   {
     "meta": {
       "id": "studocu-1069",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
-      "category": "education",
-      "url": "https://www.studocu.com/en-us/home"
+      "url": "https://www.studocu.com/en-us/home",
+      "category": "education"
     },
     "cookies": [
       {
@@ -53102,15 +53151,16 @@
         "sameSite": "no_restriction",
         "domain": "www.studocu.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.studocu.com/en-us/home"
   },
   {
     "meta": {
       "id": "svgator-1005",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
-      "category": "design",
-      "url": "https://app.svgator.com/"
+      "url": "https://app.svgator.com/",
+      "category": "design"
     },
     "cookies": [
       {
@@ -53280,15 +53330,16 @@
         "sameSite": "no_restriction",
         "domain": "app.svgator.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://app.svgator.com/#/"
   },
   {
     "meta": {
       "id": "symbolab-1070",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
-      "category": "education",
-      "url": "https://www.symbolab.com/"
+      "url": "https://www.symbolab.com/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -53483,15 +53534,16 @@
         "sameSite": "strict",
         "domain": ".www.symbolab.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.symbolab.com/"
   },
   {
     "meta": {
       "id": "the-wall-street-journal-1080",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
-      "category": "productivity",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/"
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -53502,21 +53554,21 @@
         "secure": true,
         "domain": "wsj.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/"
   },
   {
     "meta": {
       "id": "turnitin-1071",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
       "category": "productivity",
-      "isGroup": true,
-      "url": "https://www.turnitin.com"
+      "isGroup": true
     },
     "accounts": [
       {
         "name": "Turnitin 1",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
         "cookies": [
           {
             "name": "dummy",
@@ -53526,11 +53578,11 @@
             "secure": true,
             "domain": "turnitin.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 2",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
         "cookies": [
           {
             "name": "dummy",
@@ -53540,11 +53592,11 @@
             "secure": true,
             "domain": "turnitin.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 3",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
         "cookies": [
           {
             "name": "dummy",
@@ -53554,11 +53606,11 @@
             "secure": true,
             "domain": "turnitin.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 4",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
         "cookies": [
           {
             "name": "dummy",
@@ -53568,7 +53620,8 @@
             "secure": true,
             "domain": "turnitin.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       }
     ]
   },
@@ -53577,8 +53630,8 @@
       "id": "udemy-1073",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
-      "category": "education",
-      "url": "https://www.udemy.com/personal/home/"
+      "url": "https://www.udemy.com/personal/home/",
+      "category": "education"
     },
     "cookies": [
       {
@@ -54240,15 +54293,16 @@
         "sameSite": "no_restriction",
         "domain": "www.udemy.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.udemy.com/personal/home/"
   },
   {
     "meta": {
       "id": "vectorizer-ai-1074",
-      "name": "vectorizer.ai 2025-10-06",
+      "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
-      "category": "design",
-      "url": "https://vectorizer.ai/"
+      "url": "https://vectorizer.ai/",
+      "category": "design"
     },
     "cookies": [
       {
@@ -54291,15 +54345,16 @@
         "sameSite": "lax",
         "domain": ".vectorizer.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://vectorizer.ai/"
   },
   {
     "meta": {
       "id": "virtual-threads-1075",
       "name": "Virtual Threads",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
-      "category": "productivity",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login"
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -54310,21 +54365,21 @@
         "secure": true,
         "domain": "virtual-threads.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login"
   },
   {
     "meta": {
       "id": "viu-1076",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://www.viu.com"
+      "isGroup": true
     },
     "accounts": [
       {
         "name": "Viu 1",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54334,11 +54389,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 2",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54348,11 +54403,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 3",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54362,11 +54417,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 4",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54376,11 +54431,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 5",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54390,11 +54445,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 6",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54404,11 +54459,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 7",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54418,11 +54473,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 8",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54432,11 +54487,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 9",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%209&login=kamilafarida09@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54446,11 +54501,11 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%209&login=kamilafarida09@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 10",
-        "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com",
         "cookies": [
           {
             "name": "dummy",
@@ -54460,7 +54515,8 @@
             "secure": true,
             "domain": "viu.com"
           }
-        ]
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
       }
     ]
   },
@@ -54469,14 +54525,13 @@
       "id": "wetv-1077",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
+      "url": "https://wetv.vip/id",
       "category": "streaming",
-      "isGroup": true,
-      "url": "https://wetv.vip"
+      "isGroup": true
     },
     "accounts": [
       {
-        "name": "WeTV",
-        "url": "https://wetv.vip/id",
+        "name": "WeTV 1",
         "cookies": [
           {
             "name": "__eoi",
@@ -54866,11 +54921,11 @@
             "sameSite": "no_restriction",
             "domain": "wetv.vip"
           }
-        ]
+        ],
+        "sourceUrl": "https://wetv.vip/id"
       },
       {
-        "name": "WeTV",
-        "url": "https://wetv.vip/id",
+        "name": "WeTV 2",
         "cookies": [
           {
             "name": "__eoi",
@@ -55260,11 +55315,11 @@
             "sameSite": "no_restriction",
             "domain": "wetv.vip"
           }
-        ]
+        ],
+        "sourceUrl": "https://wetv.vip/id"
       },
       {
-        "name": "WeTV",
-        "url": "https://wetv.vip/id",
+        "name": "WeTV 3",
         "cookies": [
           {
             "name": "__eoi",
@@ -55654,11 +55709,11 @@
             "sameSite": "no_restriction",
             "domain": "wetv.vip"
           }
-        ]
+        ],
+        "sourceUrl": "https://wetv.vip/id"
       },
       {
-        "name": "WeTV",
-        "url": "https://wetv.vip/id",
+        "name": "WeTV 4",
         "cookies": [
           {
             "name": "__eoi",
@@ -56048,11 +56103,11 @@
             "sameSite": "no_restriction",
             "domain": "wetv.vip"
           }
-        ]
+        ],
+        "sourceUrl": "https://wetv.vip/id"
       },
       {
-        "name": "WeTV",
-        "url": "https://wetv.vip/id",
+        "name": "WeTV 5",
         "cookies": [
           {
             "name": "__eoi",
@@ -56480,7 +56535,8 @@
             "sameSite": "no_restriction",
             "domain": "wetv.vip"
           }
-        ]
+        ],
+        "sourceUrl": "https://wetv.vip/id"
       }
     ]
   },
@@ -56489,8 +56545,8 @@
       "id": "wolframalpha-1078",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
-      "category": "productivity",
-      "url": "https://www.wolframalpha.com/"
+      "url": "https://www.wolframalpha.com/",
+      "category": "productivity"
     },
     "cookies": [
       {
@@ -56552,15 +56608,16 @@
         "sameSite": "lax",
         "domain": ".wolframalpha.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.wolframalpha.com/"
   },
   {
     "meta": {
       "id": "writehuman-1079",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
-      "category": "utilities",
-      "url": "https://writehuman.ai/ai-detector"
+      "url": "https://writehuman.ai/ai-detector",
+      "category": "utilities"
     },
     "cookies": [
       {
@@ -56811,6 +56868,7 @@
         "sameSite": "strict",
         "domain": "writehuman.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://writehuman.ai/ai-detector"
   }
 ]
