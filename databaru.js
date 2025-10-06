@@ -41838,7 +41838,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759758507,
         "sameSite": "no_restriction",
         "domain": ".sider.ai"
       },
@@ -42543,7 +42542,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759758676.591426,
             "sameSite": "lax",
             "domain": "slidesgo.com"
           }
@@ -42678,7 +42676,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1759758660.30262,
             "sameSite": "lax",
             "domain": "slidesgo.com"
           }
@@ -53531,7 +53528,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759758608.404547,
         "sameSite": "no_restriction",
         "domain": "www.udemy.com"
       },
@@ -53611,7 +53607,159 @@
   },
   {
     "meta": {
-      "id": "wetv-1063",
+      "id": "viu-1063",
+      "name": "Viu",
+      "icon": "https://groupy.id/assets/images/services/viu.png",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Viu 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 4",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 5",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 6",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 7",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 8",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 9",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%209&login=kamilafarida09@moviesisme.com&password=viuku123&url=https://viu.com"
+      },
+      {
+        "name": "Viu 10",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "viu.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "wetv-1064",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id",
@@ -55631,7 +55779,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1064",
+      "id": "wolframalpha-1065",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -55702,7 +55850,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1065",
+      "id": "writehuman-1066",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
