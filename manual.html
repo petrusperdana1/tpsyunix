@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gracely Access</title>
+    <title>Groupy Manual Access</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -36,16 +36,6 @@
         .login-layout input { flex-grow: 1; padding: 14px 16px; border: none; font-size: 1em; outline: none; }
         .login-layout .copy-button { background: transparent; border: none; padding: 12px 16px; cursor: pointer; font-size: 1.1em; color: #888; }
         .login-layout .manual-login-button { display: block; width: 100%; padding: 16px; background-color: #1c1c1c; color: #fff; border: none; border-radius: 14px; font-size: 1.1em; font-weight: 600; text-decoration: none; cursor: pointer; margin-top: 15px; }
-        .canva-layout .canva-text { color: #555; font-size: 1em; line-height: 1.5; margin: 20px 0; }
-        .canva-layout .canva-text.top { margin-top: 0; }
-        .canva-layout .canva-text.bottom { margin-bottom: 0; font-size: 0.9em; }
-        .canva-layout .canva-text strong { color: #1c1c1c; font-weight: 600; }
-        .canva-layout .canva-button { display: block; width: 100%; padding: 18px; box-sizing: border-box; background-color: #1c1c1c; color: #fff; border: none; border-radius: 14px; font-size: 1.1em; font-weight: 600; text-decoration: none; cursor: pointer; transition: transform 0.2s ease; }
-        .canva-layout .canva-button:hover { transform: scale(1.02); }
-        .canva-layout .dropdown-wrapper { margin: 25px 0; text-align: left; position: relative; }
-        .canva-layout .dropdown-label { position: absolute; top: -10px; left: 12px; background-color: #fff; padding: 0 5px; font-size: 0.85em; color: #888; }
-        .canva-layout .dropdown-select { width: 100%; padding: 16px; font-size: 1em; border: 1px solid #ccc; border-radius: 12px; -webkit-appearance: none; appearance: none; background-color: #fff; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%208l5%205%205-5z%22%20fill%3D%22%23888888%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 1em center; }
-        .canva-layout .canva-button.disabled { background-color: #ccc; cursor: not-allowed; pointer-events: none; }
     </style>
 </head>
 <body>
@@ -56,18 +46,8 @@
              <form onsubmit="return false;">
                 <div class="form-group"><label for="emailInput">Email</label><div class="input-wrapper"><input type="email" id="emailInput" readonly><button type="button" class="copy-button" onclick="copyToClipboard('emailInput')"><i class="fas fa-copy"></i></button></div></div>
                 <div class="form-group"><label for="passwordInput">Password</label><div class="input-wrapper"><input type="text" id="passwordInput" readonly><button type="button" class="copy-button" onclick="copyToClipboard('passwordInput')"><i class="fas fa-copy"></i></button></div></div>
-                <a href="#" id="manualLoginLink" class="manual-login-button" target="_blank" rel="noopener noreferrer">Manual login</a>
+                <a href="#" id="manualLoginLink" class="manual-login-button" target=" _blank" rel="noopener noreferrer">Manual login</a>
              </form>
-        </div>
-
-        <div id="canva-layout" class="canva-layout" style="display: none;">
-            <h1 id="canva-title" class="card-title"></h1>
-            <p class="canva-text top">Click to access Canva if you already join Groupy Canva Team</p>
-            <a href="https://www.canva.com" class="canva-button" target="_blank" rel="noopener noreferrer">Access Canva</a>
-            <p class="canva-text"><strong>Don't forget to keep back up your project.</strong></p>
-            <div class="dropdown-wrapper"><label for="join-team-dropdown" class="dropdown-label">Team</label><select id="join-team-dropdown" class="dropdown-select"><option value="">Select Groupy Canva Team</option></select></div>
-            <a href="#" id="join-team-button" class="canva-button disabled" target="_blank" rel="noopener noreferrer">Join Groupy Canva Team</a>
-            <p class="canva-text bottom">No need to join multiple times, just join once if your Canva account is not pro yet.</p>
         </div>
         
         <div id="default-message" style="display: none;"><h1 class="card-title">Welcome</h1><p>Please use a valid URL with a recognized 'name' parameter.</p></div>
@@ -89,48 +69,41 @@
             const name = params.get('name');
 
             document.getElementById('login-layout').style.display = 'none';
-            document.getElementById('canva-layout').style.display = 'none';
             document.getElementById('default-message').style.display = 'none';
 
             if (name) {
                 const lowerCaseName = name.toLowerCase();
-
-                switch (lowerCaseName) {
-                    // Daftar layanan yang sudah ada
-                    case 'blush design':
-                    case 'viu':
-                    case 'hbo max':
-                    case 'picsart':
-                    case 'jenni ai':
-                    case 'canva':
-                    case 'consensus':
-                    case 'turnitin':
-                    case 'gamma':
-                    case 'codedex':
-                    case 'humata ai':
-                    case 'mimo':
-                    case 'quillbot':
-                    case 'the wall street journal':
-                    case 'scite':
+                
+                // Daftar semua nama layanan yang diizinkan secara spesifik
+                const knownServices = [
+                    'canva', 'blush design', 'viu', 'hbo max', 'picsart', 'jenni ai', 'consensus',
+                    'turnitin', 'gamma', 'codedex', 'humata ai', 'mimo', 'quillbot',
+                    'the wall street journal', 'scite', 'virtual threads',
+                    // Nama spesifik baru yang ditambahkan
+                    'viu 2',
+                    'canva 3',
+                    'canva 4'
+                ];
+                
+                // Cek apakah nama dari URL ada di dalam daftar di atas
+                if (knownServices.includes(lowerCaseName)) {
+                    const login = params.get('login');
+                    const password = params.get('password');
+                    const loginUrl = params.get('url');
                     
-                    // Layanan baru ditambahkan
-                    case 'virtual threads':
-                        const login = params.get('login');
-                        const password = params.get('password');
-                        const loginUrl = params.get('url');
-                        
-                        document.getElementById('login-layout').style.display = 'block';
-                        
-                        document.getElementById('login-title').textContent = name;
-                        document.getElementById('emailInput').value = login || '';
-                        document.getElementById('passwordInput').value = password || '';
-                        document.getElementById('manualLoginLink').href = loginUrl || '#';
-                        break;
-
-                    default:
-                        document.getElementById('default-message').style.display = 'block';
-                        document.querySelector('#default-message p').textContent = `The name '${name}' is not recognized.`;
+                    document.getElementById('login-layout').style.display = 'block';
+                    
+                    document.title = `${name} | Groupy`;
+                    document.getElementById('login-title').textContent = name;
+                    
+                    document.getElementById('emailInput').value = login || '';
+                    document.getElementById('passwordInput').value = password || '';
+                    document.getElementById('manualLoginLink').href = loginUrl || '#';
+                } else {
+                    document.getElementById('default-message').style.display = 'block';
+                    document.querySelector('#default-message p').textContent = `The name '${name}' is not recognized.`;
                 }
+
             } else {
                 document.getElementById('default-message').style.display = 'block';
             }
