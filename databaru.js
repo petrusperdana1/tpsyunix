@@ -29464,7 +29464,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1759764470.295805,
         "sameSite": "no_restriction",
         "domain": ".www.marvel.com"
       },
@@ -40665,19 +40664,67 @@
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
-      "category": "productivity"
+      "category": "productivity",
+      "isGroup": true
     },
-    "cookies": [
+    "accounts": [
       {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "scite.ai"
+        "name": "Scite 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "scite.ai"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant"
+      },
+      {
+        "name": "Scite 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "scite.ai"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%202&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant"
+      },
+      {
+        "name": "Scite 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "scite.ai"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%203&login=gpyscite@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant"
+      },
+      {
+        "name": "Scite 4",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "scite.ai"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%204&login=grou@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant"
       }
-    ],
-    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant"
+    ]
   },
   {
     "meta": {
