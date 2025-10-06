@@ -151,7 +151,27 @@
   },
   {
     "meta": {
-      "id": "apple-music-1041",
+      "id": "alight-motion-1001",
+      "name": "Alight Motion",
+      "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com",
+      "category": "design"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "alightmotion.com"
+      }
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
+  },
+  {
+    "meta": {
+      "id": "apple-music-1042",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -529,7 +549,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1060",
+      "id": "apple-tv--1061",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -1325,7 +1345,7 @@
   },
   {
     "meta": {
-      "id": "askyourpdf-1005",
+      "id": "askyourpdf-1006",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
       "url": "https://askyourpdf.com/conversations",
@@ -1477,7 +1497,7 @@
   },
   {
     "meta": {
-      "id": "bein-sports-1014",
+      "id": "bein-sports-1015",
       "name": "Bein Sports",
       "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
       "url": "https://connect-id.beinsports.com/id",
@@ -2773,7 +2793,7 @@
   },
   {
     "meta": {
-      "id": "bstation-1006",
+      "id": "bstation-1007",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
       "url": "https://www.bilibili.tv/en/anime",
@@ -3037,7 +3057,7 @@
   },
   {
     "meta": {
-      "id": "busuu-1007",
+      "id": "busuu-1008",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
       "url": "https://www.busuu.com/dashboard/timeline/a1",
@@ -3317,7 +3337,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1030",
+      "id": "bypass---hix-ai-1031",
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -3556,7 +3576,7 @@
   },
   {
     "meta": {
-      "id": "bypassgpt-1008",
+      "id": "bypassgpt-1009",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
       "url": "https://www.bypassgpt.ai/",
@@ -3754,7 +3774,7 @@
   },
   {
     "meta": {
-      "id": "canva-1009",
+      "id": "canva-1010",
       "name": "Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Canva&login=subutomo@kanvaa.site&password=Premium121@&url=https://canva.com/",
@@ -3906,7 +3926,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1010",
+      "id": "capcut-1011",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -7918,7 +7938,7 @@
   },
   {
     "meta": {
-      "id": "chat---hix-ai-1031",
+      "id": "chat---hix-ai-1032",
       "name": "Chat | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/id/home",
@@ -18303,7 +18323,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1012",
+      "id": "chutes-1013",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
       "url": "https://chutes.ai/app",
@@ -18423,7 +18443,7 @@
   },
   {
     "meta": {
-      "id": "codecademy-1013",
+      "id": "codecademy-1014",
       "name": "Codecademy",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s",
       "url": "https://www.codecademy.com/learn",
@@ -18652,7 +18672,7 @@
   },
   {
     "meta": {
-      "id": "coohom-1015",
+      "id": "coohom-1016",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
       "url": "https://www.coohom.com/pub/saas/workbench",
@@ -18873,7 +18893,7 @@
   },
   {
     "meta": {
-      "id": "cospacegpt-1011",
+      "id": "cospacegpt-1012",
       "name": "CoSpaceGPT",
       "icon": "https://pbs.twimg.com/profile_images/1951162772206788609/jW762Zzd_400x400.png",
       "url": "https://chat.cospacegpt.ai/?thread=6da22462-5629-47fa-919d-253e7c24bce5",
@@ -18945,7 +18965,7 @@
   },
   {
     "meta": {
-      "id": "course-hero-1016",
+      "id": "course-hero-1017",
       "name": "Course Hero",
       "icon": "https://play-lh.googleusercontent.com/FGtdclS6wXoOO9lA-9DkK9Skis0T-tY2SCFAl7wLX4ZDFSNO3RBADCEcnCMInsZCKlc",
       "url": "https://www.coursehero.com/dashboard/",
@@ -19239,7 +19259,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1017",
+      "id": "coursera-1018",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -19536,7 +19556,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1018",
+      "id": "crunchyroll-1019",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
       "url": "https://www.crunchyroll.com/discover",
@@ -19980,7 +20000,7 @@
   },
   {
     "meta": {
-      "id": "cryptoquant-1019",
+      "id": "cryptoquant-1020",
       "name": "CryptoQuant",
       "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
       "url": "https://cryptoquant.com/asset/btc/summary",
@@ -20138,7 +20158,7 @@
   },
   {
     "meta": {
-      "id": "curiosity-stream-1020",
+      "id": "curiosity-stream-1021",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
       "url": "https://curiositystream.com/",
@@ -21288,7 +21308,7 @@
   },
   {
     "meta": {
-      "id": "cursor-1021",
+      "id": "cursor-1022",
       "name": "Cursor",
       "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
       "url": "https://cursor.com/dashboard",
@@ -21548,7 +21568,7 @@
   },
   {
     "meta": {
-      "id": "datacamp-1001",
+      "id": "datacamp-1002",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://app.datacamp.com/",
@@ -21896,7 +21916,7 @@
   },
   {
     "meta": {
-      "id": "deepl-1022",
+      "id": "deepl-1023",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
       "url": "https://www.deepl.com/en/translator/files",
@@ -22754,7 +22774,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1023",
+      "id": "duolingo-1024",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -22935,7 +22955,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1024",
+      "id": "elicit-1025",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://elicit.com/library",
@@ -23046,7 +23066,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1025",
+      "id": "epidemic-sound-1026",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -24994,7 +25014,7 @@
   },
   {
     "meta": {
-      "id": "everand-1026",
+      "id": "everand-1027",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -25240,7 +25260,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1027",
+      "id": "flaticon-1028",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/profile/me",
@@ -26158,7 +26178,7 @@
   },
   {
     "meta": {
-      "id": "grammarly-1002",
+      "id": "grammarly-1003",
       "name": "Grammarly",
       "icon": "https://groupy.id/assets/images/services/grammarly.png",
       "url": "https://app.grammarly.com/",
@@ -26854,7 +26874,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1028",
+      "id": "ground-news-1029",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
       "url": "https://ground.news/",
@@ -27123,7 +27143,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1029",
+      "id": "guitartricks-1030",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -27489,7 +27509,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1032",
+      "id": "iflix-1033",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -27797,7 +27817,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1033",
+      "id": "iloveimg-1034",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -27959,7 +27979,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1034",
+      "id": "ilovepdf-1035",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -28112,7 +28132,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1035",
+      "id": "iqiyi-1036",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -28436,7 +28456,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1036",
+      "id": "linkedin-learning-1037",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -28708,7 +28728,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1037",
+      "id": "marvel-unlimited-1038",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -28985,7 +29005,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1038",
+      "id": "masterclass-1039",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -29365,7 +29385,7 @@
   },
   {
     "meta": {
-      "id": "medium-1039",
+      "id": "medium-1040",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -29445,7 +29465,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1040",
+      "id": "motion-array-1041",
       "name": "Motion Array",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
       "url": "https://motionarray.com/account/downloads/",
@@ -29713,7 +29733,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1042",
+      "id": "musicbed-1043",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -29880,7 +29900,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1043",
+      "id": "netflix-1044",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -33510,7 +33530,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1044",
+      "id": "notegpt-1045",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -33648,7 +33668,7 @@
   },
   {
     "meta": {
-      "id": "notion-1045",
+      "id": "notion-1046",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/495a4d586ce44fd58751f1739687af57",
@@ -33858,7 +33878,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1046",
+      "id": "pacdora-1047",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -35186,7 +35206,7 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1047",
+      "id": "prezi-ai-1048",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -39533,7 +39553,7 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1048",
+      "id": "productioncrate-1049",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
       "url": "https://www.productioncrate.com/",
@@ -39635,7 +39655,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1049",
+      "id": "quizlet-1050",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -39848,7 +39868,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1050",
+      "id": "rawpixel-1051",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -39920,7 +39940,7 @@
   },
   {
     "meta": {
-      "id": "relume-1051",
+      "id": "relume-1052",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -40090,7 +40110,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1052",
+      "id": "scribd-1053",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -41735,7 +41755,7 @@
   },
   {
     "meta": {
-      "id": "sider-ai-1053",
+      "id": "sider-ai-1054",
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -42014,7 +42034,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1054",
+      "id": "skillshare-1055",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -42377,7 +42397,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1055",
+      "id": "slidesgo-1056",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://slidesgo.com/profile/downloads",
@@ -42686,7 +42706,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1056",
+      "id": "slideshare-1057",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -42884,7 +42904,7 @@
   },
   {
     "meta": {
-      "id": "sora-1057",
+      "id": "sora-1058",
       "name": "Sora",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -51888,7 +51908,7 @@
   },
   {
     "meta": {
-      "id": "speechify-1003",
+      "id": "speechify-1004",
       "name": "Speechify",
       "icon": "https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx",
       "url": "https://app.speechify.com/",
@@ -52149,7 +52169,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1058",
+      "id": "studocu-1059",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -52501,7 +52521,7 @@
   },
   {
     "meta": {
-      "id": "svgator-1004",
+      "id": "svgator-1005",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
       "url": "https://app.svgator.com/",
@@ -52680,7 +52700,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1059",
+      "id": "symbolab-1060",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -52884,7 +52904,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1061",
+      "id": "udemy-1062",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -53555,7 +53575,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1062",
+      "id": "vectorizer-ai-1063",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -53607,7 +53627,7 @@
   },
   {
     "meta": {
-      "id": "viu-1063",
+      "id": "viu-1064",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
@@ -53759,7 +53779,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1064",
+      "id": "wetv-1065",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id",
@@ -55779,7 +55799,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1065",
+      "id": "wolframalpha-1066",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -55850,7 +55870,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1066",
+      "id": "writehuman-1067",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
