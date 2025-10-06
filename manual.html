@@ -96,15 +96,24 @@
                 const lowerCaseName = name.toLowerCase();
 
                 switch (lowerCaseName) {
+                    // Daftar layanan yang sudah ada
                     case 'blush design':
                     case 'viu':
                     case 'hbo max':
                     case 'picsart':
-                    case 'quillbot 2':
-                    case 'turnitin':
                     case 'jenni ai':
-                    case 'scite 2':
-                    case 'canva': // <-- DIPINDAHKAN KE SINI
+                    case 'canva':
+                    case 'consensus':
+                    
+                    // Layanan yang diperbarui dan ditambahkan
+                    case 'turnitin':
+                    case 'gamma':
+                    case 'codedex':
+                    case 'humata ai':
+                    case 'mimo':
+                    case 'quillbot': // Menggantikan quillbot 2
+                    case 'the wall street journal':
+                    case 'scite': // Menggantikan scite 2
                         const login = params.get('login');
                         const password = params.get('password');
                         const loginUrl = params.get('url');
@@ -116,11 +125,6 @@
                         document.getElementById('passwordInput').value = password || '';
                         document.getElementById('manualLoginLink').href = loginUrl || '#';
                         break;
-                    
-                    // case 'canva': <-- BAGIAN INI SUDAH TIDAK DIPERLUKAN LAGI
-                    //     document.getElementById('canva-layout').style.display = 'block';
-                    //     ...
-                    //     break;
 
                     default:
                         document.getElementById('default-message').style.display = 'block';
