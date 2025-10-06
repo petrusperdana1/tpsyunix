@@ -171,7 +171,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1044",
+      "id": "apple-music-1047",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -549,7 +549,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1065",
+      "id": "apple-tv--1070",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -3337,7 +3337,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1033",
+      "id": "bypass---hix-ai-1035",
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -7938,7 +7938,7 @@
   },
   {
     "meta": {
-      "id": "chat---hix-ai-1034",
+      "id": "chat---hix-ai-1036",
       "name": "Chat | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/id/home",
@@ -26218,6 +26218,26 @@
   },
   {
     "meta": {
+      "id": "gamma-1031",
+      "name": "Gamma",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRM9dtIK5wd1yJAH0qg6ytSsgMzrNx-cvlK78QZqzzTejsr0qtC9Kgj_i1&s=10",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Gamma&login=milikgpy@belajaar.id&password=JanganLupPerpanjangGroupy2025!&url=https://gamma.app/signin",
+      "category": "productivity"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "gamma.app"
+      }
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Gamma&login=milikgpy@belajaar.id&password=JanganLupPerpanjangGroupy2025!&url=https://gamma.app/signin"
+  },
+  {
+    "meta": {
       "id": "grammarly-1003",
       "name": "Grammarly",
       "icon": "https://groupy.id/assets/images/services/grammarly.png",
@@ -26914,7 +26934,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1031",
+      "id": "ground-news-1032",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
       "url": "https://ground.news/",
@@ -27183,7 +27203,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1032",
+      "id": "guitartricks-1033",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -27549,7 +27569,47 @@
   },
   {
     "meta": {
-      "id": "iflix-1035",
+      "id": "hbo-max-1034",
+      "name": "HBO Max",
+      "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max&login=maxmilikgroupy2@tokito.xyz&password=gpyt}89.6P`ENF0;^,qNQ-21hH5MXX!&url=https://play.max.com/",
+      "category": "streaming",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "HBO Max 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max&login=maxmilikgroupy2@tokito.xyz&password=gpyt}89.6P`ENF0;^,qNQ-21hH5MXX!&url=https://play.max.com/"
+      },
+      {
+        "name": "HBO Max 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=gpyXAXAQD2bRnMSRco43HCDf6F!!&url=https://play.max.com/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "iflix-1037",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -27857,7 +27917,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1036",
+      "id": "iloveimg-1038",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -28019,7 +28079,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1037",
+      "id": "ilovepdf-1039",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -28172,7 +28232,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1038",
+      "id": "iqiyi-1040",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -28496,7 +28556,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1039",
+      "id": "linkedin-learning-1041",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -28768,7 +28828,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1040",
+      "id": "marvel-unlimited-1042",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -29045,7 +29105,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1041",
+      "id": "masterclass-1043",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -29425,7 +29485,7 @@
   },
   {
     "meta": {
-      "id": "medium-1042",
+      "id": "medium-1044",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -29505,7 +29565,27 @@
   },
   {
     "meta": {
-      "id": "motion-array-1043",
+      "id": "mimo-1045",
+      "name": "Mimo",
+      "icon": "https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Mimo&login=mimo@bahrudin.xyz&password=OnlyGroupy888~&url=https://mimo.org/web/login",
+      "category": "productivity"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "mimo.org"
+      }
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Mimo&login=mimo@bahrudin.xyz&password=OnlyGroupy888~&url=https://mimo.org/web/login"
+  },
+  {
+    "meta": {
+      "id": "motion-array-1046",
       "name": "Motion Array",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBk2ILWzq3dr3k_4NTRQL194UdsBthjyPTLQ&s",
       "url": "https://motionarray.com/account/downloads/",
@@ -29773,7 +29853,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1045",
+      "id": "musicbed-1048",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -29940,7 +30020,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1046",
+      "id": "netflix-1049",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -33570,7 +33650,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1047",
+      "id": "notegpt-1050",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -33708,7 +33788,7 @@
   },
   {
     "meta": {
-      "id": "notion-1048",
+      "id": "notion-1051",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/495a4d586ce44fd58751f1739687af57",
@@ -33918,7 +33998,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1049",
+      "id": "pacdora-1052",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -35246,7 +35326,61 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1050",
+      "id": "picsart-1053",
+      "name": "Picsart",
+      "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart&login=btsyt@wareyk.com&password=Premium@123&url=https://picsart.com/",
+      "category": "design",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Picsart 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "picsart.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart&login=btsyt@wareyk.com&password=Premium@123&url=https://picsart.com/"
+      },
+      {
+        "name": "Picsart 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "picsart.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart%202&login=novow@wareyk.com&password=Premium@123&url=https://picsart.com/"
+      },
+      {
+        "name": "Picsart 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "picsart.com"
+          }
+        ],
+        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart%203&login=hxpwp@wareyk.com&password=Premium@123&url=https://picsart.com/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "prezi-ai-1054",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -39593,7 +39727,7 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1051",
+      "id": "productioncrate-1055",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
       "url": "https://www.productioncrate.com/",
@@ -39695,7 +39829,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1052",
+      "id": "quizlet-1056",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -39908,7 +40042,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1053",
+      "id": "rawpixel-1057",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -39980,7 +40114,7 @@
   },
   {
     "meta": {
-      "id": "relume-1054",
+      "id": "relume-1058",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -40150,7 +40284,7 @@
   },
   {
     "meta": {
-      "id": "scite-1055",
+      "id": "scite-1059",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
@@ -40170,7 +40304,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1056",
+      "id": "scribd-1060",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -41815,7 +41949,7 @@
   },
   {
     "meta": {
-      "id": "sider-ai-1057",
+      "id": "sider-ai-1061",
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -42094,7 +42228,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1058",
+      "id": "skillshare-1062",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -42457,7 +42591,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1059",
+      "id": "slidesgo-1063",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://slidesgo.com/profile/downloads",
@@ -42766,7 +42900,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1060",
+      "id": "slideshare-1064",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -42964,7 +43098,27 @@
   },
   {
     "meta": {
-      "id": "sora-1061",
+      "id": "sololearn-1065",
+      "name": "Sololearn",
+      "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
+      "category": "education"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "sololearn.com"
+      }
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login"
+  },
+  {
+    "meta": {
+      "id": "sora-1066",
       "name": "Sora",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -52229,7 +52383,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1062",
+      "id": "studocu-1067",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -52760,7 +52914,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1063",
+      "id": "symbolab-1068",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -52964,7 +53118,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1072",
+      "id": "the-wall-street-journal-1077",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -52984,7 +53138,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1064",
+      "id": "turnitin-1069",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -53052,7 +53206,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1066",
+      "id": "udemy-1071",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -53723,7 +53877,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1067",
+      "id": "vectorizer-ai-1072",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -53775,7 +53929,7 @@
   },
   {
     "meta": {
-      "id": "viu-1068",
+      "id": "viu-1073",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
@@ -53927,7 +54081,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1069",
+      "id": "wetv-1074",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id",
@@ -55947,7 +56101,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1070",
+      "id": "wolframalpha-1075",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -56018,7 +56172,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1071",
+      "id": "writehuman-1076",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
