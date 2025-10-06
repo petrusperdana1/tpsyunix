@@ -53118,7 +53118,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1077",
+      "id": "the-wall-street-journal-1078",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -53929,7 +53929,27 @@
   },
   {
     "meta": {
-      "id": "viu-1073",
+      "id": "virtual-threads-1073",
+      "name": "Virtual Threads",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
+      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
+      "category": "productivity"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "virtual-threads.com"
+      }
+    ],
+    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login"
+  },
+  {
+    "meta": {
+      "id": "viu-1074",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
@@ -54081,7 +54101,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1074",
+      "id": "wetv-1075",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id",
@@ -56101,7 +56121,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1075",
+      "id": "wolframalpha-1076",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -56172,7 +56192,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1076",
+      "id": "writehuman-1077",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
