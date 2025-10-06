@@ -101,9 +101,10 @@
                     case 'hbo max':
                     case 'picsart':
                     case 'quillbot 2':
-                    case 'turnitin':     // <-- BARU
-                    case 'jenni ai':     // <-- BARU
-                    case 'scite 2':      // <-- BARU
+                    case 'turnitin':
+                    case 'jenni ai':
+                    case 'scite 2':
+                    case 'canva': // <-- DIPINDAHKAN KE SINI
                         const login = params.get('login');
                         const password = params.get('password');
                         const loginUrl = params.get('url');
@@ -115,38 +116,11 @@
                         document.getElementById('passwordInput').value = password || '';
                         document.getElementById('manualLoginLink').href = loginUrl || '#';
                         break;
-
-                    case 'canva':
-                        document.getElementById('canva-layout').style.display = 'block';
-                        document.getElementById('canva-title').textContent = name;
-
-                        const teamUrls = params.get('url');
-                        const dropdown = document.getElementById('join-team-dropdown');
-                        const joinButton = document.getElementById('join-team-button');
-                        
-                        if (teamUrls) {
-                            const urls = teamUrls.split(',');
-                            urls.forEach((url, index) => {
-                                if (url.trim() !== '') {
-                                    const option = document.createElement('option');
-                                    option.value = url.trim();
-                                    option.textContent = `Groupy Canva Team ${index + 1}`;
-                                    dropdown.appendChild(option);
-                                }
-                            });
-                        }
-
-                        dropdown.addEventListener('change', function() {
-                            const selectedUrl = this.value;
-                            if (selectedUrl) {
-                                joinButton.href = selectedUrl;
-                                joinButton.classList.remove('disabled');
-                            } else {
-                                joinButton.href = '#';
-                                joinButton.classList.add('disabled');
-                            }
-                        });
-                        break;
+                    
+                    // case 'canva': <-- BAGIAN INI SUDAH TIDAK DIPERLUKAN LAGI
+                    //     document.getElementById('canva-layout').style.display = 'block';
+                    //     ...
+                    //     break;
 
                     default:
                         document.getElementById('default-message').style.display = 'block';
