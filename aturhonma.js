@@ -10,12 +10,12 @@ const gracelyConfig = {
     "onLogoutBlock": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html"
   },
   "dataSources": {
-    "services": "https://petrusperdana1.github.io/tpsyunix/1databaru.js"
+    "services": "https://petrusperdana1.github.io/tpsyunix/databaru.js"
   },
   "notifications": {
     "announcement": {
       "enabled": true,
-      "id": "info2-update-agustus-2025",
+      "id": "info2-update-oktober-2025",
       "title": "Informasi Update",
       "lines": [
         "Karena masa depan sungguh ada, dan harapanmu tidak akan hilang. <b>Amsal 23 : 18</b> 😊🙏",
