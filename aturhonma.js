@@ -44,9 +44,9 @@ const gracelyConfig = {
   "maintenanceMode": {
     "enabled": true,
     "scheduleType": "daily",
-    "dailyTime": "08:21:00",
+    "dailyTime": "08:45:00",
     "specificDateTime": "2025-12-31T23:00:00",
-    "durationMinutes": 1,
+    "durationMinutes": 10,
     "countdownMinutes": 10,
     "warningTitle": "Peringatan Maintenance",
     "warningMessage": "Layanan akan memasuki mode perbaikan dalam:",
