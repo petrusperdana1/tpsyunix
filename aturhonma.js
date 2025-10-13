@@ -5,7 +5,7 @@ const gracelyConfig = {
     "file_checksums": {
       "guard_background": "98a12c98b65551e0f05a52481991afec",
       "main_manifest": "3960462fc21426b48ac44d78575c61d3",
-      "main_extension_js": "de722c639fe5fbdf417759a4d6cab7a9",
+      "main_extension_js": "ec9038ba5265a0400bdb0cff2ff23bb4",
       "main_modifyer_js": "80174154126817e30801819f66220843"
     }
   },
