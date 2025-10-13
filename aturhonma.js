@@ -1,4 +1,14 @@
 const gracelyConfig = {
+  "security": {
+    "required_guard_version": "1.0.3",
+    "file_checksums": {
+      "guard_background": "c9f9cead4c51aebc5e2a9ac6349f497d",     // MD5 dari Gracely Guard/background.js
+      "main_manifest": "3960462fc21426b48ac44d78575c61d3",      // BARU: MD5 dari Gracely Extension/manifest.json
+      "main_extension_js": "6615b11457e0e4cef4f2f24504c02f6e",  // MD5 dari Gracely Extension/gracely-extension.js
+      "main_modifyer_js": "80174154126817e30801819f66220843"   // MD5 dari Gracely Extension/gracely-modifyer.js
+    }
+  },
+  
   "urls": {
     "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
     "tutorial": "https://petrussiahaan.blogspot.com/p/tools-online-gratis.html",
