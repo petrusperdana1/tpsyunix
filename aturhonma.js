@@ -2,9 +2,9 @@ const gracelyConfig = {
   "security": {
     "required_guard_version": "1.0.3",
     "file_checksums": {
-      "guard_background": "10c69d51ab6f8ba5652d1e0e0d37477e",
+      "guard_background": "5b4f6bf9d17293459fa9b78d75910ca8",
       "main_manifest": "3960462fc21426b48ac44d78575c61d3",
-      "main_extension_js": "d33672b5be93db02f1c2e9ac75ff0342",
+      "main_extension_js": "955d8c5fcb6e2f33bf0c44430d89ec0f",
       "main_modifyer_js": "80174154126817e30801819f66220843"
     }
   },
