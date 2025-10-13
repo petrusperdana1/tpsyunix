@@ -1,4 +1,14 @@
 const gracelyConfig = {
+  "security": {
+    "required_guard_version": "1.0.3",
+    "file_checksums": {
+      "guard_background": "CALCULATE_AND_REPLACE_THIS_MD5",     // MD5 dari Gracely Guard/background.js
+      "main_manifest": "CALCULATE_AND_REPLACE_THIS_MD5",      // BARU: MD5 dari Gracely Extension/manifest.json
+      "main_extension_js": "CALCULATE_AND_REPLACE_THIS_MD5",  // MD5 dari Gracely Extension/gracely-extension.js
+      "main_modifyer_js": "CALCULATE_AND_REPLACE_THIS_MD5"   // MD5 dari Gracely Extension/gracely-modifyer.js
+    }
+  },
+  
   "urls": {
     "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
     "tutorial": "https://petrussiahaan.blogspot.com/p/tools-online-gratis.html",
