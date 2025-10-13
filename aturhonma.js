@@ -1,5 +1,6 @@
 const gracelyConfig = {
   "security": {
+    "enabled": true,
     "required_guard_version": "1.0.3",
     "file_checksums": {
       "guard_background": "98a12c98b65551e0f05a52481991afec",
