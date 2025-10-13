@@ -1,11 +1,5 @@
 const gracelyConfig = {
-    "security": {
-        "required_guard_version": "1.0.3"
-    },
-    "dataSources": {
-        "services": "aaZQ9Spyf4DLi1XBNdgR5K5bGP3FyDw1deoqDaT5ImFZ8Z1X7Fy5hsL4ddVSayvx0WfVxRfoFrKPicMR/Ke7KA=="
-    },
-    "urls": {
+  "urls": {
     "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
     "tutorial": "https://petrussiahaan.blogspot.com/p/tools-online-gratis.html",
     "purchase": "https://petrussiahaan.blogspot.com/search/label/Photos",
@@ -14,6 +8,9 @@ const gracelyConfig = {
     "onUninstall": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
     "onGuardMissing": "https://petrusperdana1.github.io/p/contact.html",
     "onLogoutBlock": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html"
+  },
+  "dataSources": {
+    "services": "https://petrusperdana1.github.io/tpsyunix/databaru.js"
   },
   "notifications": {
     "announcement": {
