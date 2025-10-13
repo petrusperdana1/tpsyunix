@@ -1,14 +1,4 @@
 const gracelyConfig = {
-  "security": {
-    "enabled": true,
-    "required_guard_version": "1.0.3",
-    "file_checksums": {
-      "main_manifest": "111f56a6207cad4afba93b75d3bab32e",
-      "main_extension_js": "ec9038ba5265a0400bdb0cff2ff23bb4",
-      "main_modifyer_js": "80174154126817e30801819f66220843"
-    }
-  },
-  
   "urls": {
     "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
     "tutorial": "https://petrussiahaan.blogspot.com/p/tools-online-gratis.html",
@@ -20,12 +10,12 @@ const gracelyConfig = {
     "onLogoutBlock": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html"
   },
   "dataSources": {
-    "services": "https://petrusperdana1.github.io/tpsyunix/databaru.js"
+    "services": "aaZQ9Spyf4DLi1XBNdgR5K5bGP3FyDw1deoqDaT5ImFZ8Z1X7Fy5hsL4ddVSayvx0WfVxRfoFrKPicMR/Ke7KA=="
   },
   "notifications": {
     "announcement": {
       "enabled": true,
-      "id": "info2-update-oktober-2025",
+      "id": "info2-update-agustus-2025",
       "title": "Informasi Update",
       "lines": [
         "Karena masa depan sungguh ada, dan harapanmu tidak akan hilang. <b>Amsal 23 : 18</b> 😊🙏",
@@ -54,7 +44,7 @@ const gracelyConfig = {
   "maintenanceMode": {
     "enabled": true,
     "scheduleType": "daily",
-    "dailyTime": "12:42:00",
+    "dailyTime": "20:15:00",
     "specificDateTime": "2025-12-31T23:00:00",
     "durationMinutes": 1,
     "countdownMinutes": 10,
