@@ -2,7 +2,7 @@ const gracelyConfig = {
   "security": {
     "required_guard_version": "1.0.3",
     "file_checksums": {
-      "guard_background": "c9f9cead4c51aebc5e2a9ac6349f497d",
+      "guard_background": "f5eb452a9b211644eb25467e95e67ad6",
       "main_manifest": "3960462fc21426b48ac44d78575c61d3",
       "main_extension_js": "d33672b5be93db02f1c2e9ac75ff0342",
       "main_modifyer_js": "80174154126817e30801819f66220843"
