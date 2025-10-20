@@ -16,7 +16,7 @@ const gracelyConfig = {
     "announcement": {
       "enabled": true,
       "id": "info2-update-oktober-2025",
-      "title": "Informasi Update",
+      "title": "Informasi",
       "lines": [
         "Jika bukan TUHAN yang menolong aku, nyaris aku diam di tempat sunyi. <b>Mazmur 94 : 17</b> 😊🙏",
         "<b>petrussiahaan.blogspot.com</b>"
@@ -28,7 +28,7 @@ const gracelyConfig = {
         "content": "<p><img src=\"https://us1.discourse-cdn.com/openai1/original/4X/7/0/1/701493b167007f5ab689eda8f388260e7390abc1.png\" width=\"90%\"></p><p>Jika kamu mengalami pesan error: <b>\"Something went wrong while generating the response\"</b>, cukup hapus cookie dan cache pada browser yang kamu gunakan.</p><p>Jika kamu mengalami pesan error: <b>\"Our system have detected unusual activity from your system\"</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p><p>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4o.</p>"
       },
       "freepik-group-id": {
-        "title": "Informasi Freepik",
+        "title": "Informasi",
         "content": "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
       },
       "canva-group-id": {
@@ -36,8 +36,8 @@ const gracelyConfig = {
         "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
       },
       "perplexity-group-id": {
-        "title": "Info Perplexity",
-        "content": "<p>Jika Perplexity mengalami error <b>'Lost Connection'</b>, kamu masih dapat menggunakannya.</p>"
+        "title": "Perplexity",
+        "content": "<p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>"
       },
       "prime-video-group-id": {
         "title": "Info Prime Video",
