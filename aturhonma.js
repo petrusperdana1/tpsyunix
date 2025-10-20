@@ -31,6 +31,10 @@ const gracelyConfig = {
         "title": "Informasi Freepik",
         "content": "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
       },
+      "canva-group-id": {
+        "title": "Informasi",
+        "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva Groupy. Jika sudah penuh, mohon laporkan melalui server Discord atau channel Telegram Groupy.</p>"
+      }
       "perplexity-group-id": {
         "title": "Info Perplexity",
         "content": "<p>Jika Perplexity mengalami error <b>'Lost Connection'</b>, kamu masih dapat menggunakannya.</p>"
