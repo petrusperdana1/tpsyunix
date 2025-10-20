@@ -15,10 +15,10 @@ const gracelyConfig = {
   "notifications": {
     "announcement": {
       "enabled": true,
-      "id": "info2-update-agustus-2025",
+      "id": "info2-update-oktober-2025",
       "title": "Informasi Update",
       "lines": [
-        "Karena masa depan sungguh ada, dan harapanmu tidak akan hilang. <b>Amsal 23 : 18</b> 😊🙏",
+        "Jika bukan TUHAN yang menolong aku, nyaris aku diam di tempat sunyi. <b>Mazmur 94 : 17</b> 😊🙏",
         "<b>petrussiahaan.blogspot.com</b>"
       ]
     },
