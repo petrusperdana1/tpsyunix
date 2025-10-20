@@ -34,7 +34,7 @@ const gracelyConfig = {
       "canva-group-id": {
         "title": "Informasi",
         "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva Groupy. Jika sudah penuh, mohon laporkan melalui server Discord atau channel Telegram Groupy.</p>"
-      }
+      },
       "perplexity-group-id": {
         "title": "Info Perplexity",
         "content": "<p>Jika Perplexity mengalami error <b>'Lost Connection'</b>, kamu masih dapat menggunakannya.</p>"
