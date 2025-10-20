@@ -33,7 +33,7 @@ const gracelyConfig = {
       },
       "canva-group-id": {
         "title": "Informasi",
-        "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui server Discord atau channel Telegram Groupy.</p>"
+        "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
       },
       "perplexity-group-id": {
         "title": "Info Perplexity",
