@@ -18,7 +18,7 @@ const gracelyConfig = {
       "id": "info2-update-oktober-2025",
       "title": "Informasi",
       "lines": [
-        "Jika bukan TUHAN yang menolong aku, nyaris aku diam di tempat sunyi. <b>Mazmur 94 : 17</b> 😊🙏",
+        "Jika bukan TUHAN yang menolong aku, nyaris aku diam di tempat sunyi. <b>Mazmur 94 : 17</b>",
         "<b>petrussiahaan.blogspot.com</b>"
       ]
     },
